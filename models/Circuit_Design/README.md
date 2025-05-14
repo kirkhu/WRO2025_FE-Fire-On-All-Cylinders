@@ -22,7 +22,21 @@
 </table>
 </div>
 
-- ### Circuit Schematic Drawing
+- ### Circuit Schematic Drawing (Old version) 電路原理圖（舊版）
+<div align="center">
+<table>
+  <tr align="center">
+      <th>Circuit Diagram(電路圖)</th><th>PCB Layouts(PCB佈局圖)</th><th>Circuit Schematic(電路原理圖)</th>
+  </tr>
+  <tr align="center">
+     <td><img src="./img/Circuit_Diagram1.png" width="300" height="300" alt="Circuit Diagram"></td>
+     <td><img src="./img/PCB1.png" width="300" height="300" alt="PCB Layouts"></td>
+     <td><img src="./img/Circuit Schematic1.png" width="300" height="300" alt="Circuit Schematic"></td>
+  </tr>
+</table>
+</div>
+
+- ### Circuit Schematic Drawing (New version) 電路原理圖（新版）
 <div align="center">
 <table>
   <tr align="center">
