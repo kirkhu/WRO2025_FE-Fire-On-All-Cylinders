@@ -3,14 +3,14 @@
  ## <div align="center"> Circuit Design </div>
  #### 中文
   - 在我們自動駕駛汽車的電路板設計中，我們採用了 EasyEDA一款具備直覺式圖形介面的電路設計軟體。透過這項工具，我們大幅提升了焊接的準確性與接線精度，減少了錯誤發生的機率，同時有效降低了元件燒毀的風險。
-  - 我們採用洗電路板的方式，能有效減少因焊接錯誤而造成的短路問題，不僅提升了外觀品質，也帶來更高的靈活性與便利性。
+  - 我們採用洗電路板方式，不僅有效降低焊接錯誤與短路風險，還能提升外觀品質。同時，此作法帶來更高的製程靈活性與操作便利性。
   - 電路板的主要功能是為各種感測器、馬達及控制器提供電力與訊號連接，確保各元件之間能夠順暢通訊與協同運作。
  #### 英文
   - In the design of the circuit board for our autonomous vehicle, we used EasyEDA, a circuit design software with an intuitive graphical interface. By using this tool, we significantly improved the accuracy of soldering and the precision of wiring, reduced the likelihood of errors, and effectively minimized the risk of component damage.
-  -We adopted the method of cleaning circuit boards, which effectively reduces short circuits caused by soldering errors. This not only improves the visual quality but also provides greater flexibility and convenience.
+  - We adopted a PCB cleaning process that not only effectively reduces soldering errors and the risk of short circuits, but also enhances the visual quality of the board. Additionally, this approach offers greater flexibility in the manufacturing process and improved ease of operation.
   -The primary function of the circuit board is to provide power and signal connections for various sensors, motors, and controllers, ensuring smooth communication and coordinated operation among all components.communication and cooperation among them.
 
- - ### Circuit Board
+ - ### Circuit Board (電路板)
 <div align="center">
 <table>
   <tr align="center">
@@ -82,7 +82,7 @@
    - Collaboration Tools: Allows users to share designs with teammates for collaborative work.
    - Cloud Storage: Design files can be saved in the cloud, making it easy to modify and access from anywhere, as well as facilitating collaboration with team members.
    - Manufacturing Integration: EasyEDA is seamlessly integrated with JLCPCB, allowing users to directly submit designs for production and easily order custom PCBs.
-   ### Summarize
+   ### Summarize (總結)
    #### 中文
    整體而言，EasyEDA 是一款功能強大且操作簡便的電子設計工具。無論是初學者還是專業工程師，它都能提供符合需求的各項功能。其雲端可存取性、簡單的操作介面，以及與製造商的整合，使其成為設計與製作電子電路的絕佳選擇。
 #### 英文

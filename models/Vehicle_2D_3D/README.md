@@ -1,22 +1,22 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 ## <div align="center">3D Vehicle Model Design</div>
-根據去年學到的經驗，我們將自駕車的長度從21公分縮短至17公分，這不僅提升了停車的便捷性，也使得車輛能更靈活地在狹小空間中穿梭。為了更好地應對當前的競賽任務，我們對自駕車的設計和結構進行了重大調整與優化，顯著提升了整體性能與穩定性。
+- 根據去年的經驗，我們將自駕車的長度由原本的21公分縮短至17公分，不僅大幅提升了停車的靈活性，也讓車輛能更自如地穿梭於狹小空間中。為更有效應對當前的競賽任務，我們對自駕車的設計與結構進行了全面調整與優化，顯著提升了整體性能與運行穩定性。
 
-本次比賽所使用的車輛底盤是我們自行研發的內部設計。接下來將介紹車輛底盤的設計與製作過程。
+- 本次比賽所使用的車輛底盤是我們自行研發的內部設計。接下來將介紹車輛底盤的設計與製作過程。
 
-我們使用 Onshape 設計車輛的 3D 模型結構，並根據底盤的特性，利用激光切割機和立體光刻（SLA）3D 打印機等設備製造所需的車輛零部件。
+- 我們使用 Onshape 設計車輛的 3D 模型結構，並根據底盤的特性，利用激光切割機和立體光刻（SLA）3D 打印機等設備製造所需的車輛零部件。
 
-Based on the lessons learned from last year, we upgraded the main controller of the self-driving car from the "Raspberry Pi 4B" to the "Nvidia Jetson Nano" to enhance the speed of obstacle recognition. In addition, we optimized the front steering structure of the vehicle, making the turning operations more flexible and smoother. To better cope with the current competition tasks, we made significant adjustments and improvements to the design and structure of the self-driving car, enhancing overall performance and stability.
+- Based on last year's experience, we shortened the length of the self-driving car from 21 cm to 17 cm, which significantly improved parking flexibility and allowed the vehicle to move more freely in narrow spaces. To better respond to the current competition tasks, we comprehensively adjusted and optimized the design and structure of the car, greatly enhancing its overall performance and operational stability.
 
-The vehicle chassis used in this competition is our in-house, self-developed design. The following will introduce the vehicle chassis design and production process.
+- The vehicle chassis used in this competition is our in-house, self-developed design. The following will introduce the vehicle chassis design and production process.
 
-We use Onshape to design the 3D model structure of the vehicle, and based on the chassis's characteristics, we manufacture the necessary vehicle parts using equipment such as laser cutting machines and Stereolithography (SLA) 3D Printer.
+- We use Onshape to design the 3D model structure of the vehicle, and based on the chassis's characteristics, we manufacture the necessary vehicle parts using equipment such as laser cutting machines and Stereolithography (SLA) 3D Printer.
 <div align=center>
     <table>
     <tr>
-    <th>2024 Before shortening(縮短前) </th>
-    <th>2025 After shortening(縮短後) </th>
+    <th>2024 Before shortening (縮短前) </th>
+    <th>2025 After shortening (縮短後) </th>
     </tr><tr>
     <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
     <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
@@ -24,8 +24,8 @@ We use Onshape to design the 3D model structure of the vehicle, and based on the
     </table>
  </div> 
 
-- ### Onshape Model Draft
-  - #### 3D modeling software -- Onshape Introduction
+- ### Onshape Model Draft (Onshape 模型草圖)
+  - #### 3D modeling software -- Onshape Introduction (3D 建模軟體 -- Onshape 介紹)
     #### 中文
     - 我們使用 Onshape 來設計自駕車的 3D 模型。Onshape 是一款免費且易於使用的網頁版 CAD 軟體。
     - 在 Onshape 建立模型後，可以輸出 2D 尺寸圖，接著可將其送至雷射切割機進行切割，或轉換後送至 3D 印表機進行列印。
@@ -38,8 +38,8 @@ We use Onshape to design the 3D model structure of the vehicle, and based on the
     <div align=center>
     <table>
     <tr>
-    <th>Onshape Website(Onshape 網站) </th>
-    <th>3D CAD drawing of vehicle chassis components(車輛底盤零件的 3D CAD 圖面)</th>
+    <th>Onshape Website (Onshape 網站) </th>
+    <th>3D CAD drawing of vehicle chassis components (車輛底盤零件的 3D CAD 圖面)</th>
 
     </tr><tr>
     <td><img src="./img/onshape.png" width="450" alt="Vehicle_cad"></td> 
@@ -59,10 +59,10 @@ We use Onshape to design the 3D model structure of the vehicle, and based on the
     <th>Vehicle Mid-Deck(車輛中層板)</th>
     <th>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="400" alt="Vehicle_cad"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="400" alt="vehicle Underfloor"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="400" alt="Vehicle_Mid_deck"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="400" alt="Vehicle_Top_Deck"></td>
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="500" alt="Vehicle_cad"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="500" alt="vehicle Underfloor"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="500" alt="Vehicle_Mid_deck"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="500" alt="Vehicle_Top_Deck"></td>
     </tr>
     </table>
     </div> 
