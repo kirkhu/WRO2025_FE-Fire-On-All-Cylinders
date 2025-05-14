@@ -62,7 +62,7 @@
     <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="500" alt="Vehicle_cad"></td> 
     <td><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="500" alt="vehicle Underfloor"></td> 
     <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="500" alt="Vehicle_Mid_deck"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="500" alt="Vehicle_Top_Deck"></td>
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="600" alt="Vehicle_Top_Deck"></td>
     </tr>
     </table>
     </div> 
