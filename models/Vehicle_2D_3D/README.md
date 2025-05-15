@@ -122,7 +122,7 @@
      </table>
      </div>
   - ####  Operation of Laser-Cutting Machine
-    <div align="center"><img src="./img/2d.jpg" width="400" alt="car_board"></div>
+    <div align="center"><img src="./img/2d1.jpg" width="400" alt="car_board"></div>
 
  - ###  3D Vehicle Model - Onshape Model Sketch.
      We used Onshape for the design and employed a Stereolithography (SLA) 3D Printer to manufacture the 3D-printed parts for the vehicle chassis needed for this competition. The design and production process is as follows:
