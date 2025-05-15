@@ -59,10 +59,10 @@
     <th>Vehicle Mid-Deck(車輛中層板)</th>
     <th>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="600" alt="Vehicle_cad"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="600" alt="vehicle Underfloor"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="600" alt="Vehicle_Mid_deck"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="600" alt="Vehicle_Top_Deck"></td>
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="600" height="200"alt="Vehicle_cad"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="600" height="200" alt="vehicle Underfloor"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="600" height="200"alt="Vehicle_Mid_deck"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="600" height="200"alt="Vehicle_Top_Deck"></td>
     </tr>
     </table>
     </div> 
@@ -73,7 +73,7 @@
     <th>3D Vehicle Chassis Models</th>
     </tr><tr>
     <td><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="450" ></td> 
-    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="400" height="450" ></td> 
+    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="400" height="400" ></td> 
     </tr>
     </table>
     </div> 
