@@ -50,7 +50,7 @@
     </div> 
 
 
-  - #### Design and production of 3D/2D models for vehicle parts    
+  - #### Design and production of 3D/2D models for vehicle parts  (車輛零件的 3D/2D 模型設計與製作)
     <div align=center>
     <table>
     <tr>
@@ -69,8 +69,9 @@
      <div align=center>
     <table>
     <tr>
-    <th>3D Vehicle Chassis Design</th>
-    <th>3D Vehicle Chassis Models</th>
+    <th>3D Vehicle Chassis Design (車輛底盤 3D 設計)</th>
+    <th>3D Vehicle Chassis Models (車輛底盤 3D 模型
+    )</th>
     </tr><tr>
     <td><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="450" ></td> 
     <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="400" height="400" ></td> 
@@ -78,7 +79,7 @@
     </table>
     </div> 
 
-  - #### The Production of Vehicle Chassis Panels Introduction - Using a laser-cutting machine
+  - #### The Production of Vehicle Chassis Panels Introduction - Using a laser-cutting machine (車輛底盤板件製作簡介 — 使用雷射切割機)
   #### 中文
     - 雷射切割機是一種利用雷射光束來切割材料的設備。雷射光束具有高能量密度，能夠快速且精確地切割各種材料，包括木材、金屬、塑膠、紙張等。
     - 我們使用學校提供的雷射切割機，製作車輛底盤所需的「車輛底板」、「車輛中層板」與「車輛頂層板」。我們依照自行設計的車輛平面尺寸圖，切割厚度為 3mm 的木板。
@@ -91,7 +92,7 @@
     - When designing the vehicle structure, we first used 3D modeling software Onshape to create draft designs and generate engineering drawings (DXF files). These drawings were then imported into the laser cutter's editing software (LaserWorkV) for detailed adjustments. Finally, based on the design drafts, we outlined the lines and cut the wooden boards into shape.
 
  
-  - #### Vehicle Chassis Panels Dimensions Chart 
+  - #### Vehicle Chassis Panels Dimensions Chart (車輛底盤板件尺寸圖表)
     <div align=center>
     <table>
     <tr>
@@ -106,13 +107,13 @@
     </table>
     </div> 
 
-  - #### Vehicle Body Wooden Panels Produced Using a Laser Cutting Machine
+  - #### Vehicle Body Wooden Panels Produced Using a Laser Cutting Machine (使用雷射切割機製作的車身木質板件)
      <div align=center>
      <table>
      <tr>
-     <th>Vehicle Underfloor</th>
-     <th>Vehicle Mid-Deck</th>
-     <th>Vehicle Top Deck</th>
+     <th>Vehicle Underfloor (車輛底板)</th>
+     <th>Vehicle Mid-Deck(車輛中層板)</th>
+     <th>Vehicle Top Deck(車輛上層板)</th>
      </tr>
      <tr>
      <td><img src="./Vehicle_Chassis_Sizse/img/Vehicle Underfloor.jpg" width="300" alt="Vehicle Underfloor"></td>
