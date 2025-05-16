@@ -137,7 +137,19 @@
       - #### 英文:
       - Stereolithography (SLA) 3D printing technology uses liquid photosensitive resin as the material and forms objects layer by layer through laser curing.  SLA printers excel in producing high-precision parts with complex geometries, making them especially suitable for prototyping and model making where fine details are required.
       - To address the limitations in printing range and quality of last year's SLA 3D printer, we specifically adopted an 8K resolution SLA 3D printer (Phrozen Sonic Mini 8K) and an ultraviolet curing box to enhance print quality and precision.
+      - #### 中文:
+      - SLA 3D 印表機的使用流程通常包含以下幾個步驟：
 
+        - 設計與準備： 首先在 CAD 軟體中設計 3D 模型，並轉換成可列印的 STL 檔案。
+
+        - 列印設定： 將 STL 檔匯入 SLA 印表機的切片軟體中，並設定如層厚、樹脂種類等列印參數。
+
+        - 列印過程： SLA 印表機利用雷射逐層固化樹脂來成型模型。由於每一層都由雷射精準固化，因此成品具有高精度與光滑的表面。
+
+        - 後處理： 列印完成後，從樹脂槽中取出成品，清洗以去除多餘樹脂，並放入紫外線固化箱中進行二次固化，以提升硬度與穩定性。
+
+        - SLA 3D 印表機廣泛應用於製造、醫療、珠寶及工業設計等領域。由於其高精度與優異的表面處理能力，特別適合製作對品質與細節要求極高的零件。
+      - #### 英文:
        - __The usage process of SLA 3D printers typically includes the following steps:__ 
          - __Design and Preparation:__ First, design the 3D model in CAD software and convert it into a printable STL file.
          - __Print Setup:__ Load the STL file into the slicing software of the SLA printer, and set printing parameters such as layer thickness and resin type.
@@ -146,7 +158,8 @@
       
           SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial design. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
 
-      - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer
+      - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer(堆疊式3D列印機與立體光固化（SLA）3D列印機的比較)
+      
          By conducting practical printing and operation comparisons of the 3D vehicle parts, we have reached the following conclusions:
         <div align="center">
         <table>
