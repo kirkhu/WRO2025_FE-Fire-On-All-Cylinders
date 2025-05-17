@@ -80,12 +80,12 @@
     </div> 
 
   - #### The Production of Vehicle Chassis Panels Introduction - Using a laser-cutting machine (車輛底盤板件製作簡介 — 使用雷射切割機)
-  #### 中文
+  #### 中文:
     - 雷射切割機是一種利用雷射光束來切割材料的設備。雷射光束具有高能量密度，能夠快速且精確地切割各種材料，包括木材、金屬、塑膠、紙張等。
     - 我們使用學校提供的雷射切割機，製作車輛底盤所需的「車輛底板」、「車輛中層板」與「車輛頂層板」。我們依照自行設計的車輛平面尺寸圖，切割厚度為 3mm 的木板。
     - 我們選用較輕的木板作為車輛平面結構的材料，以降低車輛的整體重量。
     - 在設計車輛結構時，我們首先使用 3D 建模軟體 Onshape 來創建設計草圖並生成工程圖（DXF 文件）。這些圖紙隨後被匯入雷射切割機的編輯軟體（LaserWorkV）進行詳細調整。最後，根據設計草圖，我們描繪出切割線並將木板切割成形。
-    #### 英文
+    #### 英文:
     - A laser-cutting machine is a device that utilizes a laser beam to cut materials. The laser beam has high energy density and can cut a variety of materials, including wood, metal, plastic, paper, and more, quickly and precisely.
     - We use the laser-Cutting machine provided by the school to produce the 'vehicle underfloor,' 'vehicle mid-deck,' and 'vehicle top deck' required for the vehicle chassis. We cut 3mm thick wooden boards according to the self-designed vehicle flat panel dimensions chart.  
     - We use lighter-weight wooden boards as the material for vehicle flat panels to reduce the vehicle's weight. 
@@ -156,42 +156,55 @@
          - __Printing Process:__ The SLA printer uses a laser to cure the resin layer by layer, forming the model. Since each layer is precisely cured by the laser, the printed product has high precision and a smooth surface.
          - __Post-Processing:__ After printing, the finished product is removed from the resin vat, cleaned to remove excess resin, and subjected to secondary curing in a UV curing box to increase hardness and stability.
       
-          SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial design. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
+          SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial desgn. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
 
       - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer(堆疊式3D列印機與立體光固化（SLA）3D列印機的比較)
       
+         透過對3D車用零件進行實際列印與操作比較，我們得出以下結論：
+
          By conducting practical printing and operation comparisons of the 3D vehicle parts, we have reached the following conclusions:
         <div align="center">
         <table>
         <tr align="center">
-        <th rowspan="2">Photo</th>
-        <th> Stacked 3D Printe</th>
-        <th> Stereolithography (SLA) 3D Printer(Phrozen Sonic Mini 8K)</th>
+        <th rowspan="2">Photo (照片)</th>
+        <th> Stacked 3D Printe (堆疊式3D列印機)</th>
+        <th> Stereolithography (SLA) 3D Printer(Phrozen Sonic Mini 8K) (立體光固化（SLA）3D列印機（Phrozen Sonic Mini 8K）)</th>
         </tr><tr align="center">
         <td><img src="./img/Stacked_3D_Printe.png" width="300" alt="Stacked_3D_Printe"></td>
         <td><img src="./img/Stereolithography_3D_Printer.png" width="300" alt="Stereolithography_3D_Printer" ></td>
         </tr><tr align="">
-        <td>The required printing time</td>
-        <td>Faster</td>
-        <td>Slower</td>
+        <td>The required printing time (所需列印時間)</td>
+        <td>Faster(較快)</td>
+        <td>Slower(較慢)</td>
         </tr><tr>
-        <td>Exterior</td>
-        <td>Exterior with signs of layering</td>
-        <td>Smooth</td>
+        <td>Exterior(外觀)</td>
+        <td>Exterior with signs of layering(外觀有分層痕跡)</td>
+        <td>Smooth(光滑的)</td>
         </tr><tr>
-        <td>Hardness</td>
-        <td>Dependent on the density</td>
-        <td>Dependent on the exposure time</td>
+        <td>Hardness(硬度)</td>
+        <td>Dependent on the density(取決於密度)</td>
+        <td>Dependent on the exposure time(取決於曝光時間)</td>
         </tr>
         </tr><tr>
-        <td>Size dimensions.</td>
-        <td>Supports larger dimensions but does not support overly small dimensions.</td>
-        <td>Supports smaller dimensions.</td>
+        <td>Size dimensions（尺寸規格)</td>
+        <td>Supports larger dimensions but does not support overly small dimensions(支持較大的尺寸，但不支持過於小的尺寸)</td>
+        <td>Supports smaller dimensions(支持較小的尺寸)</td>
         </tr>
         </table>
         </div>
-     - #### Description of the resin used in "Stereolithography (SLA) 3D Printer."
+     - #### Description of the resin used in Stereolithography (SLA) 3D Printer.(立體光固化（SLA）3D列印機所使用樹脂的描述。)
+       立體光固化（SLA）3D列印機所使用的樹脂種類多樣，不同樹脂在性能上有明顯差異。常見的SLA樹脂類型包括：
+
        The types of resin used in Stereolithography (SLA) 3D printers vary, and different resins offer distinct performance comparisons. Common types of SLA resins include:
+       - #### 中文:
+       - 標準樹脂：適用於一般用途，表面光滑度佳，但強度和耐久性相對較低。
+       - 高強度樹脂：具有較高的抗拉強度和剛性，適合需要承受力量的零件。
+       - 彈性樹脂：具備彈性和柔韌性，適用於需要一定變形能力的零件。
+       - 高溫樹脂：耐熱性優異，適合需在高溫環境下運作的零件。
+       -  耐衝擊樹脂：具有良好的抗衝擊性和韌性，適用於容易碰撞的零件。
+       - 每種樹脂在物理特性、表面品質、強度和耐久性方面各有優勢，樹脂的選擇需根據具體應用需求決定。
+       - 在比賽過程中，車輛經常碰撞側牆和障礙物，導致如「方向軸支架」和「十字銷」等零件斷裂。因此，我們進行了耐衝擊樹脂和高強度樹脂的實驗測試。測試結果顯示，使用耐衝擊樹脂製作的零件過於柔軟，無法滿足需求。最終，我們選擇使用高強度樹脂製造這些零件，以提升其耐久性和強度。
+      - #### 英文:
         - __Standard resin:__ Suitable for general use, offering good surface finish, but relatively lower strength and durability.
         - __High-strength resin:__ Provides higher tensile strength and rigidity, ideal for parts that need to withstand force.
         - __Flexible resin:__ Has elasticity and flexibility, suitable for parts that require some degree of deformation.
@@ -205,9 +218,9 @@
     <div align=center>
     <table>
     <tr>
-    <th>High-strength resin</th>
-    <th>Impact-resistant resin</th>
-    <th>Printing completed<th>
+    <th>High-strength resin(高強度樹脂)</th>
+    <th>Impact-resistant resin(耐衝擊樹脂)</th>
+    <th>Printing completed(列印完成)<th>
     </tr><tr>
     <td><img src="./img/High-strength_resin.png" width="200" ></td> 
     <td><img src="./img/Impact-resistant_resin.png" width="200"  ></td> 
@@ -216,75 +229,69 @@
     </table>
     </div> 
 
-    - ####  3D Vehicle Model Dimension Diagram
+    - ####  3D Vehicle Model Dimension Diagram(3D車輛模型尺寸圖)
       <div align=center>
       <table>
       <tr>
-      <th>Front Assembly</th>
-      <th>Steering Knuckle</th>
-      <th>Bearing Holder</th>
-      <th>Rear differential housing</th>
+      <th>Front Assembly(前部組件)</th>
+      <th>Steering Knuckle(轉向節)</th>
+      <th>Bearing Holder(軸承座)</th>
 
     </tr><tr>
       <td><img src="./Vehicle_Chassis_Sizse/img/Front_Assembly_size.png" width="300" alt="Front Assembly"></td> 
       <td><img src="./Vehicle_Chassis_Sizse/img/Steering-Kunckle_size.png" width="300" alt="Steering Knuckle"></td> 
       <td><img src="./Vehicle_Chassis_Sizse/img/center_Bearing_Holder_size.png" width="300" alt="Bearing Holder"></td>
-      <td><img src="./Vehicle_Chassis_Sizse/img/outer_bearing_Holder_size.png" width="300" alt="Rear differential housing"></td>
+  
       </tr>
       </table>
       </div> 
        <div align=center>
       <table>
       <tr>
-      <th>Steering shaft holder</th>
-      <th>Cross pin</th>
-      <th>Motor Holder</th>
+      <th>Steering shaft holder(轉向軸支架)</th>
+      <th>Motor Holder(馬達支架)</th>
   
 
     </tr><tr>
       <td><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size.png" width="300" alt="Steering shaft holder"></td>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Cross-pin_size.png" width="300" alt="Cross pin"></td>
       <td><img src="./Vehicle_Chassis_Sizse/img/Motor-Holder_size.png" width="300" alt="Motor Holder"></td>
       </tr>
       </table>
       </div> 
 
-  - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer
+  - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer(使用立體光固化（SLA）3D列印機製作的車體支撐零件)
       <div align=center>
       <table>
       <tr>
-      <th>Front Assembly</th>
-      <th>Steering Knuckle</th>
-      <th>Steering shaft holder</th>
-      <th>Cross pin</th>
+      <th>Front Assembly(前部組件)</th>
+      <th>Steering Knuckle(轉向節)</th>
+      <th>Steering shaft holder(轉向軸支架)</th>
       </tr><tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width="400" alt="Front Assembly"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle.png" width="400" alt="Steering Knuckle"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder.png" width="400" alt="Steering-shaft-holder"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Cross-pin.png" width="400" alt="Cross-pin"></td>
+      
       </tr>
       </table>
       </div> 
       <div align=center>
       <table>
       <tr>
-      <th>Bearing Holder</th>
-      <th colspan="2"> Rear differential housing</th>
-      <th>Motor Holder</th>
+      <th>Bearing Holder(軸承座)</th>
+      <
+      <th>Motor Holder(馬達支架)</th>
       </tr><tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width="300" alt="Bearing-Holder"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Rear-differential-housing.png" width="300" alt="Rear-differential-housing"></td>
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Rear-differential-housing1.png" width="300" alt="Rear-differential-housing"></td>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder.png" width="300" alt="Motor Holder"></td>
       </tr>
       </table>
       </div> 
 
  ***
-- ### Supplementary Information
-    - __Maintenance Process:__
+- ### Supplementary Information（補充資訊）
+    - __Maintenance Process:（維護流程：）__
 
-       Without regular maintenance, a stereolithography 3D printer may become clogged with resin and become unusable, requiring periodic cleaning. So we recorded the cleaning methods we learned from our seniors and started cleaning ourselves.
+       Without regular maintenance, a stereolithography 3D printer may become clogged with resin and become unusable, requiring periodic cleaning. So we recorded the cleaning methods we learned from our seniors and started cleaning orselves.
      
     1. After printing is completed, the object will adhere to the printing platform, so we remove the platform for cleaning.
     2. Place the platform on a rack and put it into the UV curing washing machine.    
