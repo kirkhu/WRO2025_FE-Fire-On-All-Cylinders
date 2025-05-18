@@ -289,7 +289,21 @@
 
  ***
 - ### Supplementary Information（補充資訊）
-    - __Maintenance Process:（維護流程：）__
+- #### 中文:
+    - __維護流程：__
+      如果不定期進行維護，SLA 3D列印機可能會因樹脂堵塞而無法使用，因此需要定期清潔。我們記錄了從學長姐那裡學到的清潔方法，並開始自行進行清潔。
+
+    1. 列印完成後，物件會附著在列印平台上，因此我們先將平台拆下進行清潔。
+    2. 將平台放置在支架上，然後放入UV固化清洗機中。
+    3. 設定時間，等待清洗機完成清潔。機器會旋轉清洗槽內的酒精，對平台和列印物件進行第一次清洗。
+    4. 用清水將物件上的酒精沖洗乾淨。
+    5. 使用刮刀將物件從平台上取下。
+    6. 去除物件邊緣的支撐結構。
+    7. 使用酒精進行第二次清潔，徹底清除物件上的殘餘樹脂。
+    8. 用酒精清潔平台上殘留的樹脂。
+    9. 最後將平台擦乾，並重新安裝回SLA 3D列印機上。
+    - #### 英文:
+    - __Maintenance Process:__
 
        Without regular maintenance, a stereolithography 3D printer may become clogged with resin and become unusable, requiring periodic cleaning. So we recorded the cleaning methods we learned from our seniors and started cleaning orselves.
      
@@ -332,13 +346,14 @@
     </tr>
     </table>
     </div>
-
+   - 由於立體光固化（SLA）3D列印機製作的零件相對較軟，因此我們需要將其放入紫外線固化箱中，透過紫外線進行二次固化。這個過程能夠使零件變硬並減少變形，從而避免對車輛運動產生負面影響。
+   
    - Since the parts printed by the stereolithography (SLA) 3D printer are relatively soft, we need to place them in an ultraviolet curing box, where they are exposed to UV light for secondary curing. This process hardens the parts and reduces deformation, thereby preventing any negative impact on the vehicle's movement.
 
    <div align=center>
     <table>
     <tr>
-    <th>Ultraviolet curing box</th>
+    <th>Ultraviolet curing box(紫外線固化箱)</th>
     </tr><tr>
     <td><img src="./img/Ultraviolet_curing_box.png" width="300" alt="light_again"></td>
     </tr>
