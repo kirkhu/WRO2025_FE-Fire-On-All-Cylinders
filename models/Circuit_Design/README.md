@@ -10,7 +10,7 @@
   - We adopted a PCB cleaning process that not only effectively reduces soldering errors and the risk of short circuits, but also enhances the visual quality of the board. Additionally, this approach offers greater flexibility in the manufacturing process and improved ease of operation.
   -The primary function of the circuit board is to provide power and signal connections for various sensors, motors, and controllers, ensuring smooth communication and coordinated operation among all components.communication and cooperation among them.
 
- - ### Circuit Board (電路板)
+ - ### Circuit Board (Old Version)  電路板(舊版)
 <div align="center">
 <table>
   <tr align="center">
@@ -18,6 +18,18 @@
   </tr>
   <tr align="center">
      <td> <img src="../Circuit_Design/img/circuitboardup.png" width="300" alt="circuit_up"> </td><td><img src="../Circuit_Design/img/circuitboardback.png" width="300" alt="circuit_lower.jpg"></td>
+  </tr>
+</table>
+</div>
+
+- ### Circuit Board (New Version) 電路板(新版)
+<div align="center">
+<table>
+  <tr align="center">
+      <th> Circuit Board Top View(電路板上視圖)</th><th>Circuit Board Button View(電路板下視圖)</th>
+  </tr>
+  <tr align="center">
+     <td> <img src="../Circuit_Design/img/circuitboardup1.png" width="300" alt="circuit_up"> </td><td><img src="../Circuit_Design/img/circuitboardback1.png" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
@@ -51,18 +63,22 @@
 </div>
 
  ***
- - ### Supplementary Information
+ - ### Supplementary Information 補充資訊
  
- - #### EasyEDA Introduction
- #### 中文
+ - #### EasyEDA Introduction  (EasyEDA 簡介)
+ #### 中文:
    __EasyEDA__ 是一款免費的線上電子設計自動化（EDA）軟體，可用於設計與模擬電子電路，以及製作印刷電路板（PCB）。它提供簡單且使用者友善的圖形介面，具備多種功能，非常適合電子愛好者與專業工程師使用。
    - EasyEDA 可直接在網頁瀏覽器中使用，無需安裝軟體，因此具備跨平台的可用性。它支援電路設計、模擬、PCB 製作，並允許團隊共同協作進行電子專案。
-   #### 英文
+   #### 英文:
 
    __EasyEDA__ is a free online Electronic Design Automation (EDA) software used for designing, simulating electronic circuits, and creating printed circuit boards (PCBs). It offers a simple and user-friendly graphical interface, with a variety of features that make it ideal for both hobbyists and professional engineers.
    - EasyEDA can be used directly in a web browser without the need for software installation, making it cross-platform accessible. It supports circuit design, simulation, PCB creation, and also allows teams to collaborate on electronic projects.
 
-   __The main features of EasyEDA include:__
+
+   - ### EasyEDA的主要功能包括：__
+
+   - ### The main features of EasyEDA include:
+
    
    #### 中文
    
@@ -83,9 +99,9 @@
    - Cloud Storage: Design files can be saved in the cloud, making it easy to modify and access from anywhere, as well as facilitating collaboration with team members.
    - Manufacturing Integration: EasyEDA is seamlessly integrated with JLCPCB, allowing users to directly submit designs for production and easily order custom PCBs.
    ### Summarize (總結)
-   #### 中文
+   #### 中文:
    整體而言，EasyEDA 是一款功能強大且操作簡便的電子設計工具。無論是初學者還是專業工程師，它都能提供符合需求的各項功能。其雲端可存取性、簡單的操作介面，以及與製造商的整合，使其成為設計與製作電子電路的絕佳選擇。
-#### 英文
+#### 英文:
    __Overall, EasyEDA is a powerful and easy-to-use tool for electronic design. Whether you're a beginner or a professional engineer, it offers features to meet your needs. Its cloud-based accessibility, simple operation, and integration with manufacturers make it an excellent choice for designing and producing electronic circuits.__
 
    - Software link：[EasyEDA](https://easyeda.com/)

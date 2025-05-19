@@ -253,8 +253,8 @@
   
 
     </tr><tr>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size.png" width="300" alt="Steering shaft holder"></td>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Motor-Holder_size.png" width="300" alt="Motor Holder"></td>
+      <td><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size1.png" width="300" alt="Steering shaft holder"></td>
+      <td><img src="./Vehicle_Chassis_Sizse/img/Motor-Holder_size1.png" width="300" alt="Motor Holder"></td>
       </tr>
       </table>
       </div> 
@@ -268,21 +268,22 @@
       <th>Steering shaft holder(轉向軸支架)</th>
       </tr><tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width="400" alt="Front Assembly"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle.png" width="400" alt="Steering Knuckle"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder.png" width="400" alt="Steering-shaft-holder"></td> 
-      
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle1.png" width="400" alt="Steering Knuckle"></td> 
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width="400" alt="Steering-shaft-holder"></td> 
       </tr>
       </table>
       </div> 
+
       <div align=center>
       <table>
       <tr>
+      <th>Steering Linkage(轉向橫桿)</th>
       <th>Bearing Holder(軸承座)</th>
-      <
       <th>Motor Holder(馬達支架)</th>
       </tr><tr>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width="300" alt="Bearing-Holder"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width="300" alt="Bearing-Holder"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder.png" width="300" alt="Motor Holder"></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width="300" alt="Motor Holder"></td>
       </tr>
       </table>
       </div> 
