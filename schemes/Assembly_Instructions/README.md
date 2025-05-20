@@ -1,28 +1,38 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Hardware Assembly Instructions & Wiring diagram</div>
-- ### Hardware Configuration of Electronic Equipment
+## <div align="center">Hardware Assembly Instructions & Wiring diagram-硬體組裝說明和接線圖</div>
+- ### Hardware Configuration of Electronic Equipment 
+-電子設備的硬體配置
+  - 下圖顯示了電子設備在自走車中的安裝位置。
   - The diagram below shows the placement of electronic equipment in the autonomous vehicle.
   
     <div align="center"><img src="./img/car_introduce.png" alt="Components's Position"></div>
 
-*** 
-- ### System Operation Process
+- ### System Operation Process -系統操作流程
     <div align="center"><img src="./img/System_operation_process.png"   alt="System Operation Process" > </div>
+#### 中文:
+- Nvidia Jetson Nano 主控制器透過攝影模組擷取影像，並使用 OpenCV 進行處理，以偵測障礙物與邊界牆。同時，透過 I2C 通訊協定 從 BNO055 陀螺儀方位感測器 收集方向資料，計算行進方向以避開障礙物與邊界牆。
+- 計算後的路徑資料會透過 UART 通訊 傳送至 Raspberry Pi Pico I/O 控制器進行控制。
 
+- 在停車過程中，作為 I/O 控制器的 Raspberry Pi Pico 不僅接收來自 Jetson Nano 主控制器的資料，還同時從三個方向的 HC-SR04 超音波距離感測器 收集距離資料，並根據這些資料進行計算，以控制自動停車的移動路徑。
+
+- 作為 I/O 控制器的 Raspberry Pi Pico 接收來自 Jetson Nano 主控制器的車輛移動控制值，並在 Pico 內部進行進一步計算，再將結果傳送至 前輪伺服馬達（MG90S），以控制行駛方向，完成避障任務。
+
+- 同時，作為 I/O 控制器的 Raspberry Pi Pico 處理來自主控制器 Jetson Nano 的車輛移動控制值，並將結果傳送至 馬達控制器（L293D），以控制直流馬達的正反轉與轉速。
+#### 英英文:
 - The Nvidia Jetson Nano main controller captures images using a camera module and processes them with OpenCV to detect obstacles and boundary walls. It simultaneously collects directional data from the BNO055 gyroscope orientation sensor via the I2C communication protocol to calculate the travel direction to avoid obstacles and boundary walls. The calculated path data is then transmitted via UART communication to the Raspberry Pi Pico I/O controller for control.
 - During parking, the Raspberry Pi Pico, acting as an I/O controller, not only receives data from the Nvidia Jetson Nano main controller but also simultaneously collects distance data from HC-SR04 ultrasonic distance sensors in three directions. Based on this data, it performs calculations to control the movement path for automated parking.
 - As an I/O controller, the Raspberry Pi Pico receives vehicle movement control values from the Nvidia Jetson Nano main controller and performs further calculations within the Pico. It then sends the results to the front-wheel servo motor (MG90S) to control the driving direction, thereby completing the obstacle avoidance task.
 - At the same time, acting as an I/O controller, the Raspberry Pi Pico processes vehicle movement control values received from the Nvidia Jetson Nano main controller and sends the results to the motor controller (L293D) to control the DC motor’s forward and reverse rotation and speed.
 
-- ### Vehicle Body Structure Display Diagram
+- ### Vehicle Body Structure Display Diagram-車體結構展示圖
 <div align="center">
 <table>
   <tr>
-      <th>Top View of the Overall Apparatus</th>
+      <th>Top View of the Overall Apparatus(整體裝置頂視圖)</th>
       <th>Middle Layer Structure Top View</th>
-      <th>Top View of Vehicle Chassis</th>
-      <th>Bottom View of Vehicle Chassis</th>
+      <th>Top View of Vehicle Chassis(中層結構頂視圖)</th>
+      <th>Bottom View of Vehicle Chassis(車體底盤底視圖)</th>
   </tr>
   <tr align="center">
      <td><img src="./img/car_all.png"  width = "400" alt="Top View of the Overall Apparatus" > </td>
@@ -38,20 +48,30 @@
 <div align="center">
 <table>
   <tr align="center">
-      <th> Circuit Board of Top View </th><th>Circuit Board of Button View</th>
+      <th> Circuit Board of Top View(電路板頂視圖) </th><th>Circuit Board of Button View(電路板底視圖)</th>
   </tr>
   <tr align="center">
-     <td> <img src="../../models/Circuit_Design/img/circuitboardup.png" width="300" alt="circuit_up.jpg"> </td><td><img src="../../models/Circuit_Design/img/circuitboardback.png" width="300" alt="circuit_lower.jpg"></td>
+     <td> <img src="../../models/Circuit_Design/img/circuitboardup1.png" width="300" alt="circuit_up.jpg"> </td><td><img src="../../models/Circuit_Design/img/circuitboardback1.png" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
 
-- ### Overview of Important Parts List
-  - #### NVIDIA® Jetson Nano™ developer-B01 Controller
+- ### Overview of Important Parts List-重要零件清單總覽
+  - #### NVIDIA® Jetson Nano™ developer-B01 Controller-NVIDIA® Jetson Nano™ 開發板 – B01 控制器
     <table border=0 width="100%" >
       <tr>
       <td >
+  ### 中文:
+    __產品規格：__
 
+    - 處理器： 四核心 ARM Cortex-A57，64 位元 CPU
+    - 圖形處理器： 128 核心 NVIDIA Maxwell GPU
+    - 記憶體： 4GB LPDDR4
+    - 連接性： Gigabit Ethernet、有 4 個 USB 3.0 連接埠
+    - GPIO： 40 針擴充接頭，相容於樹莓派標準 GPIO 排針
+    - 尺寸： 100×80×29 公釐
+    - 重量： 140 公克
+  ### 英文:  
     __Specification:__ 
     - Processor: Quad-core ARM Cortex-A57, 64-bit CPU
     - GPU: 128-core NVIDIA Maxwell GPU
@@ -61,7 +81,10 @@
     - Dimensions: 100×80×29mm
     - Weight: 140 grams
     <br></br>
-
+  ### 中文:
+    競賽中之應用：
+    - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
+  ### 英文:  
     __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico for further processing.
     <br></br>
@@ -90,7 +113,7 @@
     __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
     </td>
        <td >
-    <img src="./img/Motor.png" width = "250"  alt="MG513-P30" align=center />   
+    <img src="./img/Motor1.png" width = "250"  alt="MG513-P30" align=center />   
       </td>
       </tr>
     </table>

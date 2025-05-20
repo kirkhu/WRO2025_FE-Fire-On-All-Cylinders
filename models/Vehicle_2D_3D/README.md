@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">3D Vehicle Model Design</div>
+## <div align="center">3D Vehicle Model Design -3D車輛模型設計</div>
 - 根據去年的經驗，我們將自駕車的長度由原本的21公分縮短至17公分，不僅大幅提升了停車的靈活性，也讓車輛能更自如地穿梭於狹小空間中。為更有效應對當前的競賽任務，我們對自駕車的設計與結構進行了全面調整與優化，顯著提升了整體性能與運行穩定性。
 
 - 本次比賽所使用的車輛底盤是我們自行研發的內部設計。接下來將介紹車輛底盤的設計與製作過程。
@@ -19,13 +19,13 @@
     <th>2025 After shortening (縮短後) </th>
     </tr><tr>
     <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
-    <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
+    <td><img src="../../v-photos/img/right2.png" width="300" alt="vehicle Underfloor"></td> 
     </tr>
     </table>
  </div> 
 
-- ### Onshape Model Draft (Onshape 模型草圖)
-  - #### 3D modeling software -- Onshape Introduction (3D 建模軟體 -- Onshape 介紹)
+- ### Onshape Model Draft -Onshape 模型草圖
+  - #### 3D modeling software  Onshape Introduction -3D 建模軟體  Onshape 介紹
     #### 中文
     - 我們使用 Onshape 來設計自駕車的 3D 模型。Onshape 是一款免費且易於使用的網頁版 CAD 軟體。
     - 在 Onshape 建立模型後，可以輸出 2D 尺寸圖，接著可將其送至雷射切割機進行切割，或轉換後送至 3D 印表機進行列印。
@@ -50,7 +50,7 @@
     </div> 
 
 
-  - #### Design and production of 3D/2D models for vehicle parts  (車輛零件的 3D/2D 模型設計與製作)
+  - #### Design and production of 3D/2D models for vehicle parts  -車輛零件的 3D/2D 模型設計與製作
     <div align=center>
     <table>
     <tr>
@@ -79,7 +79,7 @@
     </table>
     </div> 
 
-  - #### The Production of Vehicle Chassis Panels Introduction - Using a laser-cutting machine (車輛底盤板件製作簡介 — 使用雷射切割機)
+  - #### The Production of Vehicle Chassis Panels Introduction - Using a laser-cutting machine -車輛底盤板件製作簡介 — 使用雷射切割機
   #### 中文:
     - 雷射切割機是一種利用雷射光束來切割材料的設備。雷射光束具有高能量密度，能夠快速且精確地切割各種材料，包括木材、金屬、塑膠、紙張等。
     - 我們使用學校提供的雷射切割機，製作車輛底盤所需的「車輛底板」、「車輛中層板」與「車輛頂層板」。我們依照自行設計的車輛平面尺寸圖，切割厚度為 3mm 的木板。
@@ -92,7 +92,7 @@
     - When designing the vehicle structure, we first used 3D modeling software Onshape to create draft designs and generate engineering drawings (DXF files). These drawings were then imported into the laser cutter's editing software (LaserWorkV) for detailed adjustments. Finally, based on the design drafts, we outlined the lines and cut the wooden boards into shape.
 
  
-  - #### Vehicle Chassis Panels Dimensions Chart (車輛底盤板件尺寸圖表)
+  - #### Vehicle Chassis Panels Dimensions Chart -車輛底盤板件尺寸圖表
     <div align=center>
     <table>
     <tr>
@@ -107,7 +107,7 @@
     </table>
     </div> 
 
-  - #### Vehicle Body Wooden Panels Produced Using a Laser Cutting Machine (使用雷射切割機製作的車身木質板件)
+  - #### Vehicle Body Wooden Panels Produced Using a Laser Cutting Machine -使用雷射切割機製作的車身木質板件
      <div align=center>
      <table>
      <tr>
@@ -122,15 +122,15 @@
      </tr>
      </table>
      </div>
-  - ####  Operation of Laser-Cutting Machine(雷射切割機操作)
+  - ####  Operation of Laser-Cutting Machine-雷射切割機操作
     <div align="center"><img src="./img/2D.jpg " width="400" alt="car_board"></div>
 
- - ###  3D Vehicle Model - Onshape Model Sketch.(3D 車輛模型 — Onshape 模型草圖)
+ - ###  3D Vehicle Model - Onshape Model Sketch-3D 車輛模型 — Onshape 模型草圖
  - #### 中文:
      - 我們使用 Onshape 進行設計，並使用光固化（SLA）3D 印表機製作本次競賽所需的車輛底盤 3D 列印零件。其設計與製作流程如下：
  - #### 英文:   
      - We used Onshape for the design and employed a Stereolithography (SLA) 3D Printer to manufacture the 3D-printed parts for the vehicle chassis needed for this competition. The design and production process is as follows:
-    - #### The usage and introduction of Stereolithography (SLA) 3D printers (光固化（SLA）3D 印表機的使用與介紹)
+    - #### The usage and introduction of Stereolithography (SLA) 3D printers -光固化（SLA）3D 印表機的使用與介紹
     - #### 中文:
       - 光固化（SLA）3D 列印技術使用液態感光樹脂作為材料，並透過雷射固化的方式逐層成型。SLA 印表機擅長製作高精度且幾何結構複雜的零件，特別適合用於對細節要求較高的原型製作與模型開發。
       - 為了解決去年所使用的 SLA 3D 印表機在列印範圍與品質上的限制，我們特別採用了 8K 解析度的 SLA 3D 印表機（Phrozen Sonic Mini 8K）與紫外線固化箱，以提升列印品質與精度。
@@ -158,7 +158,7 @@
       
           SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial desgn. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
 
-      - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer(堆疊式3D列印機與立體光固化（SLA）3D列印機的比較)
+      - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer-堆疊式3D列印機與立體光固化（SLA）3D列印機的比較
       
          透過對3D車用零件進行實際列印與操作比較，我們得出以下結論：
 
@@ -192,7 +192,7 @@
         </tr>
         </table>
         </div>
-     - #### Description of the resin used in Stereolithography (SLA) 3D Printer.(立體光固化（SLA）3D列印機所使用樹脂的描述。)
+     - #### Description of the resin used in Stereolithography (SLA) 3D Printer-立體光固化（SLA）3D列印機所使用樹脂的描述
        立體光固化（SLA）3D列印機所使用的樹脂種類多樣，不同樹脂在性能上有明顯差異。常見的SLA樹脂類型包括：
 
        The types of resin used in Stereolithography (SLA) 3D printers vary, and different resins offer distinct performance comparisons. Common types of SLA resins include:
@@ -229,7 +229,7 @@
     </table>
     </div> 
 
-    - ####  3D Vehicle Model Dimension Diagram(3D車輛模型尺寸圖)
+    - ####  3D Vehicle Model Dimension Diagram-3D車輛模型尺寸圖
       <div align=center>
       <table>
       <tr>
@@ -259,7 +259,7 @@
       </table>
       </div> 
 
-  - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer(使用立體光固化（SLA）3D列印機製作的車體支撐零件)
+  - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer-使用立體光固化（SLA）3D列印機製作的車體支撐零件
       <div align=center>
       <table>
       <tr>
@@ -289,7 +289,7 @@
       </div> 
 
  ***
-- ### Supplementary Information（補充資訊）
+- ### Supplementary Information-補充資訊
 - #### 中文:
     - __維護流程：__
       如果不定期進行維護，SLA 3D列印機可能會因樹脂堵塞而無法使用，因此需要定期清潔。我們記錄了從學長姐那裡學到的清潔方法，並開始自行進行清潔。
