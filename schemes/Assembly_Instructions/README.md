@@ -61,6 +61,7 @@
     <table border=0 width="100%" >
       <tr>
       <td >
+
     __Specification:__ 
     - Processor: Quad-core ARM Cortex-A57, 64-bit CPU
     - GPU: 128-core NVIDIA Maxwell GPU
@@ -72,9 +73,8 @@
     __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico for further processing.
     <br></br>
-  __競賽中之應用：__
-  - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
-  __產品規格：__
+
+   __產品規格：__
     - 處理器： 四核心 ARM Cortex-A57，64 位元 CPU
     - 圖形處理器： 128 核心 NVIDIA Maxwell GPU
     - 記憶體： 4GB LPDDR4
@@ -84,7 +84,7 @@
     - 重量： 140 公克
   __競賽中之應用：__
   - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
-    
+ 
     <br></br>
     __Purchase URL:<a href="https://robotkingdom.com.tw/product/rk-nvidia-jetson-nano-developer-b01/" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a>__
     </td>
@@ -272,7 +272,7 @@
     - Output Voltage Range: 1.25 - 36V, continuously adjustable
     - Output Current Range: Adjustable, maximum of 5A
     <br></br>
-
+    
     - 主要負責將電池電壓從 11.1V 降壓至 5V，以提供車輛運作所需的各種穩定電壓。
     __Uses in Competition：__  
     - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
