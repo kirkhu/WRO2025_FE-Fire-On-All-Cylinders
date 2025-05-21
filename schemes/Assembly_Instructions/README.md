@@ -57,13 +57,12 @@
 </div>
 
 - ### Overview of Important Parts List-重要零件清單總覽
-  - #### NVIDIA® Jetson Nano™ developer-B01 Controller-NVIDIA® Jetson Nano™ 開發板 – B01 控制器
+  - #### NVIDIA® Jetson Nano™ developer-B01 Controller-NVIDIA®- Jetson Nano™ 開發板 – B01 控制器
     <table border=0 width="100%" >
       <tr>
       <td >
   ### 中文:
-    __產品規格：__
-
+     __產品規格：__
     - 處理器： 四核心 ARM Cortex-A57，64 位元 CPU
     - 圖形處理器： 128 核心 NVIDIA Maxwell GPU
     - 記憶體： 4GB LPDDR4
@@ -82,8 +81,8 @@
     - Weight: 140 grams
     <br></br>
   ### 中文:
-    競賽中之應用：
-    - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
+  __競賽中之應用：__
+  - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
   ### 英文:  
     __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico for further processing.
@@ -96,17 +95,25 @@
     </tr>
     </table>
 
-  - #### MG513 Rear-Drive DC Motor
+  - #### MG513 Rear-Drive DC Motor-MG513 後驅直流馬達
     <table border=0 width="100%" >
       <tr>
       <td> 
-
-    __Specifications:__  
+  ### 中文:    
+  __產品規格：__
+    - 空載轉速： 366 轉/分鐘（rpm）
+    - 減速比： 1:30
+    - 工作電壓： 6 – 12V
+  ### 英文:
+  __Specifications:__  
     - No-load Speed: 366 rpm
     - Reduction Ratio: 1:30
     - Operating Voltage: 6 - 12V
     <br></br>
-
+    ### 中文:
+  __競賽中之應用：__
+    - 負責接收來自馬達驅動控制器 L293D 的控制訊號，以調整車輛的前進與後退動作，並控制後輪的轉速。
+    ### 英文:
     __Uses in Competition：__
     - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
     <br></br>
@@ -118,19 +125,29 @@
       </tr>
     </table>
 
-  - ### MG90S Front Steering Mechanism by Servo Motor
+  - ### MG90S Front Steering Mechanism by Servo Motor -MG90S 前輪轉向伺服馬達機構
       <table border=0 width="100%" >
       <tr>
       <td> 
-
-    __Specifications:__
+  ### 中文:    
+  __產品規格：__
+    - 可控制旋轉角度： 0–180°
+    - 最大扭力： 2.0 公斤·公分（於 4.8V）
+    - 最快旋轉速度： 0.11 秒/60°（於 4.8V）
+    - 工作電壓： 4.8V – 7.2V
+  ### 英文:  
+  __Specifications:__
     - Controllable Rotation Angle: 0-180°  
     - Maximum Torque: 2.0 kg/cm (at 4.8V)  
     - Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
     - Operating Voltage: 4.8V - 7.2V  
     <br></br>
+  ### 中文:
+  __競賽中之應用：__
+    - 負責接收來自 Raspberry Pi Pico 的控制數值，調整前輪的轉向角度，實現行駛中的精準轉向控制。
 
-    __Uses in Competition：__
+  ### 英文:
+  __Uses in Competition：__
     - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
     <br></br>
     __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
@@ -141,19 +158,29 @@
       </tr>
     </table>
 
-  - #### Dual H-bridge DC motor driver IC - L293D
+  - #### Dual H-bridge DC motor driver IC - L293D-雙 H 橋直流馬達驅動晶片 – L293D
 
     <table border=0 width="100%" >
       <tr>
       <td>  
 
+    ### 中文:
+    __產品規格：__
+      - L293D 是一款雙 H 橋直流馬達驅動 IC，可用來控制兩顆直流馬達。
+      - 寬廣的工作電壓範圍：4.5V 至 36V。
+      - 輸出電流：每個通道持續 600 mA，峰值 1.2 A。
+      - 輸出電壓範圍：3V 至 36V。
+    ### 英文:
     __Specifications:__ 
     - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
     - Wide operating voltage range: 4.5V to 36V.
     - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
     - Output voltage range: 3 V to 36 V.
     <br></br>
-
+    ### 中文:
+    __競賽中之應用：__
+      - 主要負責驅動 MG513 減速直流馬達，以控制車輛的前進與後退運動，以及調整馬達的轉速。
+    ### 英文:
     __Uses in Competition：__  
     - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
     <br></br>
@@ -166,11 +193,17 @@
     </table>
 
 
-  - #### Li-Polymer 3S Battery
+  - #### Li-Polymer 3S Battery-鋰聚合物 3S 電池
     <table border=0 width="100%" >
       <tr>
       <td> 
-
+      
+    ### 中文:
+    __產品規格：__
+      - 最大電流： 45.5A
+      - 淨重： 約 107 公克
+      - 額定電壓： 11.1V
+    ### 英文:  
     __Specifications:__
     - Maximum Current: 45.5A  
     - Net Weight: Approximately 107g  
