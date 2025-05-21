@@ -62,7 +62,7 @@
       <tr>
       <td >
 
-    __Specification:__ 
+  __Specification:__ 
     - Processor: Quad-core ARM Cortex-A57, 64-bit CPU
     - GPU: 128-core NVIDIA Maxwell GPU
     - Memory: 4GB LPDDR4
@@ -70,7 +70,8 @@
     - GPIO: 40-pin expansion header, compatible with Raspberry Pi's standard GPIO
     - Dimensions: 100×80×29mm
     - Weight: 140 grams
-    __Uses in Competition:__ 
+
+  __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico for further processing.
     <br></br>
 
@@ -98,23 +99,25 @@
     <table border=0 width="100%" >
       <tr>
       <td> 
-  ### 中文:    
-  __產品規格：__
-    - 空載轉速： 366 轉/分鐘（rpm）
-    - 減速比： 1:30
-    - 工作電壓： 6 – 12V
-  ### 英文:
+
   __Specifications:__  
     - No-load Speed: 366 rpm
     - Reduction Ratio: 1:30
     - Operating Voltage: 6 - 12V
+
+  __Uses in Competition：__
+    - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
     <br></br>
-    ### 中文:
-  __競賽中之應用：__
+
+    __產品規格：__
+    - 空載轉速： 366 轉/分鐘（rpm）
+    - 減速比： 1:30
+    - 工作電壓： 6 – 12V
+
+    __競賽中之應用：__
     - 負責接收來自馬達驅動控制器 L293D 的控制訊號，以調整車輛的前進與後退動作，並控制後輪的轉速。
     ### 英文:
-    __Uses in Competition：__
-    - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
+    
     <br></br>
     __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
     </td>
@@ -129,26 +132,28 @@
       <tr>
       <td> 
   ### 中文:    
-  __產品規格：__
-    - 可控制旋轉角度： 0–180°
-    - 最大扭力： 2.0 公斤·公分（於 4.8V）
-    - 最快旋轉速度： 0.11 秒/60°（於 4.8V）
-    - 工作電壓： 4.8V – 7.2V
+  
   ### 英文:  
   __Specifications:__
     - Controllable Rotation Angle: 0-180°  
     - Maximum Torque: 2.0 kg/cm (at 4.8V)  
     - Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
     - Operating Voltage: 4.8V - 7.2V  
-    <br></br>
-  ### 中文:
-  __競賽中之應用：__
-    - 負責接收來自 Raspberry Pi Pico 的控制數值，調整前輪的轉向角度，實現行駛中的精準轉向控制。
 
-  ### 英文:
-  __Uses in Competition：__
+    __Uses in Competition：__
     - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
     <br></br>
+
+  __產品規格：__
+    - 可控制旋轉角度： 0–180°
+    - 最大扭力： 2.0 公斤·公分（於 4.8V）
+    - 最快旋轉速度： 0.11 秒/60°（於 4.8V）
+    - 工作電壓： 4.8V – 7.2V
+
+  __競賽中之應用：__
+    - 負責接收來自 Raspberry Pi Pico 的控制數值，調整前輪的轉向角度，實現行駛中的精準轉向控制。
+    <br></br>
+
     __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
     </td>
        <td >
@@ -163,25 +168,23 @@
       <tr>
       <td>  
 
-    ### 中文:
-    __產品規格：__
-      - L293D 是一款雙 H 橋直流馬達驅動 IC，可用來控制兩顆直流馬達。
-      - 寬廣的工作電壓範圍：4.5V 至 36V。
-      - 輸出電流：每個通道持續 600 mA，峰值 1.2 A。
-      - 輸出電壓範圍：3V 至 36V。
-    ### 英文:
     __Specifications:__ 
     - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
     - Wide operating voltage range: 4.5V to 36V.
     - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
     - Output voltage range: 3 V to 36 V.
-    <br></br>
-    ### 中文:
-    __競賽中之應用：__
-      - 主要負責驅動 MG513 減速直流馬達，以控制車輛的前進與後退運動，以及調整馬達的轉速。
-    ### 英文:
+
     __Uses in Competition：__  
     - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
+    <br></br>
+
+    __產品規格：__
+      - L293D 是一款雙 H 橋直流馬達驅動 IC，可用來控制兩顆直流馬達。
+      - 寬廣的工作電壓範圍：4.5V 至 36V。
+      - 輸出電流：每個通道持續 600 mA，峰值 1.2 A。
+      - 輸出電壓範圍：3V 至 36V。
+    __競賽中之應用：__
+      - 主要負責驅動 MG513 減速直流馬達，以控制車輛的前進與後退運動，以及調整馬達的轉速。
     <br></br>
     __Purchase URL:<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>__
     </td>
@@ -196,24 +199,23 @@
     <table border=0 width="100%" >
       <tr>
       <td> 
-    ### 中文:
-    __產品規格：__
-      - 最大電流： 45.5A
-      - 淨重： 約 107 公克
-      - 額定電壓： 11.1V
-    ### 英文:  
+
     __Specifications:__
     - Maximum Current: 45.5A  
     - Net Weight: Approximately 107g  
     - Rated Voltage: 11.1V
-    <br></br>
-
-    ### 中文:
-    __競賽中之應用：__
-      - 為車輛提供電力使用。
-    ### 英文:
     __Uses in Competition：__  
     - Supply power to the vehicle for use.  
+    <br></br>
+
+     __產品規格：__
+      - 最大電流： 45.5A
+      - 淨重： 約 107 公克
+      - 額定電壓： 11.1V
+
+    __競賽中之應用：__
+      - 為車輛提供電力使用。
+   
     <br></br>
     __Purchase URL:<a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>__
     </td>
@@ -228,24 +230,24 @@
     <table border=0 width=100% >
       <tr>
       <td>
-    ### 中文:  
-    __產品規格：__
-      - 工作電壓： 3.3V – 5.0V
-      - 引腳數量： 3 支
-      - 輸出訊號： 數位訊號
-    ### 英文:  
+   
     __Specifications:__ 
     - Operating Voltage: 3.3V - 5.0V  
     - Number of Pins: 3  
     - Output Signal: Digital  
-    <br></br>
 
-    ### 中文:
-    __競賽中之應用：__
-      - 控制車輛的啟動與行駛開關。
-    ### 英文:  
     __Uses in Competition：__
     - Control the vehicle's start and drive switch.
+    <br></br>
+
+     __產品規格：__
+      - 工作電壓： 3.3V – 5.0V
+      - 引腳數量： 3 支
+      - 輸出訊號： 數位訊號
+
+    __競賽中之應用：__
+      - 控制車輛的啟動與行駛開關。
+
     <br></br>
     __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>__
     </td>
@@ -261,21 +263,22 @@
       <tr>
       <td> 
 
-    ### 中文:  
-    __產品規格：__
-      - 輸入電壓範圍： 4 – 38V
-      - 輸出電壓範圍： 1.25 – 36V，可連續調整
-      - 輸出電流範圍： 可調，最大為 5A
-    ### 英文:   
-    __Specifications:__ 
+  __Specifications:__ 
     - Input Voltage Range: 4 - 38V
     - Output Voltage Range: 1.25 - 36V, continuously adjustable
     - Output Current Range: Adjustable, maximum of 5A
-    <br></br>
-    
-    - 主要負責將電池電壓從 11.1V 降壓至 5V，以提供車輛運作所需的各種穩定電壓。
-    __Uses in Competition：__  
+
+  __Uses in Competition：__  
     - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
+    <br></br>
+
+  __產品規格：__
+      - 輸入電壓範圍： 4 – 38V
+      - 輸出電壓範圍： 1.25 – 36V，可連續調整
+      - 輸出電流範圍： 可調，最大為 5A
+  __競賽中之應用：__
+      - 主要負責將電池電壓從 11.1V 降壓至 5V，以提供車輛運作所需的各種穩定電壓。  
+  
     <br></br>
     __Purchase URL:<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>__
     </td>
@@ -286,22 +289,34 @@
     </table>
 
  
-  - #### SONY IMX477 Camera Module
+  - #### SONY IMX477 Camera Module-SONY IMX477 鏡頭模組
+
     <table border=0 width="100%" >
       <tr>
       <td>
 
-    __Specifications:__
+  __Specifications:__
     - Viewing Angle: 160 degrees
     - pixels: 4056 x 3040
     - Maximum aperture: F2.0
     - Focal length: 7.9mm
     - Interface: CSI (Camera Serial Interface)
     - Operating Voltag：3.3V
-    <br></br>
 
-    __Uses in Competition：__  
+  __Uses in Competition：__  
     - Responsible for capturing images and transmitting them to the Jetson Nano for image recognition to detect the presence of obstacles or boundary walls.
+    <br></br>
+  __產品規格：__
+    - 視角： 160 度
+    - 像素： 4056 × 3040
+    - 最大光圈： F2.0
+    - 焦距： 7.9 mm
+    - 介面： CSI（Camera Serial Interface）
+    - 工作電壓： 3.3V
+  __競賽中之應用：__
+    - 負責擷取影像並傳送至 Jetson Nano 進行影像辨識，以偵測障礙物或邊界牆的存在。
+
+    
     <br></br>
     __Purchase URL:<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%94%AF%E6%8F%B4%E6%A8%B9%E8%8E%93%E6%B4%BECM3-4%E3%80%81Jetson-Nano-i.10207300.8215149686?srsltid=AfmBOor9HmpX2guySAnFvW5drNG4qJtdwx98_e6muraV4LUtXM50YR5Q" target="_blank">SONY IMX477</a>__
     </td>
@@ -311,20 +326,29 @@
       </tr>
     </table>
 
-  - #### BNO055 Gyroscope orientation sensor
+  - #### BNO055 Gyroscope orientation sensor-BNO055 陀螺儀方向感測器
     <table border=0 width="100%" >
       <tr>
       <td> 
 
-    __Specifications:__
+  __Specifications:__
     - 9-Axis Sensing: Includes accelerometer, gyroscope, and magnetometer for motion and orientation detection
     - Operating Voltage: 3.6V - 5V
     - Interface: Supports both I²C and UART, making it compatible with various devices
     - Orientation Data: Provides direct angle data for accurate positioning
+  __Uses in Competition：__  
+    - Responsible for detecting the vehicle's current orientation values, which are provided to the  Jetson Nano controller for processing and decision-making.
     <br></br>
 
-    __Uses in Competition：__  
-    - Responsible for detecting the vehicle's current orientation values, which are provided to the  Jetson Nano controller for processing and decision-making.
+   __產品規格：__
+
+    - 9 軸感測：包含加速度計、陀螺儀與磁力計，用於動作與方向檢測
+    - 工作電壓：3.6V – 5V
+    - 介面：支援 I²C 與 UART，兼容多種裝置
+    - 方向數據：提供直接的角度數據以實現精確定位
+
+  __競賽中之應用：__
+    - 負責偵測車輛目前的方向數值，並提供給 Jetson Nano 控制器進行運算與決策。 
     <br></br>
     __Purchase URL:<a href="https://www.remisys.com.tw/product-page/bno055-absolute-orientation-sensor" target="_blank">BNO055</a>__
     </td>
@@ -334,7 +358,7 @@
       </tr>
     </table>
 
-  - #### HC-SR04 ultrasonic distance sensor
+  - #### HC-SR04 ultrasonic distance sensor-HC-SR04 超音波距離感測器
     <table border=0 width="100%" >
       <tr>
       <td> 
@@ -345,10 +369,16 @@
     - Operating Voltage: 5V, powered by direct current.
     - Ultrasonic Frequency: 40kHz, measuring distance by emitting a 40kHz ultrasonic signal.
     - Transmission Interface: Includes Trig and Echo pins, where Trig sends out the ultrasonic signal and Echo receives the reflected signal to calculate the distance.
-    <br></br>
 
     __Uses in Competition：__  
     - Primarily responsible for collecting distance data from HC-SR04 ultrasonic distance sensors in three directions and providing it to the Raspberry Pi Pico controller for calculations to control the vehicle's direction.
+    <br></br>
+  __產品規格：__
+    - 測量範圍： 2 公分至 400 公分，可偵測 2 公分至 4 公尺內的物體。
+    - 測量精度： 約 ±3 毫米，誤差範圍大約為 ±3 毫米。
+    - 工作電壓： 5V，採用直流供電。
+    - 超音波頻率： 40kHz，透過發射 40kHz 的超音波訊號來進行距離測量。
+    - 傳輸介面： 包含 Trig 與 Echo 腳位，Trig 負責發射超音波訊號，Echo 負責接收反射回來的訊號並計算距離。
     <br></br>
     __Purchase URL:<a href="https://robotkingdom.com.tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>__
     </td>
