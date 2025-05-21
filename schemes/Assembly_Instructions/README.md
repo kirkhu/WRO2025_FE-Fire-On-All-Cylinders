@@ -61,16 +61,6 @@
     <table border=0 width="100%" >
       <tr>
       <td >
-  ### 中文:
-     __產品規格：__
-    - 處理器： 四核心 ARM Cortex-A57，64 位元 CPU
-    - 圖形處理器： 128 核心 NVIDIA Maxwell GPU
-    - 記憶體： 4GB LPDDR4
-    - 連接性： Gigabit Ethernet、有 4 個 USB 3.0 連接埠
-    - GPIO： 40 針擴充接頭，相容於樹莓派標準 GPIO 排針
-    - 尺寸： 100×80×29 公釐
-    - 重量： 140 公克
-  ### 英文:  
     __Specification:__ 
     - Processor: Quad-core ARM Cortex-A57, 64-bit CPU
     - GPU: 128-core NVIDIA Maxwell GPU
@@ -79,13 +69,22 @@
     - GPIO: 40-pin expansion header, compatible with Raspberry Pi's standard GPIO
     - Dimensions: 100×80×29mm
     - Weight: 140 grams
-    <br></br>
-  ### 中文:
-  __競賽中之應用：__
-  - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
-  ### 英文:  
     __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico for further processing.
+    <br></br>
+  __競賽中之應用：__
+  - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
+  __產品規格：__
+    - 處理器： 四核心 ARM Cortex-A57，64 位元 CPU
+    - 圖形處理器： 128 核心 NVIDIA Maxwell GPU
+    - 記憶體： 4GB LPDDR4
+    - 連接性： Gigabit Ethernet、有 4 個 USB 3.0 連接埠
+    - GPIO： 40 針擴充接頭，相容於樹莓派標準 GPIO 排針
+    - 尺寸： 100×80×29 公釐
+    - 重量： 140 公克
+  __競賽中之應用：__
+  - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
+    
     <br></br>
     __Purchase URL:<a href="https://robotkingdom.com.tw/product/rk-nvidia-jetson-nano-developer-b01/" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a>__
     </td>
@@ -197,7 +196,6 @@
     <table border=0 width="100%" >
       <tr>
       <td> 
-      
     ### 中文:
     __產品規格：__
       - 最大電流： 45.5A
@@ -210,6 +208,10 @@
     - Rated Voltage: 11.1V
     <br></br>
 
+    ### 中文:
+    __競賽中之應用：__
+      - 為車輛提供電力使用。
+    ### 英文:
     __Uses in Competition：__  
     - Supply power to the vehicle for use.  
     <br></br>
@@ -221,18 +223,27 @@
     </tr>
     </table>
 
-  - #### Micro switch (TACK-SW)
+  - #### Micro switch (TACK-SW)-微動開關（TACK-SW）
 
     <table border=0 width=100% >
       <tr>
       <td>
-
+    ### 中文:  
+    __產品規格：__
+      - 工作電壓： 3.3V – 5.0V
+      - 引腳數量： 3 支
+      - 輸出訊號： 數位訊號
+    ### 英文:  
     __Specifications:__ 
     - Operating Voltage: 3.3V - 5.0V  
     - Number of Pins: 3  
     - Output Signal: Digital  
     <br></br>
 
+    ### 中文:
+    __競賽中之應用：__
+      - 控制車輛的啟動與行駛開關。
+    ### 英文:  
     __Uses in Competition：__
     - Control the vehicle's start and drive switch.
     <br></br>
@@ -244,18 +255,25 @@
       </tr>
     </table>
 
-  - #### High Current 5A Constant Voltage Constant Current Buck Power Supply Module ADIO-DC36V5A
+  - #### High Current 5A Constant Voltage Constant Current Buck Power Supply Module ADIO-DC36V5A-高電流 5A 降壓穩壓穩流電源模組 ADIO-DC36V5A
 
     <table border=0 width=100% >
       <tr>
       <td> 
 
+    ### 中文:  
+    __產品規格：__
+      - 輸入電壓範圍： 4 – 38V
+      - 輸出電壓範圍： 1.25 – 36V，可連續調整
+      - 輸出電流範圍： 可調，最大為 5A
+    ### 英文:   
     __Specifications:__ 
     - Input Voltage Range: 4 - 38V
     - Output Voltage Range: 1.25 - 36V, continuously adjustable
     - Output Current Range: Adjustable, maximum of 5A
     <br></br>
 
+    - 主要負責將電池電壓從 11.1V 降壓至 5V，以提供車輛運作所需的各種穩定電壓。
     __Uses in Competition：__  
     - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
     <br></br>
