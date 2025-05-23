@@ -208,13 +208,14 @@
        
        ### 中文:
        - 在電池上安裝低電壓警報器，當電壓低於設定值時會發出聲響警示，提醒使用者及時監控或更換電池。這可有效防止比賽中因電力不足造成的問題，並保護電池免於過度放電而受損。
-      ### 英文:
-        - Installing a low-voltage alarm on the battery can emit an audible warning when the voltage falls below a set value, alerting the user to monitor or replace the battery in time. This effectively prevents insufficient power issues during competitions and protects the battery from damage due to over-discharge.</td>
+
+       ### 英文:
+      - Installing a low-voltage alarm on the battery can emit an audible warning when the voltage falls below a set value, alerting the user to monitor or replace the battery in time. This effectively prevents insufficient power issues during competitions and protects the battery from damage due to over-discharge.
         
         <td><img src="./img/low_voltage_alarm.png" width = "400"  alt="low_voltage_alarm" align="center" /></td>
-       </tr>
-       </table>
-       </div>
+      </tr>
+      </table>
+      </div>  
      
  
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
