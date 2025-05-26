@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Distinctive Pseudo Code</div>
-   ### Application of Bézier curves in vehicle steering control.
+## <div align="center">Distinctive Pseudo Code-獨特的偽代碼獨特的偽代碼</div>
+   ### Application of Bézier curves in vehicle steering control-貝塞爾曲線在車輛轉向控制的應用
    - We use a quadratic Bézier curve to guide the vehicle toward the traffic signal block, accurately positioning the block along the curve. The quadratic Bézier curve provides a smooth turning path; by setting a starting point, control point, and endpoint, it can adjust the vehicle’s driving trajectory, ensuring that the vehicle moves steadily toward the block. At the same time, the block’s position can be projected onto the Bézier curve, facilitating precise positioning and avoidance maneuvers by the vehicle.
    - Here are the steps to draw a quadratic Bézier curve and display it on an image:
     <ol>
