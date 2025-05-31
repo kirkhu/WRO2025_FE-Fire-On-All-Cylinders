@@ -1,12 +1,12 @@
 <div align="center"><img src="../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center"> Vehicle's photos</div>
+## <div align="center"> Vehicle's photos-車輛照片</div>
 - ### Vehicle's photos
 <div align="center">
 <table>
   <tr align="center">
-    <th>Top View</th>
-    <th>Bottom View </th>
+    <th>Top View(頂視圖）</th>
+    <th>Bottom View（底視圖） </th>
   </tr>
     <tr align="center">
     <td><img src="./img/top.png"  width = "80%" alt="Top view" > </td>
@@ -14,8 +14,8 @@
 
   </tr>
     <tr align="center">
-    <th>Front view </th>
-    <th>Rear view</th>
+    <th>Front view（正視圖) </th>
+    <th>Rear view(後視圖)</th>
   </tr>
     </tr>
     <tr align="center">
@@ -24,8 +24,8 @@
   </tr>
   </tr>
     <tr align="center">
-    <th>Left view </th>
-    <th>Right view</th>
+    <th>Left view (左視圖)</th>
+    <th>Right view(右視圖)</th>
   </tr>
     </tr>
     <tr align="center">
@@ -35,14 +35,15 @@
 </table>
 </div> 
 
-- ### Vehicle Body Structure Display Diagram
+- ### Vehicle Body Structure Display Diagram-車身結構展示圖
   <div align="center">
   <table>
     <tr>
-    <th>Top View of the Overall Apparatus</th>
-    <th>Middle Layer Structure Top View</th>
-    <th>Top View of Vehicle Chassis</th>
-    <th>Bottom View of Vehicle Chassis</th>
+    <th>Top View of the Overall Apparatus(整體裝置的頂視圖)
+    </th>
+    <th>Middle Layer Structure Top View(中間層結構頂視圖)</th>
+    <th>Top View of Vehicle Chassis(車輛底盤頂視圖)</th>
+    <th>Bottom View of Vehicle Chassis(車輛底盤仰視圖)</th>
     </tr>
     <tr align="center">
       <td>  <img src="../schemes/Assembly_Instructions/img/car_all.png"  width = "400" alt="Top View of the Overall Apparatus" >
@@ -55,11 +56,12 @@
     </tr>
   </table>
   </div>
-- ### Circuit Board
+- ### Circuit Board-電路板
     <div align="center">
     <table>
       <tr align="center">
-          <th> Circuit Board Top View</th><th>Circuit Board Button View</th>
+          <th> Circuit Board Top View(電路板頂視圖)
+          </th><th>Circuit Board Button View(電路板按鈕視圖)</th>
       </tr>
       <tr align="center">
         <td> <img src="../models/Circuit_Design/img/circuitboardup.png" width="300" alt="circuit_up"> </td><td><img src="../models/Circuit_Design/img/circuitboardback.png" width="300" alt="circuit_lower.jpg"></td>
