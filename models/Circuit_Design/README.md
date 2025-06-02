@@ -42,7 +42,7 @@
   </tr>
   <tr align="center">
      <td><img src="./img/Circuit_Diagram1.png" width="300" height="300" alt="Circuit Diagram"></td>
-     <td><img src="./img/PCB1.png" width="300" height="300" alt="PCB Layouts"></td>
+     <td><img src="./img/PCB.png" width="300" height="300" alt="PCB Layouts"></td>
      <td><img src="./img/Circuit Schematic1.png" width="300" height="300" alt="Circuit Schematic"></td>
   </tr>
 </table>
@@ -56,7 +56,7 @@
   </tr>
   <tr align="center">
      <td><img src="./img/Circuit_Diagram.png" width="300" height="300" alt="Circuit Diagram"></td>
-     <td><img src="./img/PCB.png" width="300" height="300" alt="PCB Layouts"></td>
+     <td><img src="./img/PCB1.png" width="300" height="300" alt="PCB Layouts"></td>
      <td><img src="./img/Circuit Schematic.png" width="300" height="300" alt="Circuit Schematic"></td>
   </tr>
 </table>
@@ -75,7 +75,7 @@
    - EasyEDA can be used directly in a web browser without the need for software installation, making it cross-platform accessible. It supports circuit design, simulation, PCB creation, and also allows teams to collaborate on electronic projects.
 
 
-   - ### EasyEDA的主要功能包括：__
+   - ### __EasyEDA的主要功能包括：__
 
    - ### The main features of EasyEDA include:
 
