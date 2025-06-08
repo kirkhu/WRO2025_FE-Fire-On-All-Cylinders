@@ -4,13 +4,16 @@
 以下是本次自動駕駛汽車模型設計與任務解決的開發記錄，涵蓋了機械設計與製造、電路設計與實現、電子裝置選型、程式設計與測試以及整體的解題過程。
 
 The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
-## 2024/03/04 ~ 2024/03/10  
+## 2024/2/28 ~ 2024/3/30  
 
-**Member:** HU,SIAN-YI、LAI,MENG-CHENG、HUANG,KE-FU
+**成員:** 胡賢邑、林展榮、張奕崴
 
-**Content:**  
+**內容:**  
 
-My partner, "HU, SIAN-YI," has participated in the Future Engineering Competition multiple times over the past few years, accumulating substantial experience in mechanical design and programming. However, since the competition themes change or introduce new challenges each year, we decided after discussion to use last year's models from our seniors and the design of last year's world champion team as references for this year's competition model.
+
+我的搭檔胡賢邑過去幾年曾多次參與「未來工程師大賽」，在機械結構設計與程式控制優化方面累積了扎實的實戰經驗。然而，由於該競賽每年皆會更新主題與挑戰規則，我們經過深入討論後，決定對今年的參賽模型進行輕量化改良——將整體機構縮小，如此不僅能提升場地穿梭的靈活性，避免與障礙方塊發生碰撞，還能更好停車避免撞到牆，進一步強化競賽表現。
+
+
 
 <div align="center">
 <table>
@@ -18,134 +21,88 @@ My partner, "HU, SIAN-YI," has participated in the Future Engineering Competitio
 <th colspan="2">Last year's senior's model</th>
 </tr>
 <tr align="center">
-<td> <img src="./img/3/machine1.jpg" width = "300"  alt="data" align=center /></td>
-<td><img src="./img/3/machine2.jpg" width = "300"  alt="data" align=center /></td>
+<td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
+    <td><img src="../../v-photos/img/right2.png" width="300" alt="vehicle Underfloor"></td> 
 </tr>
 <tr align="center">
 <th colspan="2">Refer to the seniors GitHub reports(參考學長姐們的Github報告)</th>
 </tr>
 <tr align="center">
 <td> <img src="./img/3/find_data.jpg" width = "300"  alt="data" align=center /></td>
-<td><img src="./img/3/WRO2023_FE-Shinan-Fire-On-All-Cylinders.jpg" width = "300"  alt="data" align=center /></td>
+<td><img src="./img/3/WRO2023_FE-Shinan-Fire-On-All-Cylinders.png" width = "300"  alt="data" align=center /></td>
 </tr>
 </table>
 </div>
 
 ## 2024/03/11 ~ 2024/03/17
 
-**Member:** HU,SIAN-YI、LAI,MENG-CHENG、HUANG,KE-FU
+**成員:** 胡賢邑、林展榮、張奕崴
 
-**Content:**
+**內容:**  
 
-- In order to smoothly advance the competition activities while balancing academic work, we have developed a work schedule to ensure the timely completion of each task, as detailed in the diagram below.
-- We first familiarized ourselves with the model designed by our seniors and attempted to get the vehicle running smoothly. However, we found that there were still some technical details we were unfamiliar with, such as the calibration and use of LiDAR sensors, installation of the Raspberry Pi controller, and programming, which led to the self-driving car not yet operating successfully.
-
-  **Completion Time Planning Table for Each Stage of the Competition Activities (Gantt Chart)**
-
-<div align="center" >
-  <img src="../img/gantt.png" width = "600"  alt="gantt" align=center />
-</div>
-
-### Writing the program and adjusting the machine
-
+- 我們為了要讓電路板變得更整齊我使用洗電路板方式這樣的方式，開發第一代電路板，由於是初次接觸電路板設計，我們未能注意到設計軟體中提供的標準範例圖。當時我們自行測量了排針與排針之間的間距，結果在電路板製作完成後才發現間距設計過小，導致元件無法順利插接。這個寶貴的經驗促使我們立即著手改進，並很快做了第二代優化版本。
 <div align="center" >
 <table >
 <tr align="center">
-<th>Writing the program</th>
-<th>Adjusting the machine</th>
+<th>第一代正面</th>
+<th>第一代背面</th>
 <tr align="center">
 <td>
-<img src="./img/3/write.jpg" width = "300"  alt="write" /></td>
+<img src="./img/4/1.png" width = "300"  alt="data" align=center /></td>
 <td>
-<img src="./img/3/fix.jpg" width = "300"  alt="fix"/></td>
-</tr>
-</table>
-</div>
-
-## 2024/03/18 ~ 2024/03/24
-
-**Member:** HU,SIAN-YI、LAI,MENG-CHENG、HUANG,KE-FU  
-
-**Content:**  
-
-#### Raspberry pi 4
-
-- We began writing the code for the qualifying round, and with the assistance of our seniors, our progress accelerated significantly, allowing us to successfully complete the coding for the qualifying round.
-- We started writing the obstacle avoidance program for the task competition and practiced techniques for adjusting the camera. Since the accuracy of the camera may shift after a few days, which can easily lead to misdetections, we placed particular emphasis on practicing adjustments in this area.
-
-#### Practice situation
-
-<div align="center" >
-<table >
-<tr align="center">
-<th>Adjust the camera</th>
-<th>Write the program</th>
-<tr align="center">
-<td>
-<img src="./img/3/camera.jpg" width = "300"  alt="data" align=center /></td>
-<td>
-<img src="./img/3/work.jpg" width = "300"  alt="data" align=center /></td>
+<img src="./img/4/2.png" width = "300"  alt="data" align=center /></td>
 </tr>
 </table>
 </div>
 
 
-## 2024/03/25 ~ 2024/03/31  
 
-**Member:** HU,SIAN-YI、LAI,MENG-CHENG、HUANG,KE-FU
 
-**Content:** 
 
-- Since the model designed by our seniors used radar, we discovered during testing that the radar data was unstable, and we also faced challenges with camera control. Even after camera calibration, errors still existed. Therefore, we plan to redesign a new machine. To be prudent, we decided to continue developing and refining the Raspberry Pi system while designing the new machine, to ensure that we still have a reliable self-driving car available for the competition.
-- After discovering issues with the Raspberry Pi system, we referred to the self-driving car used by the previous competition's champion, which utilized the Jetson Nano as the main controller. This significantly improved the efficiency of visual recognition and reduced reliance on less stable sensors such as LiDAR and color sensors. Therefore, we plan to use the Jetson Nano as the main controller to design a brand-new self-driving car.
-- Currently, the self-driving car using the Raspberry Pi system is still being revised by MENG-CHENG, while the development of the new self-driving car is being designed and built by the experienced partners SIAN-YI and KE-FU.
+## 2024/4/3 ~ 2024/4/14
 
-  <div align=center>
-  <table>
-  <tr>
-  <th rowspan="2" width=300>Photo</th>
-  <th>Nvidia Jetson Nano</th>
-  <th>Raspberry Pi 4B</th>
-  </tr><tr>
-  <td><div align=center><img src="../../schemes/Main_Controller_Choosing/img/jeston_nano.png" width=200></td>
-  <td><div align=center><img src="../../schemes/Main_Controller_Choosing/img/raspberry_pi_4.png" width=200></td>
-  </tr><tr>
-  <th>Number of Pins</th>
-  <td>40P</td>
-  <td>40P</td>
-  </tr><tr>
-  <th>CPU</th>
-  <td>Quad-core ARM® Cortex®-A57 MPCore</td>
-  <td>1.5GHz 64-bit Quad-core ARM Cortex-A72 CPU</td>
-  </tr><tr>
-  <th>GPU</th>
-  <td>NVIDIA Maxwell™ architecture with 128 NVIDIA CUDA®  cores</td>
-  <td>Broadcom VideoCore VI<br> H.265 (4kp60 decode)<br> H264 (1080p60 decode, 1080p30 encode) OpenGL ES 3.1<br> Vulkan 1.0</td>
-  </tr><tr>
-  <th>Storage Spac</th>
-  <td>4 GB 64-bit LPDDR4</td>
-  <td>8GB LPDDR4-3200 SDRAM</td>
-  </tr><tr>
-  <th>Built-in Bluetooth and Wireless WiFi Connectivity</th>
-  <td>Requires external Bluetooth and wireless WiFi connectivity</td>
-  <td>Built-in</td>
-  </tr><tr>
-  <th>Gflops</th>
-  <td>472</td>
-  <td>13.5</td>
-  </tr><tr>
-  <th>Price</th>
-  <td>Expensive</td>
-  <td>Cheap</td>  
-  </tr>
-  </table>
-  </div>
+**成員:** 胡賢邑、林展榮、張奕崴
 
-- **Supplementary Information**
+**內容:**  
 
-  **Aspects of deep learning acceleration**
-   - Jetson Nano: Supports NVIDIA CUDA and cuDNN, which can accelerate deep learning workloads. For tasks like image classification and object detection, the GPU in Jetson Nano significantly enhances processing speed.
-   - Raspberry Pi 4: Lacks a dedicated GPU and deep learning acceleration capabilities; image recognition tasks rely entirely on CPU processing, which is far less efficient than the GPU acceleration of Jetson Nano.
+在第二代版本開發過程中，我們基於第一代的反饋，透過內建範例圖重新校準排針間距，成功優化了原始設計。然而，因作業疏忽導致 PCB 佈局時誤將背面視圖當作正面設計，致使電路板輸出後極性顛倒。此問題於組裝測試階段立即被發現，並於第三代版本中修正佈局方向，同時複查所有層面對齊規範，確保設計與實體成品的一致性。
+
+<div align="center" >
+<table >
+<tr align="center">
+<th>第二代正面</th>
+<th>第二代背面</th>
+<tr align="center">
+<td>
+<img src="./img/4/3.png" width = "300"  alt="data" align=center /></td>
+<td>
+<img src="./img/4/4.png" width = "300"  alt="data" align=center /></td>
+</tr>
+</table>
+</div>
+
+
+## 2024/06/03 ~ 2024/06/08  
+**成員:** 胡賢邑、林展榮、張奕崴
+
+**內容:** 
+
+
+- 經修正前兩代的設計問題後，第三代版本已成功通過功能測試。實際運行測試顯示，排針接點與電路佈局無異常，系統可穩定運作。
+<div align="center" >
+<table >
+<tr align="center">
+<th>第二代正面</th>
+<th>第二代背面</th>
+<tr align="center">
+<td>
+<img src="./img/6/5.png" width = "300"  alt="data" align=center /></td>
+<td>
+<img src="./img/6/6.png" width = "300"  alt="data" align=center /></td>
+</tr>
+</table>
+</div>
+  
 
 ## 2024/04/01 ~ 2024/04/07
 
