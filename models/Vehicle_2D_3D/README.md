@@ -19,7 +19,7 @@
     <th>2025 After shortening (縮短後) </th>
     </tr><tr>
     <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
-    <td><img src="../../v-photos/img/right2.png" width="300" alt="vehicle Underfloor"></td> 
+    <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
     </tr>
     </table>
  </div> 
