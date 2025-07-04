@@ -49,7 +49,7 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/mo.jpg" alt="mo" width="60%"> </td>
+      <td><img src="./img/lin.jpg" alt="lin" width="60%"> </td>
       <td><img src="./img/mo_work.jpg" alt="mo WORK" width="80%"></td>
   </tr>
     <tr align="center">
@@ -66,7 +66,7 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/fu.jpg" alt="FU" width="60%"> </td>
+      <td><img src="./img/wi.jpg" alt="wi" width="60%"> </td>
       <td><img src="./img/fu_work.jpg" alt="Fu WORK" width="80%"></td>
   </tr>
 </table>
