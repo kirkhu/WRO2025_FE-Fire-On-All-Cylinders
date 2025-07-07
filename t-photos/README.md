@@ -23,9 +23,9 @@
   </tr>
   <tr >
       <td align="center">HU,SIAN-YI</td>
-      <td align="left">Work Assignments：<br>
-         <ol><li>primarily responsible for writing Code </li>
-             <li>Assist in vehicle circuit design </li>
+      <td align="left">工作分配:<br>
+         <ol><li>主要負責程式開發 </li>
+             <li>協助車輛電路設計 </li>
          </ol>
       </td>
   </tr>
@@ -39,10 +39,10 @@
      <th>Work photo(工作照)</th>    
   </tr>
   <tr align="center">
-     <td>LAI,MENG-CHENG</td>
-     <td align="left">Work Assignments工作分配：<br>
-         <ol><li>primarily responsible for  vehicle hardware integration </li>
-             <li>Assist in writing Code </li>
+     <td>LIN,JHAN-RONG</td>
+     <td align="left">工作分配：<br>
+         <ol><li>主要負責車輛硬體整合</li>
+             <li> 協助編寫程式碼 </li>
          </ol>
      </td>    
   </tr>
@@ -56,8 +56,8 @@
      <th>Work photo(工作照)</th>    
   </tr>
    <tr>
-     <td align="center">HUANG,KE-FU</td>
-     <td align="left">Work Assignments：<br>
+     <td align="center">JHANG,YI-WEI</td>
+     <td align="left">Work Assignments： 工作分配:<br>
          <ol><li>primarily responsible for  writing Code Report recording and writing.</li>
              <li>Assist in vehicle hardware design.  </li>
          </ol>
