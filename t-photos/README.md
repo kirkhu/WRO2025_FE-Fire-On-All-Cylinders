@@ -2,9 +2,8 @@
 
 ## <div align="center"> Team Members Introduction-團隊成員介紹</div>
 - ### Team Photo-團隊照片  
-  - 今天是我們隊成立的第一天，所以拍了一張照片作為紀念。地點選在了社團教室。
-  - Today is the first day that our team was established, so I took a photo to commemorate it. The location was chosen in the club classroom.
-
+  - 今天是我們團隊成立的第一天，因此我拍了一張照片作為紀念。地點選在了三樓教室外面走廊。
+  - Today is the first day of our team's establishment, so I took a photo as a souvenir. The location was chosen in the corridor outside the classroom on the third floor.
 <div align="center">
 
 |<img src="./img/team_photo.jpg" width = "50%"  alt="Team Photo " />|</div>  
@@ -41,7 +40,7 @@
   </tr>
   <tr align="center">
      <td>LAI,MENG-CHENG</td>
-     <td align="left">Work Assignments：<br>
+     <td align="left">Work Assignments工作分配：<br>
          <ol><li>primarily responsible for  vehicle hardware integration </li>
              <li>Assist in writing Code </li>
          </ol>

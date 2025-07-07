@@ -46,7 +46,7 @@
     <th>Bottom View of Vehicle Chassis(車輛底盤仰視圖)</th>
     </tr>
     <tr align="center">
-      <td>  <img src="../schemes/Assembly_Instructions/img/car_all.png"  width = "400" alt="Top View of the Overall Apparatus" >
+      <td>  <img src="img/top.png"  width = "400" alt="Top View of the Overall Apparatus" >
       </td>
       <td><img src="../schemes/Assembly_Instructions/img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" >
       </td>
