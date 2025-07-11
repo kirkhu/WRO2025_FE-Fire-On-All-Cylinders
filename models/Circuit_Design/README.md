@@ -112,7 +112,7 @@
     <th>Schematic Design</th>
     </tr><tr>
     <td><img src="./img/EasyEDA.png" width="500"alt="EasyEDA of Official website. "></td>
-    <td><img src="./img/EasyEDA1.png" width="300" alt="Schematic Design"></td>
+    <td><img src="./img/EasyEDA1.png" width="500" alt="Schematic Design"></td>
     </tr>
     </table>
     </div>
