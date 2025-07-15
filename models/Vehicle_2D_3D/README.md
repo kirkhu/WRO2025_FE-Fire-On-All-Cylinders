@@ -250,11 +250,15 @@
       <tr>
       <th>Steering shaft holder(轉向軸支架)</th>
       <th>Motor Holder(馬達支架)</th>
+       <th>Steering rod(轉向橫桿)</th>
+       <th>Motor steering rod(馬達轉向拉桿)</th>
   
 
     </tr><tr>
       <td><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size1.png" width="300" alt="Steering shaft holder"></td>
       <td><img src="./Vehicle_Chassis_Sizse/img/Motor-Holder_size1.png" width="300" alt="Motor Holder"></td>
+      <td><img src="./Vehicle_Chassis_Sizse/img/Steering Linkage.png" width="300" alt="Motor Holder"></td>
+       <td><img src="./Vehicle_Chassis_Sizse/img/Motor steering rod.png" width="300" alt="Motor Holder"></td>
       </tr>
       </table>
       </div> 
@@ -277,13 +281,15 @@
       <div align=center>
       <table>
       <tr>
-      <th>Steering Linkage(轉向橫桿)</th>
+      <th>Steering rod(轉向橫桿)</th>
       <th>Bearing Holder(軸承座)</th>
       <th>Motor Holder(馬達支架)</th>
+      <th>Motor steering rod(馬達向拉桿)</th>
       </tr><tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width="300" alt="Bearing-Holder"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width="300" alt="Bearing-Holder"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width="300" alt="Motor Holder"></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor steering rod.png" width="300" alt="Motor Holder"></td>
       </tr>
       </table>
       </div> 
@@ -302,7 +308,8 @@
     6. 去除物件邊緣的支撐結構。
     7. 使用酒精進行第二次清潔，徹底清除物件上的殘餘樹脂。
     8. 用酒精清潔平台上殘留的樹脂。
-    9. 最後將平台擦乾，並重新安裝回SLA 3D列印機上。
+    9. 清洗完後再將平台進行打磨。
+    10. 最後將平台擦乾，並重新安裝回SLA 3D列印機上。
     - #### 英文:
     - __Maintenance Process:__
 
@@ -336,7 +343,7 @@
     <td><img src="./img/4.jpg" width="250"></td>
     <td><img src="./img/5.jpg" width="250"></td>
     <td><img src="./img/6.jpg" width="250"></td>
-    </tr>
+    </tr align="center">
     <td>Step 7</td>
     <td>Step 8</td>
     <td>Step 9</td></tr>
@@ -344,6 +351,9 @@
     <td><img src="./img/7.jpg" width="250"></td>
     <td><img src="./img/8.jpg" width="250"></td>
     <td><img src="./img/9.jpg" width="250"></td>
+    </tr align="center">
+    <td>Step 10</td></tr>
+    <td><img src="./img/10.jpg" width="250"></td>
     </tr>
     </table>
     </div>

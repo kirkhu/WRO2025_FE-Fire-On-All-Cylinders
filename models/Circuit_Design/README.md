@@ -42,8 +42,8 @@
   </tr>
   <tr align="center">
      <td><img src="./img/Circuit_Diagram1.png" width="300" height="300" alt="Circuit Diagram"></td>
-     <td><img src="./img/PCB.png" width="300" height="300" alt="PCB Layouts"></td>
-     <td><img src="./img/Circuit Schematic1.png" width="300" height="300" alt="Circuit Schematic"></td>
+     <td><img src="./img/Circuit Schematic1.png" width="300" height="300" alt="PCB Layouts"></td>
+     <td><img src="./img/PCB.png" width="300" height="300" alt="Circuit Schematic"></td>
   </tr>
 </table>
 </div>
@@ -56,8 +56,8 @@
   </tr>
   <tr align="center">
      <td><img src="./img/Circuit_Diagram.png" width="300" height="300" alt="Circuit Diagram"></td>
-     <td><img src="./img/PCB1.png" width="300" height="300" alt="PCB Layouts"></td>
-     <td><img src="./img/Circuit Schematic.png" width="300" height="300" alt="Circuit Schematic"></td>
+     <td><img src="./img/Circuit Schematic.png" width="300" height="300" alt="PCB Layouts"></td>
+     <td><img src="./img/PCB1.png" width="300" height="300" alt="Circuit Schematic"></td>
   </tr>
 </table>
 </div>

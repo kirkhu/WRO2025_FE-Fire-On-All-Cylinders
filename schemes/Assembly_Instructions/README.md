@@ -37,7 +37,7 @@
   <tr align="center">
      <td><img src="./img/car_all.png"  width = "400" alt="Top View of the Overall Apparatus" > </td>
      <td><img src="./img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" ></td>
-     <td><img src="../Vehicle_Chassis_Design/img/2024Vehicle_Chassis_Design_down.png" width="400" alt="Top View of Vehicle Chassis" ></td>
+     <td><img src="../Vehicle_Chassis_Design/img/2025Vehicle_Chassis_Design_down.png" width="400" alt="Top View of Vehicle Chassis" ></td>
      <td><img src="./img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
   </tr>
 </table>

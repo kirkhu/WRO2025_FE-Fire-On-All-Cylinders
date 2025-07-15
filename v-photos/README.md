@@ -50,7 +50,7 @@
       </td>
       <td><img src="../schemes/Assembly_Instructions/img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" >
       </td>
-      <td><img src="../schemes/Vehicle_Chassis_Design/img/2024Vehicle_Chassis_Design_down.png" width="400" alt="Top View of Vehicle Chassis" >
+      <td><img src="../schemes/Vehicle_Chassis_Design/img/2025Vehicle_Chassis_Design_down.png" width="400" alt="Top View of Vehicle Chassis" >
       </td>
       <td><img src="../schemes/Assembly_Instructions/img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
     </tr>

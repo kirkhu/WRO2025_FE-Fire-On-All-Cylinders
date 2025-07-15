@@ -119,7 +119,7 @@ The Raspberry Pi Pico  offers simplicity, low power consumption, and affordabili
  - 在本次競賽中，我們選擇使用 Thonny 軟體來撰寫 Raspberry Pi Pico 控制板的程式。
 
  - 由於 MicroPython 對多種微控制器（如 Raspberry Pi Pico、ESP8266、ESP32 等）具有專用支援，使得這些板子的開發更加方便。因此，我們選擇 Thonny 作為開發工具。Thonny 不僅支援 MicroPython 開發，還能直接連接微控制器板，使編寫、測試及除錯程式更加簡便。這種組合簡化了開發流程，並能快速在硬體上部署和驗證程式。  
-### 英文:英文:
+### 英文:
   __Introduction to  Thonny software__
   - In this competition, we chose to use Thonny software to write programs for the Raspberry Pi Pico control board.
   - Due to MicroPython's dedicated features for various microcontrollers (such as the Raspberry Pi Pico, ESP8266, ESP32, etc.), development on these boards becomes more convenient. Therefore, we chose Thonny as our development tool. Thonny not only supports MicroPython development but also allows direct connection to microcontroller boards, making it easier to write, test, and debug code. This combination simplifies the development process and enables quick deployment and verification of programs on the hardware.
