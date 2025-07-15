@@ -353,6 +353,7 @@
     <td><img src="./img/9.jpg" width="250"></td>
     </tr align="center">
     <td>Step 10</td></tr>
+    <tr>
     <td><img src="./img/10.jpg" width="250"></td>
     </tr>
     </table>

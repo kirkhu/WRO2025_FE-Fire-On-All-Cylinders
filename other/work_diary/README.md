@@ -92,8 +92,8 @@ The following is a development record of the self-driving car model design and t
 <div align="center" >
 <table >
 <tr align="center">
-<th>第二代正面</th>
-<th>第二代背面</th>
+<th>第三代正面</th>
+<th>第三代背面</th>
 <tr align="center">
 <td>
 <img src="./img/6/5.png" width = "300"  alt="data" align=center /></td>
