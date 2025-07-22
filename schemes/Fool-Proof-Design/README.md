@@ -17,7 +17,7 @@ In the actual hardware design process, we frequently encountered issues where th
 <th>Circuit real-life photo(電路實際照片)</th>
 </tr><tr>
 <td><img src="./img/pin.jpg" width="450" alt="pin"></td> 
-<td><img src="./img/ciruit.png" width="450" alt="ciruit"></td> 
+<td><img src="./img/ciruit.png" width="450" height="300" alt="ciruit"></td> 
 </tr>
 </table>
 </div> 
