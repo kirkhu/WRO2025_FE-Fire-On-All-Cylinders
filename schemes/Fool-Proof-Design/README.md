@@ -16,8 +16,8 @@ In the actual hardware design process, we frequently encountered issues where th
 <th>2.5mm Connector 2/3 Pin Male/female Adapter Right Angle Pin Header White Socket(2.5毫米接頭 2/3 針公母轉接頭 直角針腳 白色插座)</th>
 <th>Circuit real-life photo(電路實際照片)</th>
 </tr><tr>
-<td><img src="./img/pin.jpg" width="50%"alt="pin"></td> 
-<td><img src="./img/ciruit.png" width="50%"alt="ciruit"
+<td><img src="./img/pin.jpg" width="80%"alt="pin"></td> 
+<td><img src="./img/ciruit.png" width="80%"alt="ciruit"
 ></td> 
 </tr>
 </table>
