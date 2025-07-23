@@ -22,14 +22,13 @@ The following is a development record of the self-driving car model design and t
 </tr>
 <tr align="center">
 <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
-    <td><img src="../../v-photos/img/right2.png" width="300" alt="vehicle Underfloor"></td> 
+    <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
 </tr>
 <tr align="center">
 <th colspan="2">Refer to the seniors GitHub reports(參考學長姐們的Github報告)</th>
 </tr>
 <tr align="center">
-<td> <img src="./img/3/find_data.jpg" width = "300"  alt="data" align=center /></td>
-<td><img src="./img/3/WRO2023_FE-Shinan-Fire-On-All-Cylinders.png" width = "300"  alt="data" align=center /></td>
+<td> <img src="./img/find_data.jpg" width = "500"  alt="data" align=center /></td>
 </tr>
 </table>
 </div>
