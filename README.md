@@ -68,6 +68,4 @@
     - [6-2 GitHub Web Editing Languages(GitHub Web 編輯語言) ](src/GitHub_Languages/README.md)  
   #### 7. Engineering Factor -工程因素 
     - [7-1 Work Diary(工作日記)](other/work_diary/README.md)
-- ### ${{\color{red} CompetitionSchedule}} $  
-# <div align="center">![Competition Schedule Gantt](./other/img/gantt.png)</div> 
 

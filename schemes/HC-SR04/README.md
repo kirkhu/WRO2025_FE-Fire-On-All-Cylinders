@@ -54,7 +54,7 @@
       <td><img src="../../other/work_diary/img/5/car_left.png" alt="HC-SR04" width="250" /></td>
       <td><img src="../../other/work_diary/img/5/car_right.png" alt="HC-SR04" width="250" /></td>
       <td><img src="../../other/work_diary/img/5/car_rear.png" alt="HC-SR04" width="250" /></td>
-      <td><img src="./img/car_Rear_up.png" alt="HC-SR04" width="230" /></td>
+      <td><img src="./img/Car front.png" alt="HC-SR04" width="230" /></td>
       </tr>
     </table>
     </div>
@@ -63,13 +63,13 @@
     - HC-SR04 的 VCC 連接到 Raspberry Pi Pico 的 3.3V（腳位 36）：為超聲波感測器提供電源。
     - HC-SR04 的 GND 連接到 Raspberry Pi Pico 的接地腳位：確保兩者共用接地。
     - HC-SR04 的 Trig 腳位連接到 Raspberry Pi Pico 的 GPIO 腳位：
-        - 腳位 18（左側），
-        - 腳位 16（右側），
-        - 腳位 6（後方），用於發送超聲波脈衝信號。
-    - HC-SR04 的 Echo 腳位連接到 Raspberry Pi Pico 的 GPIO 腳位：
         - 腳位 12（左側），
-        - 腳位 17（右側），
-        - 腳位 7（後方），用於接收回聲信號。
+        - 腳位 13（右側），
+        - 腳位 4（後方），用於發送超聲波脈衝信號。
+    - HC-SR04 的 Echo 腳位連接到 Raspberry Pi Pico 的 GPIO 腳位：
+        - 腳位 8（左側），
+        - 腳位 9（右側），
+        - 腳位 5（後方），用於接收回聲信號。
     - 以下是使用 MicroPython 撰寫的程式碼，以類別形式實現，能透過 Raspberry Pi Pico 讀取 HC-SR04 超聲波感測器的偵測距離。
 
 - #### Wiring steps for connecting the HC-SR04 to the Raspberry Pi Pico:
@@ -77,13 +77,13 @@
     - VCC (HC-SR04) connects to the 3.3V (pin 36) on the Raspberry Pi Pico: Provides power to the ultrasonic sensor.
     - GND (HC-SR04) connects to the GND pin on the Raspberry Pi Pico: Ensures a common ground between both devices.
     - Trig (HC-SR04) connects to the GPIO pins on the Raspberry Pi Pico:
-         - pin 18 (left),
-        - pin 16 (right),
-        - pin 6 (rear), used for sending ultrasonic pulse signals.
+         - pin 12 (left),
+        - pin 13 (right),
+        - pin 4 (rear), used for sending ultrasonic pulse signals.
     - Echo (HC-SR04) connects to the GPIO pins on the Raspberry Pi Pico:
-        - pin 12 (left),
-        - pin 17 (right),
-        - pin 7 (rear), used for receiving the echo signal.
+        - pin 8 (left),
+        - pin 9 (right),
+        - pin 5 (rear), used for receiving the echo signal.
 
     - Below is the code written in MicroPython, implemented as a class to read the detection distance from the HC-SR04 ultrasonic sensor using the Raspberry Pi Pico.
 

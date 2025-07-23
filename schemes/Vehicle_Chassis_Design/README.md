@@ -66,7 +66,7 @@
   <th>3D modeling of the final Build(最終組裝的3D建模)</th>
   <th>Explanation(說明)</th>
   </tr><tr>
-  <td width="30%"><img src="./img/2024Vehicle_Chassis_Design_down.png" ></td>
+  <td width="30%"><img src="./img/2025Vehicle_Chassis_Design_down.png" ></td>
   <td width="30%"><img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" ></td>
 
 
