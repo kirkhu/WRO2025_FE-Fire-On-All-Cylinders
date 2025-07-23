@@ -25,7 +25,7 @@ The following is a development record of the self-driving car model design and t
     <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
 </tr>
 <tr align="center">
-<th colspan="2">Refer to the seniors GitHub reports(參考學長姐們的Github報告)</th>
+<th >Refer to the seniors GitHub reports(參考學長姐們的Github報告)</th>
 </tr>
 <tr align="center">
 <td> <img src="./img/find_data.jpg" width = "500"  alt="data" align=center /></td>
