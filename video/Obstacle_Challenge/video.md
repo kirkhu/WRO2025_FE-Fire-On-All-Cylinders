@@ -34,7 +34,7 @@
     <tr >
        <td  width="500" ><a href="https://youtu.be/gjE94JxwsU0"><img src="./img/Obstacle-Challenge-Red1@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red1@Fire-On-All-Cylinders"  ></a> </td>
        <td  width="500" ><a href="https://youtu.be/u6ZxDaY2Bvs"><img src="./img/Obstacle-Challenge-Red2@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red2@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/zOrth1XzHYA"><img src="./img/Obstacle-Challenge-Red3@Fire-On-All-Cylinders.jpg" alt="Obstacle-Challenge-Red3@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/-C4rILvoJEo"><img src="./img/Obstacle-Challenge-Red3@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red3@Fire-On-All-Cylinders"  ></a> </td>
     </tr>
     </table>  
     </div>
@@ -52,25 +52,14 @@
     </tr>
     <tr >
        <td  width="500" ><a href="https://youtu.be/WXtJY850_cs"><img src="./img/parking_Left@Fire-On-All-Cylinders.png" alt="parking Left@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/BndS_ziducM"><img src="./img/parking_top@Fire-On-All-Cylinders.jpg" alt="parking Top@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/BndS_ziducM"><img src="./img/parking_top@Fire-On-All-Cylinders.png" alt="parking Top@Fire-On-All-Cylinders"  ></a> </td>
        <td  width="500" ><a href="https://youtu.be/3ksQ_JbKirA"><img src="./img/parking_right@Fire-On-All-Cylinders.jpg" alt="parking Right@Fire On All Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/HETHSDXrlXc"><img src="./img/parking_down@Fire-On-All-Cylinders.jpg" alt="parking Down@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/HETHSDXrlXc"><img src="./img/parking_down@Fire-On-All-Cylinders.png" alt="parking Down@Fire-On-All-Cylinders"  ></a> </td>
     </tr>
     </table>  
     </div>
 
- - ### Explanation to Obstacle Challenge-障礙挑戰說明
 
-  <div align="center">
-  <table >
-    <tr >
-       <th align="center">ALL Fire On All Cylinders-全力以赴</th>
-    </tr>
-    <tr >
-       <td  width="500" ><a href="https://youtu.be/pB6wAqTKomQ"><img src="./img//ALL_Fire_On_All_Cylinderss.jpg" alt="ALL Fire On All Cylinders"  ></a> </td>
-    </tr>
-    </table>  
-  </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
 

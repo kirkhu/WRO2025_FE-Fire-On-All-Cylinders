@@ -9,7 +9,8 @@
 |<img src="./img/team_photo.jpg" width = "50%"  alt="Team Photo " />|</div>  
 
 - ### Funny Photo-搞笑照片
-  - This is our attempt to take a photo using the method of stacking Arhats. In fact, the angle of our back is a bit wrong and we almost slipped down.
+  - 由於我們沒有想法我們三個就排成一排拍照
+  - TSince we had no idea, the three of us lined up and took photos
 
 <div align="center"><img src="./img/funny_photo.jpg" width = "50%"  alt="Funny Photo" /> </div>  
 
@@ -42,14 +43,14 @@
      <td>LIN,JHAN-RONG</td>
      <td align="left">工作分配：<br>
          <ol><li>主要負責車輛硬體整合</li>
-             <li> 協助編寫程式碼 </li>
+             <li> 撰寫報告 </li>
          </ol>
      </td>    
   </tr>
 
   <tr align="center">
       <td><img src="./img/lin.jpg" alt="lin" width="60%"> </td>
-      <td><img src="./img/mo_work.jpg" alt="mo WORK" width="80%"></td>
+      <td><img src="./img/lin_work.jpg" alt="lin WORK" width="80%"></td>
   </tr>
     <tr align="center">
      <th>Personal photo(個人照片)</th>
@@ -57,16 +58,13 @@
   </tr>
    <tr>
      <td align="center">JHANG,YI-WEI</td>
-     <td align="left">Work Assignments： 工作分配:<br>
-         <ol><li>primarily responsible for  writing Code Report recording and writing.</li>
-             <li>Assist in vehicle hardware design.  </li>
-         </ol>
-     </td>    
+     <td align="left"> 工作分配:<br>
+         <ol><li>協助編寫程式</li>
   </tr>
 
   <tr align="center">
       <td><img src="./img/wi.jpg" alt="wi" width="60%"> </td>
-      <td><img src="./img/fu_work.jpg" alt="Fu WORK" width="80%"></td>
+      <td><img src="./img/wi.work.jpg" alt="Fu WORK" width="80%"></td>
   </tr>
 </table>
 

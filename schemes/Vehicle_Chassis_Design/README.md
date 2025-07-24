@@ -17,7 +17,7 @@
 
     |3D Vehicle Chassis Design(3D 車輛底盤設計)| Vehicle Chassis Top View(車輛底盤俯視圖) | Vehicle Chassis Bottom View(車輛底盤底部視圖)|
     |:----:|:----:|:----:|
-    |<img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/2025Vehicle_Chassis_Design_down.png" width="400" alt="2024Vehicle_Chassis_Design_down">|<img src="./img/2024Vehicle_Chassis_Design_down_back.png" width="400" alt="down_view">|
+    |<img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/2025Vehicle_Chassis_Design_down.png" width="400" alt="2024Vehicle_Chassis_Design_down">|<img src="./img/2025Vehicle_Chassis_Design_down_back.png" width="400" alt="down_view">|
   ### 中文:  
   - 我們可以根據車輛的具體需求自訂零件的尺寸與形狀，並利用立體光刻（SLA）3D列印機與雷射切割機，設計並製造車輛底盤的所有零件，齒輪、樂高62821齒輪差速器及輪胎除外。
   - 為了降低軸承的旋轉摩擦，我們在車輛支架中整合了軸承，從而提升車輛的速度。
