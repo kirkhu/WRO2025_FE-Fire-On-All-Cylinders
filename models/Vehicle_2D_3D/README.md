@@ -74,7 +74,7 @@
     )</th>
     </tr><tr>
     <td><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="450" ></td> 
-    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="400" height="400" ></td> 
+    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450"  ></td> 
     </tr>
     </table>
     </div> 
