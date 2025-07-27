@@ -28,7 +28,7 @@
         ```
         - Then, enter unzip Nomachine_7.10.1_1_arm64.zip to unzip the file.
         ```
-        unzip Nomachine_7.10.1_1_arm64.zip
+        sudo dpkg Nomachine_7.10.1_1_arm64.zip
         ```
         - Once extracted, enter sudo dpkg -i nomachine_7.10.1_1_arm64.deb to install.
         ```
