@@ -24,7 +24,7 @@
 ### 中文:
   1. 開啟 VS Code，按下 Ctrl + Shift + P（Mac 請按 Cmd + Shift + P）以開啟指令選單（Command Palette）。
   2. 輸入 Git: Clone 並選擇該選項。
-  3. 貼上 GitHub 儲存庫的網址（例如：https://github.com/username/repo.git），然後按下 Enter。
+  3. 貼上 GitHub 儲存庫的網址（例如：`https://github.com/username/repo.git`），然後按下 Enter。
   4. 選擇本地資料夾作為儲存位置，VS Code 將自動下載並開啟專案。
 ### 英文:
   1. Open VS Code and press `Ctrl + Shift + P` (or `Cmd + Shift + P` on Mac) to open the Command Palette.
