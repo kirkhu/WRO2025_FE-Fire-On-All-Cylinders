@@ -273,7 +273,7 @@
       </tr><tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width="400" alt="Front Assembly"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle1.png" width="400" alt="Steering Knuckle"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width="400" alt="Steering-shaft-holder"></td> 
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width="350" alt="Steering-shaft-holder"></td> 
       </tr>
       </table>
       </div> 
