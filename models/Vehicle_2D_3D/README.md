@@ -43,7 +43,7 @@
 
     </tr><tr>
     <td><img src="./img/onshape.png" width="450" alt="Vehicle_cad"></td> 
-    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="430" alt="vehicle Underfloor"></td> 
+    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450" alt="vehicle Underfloor"></td> 
 
     </tr>
     </table>
