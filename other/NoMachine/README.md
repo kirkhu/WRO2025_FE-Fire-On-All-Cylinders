@@ -30,10 +30,7 @@
         ```
         sudo dpkg -i Nomachine_7.10.1_1_arm64.zip
         ```
-        - Once extracted, enter sudo dpkg -i nomachine_7.10.1_1_arm64.deb to install.
-        ```
-        sudo dpkg -i nomachine_7.10.1_1_arm64.deb
-        ```
+       
         If you see this icon, the installation is complete.
         
         <td><img src="./img/nomachine_ok.png" width="500" alt="nomachine download"></td>
