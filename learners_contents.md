@@ -45,10 +45,8 @@
     - [GitHub Edit(VScode Edit/GIT)](./src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)
 - ### Work Dairy
-    - [March](./other/work_diary/README.md#20240304--20250310)
-    - [April](./other/work_diary/README.md#20240401--20250407)
-    - [May](./other/work_diary/README.md#20240429--20250505)
-    - [June](./other/work_diary/README.md#20240527--20250602)
-    - [July](./other/work_diary/README.md#20240701--20250707)
+    - [March](./other/work_diary/README.md#2025228--2025330)
+    - [April](./other/work_diary/README.md#202543--2025414)
+    - [June](./other/work_diary/README.md#20250603--20250608)
     
 
