@@ -66,24 +66,25 @@
     </tr>  
     </table>
     </div>
+
     ### 中文:
-    2. 偵測棋盤格角點： 使用 OpenCV 的 findChessboardCorners() 函式自動偵測棋盤格的角點位置。對每張校正影像，此步驟會找出計算校正參數所需的角點座標。
+    1. 偵測棋盤格角點： 使用 OpenCV 的 findChessboardCorners() 函式自動偵測棋盤格的角點位置。對每張校正影像，此步驟會找出計算校正參數所需的角點座標。
 
-    3. 計算校正參數： 使用 calibrateCamera() 函式計算相機的內參數與畸變係數。這些參數包含焦距、光學中心，以及鏡頭的徑向和切向畸變係數。
+    2. 計算校正參數： 使用 calibrateCamera() 函式計算相機的內參數與畸變係數。這些參數包含焦距、光學中心，以及鏡頭的徑向和切向畸變係數。
 
-    4. 套用校正參數： 在實際影像中，使用 undistort() 函式將校正參數應用到每一幀影像。經校正的影像能減少廣角鏡頭產生的畸變，使影像更接近真實比例。
+    3. 套用校正參數： 在實際影像中，使用 undistort() 函式將校正參數應用到每一幀影像。經校正的影像能減少廣角鏡頭產生的畸變，使影像更接近真實比例。
 
-    5. 即時處理（如有需要）： 若在 Jetson Nano 上需進行即時校正，需確保影像處理效率。考量 Jetson Nano 性能有限，可調整影像解析度或優化處理步驟以提升校正速度。
+    4. 即時處理（如有需要）： 若在 Jetson Nano 上需進行即時校正，需確保影像處理效率。考量 Jetson Nano 性能有限，可調整影像解析度或優化處理步驟以提升校正速度。
     ### 英文:
-    <li>
-    <strong>Detect Checkerboard Corners:</strong> Use OpenCV's findChessboardCorners() function to automatically detect the corner positions of the checkerboard. For each calibration image, this step finds the corner coordinates needed for calculating the correction parameters.</li>
-    <li>
-    Calculate Calibration Parameters: Use the calibrateCamera() function to calculate the camera's intrinsic parameters and distortion coefficients. These parameters include focal length, optical center, and radial and tangential distortion coefficients of the lens.</li>
-    <li>
-    <strong>Apply Correction Parameters:</strong> In actual images, use the undistort() function to apply the correction parameters to each frame. This corrected image will reduce the distortion caused by the wide-angle lens, making the image closer to true proportions.</li>
-    <li>
-    <strong>Real-Time Processing (If Needed):</strong> If real-time correction is required on the Jetson Nano, ensure efficiency in image processing. Given the limited performance of the Jetson Nano, consider adjusting image resolution or optimizing processing steps to enhance correction speed.</li>
-    </ol>
+
+    1. <strong>Detect Checkerboard Corners:</strong> Use OpenCV's findChessboardCorners() function to automatically detect the corner positions of the checkerboard. For each calibration image, this step finds the corner coordinates needed for calculating the correction parameters.
+    
+    2. <strong>Calculate Calibration Parameters:<strong> Use the calibrateCamera() function to calculate the camera's intrinsic parameters and distortion coefficients. These parameters include focal length, optical center, and radial and tangential distortion coefficients of the lens.
+   
+    3. <strong>Apply Correction Parameters:</strong> In actual images, use the undistort() function to apply the correction parameters to each frame. This corrected image will reduce the distortion caused by the wide-angle lens, making the image closer to true proportions.
+    
+    4. <strong>Real-Time Processing (If Needed):</strong> If real-time correction is required on the Jetson Nano, ensure efficiency in image processing. Given the limited performance of the Jetson Nano, consider adjusting image resolution or optimizing processing steps to enhance correction speed.
+   
 
     __以下是一個簡單的程式範例：__
     __A simple code example is as follows:__
