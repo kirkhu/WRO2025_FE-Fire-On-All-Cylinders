@@ -83,6 +83,6 @@
        - install the OpenCV application on the Nvidia Jetson Nano
         The installation method has already been explained in the <a href="../OpenCV/README.md" target="_blank">OpenCV Introduction</a> section.
 
-      __The operating system for Self-Driving Cars has been successfully installed.++__
+      __The operating system for Self-Driving Cars has been successfully installed.__
               
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
