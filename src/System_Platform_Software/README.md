@@ -23,14 +23,14 @@
        - Update the operating environment.  
        ```
          sudo apt-get update
-         sudo apt-get upgrade
+         sudo apt-get upgrade -y
        ```
        - __Enable automatic fan settings__
 
          Download the Automagic fan control tool for the Nvidia Jetson Nano.
        ```
          git clone https://github.com/Pyrestone/jetson-fan-ctl.git 
-         sudo apt install python3-dev 
+         sudo apt install python3-dev -y
          cd jetson-fan-ctl
          sudo ./install.sh #Run the fan program and set it to execute at every startup.
        ```
@@ -39,7 +39,7 @@
 
        - Install or update pip.
        ```
-         sudo apt-get install python3-pip 
+         sudo apt-get install python3-pip -y
          pip3 install --upgrade pip
        ```
        - Install Cython (to use Python in combination with C)
@@ -55,15 +55,15 @@
        ```
        - Update all system packages.
        ```
-         sudo apt full-upgrade
+         sudo apt full-upgrade -y
        ``` 
        - Install pyserial
        ```
-         pip install pyserial
+         pip3 install pyserial
        ```
        - Install driver for the Adafruit-BNO055 gyroscope module. 
        ```
-         sudo -H python3 -m pip install Adafruit-BNO055
+         pip3 install Adafruit-BNO055
        ```
        - Install the driver for the Camera Module IMX477
        ```
@@ -74,6 +74,7 @@
        ```
        - Install the USB wireless Wi-Fi module driver TP-Link T3U Plus (AC1300) 
        ```
+         sudo apt install dkms -y
          git clone "https://github.com/RinCat/RTL88x2BU-Linux-Driver.git" /usr/src/rtl88x2bu-git
          sed -i 's/PACKAGE_VERSION="@PKGVER@"/PACKAGE_VERSION="git"/g' /usr/src/rtl88x2bu-git/dkms.conf
          sudo dkms add -m rtl88x2bu -v git
