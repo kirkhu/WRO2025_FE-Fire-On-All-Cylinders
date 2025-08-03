@@ -8,9 +8,9 @@
  - To write engineering documentation on GitHub, we need to learn the following two types of web markup languages:
   - **HTML (HyperText Markup Language)**: HTML is a markup language used to create and structure webpage content. It defines the structure for elements like text, images, links, and tables, allowing browsers to properly display content. When writing engineering documentation, HTML helps us organize the page structure, making information more readable.
     - #### [HTML Document link](https://www.w3schools.com/html/)
-    ### ˇ中文:
+### 中文:
   - **Markdown**：Markdown 是一種輕量級標記語言，特別適合在 GitHub 上撰寫文件。它使用簡單的語法來格式化文本，例如標題、列表、連結、圖像和程式碼區塊。 Markdown 與 GitHub 內建渲染器無縫協作，讓工程文件易於閱讀和維護。
-### 英文:英文:
+### 英文:
   - **Markdown**: Markdown is a lightweight markup language, especially suited for writing documentation on GitHub. It uses simple syntax to format text, such as headers, lists, links, images, and code blocks. Markdown works seamlessly with GitHub's built-in renderer, making engineering documentation easy to read and maintain. 
     - #### [Markdown Document link](https://markdown.tw/#link)
 
