@@ -32,7 +32,7 @@
   </tr>
   <tr >
      <td width="40%"><a href="https://youtu.be/qciWv4oi2Eo"><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge power 50 half width half height width @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href="https://youtu.be/JAL-8O-WwdY"><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge power 70 half width half height width @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href="https://youtu.be/DibKxSFe7u0"><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge power 70 half width half height width @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>
 
