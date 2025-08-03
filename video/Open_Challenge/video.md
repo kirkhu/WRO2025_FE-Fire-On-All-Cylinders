@@ -31,7 +31,7 @@
      <th>Power 70</th>    
   </tr>
   <tr >
-     <td width="40%"><a \https://youtu.be/lRlLb4kgf8M"><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge power 50 half width half height width @ Fire On All Cylinders" ></a> </td>
+     <td width="40%"><a \[https://youtu.be/lRlLb4kgf8M](https://youtu.be/DibKxSFe7u0)"><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge power 50 half width half height width @ Fire On All Cylinders" ></a> </td>
      <td width="40%"><a href="https://youtu.be/JAL-8O-WwdY"><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge power 70 half width half height width @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>
