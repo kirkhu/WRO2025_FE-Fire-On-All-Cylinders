@@ -6,7 +6,7 @@
 The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
 ## 2025/2/28 ~ 2025/3/30  
 
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** 胡賢邑、林展榮、張奕崴 
 
 **內容:**  
 
