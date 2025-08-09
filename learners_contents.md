@@ -48,5 +48,6 @@
     - [March](./other/work_diary/README.md#2025228--2025330)
     - [April](./other/work_diary/README.md#202543--2025414)
     - [June](./other/work_diary/README.md#20250603--20250608)
-    
+
+    <div align="center"><img src="./other/img/甘特圖.png" width="600" alt=" logo"></div> 
 
