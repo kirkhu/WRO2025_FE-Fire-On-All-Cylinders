@@ -11,7 +11,7 @@
 - ### System Operation Process -系統操作流程
     <div align="center"><img src="./img/System_operation_process.png"   alt="System Operation Process" > </div>
 #### 中文:
-- Nvidia Jetson Nano 主控制器透過攝影模組擷取影像，並使用 OpenCV 進行處理，以偵測障礙物與邊界牆。同時，透過 I2C 通訊協定 從 BNO055 陀螺儀方位感測器 收集方向資料，計算行進方向以避開障礙物與邊界牆。
+- Nvidia Jetson orin Nano 主控制器透過攝影模組擷取影像，並使用 OpenCV 進行處理，以偵測障礙物與邊界牆。同時，透過 I2C 通訊協定 從 BNO055 陀螺儀方位感測器 收集方向資料，計算行進方向以避開障礙物與邊界牆。
 - 計算後的路徑資料會透過 UART 通訊 傳送至 Raspberry Pi Pico I/O 控制器進行控制。
 
 - 在停車過程中，作為 I/O 控制器的 Raspberry Pi Pico 不僅接收來自 Jetson Nano 主控制器的資料，還同時從三個方向的 HC-SR04 超音波距離感測器 收集距離資料，並根據這些資料進行計算，以控制自動停車的移動路徑。
@@ -20,7 +20,7 @@
 
 - 同時，作為 I/O 控制器的 Raspberry Pi Pico 處理來自主控制器 Jetson Nano 的車輛移動控制值，並將結果傳送至 馬達控制器（L293D），以控制直流馬達的正反轉與轉速。
 #### 英文:
-- The Nvidia Jetson Nano main controller captures images using a camera module and processes them with OpenCV to detect obstacles and boundary walls. It simultaneously collects directional data from the BNO055 gyroscope orientation sensor via the I2C communication protocol to calculate the travel direction to avoid obstacles and boundary walls. The calculated path data is then transmitted via UART communication to the Raspberry Pi Pico I/O controller for control.
+- The Nvidia Jetson orin Nano main controller captures images using a camera module and processes them with OpenCV to detect obstacles and boundary walls. It simultaneously collects directional data from the BNO055 gyroscope orientation sensor via the I2C communication protocol to calculate the travel direction to avoid obstacles and boundary walls. The calculated path data is then transmitted via UART communication to the Raspberry Pi Pico I/O controller for control.
 - During parking, the Raspberry Pi Pico, acting as an I/O controller, not only receives data from the Nvidia Jetson Nano main controller but also simultaneously collects distance data from HC-SR04 ultrasonic distance sensors in three directions. Based on this data, it performs calculations to control the movement path for automated parking.
 - As an I/O controller, the Raspberry Pi Pico receives vehicle movement control values from the Nvidia Jetson Nano main controller and performs further calculations within the Pico. It then sends the results to the front-wheel servo motor (MG90S) to control the driving direction, thereby completing the obstacle avoidance task.
 - At the same time, acting as an I/O controller, the Raspberry Pi Pico processes vehicle movement control values received from the Nvidia Jetson Nano main controller and sends the results to the motor controller (L293D) to control the DC motor’s forward and reverse rotation and speed.
@@ -63,34 +63,35 @@
       <td >
 
   __Specification:__ 
-    - Processor: Quad-core ARM Cortex-A57, 64-bit CPU
+    - Processor: Hexa-core Arm Cortex-A78AE v8.2 64-bit CPU
     - GPU: 128-core NVIDIA Maxwell GPU
-    - Memory: 4GB LPDDR4
-    - Connectivity: Gigabit Ethernet, 4×USB 3.0 ports
-    - GPIO: 40-pin expansion header, compatible with Raspberry Pi's standard GPIO
-    - Dimensions: 100×80×29mm
-    - Weight: 140 grams
+    - Memory: 8 GB 128-bit LPDDR5, 102 GB/s
+    - Connectivity: Type A: 4 USB 3.2 Gen2. Type C: 1 for debug and device mode
+    - GPIO: 40-pin Header (UART, SPI, I2S, I2C, GPIO)12-pin button header
+    - Dimensions: 100 mm x 79 mm x 21 mm
+    - Weight: 771 grams
 
   __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico for further processing.
     <br></br>
 
    __產品規格：__
-    - 處理器： 四核心 ARM Cortex-A57，64 位元 CPU
-    - 圖形處理器： 128 核心 NVIDIA Maxwell GPU
-    - 記憶體： 4GB LPDDR4
-    - 連接性： Gigabit Ethernet、有 4 個 USB 3.0 連接埠
-    - GPIO： 40 針擴充接頭，相容於樹莓派標準 GPIO 排針
-    - 尺寸： 100×80×29 公釐
-    - 重量： 140 公克
+    - 處理器：	6 核 Arm Cortex-A78AE v8.2 64 位元 CPU
+      1.5 MB L2 / 4 MB L3
+    - 圖形處理器： 	具有 1024 個 NVIDIA CUDA 核心和32 個 Tensor 核心的NVIDIA Ampere 架構
+    - 記憶體：8 GB 128 位元 LPDDR5，102 GB/秒
+    - 連接性：A 型：4 個 USB 3.2 Gen2。C 型：1 個，用於 debug 與裝置模式
+    - GPIO： 40-pin Header (UART, SPI, I2S, I2C, GPIO)12-pin button     header
+    - 尺寸： 100 mm x 79 mm x 21 mm
+    - 重量： 771 公克
   __競賽中之應用：__
   - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
  
     <br></br>
-    __Purchase URL:<a href="https://robotkingdom.com.tw/product/rk-nvidia-jetson-nano-developer-b01/" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a>__
+    __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a>__
     </td>
     <td>
-    <img src="./img/Jetson_nano.png" width = "400"  alt="Jetson nano" align=center />   
+    <img src="./img/jetson_orin_nano.png" width = "400"  alt="Jjetson_orin_nano" align=center />   
     </td>
     </tr>
     </table>
