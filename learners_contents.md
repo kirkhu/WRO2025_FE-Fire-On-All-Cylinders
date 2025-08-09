@@ -49,5 +49,5 @@
     - [April](./other/work_diary/README.md#202543--2025414)
     - [June](./other/work_diary/README.md#20250603--20250608)
 
-    <div align="center"><img src="./other/img/甘特圖.png" width="1000" alt=" 甘特圖"></div> 
+    <div align="center"><img src="./other/img/甘特圖.png" width="1300" alt=" 甘特圖"></div> 
 
