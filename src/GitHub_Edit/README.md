@@ -38,22 +38,25 @@
   - You can now browse and edit files in the project directly in VS Code. Any changes will appear instantly in the editor.
 
   #### 4. Commit Changes-提交更改
-  ### 中文:
+### 中文:
   1. 進行變更後，點擊活動欄中的「原始碼控制」圖示（通常是 Git 符號）。 
   2. 在「變更」部分中查看所有未提交的變更。 
   3. 輸入提交訊息，例如“更新index.html”，然後按一下“✓”按鈕進行提交。
+
+### 英文:
   1. After making changes, click on the “Source Control” icon in the activity bar (usually the Git symbol).
   2. Review all uncommitted changes in the “Changes” section.
   3. Enter a commit message, like “Update index.html,” and then click the `✓` button to commit.
-### 英文:
   #### 5. Push to GitHub-推送到 GitHub
   ### 中文:
-  1. 提交後，點擊「...」選單，選擇「推送」將變更傳送到 GitHub。 
-  2.首次推送可能需要登入GitHub並授權連線。
-  1. After committing, click the “...” menu and select “Push” to send the changes to GitHub.
-  2. For the first push, you may need to log in to GitHub and authorize the connection.
+  1. 提交後，點擊“...”選單並選擇“推送”將變更傳送到 GitHub。
+  2. 首次推播時，您可能需要登入 GitHub 並授權連線。
+  
 ### 英文:
-  #### 6. Publish GitHub Pages (if updating a GitHub page)-發布 GitHub 頁面（如果更新 GitHub 頁面）
+1. After committing, click the “...” menu and select “Push” to send the changes to GitHub.
+  2. For the first push, you may need to log in to GitHub and authorize the connection.
+
+#### 6. Publish GitHub Pages (if updating a GitHub page)-發布 GitHub 頁面（如果更新 GitHub 頁面）
   ### 中文:
   1. 登入GitHub，進入倉庫頁面。 
   2. 前往「設定」>「頁面」。 
@@ -61,7 +64,7 @@
   4. 推播變更後，請稍候即可在 GitHub Pages 上看到更新。 
 
 使用 VS Code 和 Git，您可以透過在本地進行編輯並直接推送變更來輕鬆編輯和更新您的 GitHub 頁面。如果一切都配置好了，您可以簡化此過程以便快速編輯和同步。
-### 英文:英文:
+### 英文:
   1. Log in to GitHub and go to the repository page.
   2. Go to “Settings” > “Pages.”
   3. Ensure the publishing branch and directory (like `main` or `gh-pages`) are set correctly.
