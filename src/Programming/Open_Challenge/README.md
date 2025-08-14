@@ -71,7 +71,7 @@
               else:
                     color_y_positions.append(0)  # If no contours are found, return 0
           return color_y_positions
-    ```
+      ```
 
  - ### Open Challenge Code Overview of Jetson nano
    - #### Open Challenge Code Program Jetson nano Libraries
