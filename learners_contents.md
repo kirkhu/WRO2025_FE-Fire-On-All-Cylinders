@@ -40,7 +40,6 @@
 - ### Performance videos
     - [Open Challenge](./video/Open_Challenge/video.md)
     - [Obstacle Challenge](./video/Obstacle_Challenge/video.md)
-    - [Self-Driving Car Design Process Video](./video/Design_Process_Video/video.md)
 - ### GitHub Utilization
     - [GitHub Edit(VScode Edit/GIT)](./src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)
