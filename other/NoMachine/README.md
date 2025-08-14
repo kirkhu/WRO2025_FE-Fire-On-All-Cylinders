@@ -18,10 +18,10 @@
 
       __Download NoMachine for Linux ARM:-下載適用於 Linux ARM 的 NoMachine：__
       ### 中文
-        - 在 Jetson Nano 的控制器介面中，開啟瀏覽器並導航至 <a href="https://downloads.nomachine.com/download/?id=1" target="_blank">NoMachine 下載頁面</a>。尋找並選擇與 Jetson Nano 相容的 NoMachine for Linux ARM（64 位元）軟體套件。
+        - 在 Jetson Nano 的控制器介面中，開啟瀏覽器並導航至 <a href="https://download.nomachine.com/download/?id=30&platform=linux&distro=arm" target="_blank">NoMachine 下載頁面</a>。尋找並選擇與 Jetson Nano 相容的 NoMachine for Linux ARM（64 位元）軟體套件。
         - 下載完成後，打開終端機並輸入 cd Downloads 導航至下載資料夾。
         ### 英文
-        - In the Jetson Nano’s controller interface, open a browser and navigate to the <a href="https://downloads.nomachine.com/download/?id=1" target="_blank">NoMachine download page</a>. Locate and select the NoMachine for Linux ARM (64-bit) software package, which is compatible with the Jetson Nano.      
+        - In the Jetson Nano’s controller interface, open a browser and navigate to the <a href="https://download.nomachine.com/download/?id=30&platform=linux&distro=arm" target="_blank">NoMachine download page</a>. Locate and select the NoMachine for Linux ARM (64-bit) software package, which is compatible with the Jetson Nano.      
         - After downloading, open the terminal and enter cd Downloads to navigate to the folder.-下載後，打開終端機並輸入 cd Downloads 導航到該資料夾。
         ```
         cd Downloads
