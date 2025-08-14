@@ -5,7 +5,7 @@
 - ### Hardware Selection
     - [Main Controller Comparison](./schemes/Main_Controller_Choosing/README.md)
     - [Motor & Sensor Intermediate I/O Controller Comparison](./schemes/Motor_Sensor_Controller_Choosing/README.md)
-    - [Moter Selection](./schemes/Motor/README.md)
+    - [Motor Selection](./schemes/Motor/README.md)
     - [Ultrasonic rangefinder](./schemes/HC-SR04/README.md)
     - [Gyroscope orientation sensor](./schemes/BNO055/README.md)
     - [Camera Selection](./schemes/Camera/README.md)
