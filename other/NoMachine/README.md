@@ -42,10 +42,10 @@
       
       __Download NoMachine for Windows (64-bit)-下載適用於 Windows（64 位元）的 NoMachine__
        ### 中文
-        - 在 Windows 電腦上，開啟瀏覽器並造訪 <a href="https://downloads.nomachine.com/windows/?id=3" target="_blank">NoMachine 下載頁面</a>。尋找並選擇適用於 Windows（64 位元）的 NoMachine 軟體包，下載與 Windows 相容的版本。
+        - 在 Windows 電腦上，開啟瀏覽器並造訪 <a href="https://pse.is/7zvl7y" target="_blank">NoMachine 下載頁面</a>。尋找並選擇適用於 Windows（64 位元）的 NoMachine 軟體包，下載與 Windows 相容的版本。
         - 下載完成後，執行安裝檔。安裝完成後，您需要__重新啟動__電腦。
         ### 英文
-        - In a Windows computer, open a browser and go to the <a href="https://downloads.nomachine.com/windows/?id=3" target="_blank">NoMachine download page</a>. Find and select the NoMachine for Windows (64-bit) software package to download the version compatible with Windows.
+        - In a Windows computer, open a browser and go to the <a href="https://pse.is/7zvl7y" target="_blank">NoMachine download page</a>. Find and select the NoMachine for Windows (64-bit) software package to download the version compatible with Windows.
         - After downloading, run the installation file. You will need to __restart__ the computer afterward.
         <td><img src="./img/nomachine_download.jpg" width="500" alt="nomachine download"></td>
 
