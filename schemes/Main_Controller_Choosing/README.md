@@ -7,42 +7,49 @@ Jetson Nano 和 Jetson Orin Nano 作為Nvidia研發的嵌入式邊緣AI產品，
 Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格：
 
 <div align=center>
-<table>
-<tr>
-<th rowspan="2" width=300>Photo(照片)</th>
-<th>Nvidia Jetson Nano</th>
-<th>Nvidia Jetson Orin Nano</th>
-</tr><tr>
-<td><div align=center><img src="./img/jeston_nano.png" width=200></td>
-<td><div align=center><img src="./img/raspberry_pi_4.png" width=200></td>
-</tr><tr>
+<table> 
+<tr> 
+<th rowspan="2" width=300>Photo(照片)</th> 
+<th>Nvidia Jetson Nano</th> 
+<th>Nvidia Jetson Orin Nano</th> 
+</tr>
+<tr> 
+<td><div align=center><img src="./img/jeston_nano.png" width=200></div></td> 
+<td><div align=center><img src="./img/jetson_orin_nano.png" width=200></div></td> 
+</tr>
+<tr> 
 <th>Number of Pins(腳位數量)</th>
+<td>40P</td> 
 <td>40P</td>
-<td>40P</td>
-</tr><tr>
+</tr>
+<tr>
 <th>CPU</th>
-<td>Quad-core ARM Cortex-A57</td>
+<td>Quad-core ARM® Cortex®-A57 MPCore</td>
 <td>8-core NVIDIA Carmel ARM®v8.2</td>
-</tr><tr>
+</tr>
+<tr>
 <th>GPU</th>
-<td>NVIDIA Maxwell (128 CUDA Cores)</td>
-<td>NVIDIA Ampere (1024 CUDA Cores)</td>
-</tr><tr>
-<th>Storage Spac(儲存空間)</th>
+<td>NVIDIA Maxwell™ architecture with 128 NVIDIA CUDA® cores</td>
+<td>NVIDIA Ampere architecture with 1024 NVIDIA CUDA® cores</td>
+</tr>
+<tr>
+<th>Storage Space(儲存空間)</th>
 <td>4 GB 64-bit LPDDR4</td>
-<td>8 GB LPDDR5</td>
-</tr><tr>
+<td>8 GB 128-bit LPDDR5</td>
+</tr>
+<tr>
 <th>Built-in Bluetooth and Wireless WiFi Connectivity(內建藍牙與無線 WiFi 連接功能)</th>
 <td>Requires external Bluetooth and wireless WiFi connectivity</td>
-<td>Built-in</td>
-</tr><tr>
+<td>Requires external Bluetooth and wireless WiFi connectivity</td>
+</tr>
+<tr>
 <th>Gflops(每秒千兆次浮點運算)</th>
-<td>472</td>
-<td>13.5</td>
-</tr><tr>
+<td>472</td> <td>40,000 (FP16)</td>
+</tr>
+<tr>
 <th>Price(價格)</th>
 <td>Expensive</td>
-<td>Cheap</td>  
+<td>Very Expensive</td>
 </tr>
 </table>
 </div>
