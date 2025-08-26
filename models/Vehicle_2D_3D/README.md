@@ -71,8 +71,8 @@
     <th>3D Vehicle Chassis Design (車輛底盤 3D 設計)</th>
     <th>3D Vehicle Chassis Models (車輛底盤 3D 模型)</th>
     </tr><tr>
-    <td><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="450" ></td> 
-    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450"  ></td> 
+    <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="450" ></td> 
+    <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450"  ></td> 
     </tr>
     </table>
     </div> 
