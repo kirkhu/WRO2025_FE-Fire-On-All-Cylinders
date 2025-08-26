@@ -119,7 +119,7 @@
     <div align="center">
     <table>
     <tr align=center>
-    <td width="30%"><img src="./img/angle.png" width="300" alt="angle"></td>
+    <td width="30%"><img src="./img/angle.png" width="350" alt="angle"></td>
     <td width="30%"><img src="./img/80acmen.png" width="350" alt="Ackermann_steering_geometry_lego"></td>
     </tr>
     </table>
