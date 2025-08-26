@@ -59,10 +59,10 @@
     <th>Vehicle Mid-Deck(車輛中層板)</th>
     <th>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
-    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="100" alt="Vehicle_cad"></td> 
-    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="100"  alt="vehicle Underfloor"></td> 
-    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="100" alt="Vehicle_Mid_deck"></td> 
-    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="100" alt="Vehicle_Top_Deck"></td>
+    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="300" alt="Vehicle_cad"></td> 
+    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" width="300"  alt="vehicle Underfloor"></td> 
+    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" width="300" alt="Vehicle_Mid_deck"></td> 
+    <td align="center"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" width="300" alt="Vehicle_Top_Deck"></td>
     </tr>
     </table>
     </div> 
