@@ -42,9 +42,8 @@
     <th>3D CAD drawing of vehicle chassis components (車輛底盤零件的 3D CAD 圖面)</th>
 
     </tr><tr>
-    <td><img src="./img/onshape.png" width="450" alt="Vehicle_cad"></td> 
-    <td><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450" alt="vehicle Underfloor"></td> 
-
+    <td wdith="50%"><img src="./img/onshape.png" width="450" alt="Vehicle_cad"></td> 
+    <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450" alt="vehicle Underfloor"></td> 
     </tr>
     </table>
     </div> 
