@@ -219,7 +219,8 @@
     <th>High-strength resin(高強度樹脂)</th>
     <th>Impact-resistant resin(耐衝擊樹脂)</th>
     <th>Printing completed(列印完成)<th>
-    </tr><tr>
+    </tr>
+    <tr>
     <td><img src="./img/High-strength_resin.png" width="200" ></td> 
     <td><img src="./img/Impact-resistant_resin.png" width="200"  ></td> 
     <td><img src="./img/3D_Finished_Product.jpg" width=350 alt="3D Finished Product." ><td>
