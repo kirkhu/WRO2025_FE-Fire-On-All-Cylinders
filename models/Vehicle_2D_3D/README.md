@@ -121,7 +121,7 @@
      </table>
      </div>
   - ####  Operation of Laser-Cutting Machine-雷射切割機操作
-    <div align="center"><img src="./img/2D.jpg " width="400" alt="car_board"></div>
+    <div align="center"><img src="./img/2D.jpg" width="400" alt="car_board"></div>
 
  - ###  3D Vehicle Model - Onshape Model Sketch-3D 車輛模型 — Onshape 模型草圖
  - #### 中文:
