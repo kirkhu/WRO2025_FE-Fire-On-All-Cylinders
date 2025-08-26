@@ -1,23 +1,17 @@
 <div align=center><img src="../../other/img/logo.png" width=300></div>
 
 # <div align="center">Controller Selection-控制器選擇 </div> 
+Jetson Nano 和 Jetson Orin Nano 作為Nvidia研發的嵌入式邊緣AI產品，都擁有卓越的AI運算能力，因為同時擁有GPIO腳位，很適合拿來開發智慧家居、自駕車、DIY專案等...。
 
-Jetson Nano 和 Raspberry Pi 是台灣常見且低成本的控制器，具備 AI 影像識別能力，適用於多種應用，包括教育中的程式教學、智慧家庭裝置、自駕車以及 DIY 專案。
-
-Jetson Nano and Raspberry Pi are commonly available low-cost controllers in Taiwan with AI image recognition capabilities, suitable for various applications, including programming instruction in education, smart home devices, autonomous vehicles, and DIY projects.
-
-## Jetson Nano & Raspberry Pi Controller 
-Comparison-Jetson Nano 與 Raspberry Pi 控制器比較
-比較結果如以下表格所示。
-
-The comparison is shown in the table below.
+## Jetson Nano & Jetson Orin Nano Controller
+Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格：
 
 <div align=center>
 <table>
 <tr>
 <th rowspan="2" width=300>Photo(照片)</th>
 <th>Nvidia Jetson Nano</th>
-<th>Raspberry Pi 4B</th>
+<th>Nvidia Jetson Orin Nano</th>
 </tr><tr>
 <td><div align=center><img src="./img/jeston_nano.png" width=200></td>
 <td><div align=center><img src="./img/raspberry_pi_4.png" width=200></td>
@@ -27,16 +21,16 @@ The comparison is shown in the table below.
 <td>40P</td>
 </tr><tr>
 <th>CPU</th>
-<td>Quad-core ARM® Cortex®-A57 MPCore</td>
-<td>1.5GHz 64-bit Quad-core ARM Cortex-A72 CPU</td>
+<td>Quad-core ARM Cortex-A57</td>
+<td>8-core NVIDIA Carmel ARM®v8.2</td>
 </tr><tr>
 <th>GPU</th>
-<td>NVIDIA Maxwell™ architecture with 128 NVIDIA CUDA®  cores</td>
-<td>Broadcom VideoCore VI<br> H.265 (4kp60 decode)<br> H264 (1080p60 decode, 1080p30 encode) OpenGL ES 3.1<br> Vulkan 1.0</td>
+<td>NVIDIA Maxwell (128 CUDA Cores)</td>
+<td>NVIDIA Ampere (1024 CUDA Cores)</td>
 </tr><tr>
 <th>Storage Spac(儲存空間)</th>
 <td>4 GB 64-bit LPDDR4</td>
-<td>8GB LPDDR4-3200 SDRAM</td>
+<td>8 GB LPDDR5</td>
 </tr><tr>
 <th>Built-in Bluetooth and Wireless WiFi Connectivity(內建藍牙與無線 WiFi 連接功能)</th>
 <td>Requires external Bluetooth and wireless WiFi connectivity</td>
