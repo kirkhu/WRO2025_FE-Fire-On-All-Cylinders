@@ -1,7 +1,7 @@
 <div align=center><img src="../../other/img/logo.png" width=300></div>
 
 # <div align="center">Controller Selection-控制器選擇 </div> 
-Jetson Nano 和 Jetson Orin Nano 作為Nvidia研發的嵌入式邊緣AI產品，都擁有卓越的AI運算能力，因為同時擁有GPIO腳位，很適合拿來開發智慧家居、自駕車、DIY專案等...。
+Jetson Nano 和 Jetson Orin Nano 作為Nvidia研發的嵌入式邊緣AI產品，都擁有卓越的AI運算能力，因為同時擁有GPIO腳位，因此很適合拿來開發智慧家居、自駕車、DIY專案等...。
 
 ## Jetson Nano & Jetson Orin Nano Controller
 Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格：
