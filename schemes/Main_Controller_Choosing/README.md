@@ -25,7 +25,7 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 <tr>
 <th>CPU</th>
 <td>Quad-core ARM® Cortex®-A57 MPCore</td>
-<td>8-core NVIDIA Carmel ARM®v8.2</td>
+<td>6-core Arm® Cortex®-A78AE V8.2 64-bit CPU</td>
 </tr>
 <tr>
 <th>GPU</th>
