@@ -109,7 +109,7 @@ The following is a development record of the self-driving car model design and t
 ## 2025/08/25 ~ 2025/08/31
 **成員:** 胡賢邑、林展榮、張奕崴
 **內容:**
-- 有了全國賽的經驗之後，我們在阿克曼轉向結構上做出改動，我們將原先的螺絲及十字軸連接修改為使用圓球連接，
+- 有了全國賽的經驗之後，我們在阿克曼轉向結構上做出改動，我們為了增加自駕車的轉向角度，因此我們將原先拉桿上的螺絲和十字軸連接改為球狀結構連接。
 
 <div align="center">
 <table>
