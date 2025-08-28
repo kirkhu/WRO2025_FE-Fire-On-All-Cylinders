@@ -38,69 +38,83 @@ Here is a specification comparison between the two:
 <div align=center>
 <table>
 <tr>
-<th rowspan="2" width=300>Photo(照片)</th>
-<th>Raspberry Pi Pico</th>
-<th>Esp32 wifi</th>
+<th rowspan="2" width=200>Photo(照片)</th>
+<th width=200><div align=center>Raspberry Pi Pico2 WH</th>
+<th width=200><div align=center>Raspberry Pi Pico</th>
+<th width=200><div align=center>Esp32 wifi</th>
 </tr><tr>
+<td><div align=center><img src="../../other/work_diary/img/8/4.png" height="200"></td>
 <td><div align=center><img src="./img/Raspberry_Pi_Pico.png" height="200"></td>
 <td><div align=center><img src="./img/esp32.png" height="200"></td>
 </tr><tr>
 <th>CPU</th>
+<td>Dual Arm Cortex-M33 or dual RISC-V Hazard3 processors @ 150MHz</td>
 <td>Dual-core ARM Cortex-M0+ @ 133 MHz</td>
 <td>Dual-core Xtensa LX6 @ 160/240 MHz</td>
 </tr>
 <tr>
 <th>RAM</th>
+<td>520 KB SRAM</td>
 <td>264 KB SRAM</td>
 <td>520 KB SRAM</td>
 </tr>
 <tr>
 <th>WIFI</th>
+<td>2.4GHz 802.11n wireless LAN and Bluetooth 5.2</td>
 <td>None</td>
 <td>Wi-Fi 802.11b/g/n (2.4 GHz), Bluetooth (v4.2)</td>
 </tr>
 <tr>
 <th>Storage</th>
+<td>4 MB Flash</td>
 <td>2 MB Flash</td>
 <td>Supports external Flash (typically 4 MB to 16 MB)</td>
 </tr>
 <tr>
 <th>GPIO</th>
 <td>26 GPIO pins</td>
+<td>26 GPIO pins</td>
 <td>34 GPIO pins</td>
 </tr>
 <tr>
 <th>ADC</th>
+<td>1-channel ADC (12-bit).</td>
 <td>3-channel ADC (12-bit).</td>
 <td>18-channel ADC (12-bit).</td>
 </tr>
 <tr>
 <th>PWM</th>
 <td>Configurable PWM output.</td>
+<td>Configurable PWM output.</td>
 <td>Supports multi-channel PWM</td>
 </tr>
 <tr>
 <th>Data transmission interface</th>
+<td>I2C, SPI, UART</td>
 <td>I2C, SPI, UART</td>
 <td>I2C, SPI, UART, CAN, I2S</td>
 </tr>
 <tr>
 <th>Voltage input</th>
 <td>1.8V - 5.5V</td>
+<td>1.8V - 5.5V</td>
 <td>2.2V - 3.6V</td>
 </tr>
 <tr>
 <th>size</th>
+<td>51 x 21 mm</td>
 <td>51 x 21 mm</td>
 <td>18 x 25 mm</td>
 </tr>
 <tr>
 <th>Price</th>
 <td>cheap</td>
+<td>cheap</td>
 <td>Relatively expensive</td>
 </tr>
 <tr>
 <th>Development environment</th>
+<td>MicroPython、C/C++</td>
 <td>MicroPython、C/C++</td>
 <td>Arduino IDE、MicroPython、ESP-IDF</td>
 </tr>
