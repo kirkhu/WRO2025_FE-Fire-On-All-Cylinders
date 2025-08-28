@@ -112,17 +112,29 @@ The following is a development record of the self-driving car model design and t
 - 有了全國賽的經驗之後，我們在阿克曼轉向結構上做出改動，我們為了增加自駕車的轉向角度，因此我們將原先拉桿上的螺絲和十字軸連接改為球狀結構連接。同時我們開始研究如何使用Web Suck搭建Jetson Orin Nano和Raspberry Pi Pico之間的通訊橋梁，為了配合研究我們將Raspberry Pi Pico換成了擁有Wifi模塊的Raspberry Pi Pico WH作為此次比賽的I/O控制器。
 
 <div align="center">
-<table>
-<tr align="center">
-<th>修改前轉向結構</th>
-<th>修改後轉向結構</th>
-</tr>
-<tr>
-<td><img src=""></td>
-<td><img src=""></td>
-</tr>
-</table>
+    <table>
+        <tr align="center">
+            <th width="50%" style="text-align: center;">修改前轉向結構</th>
+            <th width="50%" style="text-align: center;">修改後轉向結構</th>
+        </tr>
+        <tr>
+            <td><img src="./img/8/2.jpg"></td>
+            <td><img src="./img/8/1.jpg"></td>
+        </tr>
+    </table>
 </div>
 
+<div align="center">
+    <table>
+        <tr align="center">
+            <th width="50%" style="text-align: center;">Raspberry Pi Pico</th>
+            <th width="50%" style="text-align: center;">Raspberry Pi Pico2 WH</th>
+        </tr>
+        <tr>
+            <td align="center"><img src="./img/8/3.png" height=300></td>
+            <td align="center"><img src="./img/8/4.png" height=230></td>
+        </tr>
+    </table>
+</div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
