@@ -110,7 +110,7 @@ The following is a development record of the self-driving car model design and t
 **成員:** 胡賢邑、林展榮、張奕崴
 
 **內容:**
-- 有了這次全國賽的經驗之後，發現了Jetson Nano在運算方面的不足，所以我們決定將主控制器改為運算效率更高的Jetson Orin Nano，並且著手研究使用Web Sucks搭建Jetson Orin Nano和Raspberry Pico之間的通訊，因為搭建Web Sucks通訊需要雙方都能連線到網路，因此我們將原先的Raspberry Pi Pico換成Raspberry Pi Pico2 WH，以應對需要的功能。
+- 有了這次全國賽的經驗之後，發現了Jetson Nano在運算方面的不足，所以我們決定將主控制器改為運算效率更高的Jetson Orin Nano，並且著手研究使用Web Sucks搭建Jetson Orin Nano和Raspberry Pico之間的通訊，因為搭建Web Sucks通訊需要雙方都能連線到網路，因此我們將原先的Raspberry Pi Pico換成Raspberry Pi Pico2 WH，以應對需要WIFI的需求。
 
 <div align="center">
     <table>
