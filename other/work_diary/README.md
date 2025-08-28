@@ -109,7 +109,7 @@ The following is a development record of the self-driving car model design and t
 ## 2025/08/25 ~ 2025/08/31
 **成員:** 胡賢邑、林展榮、張奕崴
 **內容:**
-- 有了全國賽的經驗之後，我們在阿克曼轉向結構上做出改動，我們為了增加自駕車的轉向角度，因此我們將原先拉桿上的螺絲和十字軸連接改為球狀結構連接。同時我們開始研究如何使用Web Suck搭建Jetson Orin Nano和Raspberry Pi Pico之間的通訊橋梁，為了配合研究我們將Raspberry Pi Pico換成了擁有Wifi模塊的Raspberry Pi Pico WH作為此次比賽的I/O控制器。
+- 有了全國賽的經驗之後，我們在阿克曼轉向結構上做出改動，我們為了增加自駕車的轉向角度，因此我們將原先拉桿上的螺絲和十字軸連接改為球狀結構連接。同時我們開始研究如何使用Web Suck搭建Jetson Orin Nano和Raspberry Pi Pico之間的通訊橋梁，為了配合研究我們將Raspberry Pi Pico換成了擁有Wifi模塊的Raspberry Pi Pico2 WH作為此次比賽的I/O控制器。
 
 <div align="center">
     <table>
