@@ -56,6 +56,19 @@
   </tr>
   </table>
   </div>
+
+  ### __全國賽比較國際賽機型__
+  <div align="center">
+  <table>
+  <th width="30%">2025全國賽機型</th>
+  <th width="30%">2025國際賽機型</th>
+  <th>Explanation(說明)</th>
+  <tr>
+  <td><img src="./img/全國賽機型.png"></td>
+  <td><img src="./img/國際賽機型.png"></td>
+  </tr>
+  </table>
+  </div>
  
   ### __Final Build-最終組裝__
 
