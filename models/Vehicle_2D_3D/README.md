@@ -232,9 +232,9 @@
       <div align=center>
       <table>
       <tr>
-      <th>Front Assembly(前部組件)</th>
-      <th>Steering Knuckle(轉向節)</th>
-      <th>Bearing Holder(軸承座)</th>
+      <th width="30%">Front Assembly(前部組件)</th>
+      <th width="30%">Steering Knuckle(轉向節)</th>
+      <th width="30%">Bearing Holder(軸承座)</th>
 
     </tr><tr>
       <td><img src="./Vehicle_Chassis_Sizse/img/Front_Assembly_size.png" width="300" alt="Front Assembly"></td> 
@@ -247,10 +247,10 @@
        <div align=center>
       <table>
       <tr>
-      <th>Steering shaft holder(轉向軸支架)</th>
-      <th>Motor Holder(馬達支架)</th>
-       <th>Steering rod(轉向橫桿)</th>
-       <th>Motor steering rod(馬達轉向拉桿)</th>
+      <th width="25%">Steering shaft holder(轉向軸支架)</th>
+      <th width="25%">Motor Holder(馬達支架)</th>
+       <th width="25%">Steering rod(轉向橫桿)</th>
+       <th width="25%">Motor steering rod(馬達轉向拉桿)</th>
   
 
     </tr><tr>
