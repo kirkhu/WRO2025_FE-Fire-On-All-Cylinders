@@ -13,7 +13,7 @@
 - This technical document will establish a table of contents according to the scoring criteria, and the table of contents titles will be displayed in the form of hyperlinks, so that judges or learners can easily navigate to the key content of the technical document for quick evaluation.
 - **Special reminder: **Due to the network speed, the image may not be displayed properly. If this happens, please try to refresh the webpage to solve the problem.
     #### [For Learners](learners_contents.md)
-## Rubric for Judging Engineering Documentation-工程文獻評審標準 
+## Rubric for Judging Engineering Documentation-工程文獻評審標準
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management-行動管理
     * [1-1 Vehicle 2D/3D Models in CAD (CAD 中的車輛 2D/3D 模型) ](models/Vehicle_2D_3D/README.md)
