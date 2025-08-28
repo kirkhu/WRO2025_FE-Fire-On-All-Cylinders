@@ -15,11 +15,13 @@
 <div align=center>
     <table>
     <tr>
-    <th>2024 Before shortening (縮短前) </th>
-    <th>2025 After shortening (縮短後) </th>
+    <th><div align=center>2024 Before shortening (縮短前) </th>
+    <th><div align=center>2025 After shortening (縮短後) </th>
+    <th><div align=center>2025 最終出賽機型</th>
     </tr><tr>
     <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
     <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
+    <td><img src="../../schemes/Vehicle_Chassis_Design/img/國際賽機型.png" width=250 alt="最終出賽機型"></td>
     </tr>
     </table>
  </div> 
@@ -38,8 +40,8 @@
     <div align=center>
     <table>
     <tr>
-    <th>Onshape Website (Onshape 網站) </th>
-    <th>3D CAD drawing of vehicle chassis components (車輛底盤零件的 3D CAD 圖面)</th>
+    <th><div align=center>Onshape Website (Onshape 網站) </th>
+    <th><div align=center>3D CAD drawing of vehicle chassis components (車輛底盤零件的 3D CAD 圖面)</th>
 
     </tr><tr>
     <td wdith="50%"><img src="./img/onshape.png" width="450" alt="Vehicle_cad"></td> 
@@ -53,10 +55,10 @@
     <div align=center>
     <table>
     <tr>
-    <th>3D Vehicle Model(3D 車輛模型) </th>
-    <th>Vehicle Underfloor(車輛底板)</th>
-    <th>Vehicle Mid-Deck(車輛中層板)</th>
-    <th>Vehicle Top Deck(車輛頂層板)</th>
+    <th><div align=center>3D Vehicle Model(3D 車輛模型) </th>
+    <th><div align=center>Vehicle Underfloor(車輛底板)</th>
+    <th><div align=center>Vehicle Mid-Deck(車輛中層板)</th>
+    <th><div align=center>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
     <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="300" alt="Vehicle_cad"></td> 
     <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" height="150"  alt="vehicle Underfloor"></td> 
@@ -68,8 +70,8 @@
      <div align=center>
     <table>
     <tr>
-    <th>3D Vehicle Chassis Design (車輛底盤 3D 設計)</th>
-    <th>3D Vehicle Chassis Models (車輛底盤 3D 模型)</th>
+    <th><div align=center>3D Vehicle Chassis Design (車輛底盤 3D 設計)</th>
+    <th><div align=center>3D Vehicle Chassis Models (車輛底盤 3D 模型)</th>
     </tr><tr>
     <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="450" ></td> 
     <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450"  ></td> 
@@ -94,9 +96,9 @@
     <div align=center>
     <table>
     <tr>
-    <th>Vehicle Underfloor(車輛底板)</th> 
-    <th>Vehicle Mid-Deck(車輛中層板)</th>
-    <th>Vehicle Top Deck(車輛頂層板)</th>
+    <th><div align=center>Vehicle Underfloor(車輛底板)</th> 
+    <th><div align=center>Vehicle Mid-Deck(車輛中層板)</th>
+    <th><div align=center>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
     <td width="30%"><img src="./Vehicle_Chassis_Sizse/img/2D_bottom.jpg" width="300" alt=" 2D_bottom"></td> 
     <td width="30%"><img src="./Vehicle_Chassis_Sizse/img/2D_mid.jpg" width="300" alt=" 2D_mid"></td> 
@@ -109,9 +111,9 @@
      <div align=center>
      <table>
      <tr>
-     <th>Vehicle Underfloor (車輛底板)</th>
-     <th>Vehicle Mid-Deck(車輛中層板)</th>
-     <th>Vehicle Top Deck(車輛上層板)</th>
+     <th><div align=center>Vehicle Underfloor (車輛底板)</th>
+     <th><div align=center>Vehicle Mid-Deck(車輛中層板)</th>
+     <th><div align=center>Vehicle Top Deck(車輛上層板)</th>
      </tr>
      <tr>
      <td width="30%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle Underfloor.jpg" width="200" alt="Vehicle Underfloor"></td>

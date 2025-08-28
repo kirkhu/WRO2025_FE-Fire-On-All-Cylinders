@@ -54,7 +54,6 @@
       <td><img src="../../other/work_diary/img/5/car_left.png" alt="HC-SR04" width="250" /></td>
       <td><img src="../../other/work_diary/img/5/car_right.png" alt="HC-SR04" width="250" /></td>
       <td><img src="../../other/work_diary/img/5/car_rear.png" alt="HC-SR04" width="250" /></td>
-      <td><img src="./img/Car front.png" alt="HC-SR04" width="230" /></td>
       </tr>
     </table>
     </div>
