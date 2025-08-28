@@ -184,7 +184,7 @@
         <td>Dependent on the exposure time(取決於曝光時間)</td>
         </tr>
         </tr><tr>
-        <td>Size dimensions（尺寸規格)</td>
+        <td>Size dimensions（尺寸規格) </td>
         <td>Supports larger dimensions but does not support overly small dimensions(支持較大的尺寸，但不支持過於小的尺寸)</td>
         <td>Supports smaller dimensions(支持較小的尺寸)</td>
         </tr>
