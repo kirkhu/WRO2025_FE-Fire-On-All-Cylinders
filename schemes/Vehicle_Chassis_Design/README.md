@@ -60,9 +60,9 @@
   ### __全國賽比較國際賽機型__
   <div align="center">
   <table>
-  <th width="30%">2025全國賽機型</th>
-  <th width="30%">2025國際賽機型</th>
-  <th>Explanation(說明)</th>
+  <th width="30%"><div align=center>2025全國賽機型</th>
+  <th width="30%"><div align=center>2025國際賽機型</th>
+  <th><div align=center>Explanation(說明)</th>
   <tr>
   <td><img src="./img/全國賽機型.png"></td>
   <td><img src="./img/國際賽機型.png"></td>
@@ -75,9 +75,9 @@
   <div align=center>
   <table>
   <tr align=center>
-  <th>Photos of the final Build(最終組裝照片)</th>
-  <th>3D modeling of the final Build(最終組裝的3D建模)</th>
-  <th>Explanation(說明)</th>
+  <th><div align=center>Photos of the final Build(最終組裝照片)</th>
+  <th><div align=center>3D modeling of the final Build(最終組裝的3D建模)</th>
+  <th><div align=center>Explanation(說明)</th>
   </tr><tr>
   <td width="30%"><img src="./img/2025Vehicle_Chassis_Design_down.png" ></td>
   <td width="30%"><img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" ></td>

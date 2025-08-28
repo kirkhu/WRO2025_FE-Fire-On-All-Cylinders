@@ -38,7 +38,7 @@ Here is a specification comparison between the two:
 <div align=center>
 <table>
 <tr>
-<th rowspan="2" width=200>Photo(照片)</th>
+<th rowspan="2" width=200><div align=center>Photo(照片)</th>
 <th width=200><div align=center>Raspberry Pi Pico2 WH</th>
 <th width=200><div align=center>Raspberry Pi Pico</th>
 <th width=200><div align=center>Esp32 wifi</th>
@@ -122,7 +122,7 @@ Here is a specification comparison between the two:
 </table>
 </div>
 
-Raspberry Pi Pico 提供簡單性、低功耗與經濟實惠，適合對無線需求不高的應用。它也非常符合本次比賽的需求。因此，我們選擇 Raspberry Pi Pico 作為 Nvidia Jetson Nano 的中繼管理控制器，負責管理馬達與感測器。
+Raspberry Pi Pico2 WH 提供簡單性、低功耗與經濟實惠，同時因為擁有WIFI模塊可以跟 Jetson Orin Nano 之間建立 Web Sucks 通訊，所以我們選擇 Raspberry Pi Pico2 WH 作為 Nvidia Jetson Orin Nano 的中繼控制器，負責管理馬達及感測器。
 
 The Raspberry Pi Pico  offers simplicity, low power consumption, and affordability, making it ideal for applications with low wireless demands. It also aligns well with the requirements of this competition. Therefore, we have chosen the Raspberry Pi Pico as a relay management controller for the Nvidia Jetson Nano, responsible for managing motors and sensors.
 
@@ -130,9 +130,9 @@ The Raspberry Pi Pico  offers simplicity, low power consumption, and affordabili
 - ### Supplementary Information-補充資訊
 ### 中文:
  __Thonny 軟體介紹__
- - 在本次競賽中，我們選擇使用 Thonny 軟體來撰寫 Raspberry Pi Pico 控制板的程式。
+ - 在本次競賽中，我們選擇使用 Thonny 軟體來撰寫 Raspberry Pi Pico2 WH 控制板的程式。
 
- - 由於 MicroPython 對多種微控制器（如 Raspberry Pi Pico、ESP8266、ESP32 等）具有專用支援，使得這些板子的開發更加方便。因此，我們選擇 Thonny 作為開發工具。Thonny 不僅支援 MicroPython 開發，還能直接連接微控制器板，使編寫、測試及除錯程式更加簡便。這種組合簡化了開發流程，並能快速在硬體上部署和驗證程式。  
+ - 由於 MicroPython 對多種微控制器（如 Raspberry Pi Pico2 WH、Raspberry Pi Pico、ESP8266、ESP32 等）具有專用支援，使得這些板子的開發更加方便。因此，我們選擇 Thonny 作為開發工具。Thonny 不僅支援 MicroPython 開發，還能直接連接微控制器板，使編寫、測試及除錯程式更加簡便。這種組合簡化了開發流程，並能快速在硬體上部署和驗證程式。  
 ### 英文:
   __Introduction to  Thonny software__
   - In this competition, we chose to use Thonny software to write programs for the Raspberry Pi Pico control board.
@@ -143,7 +143,7 @@ The Raspberry Pi Pico  offers simplicity, low power consumption, and affordabili
     <div align=center>
     <table>
     <tr>
-    <th>Thonnry Website-Thonnry 網站</th>
+    <th><div align=center>Thonnry Website-Thonnry 網站</th>
     </tr><tr>
     <td><div align=center><img src="./img/Thonny.png" width=250 ></td>
     </tr>
