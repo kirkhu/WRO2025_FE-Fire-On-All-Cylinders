@@ -280,10 +280,10 @@
       <div align=center>
       <table>
       <tr>
-      <th>Steering rod(轉向橫桿)</th>
-      <th>Bearing Holder(軸承座)</th>
-      <th>Motor Holder(馬達支架)</th>
-      <th>Motor steering rod(馬達向拉桿)</th>
+      <th width="25%">Steering rod(轉向橫桿)</th>
+      <th width="25%">Bearing Holder(軸承座)</th>
+      <th width="25%">Motor Holder(馬達支架)</th>
+      <th width="25%">Motor steering rod(馬達向拉桿)</th>
       </tr><tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width="300" alt="Bearing-Holder"></td> 
       <td><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width="300" alt="Bearing-Holder"></td> 
