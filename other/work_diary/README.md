@@ -128,8 +128,8 @@ The following is a development record of the self-driving car model design and t
 <div align="center">
     <table>
         <tr align="center">
-            <th width="50%" style="text-align: center;">修改前轉向結構</th>
-            <th width="50%" style="text-align: center;">修改後轉向結構</th>
+            <th width="50%" style="text-align: center;">一代轉向結構</th>
+            <th width="50%" style="text-align: center;">二代轉向結構</th>
         </tr>
         <tr>
             <td><img src="./img/8/2.jpg"></td>

@@ -127,7 +127,7 @@
 
  - ###  3D Vehicle Model - Onshape Model Sketch-3D 車輛模型 — Onshape 模型草圖
  - #### 中文:
-     - 我們使用 Onshape 進行設計，並使用光固化（SLA）3D 印表機製作本次競賽所需的車輛底盤 3D 列印零件。其設計與製作流程如下：
+     - 我們使用 Onshape 進行設計，並使用光固化（SLA）3D 印表機製作本次競賽所需的車輛底盤 3D 列印零件。  其設計與製作流程如下：
  - #### 英文:   
      - We used Onshape for the design and employed a Stereolithography (SLA) 3D Printer to manufacture the 3D-printed parts for the vehicle chassis needed for this competition. The design and production process is as follows:
     - #### The usage and introduction of Stereolithography (SLA) 3D printers -光固化（SLA）3D 印表機的使用與介紹
