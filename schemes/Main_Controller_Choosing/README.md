@@ -10,8 +10,8 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 <table> 
 <tr> 
 <th rowspan="2" width=300>Photo(照片)</th> 
-<th>Nvidia Jetson Nano</th> 
-<th>Nvidia Jetson Orin Nano</th> 
+<th><div align=center>Nvidia Jetson Nano</th> 
+<th><div align=center>Nvidia Jetson Orin Nano</th> 
 </tr>
 <tr> 
 <td><div align=center><img src="./img/jeston_nano.png" width=200></div></td> 
