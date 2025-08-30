@@ -10,9 +10,9 @@
 
 - 到官網下載SDK Manager的安裝包=>[超連結](https://developer.nvidia.com/sdk-manager)
 
-  <img src="./img/NVIDIA SDK Manager Download Page.png" width=1000>
+  <img src="./img/NVIDIA SDK Manager Download Page.png" width=800>
 
 - 開啟下載資料夾雙擊安裝包，若是安裝完成開啟可以看到以下畫面
 
-  <img src="./img/Start SDK Manager Page.png" width=1000>
+  <img src="./img/Start SDK Manager Page.png" width=800>
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
