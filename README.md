@@ -16,8 +16,8 @@
 ## Rubric for Judging Engineering Documentation-工程文獻評審標準
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management-行動管理
-    * [1-1 Vehicle 2D/3D Models in CAD (CAD 中的車輛 2D/3D 模型) ](models/Vehicle_2D_3D/README.md)
-    * [1-2 Vehicle Chassis Design(車輛底盤設計) ](schemes/Vehicle_Chassis_Design/README.md)
+    * [1-1 Vehicle 2D/3D Models in CAD (CAD 中的車輛 2D/3D 模型) **已改動 ](models/Vehicle_2D_3D/README.md)
+    * [1-2 Vehicle Chassis Design(車輛底盤設計) **已改動](schemes/Vehicle_Chassis_Design/README.md)
     * [1-3 Motor Selection (馬達選擇)](schemes/Motor/README.md)
 
     
@@ -33,8 +33,8 @@
       - [2-2-2 Power Supply System(供電系統) ](schemes/Power_Supply_System/README.md) 
    
     - __2-3 Controller Selection-控制器選擇__
-      - [2-3-1 Main Controller Comparison(主控制器對比) ](schemes/Main_Controller_Choosing/README.md)
-      - [2-3-2 Motor & Sensor Intermediate I/O Controller Comparison(馬達和感測器中間 I/O 控制器比較) ](schemes/Motor_Sensor_Controller_Choosing/README.md)
+      - [2-3-1 Main Controller Comparison(主控制器對比) **已改動](schemes/Main_Controller_Choosing/README.md)
+      - [2-3-2 Motor & Sensor Intermediate I/O Controller Comparison(馬達和感測器中間 I/O 控制器比較) **已改動](schemes/Motor_Sensor_Controller_Choosing/README.md)
 
     - __2-4 Sense Management-感知管理__
       - [2-4-1 Ultrasonic rangefinder(超音波測距儀) ](schemes/HC-SR04/README.md)
@@ -68,6 +68,6 @@
     - [6-1 GitHub Edit(VScode Edit/GIT) (GitHub 編輯VScode 編輯/GIT)](src/GitHub_Edit/README.md)
     - [6-2 GitHub Web Editing Languages(GitHub Web 編輯語言) ](src/GitHub_Languages/README.md)  
   #### 7. Engineering Factor -工程因素 
-    - [7-1 Work Diary(工作日記)](other/work_diary/README.md)
+    - [7-1 Work Diary(工作日記) **已改動](other/work_diary/README.md)
 
   <div align="center"><img src="./other/img/甘特圖.png" width="1300" alt=" 甘特圖"></div> 

@@ -31,31 +31,6 @@
   - 以下為去年模型（Shinan-Fire-On-All-Cylinders）與今年改良模型的比較，記錄於下表：
 
   - The following is a comparison between last year’s model (Shinan-Fire-On-All-Cylinders) and this year’s improved model, recorded in the table below:
-  ### __2024 Competition Prototype-2024 年比賽原型__
-
-  <div align=center>
-  <table>
-  <tr align=center>
-  <th>2024 Competition Prototype (2024年比賽原型車)</th>
-  <th>2025 Competition Prototype(2025年比賽車子)</th>
-  <th>Explanation(說明)</th>
-  </tr><tr >
-
-  <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td>
-  <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
-  </td>
-
-  <td>Based on several issues with last year’s vehicle length:<br><br>
-    <ol>
-      <li>The vehicle often causes collisions with blocks because the front passes the block, but the rear has not yet cleared it during obstacle avoidance.</li>
-      <li>The vehicle often causes difficulty in parking.</li>
-      
-    </ol>  
-      </td>
-    
-  </tr>
-  </table>
-  </div>
 
   ### __全國賽比較國際賽機型__
   <div align="center">
