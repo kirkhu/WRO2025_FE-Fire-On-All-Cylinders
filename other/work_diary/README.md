@@ -37,6 +37,26 @@ The following is a development record of the self-driving car model design and t
 </table>
 </div>
 
+## 2025/03/1 ~ 2025/03/7
+**成員:** 胡賢邑、林展榮、張奕崴
+
+**內容:**
+
+我們在這一周進行了主控制器系統安裝及測試，同時也開始了避障程序的撰寫和反覆測試穩定性、修改程序中的問題以求在避賽中取得亮眼的成績。
+
+<div align="center">
+    <table>
+        <tr align=center>
+            <th width=50% style="text-align: center;">系統安裝</th>
+            <th width=50% style="text-align: center;">避障程序撰寫</th>
+        </tr>
+        <tr>
+            <td><img src="./img/7/20250903_173017.jpg"/></td>
+            <td><img src="./img/7/20250903_181401 (1).jpg"/></td>
+        </tr>
+    </table>
+</div>
+
 ## 2025/03/11 ~ 2025/03/17
 
 **成員:** 胡賢邑、林展榮、張奕崴
@@ -104,26 +124,6 @@ The following is a development record of the self-driving car model design and t
 <img src="./img/6/6.png" width = "300"  alt="data" align=center /></td>
 </tr>
 </table>
-</div>
-  
-## 2025/07/24 ~ 2025/07/31
-**成員:** 胡賢邑、林展榮、張奕崴
-
-**內容:**
-
-我們在這一周進行了主控制器系統安裝及測試，同時也開始了避障程序的撰寫和反覆測試穩定性、修改程序中的問題以求在避賽中取得亮眼的成績。
-
-<div align="center">
-    <table>
-        <tr align=center>
-            <th width=50% style="text-align: center;">系統安裝</th>
-            <th width=50% style="text-align: center;">避障程序撰寫</th>
-        </tr>
-        <tr>
-            <td><img src="./img/7/20250903_173017.jpg"/></td>
-            <td><img src="./img/7/20250903_181401 (1).jpg"/></td>
-        </tr>
-    </table>
 </div>
 
 ## 2025/08/25 ~ 2025/08/31
