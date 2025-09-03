@@ -106,6 +106,28 @@ The following is a development record of the self-driving car model design and t
 </table>
 </div>
   
+## 2025/07/24 ~ 2025/07/31
+**成員:** 胡賢邑、林展榮、張奕崴
+
+**內容:**
+
+我們在這一周進行了主控制器系統安裝及測試，同時也開始了避障程序的撰寫和反覆測試穩定性、修改程序中的問題以求在避賽中取得亮眼的成績。
+
+<div align="center">
+    <table>
+        <tr align=center>
+            <th width=30% style="text-align: center;">系統安裝</th>
+            <th width=30% style="text-align: center;">避障程序撰寫</th>
+            <th width=30% style="text-align: center;">避障程序測試及調整</th>
+        </tr>
+        <tr>
+            <td><img src=""/></td>
+            <td><img src=""/></td>
+            <td><img src=""/></td>
+        </tr>
+    </table>
+</div>
+
 ## 2025/08/25 ~ 2025/08/31
 **成員:** 胡賢邑、林展榮、張奕崴
 
