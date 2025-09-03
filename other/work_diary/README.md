@@ -128,43 +128,33 @@ The following is a development record of the self-driving car model design and t
 **內容:**
 - 有了這次全國賽的經驗之後，發現了Jetson Nano在運算方面的不足，所以我們決定將主控制器改為運算效率更高的Jetson Orin Nano，並且著手研究使用Web Sucks搭建Jetson Orin Nano和Raspberry Pico之間的通訊，因為搭建Web Sucks通訊需要雙方都能連線到網路，因此我們將原先的Raspberry Pi Pico換成Raspberry Pi Pico2 WH，以應對需要WIFI的需求。
 
-    <div align="center">
-        <table>
-            <tr align="center">
-                <th width="50%" style="text-align: center;">本次全國賽機型</th>
-                <th width="50%" style="text-align: center;">本次國際賽機型</th>
-            </tr>
-            <tr>
-                <td><img src="./img/8/5.png" height=200></td>
-                <td><img src="./img/8/6.png" height=230></td>
-            </tr>
-        </table>
-    </div>
-
-    <div align="center">
-        <table>
-            <tr align="center">
-                <th width="50%" style="text-align: center;">一代轉向結構</th>
-                <th width="50%" style="text-align: center;">二代轉向結構</th>
-            </tr>
-            <tr>
-                <td><img src="./img/8/2.jpg"></td>
-                <td><img src="./img/8/1.jpg"></td>
-            </tr>
-        </table>
-    </div>
-
-    <div align="center">
-        <table>
-            <tr align="center">
-                <th width="50%" style="text-align: center;">Raspberry Pi Pico</th>
-                <th width="50%" style="text-align: center;">Raspberry Pi Pico2 WH</th>
-            </tr>
-            <tr>
-                <td align="center"><img src="./img/8/3.png" height=300></td>
-                <td align="center"><img src="./img/8/4.png" height=230></td>
-            </tr>
-        </table>
-    </div>
+ <div align=center>
+     <table>
+        <tr>
+            <th width=50% style=text-align:center;>本次全國賽機型</th>
+            <th width=50% style=text-align:center;>本次國際賽機型</th>
+        </tr>
+        <tr>
+            <td align=center><img src="./img/8/5.png" height=200/></td>
+            <td align=center><img src="./img/8/6.png" height=230/></td>
+        </tr>
+        <tr>
+            <td style=text-align:center;>一代轉向結構</td>
+            <td style=text-align:center;>二代轉向結構</td>
+        </tr>
+        <tr>
+            <td align=center><img src="./img/8/2.jpg"/></td>
+            <td align=center><img src="./img/8/1.jpg"/></td>
+        </tr>
+        <tr>
+            <td style=text-align:center;>Raspberry Pi Pico</td>
+            <td style=text-align:center;>Raspberry Pi Pico2 WH</td>
+        </tr>
+        <tr>
+            <td align=center><img src="./img/8/3.png" height=300/></td>
+            <td align=center><img src="./img/8/4.png" height=230/></td>
+        </tr>
+     </table>
+ </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
