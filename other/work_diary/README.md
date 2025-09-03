@@ -122,6 +122,25 @@ The following is a development record of the self-driving car model design and t
 </table>
 </div>
 
+## 2025/07/2 ~ 2025/07/21
+**成員:** 胡賢邑、林展榮、張奕崴
+
+**內容:** 
+
+ - 我們在進行避障程序的測試時，注意到了自駕車在進行過彎時會有些許卡頓，經過檢查過後發現問題出現在底盤上，因為轉向節跟底盤直接接觸，之間的磨擦力導致傳向結構出現卡頓，所以我們將原本用來接觸轉向節的孔洞擴大改為放置軸承用於減小摩擦力，經過測試後新版底板的軸承結構讓轉彎更加順暢。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th colspan=2>修改前與修改後</th>
+        </tr>
+        <tr>
+            <td><img src="./img/7/前底盤.png"/></td>
+            <td><img src="./img/7/現底盤.png"/></td>
+        </tr>
+    </table>
+ </div>
+
 ## 2025/08/25 ~ 2025/08/31
 **成員:** 胡賢邑、林展榮、張奕崴
 
