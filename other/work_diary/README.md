@@ -51,8 +51,8 @@ The following is a development record of the self-driving car model design and t
             <th width=50% style="text-align: center;">避障程序撰寫</th>
         </tr>
         <tr>
-            <td><img src="./img/7/20250903_173017.jpg"/></td>
-            <td><img src="./img/7/20250903_181401 (1).jpg"/></td>
+            <td><img src="./img/3/1.jpg"/></td>
+            <td><img src="./img/3/3.jpg"/></td>
         </tr>
     </table>
 </div>
@@ -131,24 +131,24 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
      <table>
         <tr>
-            <th width=50% style=text-align:center;>本次全國賽機型</th>
-            <th width=50% style=text-align:center;>本次國際賽機型</th>
+            <th width=50%>本次全國賽機型</th>
+            <th width=50%>本次國際賽機型</th>
         </tr>
         <tr>
             <td align=center><img src="./img/8/5.png" height=200/></td>
             <td align=center><img src="./img/8/6.png" height=200/></td>
         </tr>
         <tr>
-            <th style=text-align:center;>一代轉向結構</th>
-            <th style=text-align:center;>二代轉向結構</th>
+            <th>一代轉向結構</th>
+            <th>二代轉向結構</th>
         </tr>
         <tr>
             <td align=center><img src="./img/8/2.jpg"/></td>
             <td align=center><img src="./img/8/1.jpg"/></td>
         </tr>
         <tr>
-            <th style=text-align:center;>Raspberry Pi Pico</th>
-            <th style=text-align:center;>Raspberry Pi Pico2 WH</th>
+            <th>Raspberry Pi Pico</th>
+            <th>Raspberry Pi Pico2 WH</th>
         </tr>
         <tr>
             <td align=center><img src="./img/8/3.png" height=200/></td>
