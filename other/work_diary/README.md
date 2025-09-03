@@ -120,8 +120,8 @@ The following is a development record of the self-driving car model design and t
             <th width=50% style="text-align: center;">避障程序撰寫</th>
         </tr>
         <tr>
-            <td><img src=""/></td>
-            <td><img src=""/></td>
+            <td><img src="./img/7/20250903_173017.jpg"/></td>
+            <td><img src="./img/7/20250903_181401 (1).jpg"/></td>
         </tr>
     </table>
 </div>
