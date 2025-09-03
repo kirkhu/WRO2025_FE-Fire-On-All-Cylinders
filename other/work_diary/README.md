@@ -151,7 +151,7 @@ The following is a development record of the self-driving car model design and t
             <th style=text-align:center;>Raspberry Pi Pico2 WH</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/8/3.png" height=210/></td>
+            <td align=center><img src="./img/8/3.png" height=200/></td>
             <td align=center><img src="./img/8/4.png" height=200/></td>
         </tr>
      </table>
