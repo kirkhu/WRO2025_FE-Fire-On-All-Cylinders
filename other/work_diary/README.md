@@ -87,17 +87,20 @@ The following is a development record of the self-driving car model design and t
  - 在第二代版本開發過程中，我們基於第一代的反饋，透過內建範例圖重新校準排針間距，成功優化了原始設計。然而，因作業疏忽導致 PCB 佈局時誤將背面視圖當作正面設計，致使電路板輸出後極性顛倒。此問題於組裝測試階段立即被發現，並於第三代版本中修正佈局方向，同時複查所有層面對齊規範，確保設計與實體成品的一致性。
 
 <div align="center" >
-<table >
-<tr align="center">
-<th>第二代正面</th>
-<th>第二代背面</th>
-<tr align="center">
-<td>
-<img src="./img/4/3.png" width = "300"  alt="data" align=center /></td>
-<td>
-<img src="./img/4/4.png" width = "300"  alt="data" align=center /></td>
-</tr>
-</table>
+    <table >
+        <tr align="center">
+            <th>第二代正面</th>
+            <th>第二代背面</th>
+        </tr>
+        <tr align="center">
+            <td>
+                <img src="./img/4/3.png" width = "300"  alt="data" align=center />
+            </td>
+            <td>
+                <img src="./img/4/4.png" width = "300"  alt="data" align=center />
+            </td>
+        </tr>
+    </table>
 </div>
 
 
