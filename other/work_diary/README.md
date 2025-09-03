@@ -139,16 +139,16 @@ The following is a development record of the self-driving car model design and t
             <td align=center><img src="./img/8/6.png" height=230/></td>
         </tr>
         <tr>
-            <td style=text-align:center;>一代轉向結構</td>
-            <td style=text-align:center;>二代轉向結構</td>
+            <th style=text-align:center;>一代轉向結構</th>
+            <th style=text-align:center;>二代轉向結構</th>
         </tr>
         <tr>
             <td align=center><img src="./img/8/2.jpg"/></td>
             <td align=center><img src="./img/8/1.jpg"/></td>
         </tr>
         <tr>
-            <td style=text-align:center;>Raspberry Pi Pico</td>
-            <td style=text-align:center;>Raspberry Pi Pico2 WH</td>
+            <th style=text-align:center;>Raspberry Pi Pico</th>
+            <th style=text-align:center;>Raspberry Pi Pico2 WH</th>
         </tr>
         <tr>
             <td align=center><img src="./img/8/3.png" height=300/></td>
