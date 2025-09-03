@@ -135,8 +135,8 @@ The following is a development record of the self-driving car model design and t
                 <th width="50%" style="text-align: center;">本次國際賽機型</th>
             </tr>
             <tr>
-                <td><img src="./img/8/5.png"></td>
-                <td><img src="./img/8/6.png"></td>
+                <td><img src="./img/8/5.png" height=200></td>
+                <td><img src="./img/8/6.png" height=230></td>
             </tr>
         </table>
     </div>
