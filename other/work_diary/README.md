@@ -116,12 +116,10 @@ The following is a development record of the self-driving car model design and t
 <div align="center">
     <table>
         <tr align=center>
-            <th width=30% style="text-align: center;">系統安裝</th>
-            <th width=30% style="text-align: center;">避障程序撰寫</th>
-            <th width=30% style="text-align: center;">避障程序測試及調整</th>
+            <th width=50% style="text-align: center;">系統安裝</th>
+            <th width=50% style="text-align: center;">避障程序撰寫</th>
         </tr>
         <tr>
-            <td><img src=""/></td>
             <td><img src=""/></td>
             <td><img src=""/></td>
         </tr>
