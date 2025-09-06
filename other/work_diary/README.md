@@ -213,4 +213,21 @@ The following is a development record of the self-driving car model design and t
     </table>
 </div>
 
+## 2025/09/01 ~ 2025/09/07
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:**
+ - 我們在本周發現了第三版轉向結構存在力矩上的問題，因此我們將轉向結構中拉桿和連桿之間的球形結構改到連桿之上，以改正轉向結構中的力矩，得到了第四版轉向結構。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th align=center>第四版轉向結構</th>
+        </tr>
+        <tr>
+            <td><img src="" align=center width=300/></td>
+        </tr>
+    </table>
+ </div>
+
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
