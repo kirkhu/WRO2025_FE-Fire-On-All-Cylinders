@@ -165,9 +165,17 @@ The following is a development record of the self-driving car model design and t
             <th clospan = 2>Competition photo</th>
         </tr>
         <tr>
-            <td><img src="./img/8/wait.jpg"/></td>
-            <td><img src="./img/8/practise.jpg"/></td>
+            <td><img src="./img/8/wait.jpg" width=200/></td>
+            <td><img src="./img/8/practise.jpg" width=200/></td>
             <td><img src="./img/8"/></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Waiting for test</th>
+        </tr>
+        <tr>
+            <td><img src="./img/8/award.jpg"/></td>
         </tr>
     </table>
  </div>
