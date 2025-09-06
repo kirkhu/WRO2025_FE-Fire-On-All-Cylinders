@@ -47,8 +47,8 @@ The following is a development record of the self-driving car model design and t
 <div align="center">
     <table>
         <tr align=center>
-            <th width=50% style="text-align: center;">系統安裝</th>
-            <th width=50% style="text-align: center;">避障程序撰寫</th>
+            <th width=50% style="text-align: center;">System Installation</th>
+            <th width=50% style="text-align: center;">Obstacle-Avoidance Program Development</th>
         </tr>
         <tr>
             <td><img src="./img/3/1.jpg"/></td>
@@ -69,8 +69,8 @@ The following is a development record of the self-driving car model design and t
 <div align="center" >
 <table >
 <tr align="center">
-<th>第一代正面</th>
-<th>第一代背面</th>
+<th>First-Generation Front View</th>
+<th>First-Generation Back View</th>
 <tr align="center">
 <td>
 <img src="./img/4/1.png" width = "300"  alt="data" align=center /></td>
@@ -92,8 +92,8 @@ The following is a development record of the self-driving car model design and t
 <div align="center" >
     <table >
         <tr align="center">
-            <th>第二代正面</th>
-            <th>第二代背面</th>
+            <th>Second-Generation Front View</th>
+            <th>Second-Generation Back View</th>
         </tr>
         <tr align="center">
             <td>
@@ -117,8 +117,8 @@ The following is a development record of the self-driving car model design and t
 <div align="center" >
 <table >
 <tr align="center">
-<th>第三代正面</th>
-<th>第三代背面</th>
+<th>Third-Generation Front View</th>
+<th>Third-Generation Back View</th>
 <tr align="center">
 <td>
 <img src="./img/6/5.png" width = "300"  alt="data" align=center /></td>
@@ -149,6 +149,28 @@ The following is a development record of the self-driving car model design and t
     </table>
  </div>
 
+## 2025/08/18 ~ 2025/08/24
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**內容:** 
+
+ - 在進行避障程式測試時，我們注意到自駕車在過彎時會出現些許卡頓。經檢查後發現問題源自底盤結構，因為轉向節與底盤直接接觸，過大的摩擦力導致傳動結構卡滯。為了解決此問題，我們將原本用來固定轉向節的孔洞擴大，並改為放置軸承以降低摩擦。經過測試後，採用軸承的新底盤結構有效改善了轉向的流暢度，使自駕車在過彎時更加平順。
+
+ - During obstacle-avoidance testing, we noticed that the autonomous car experienced slight stuttering when making turns. Upon inspection, we identified the issue in the chassis design: the steering knuckle was in direct contact with the chassis, and the resulting friction caused binding in the transmission structure. To address this, we enlarged the original holes used for mounting the steering knuckle and replaced them with bearings to reduce friction. Testing confirmed that the updated chassis with the bearing structure significantly improved turning smoothness, allowing the car to navigate corners more fluidly.
+
+ <div align=center>
+    <table>
+        <tr>
+            <th colspan=2>Before and After Modification</th>
+        </tr>
+        <tr>
+            <td><img src="./img/7/前底盤.png"/></td>
+            <td><img src="./img/7/現底盤.png"/></td>
+        </tr>
+    </table>
+ </div>
+
+
 ## 2025/08/25 ~ 2025/08/31
 **成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -160,16 +182,16 @@ The following is a development record of the self-driving car model design and t
 <div align=center>
     <table>
        <tr>
-           <th width=50%>本次全國賽機型</th>
-           <th width=50%>本次國際賽機型</th>
+           <th width=50%>Model Used in the National Competition</th>
+           <th width=50%>Model Used in the International Competition</th>
        </tr>
        <tr>
            <td align=center><img src="./img/8/5.png" height=200/></td>
            <td align=center><img src="./img/8/6.png" height=200/></td>
        </tr>
        <tr>
-           <th>一代轉向結構</th>
-           <th>二代轉向結構</th>
+           <th>First-Generation Steering Structure</th>
+           <th>Second-Generation Steering Structure</th>
        </tr>
        <tr>
            <td align=center><img src="./img/8/2.jpg"/></td>
