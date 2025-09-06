@@ -80,7 +80,7 @@ The following is a development record of the self-driving car model design and t
 </table>
 </div>
 
-## 2025/04/3 ~ 2025/04/14
+## 2025/04/03 ~ 2025/04/14
 
 **成員:** 胡賢邑、林展榮、張奕崴
 
