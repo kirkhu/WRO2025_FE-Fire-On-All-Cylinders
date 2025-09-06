@@ -71,5 +71,9 @@
     - [7-1 Work Diary(工作日記) **已改動](other/work_diary/README.md)
       - [February (二月)](other/work_diary/README.md#2025228--2025330)
       - [March (三月)](other/work_diary/README.md#20250301--20250307)
+      - [April (四月)](other/work_diary/README.md#20250403--20250414)
+      - [June (六月)](other/work_diary/README.md#20250603--20250608)
+      - [July (七月)](other/work_diary/README.md#20250702--20250721)
+      - [August (八月)](other/work_diary/README.md#20250818--20250824)
 
   <div align="center"><img src="./other/img/甘特圖 copy.png" width="1300" alt=" 甘特圖"></div> 
