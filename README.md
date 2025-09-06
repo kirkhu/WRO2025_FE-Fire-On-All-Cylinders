@@ -69,5 +69,6 @@
     - [6-2 GitHub Web Editing Languages(GitHub Web 編輯語言) ](src/GitHub_Languages/README.md)  
   #### 7. Engineering Factor -工程因素 
     - [7-1 Work Diary(工作日記) **已改動](other/work_diary/README.md)
+      - [February](other/work_diary/README.md#2025228--2025330)
 
   <div align="center"><img src="./other/img/甘特圖 copy.png" width="1300" alt=" 甘特圖"></div> 
