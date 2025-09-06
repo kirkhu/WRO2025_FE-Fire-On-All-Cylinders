@@ -175,7 +175,7 @@ The following is a development record of the self-driving car model design and t
             <th>Waiting for test</th>
         </tr>
         <tr>
-            <td><img src="./img/8/award.jpg" height=250/></td>
+            <td><img src="./img/8/award.jpg" height=450/></td>
         </tr>
     </table>
  </div>
