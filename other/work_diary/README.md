@@ -6,19 +6,19 @@
 The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
 ## 2025/2/28 ~ 2025/3/30  
 
-**成員:** 胡賢邑、林展榮、張奕崴 
+**成員:** 胡賢邑、林展榮、張奕崴
 
 **內容:**  
 
+ - 我們的隊友胡賢邑在過去幾年多次參加「未來工程競賽」，在機構設計和程式控制優化方面累積了豐富的實戰經驗。不過，由於每年比賽的主題與挑戰規則都會有所調整，我們深入討論後，決定針對今年的參賽模型進行輕量化設計。我們縮小了整體結構，這不僅有助於機器進出停車區時更順利，也讓它在場地中移動更靈活，能更有效避開障礙方塊，整體表現也因此更穩定。
 
- - 我的搭檔隊友是胡賢邑過去幾年曾多次參與「未來工程師大賽」，在機械結構設計與程式控制優化方面累積了扎實的實戰經驗。然而，由於該競賽每年皆會更新主題與挑戰規則，我們經過深入討論後，決定對今年的參賽模型進行輕量化改良——將整體機構縮小，如此不僅能提升場地穿梭的靈活性，避免與障礙方塊發生碰撞，還能更好停車避免撞到牆，進一步強化競賽表現。
-
-
+ - Our teammate, Hu Xianyi, has participated in the “Future Engineering Competition” multiple times over the past few years, gaining valuable hands-on experience in mechanical design and programming optimization. Since the competition’s themes and challenge rules change every year, we had an in-depth discussion and decided to redesign this year’s model with a focus on weight reduction. By downsizing the overall structure, the robot can now navigate in and out of the parking zone more smoothly, move more flexibly around the field, and avoid obstacle blocks more effectively — all of which contribute to more consistent and improved performance during the competition.
 
 <div align="center">
 <table>
 <tr align="center">
-<th colspan="2">Last year's senior's model</th>
+<th>Last year's senior's model</th>
+<th>This year's senior's model</th>
 </tr>
 <tr align="center">
 <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
@@ -37,7 +37,7 @@ The following is a development record of the self-driving car model design and t
 </table>
 </div>
 
-## 2025/03/1 ~ 2025/03/7
+## 2025/03/01 ~ 2025/03/07
 **成員:** 胡賢邑、林展榮、張奕崴
 
 **內容:**
@@ -63,7 +63,9 @@ The following is a development record of the self-driving car model design and t
 
 **內容:**  
 
- - 我們為了要讓電路板變得更整齊我使用洗電路板方式這樣的方式，開發第一代電路板，由於是初次接觸電路板設計，我們未能注意到設計軟體中提供的標準範例圖。當時我們自行測量了排針與排針之間的間距，結果在電路板製作完成後才發現間距設計過小，導致元件無法順利插接。這個寶貴的經驗促使我們立即著手改進，並很快做了第二代優化版本。
+ - 為了讓電路板配置更整齊，我們採用 EasyEDA 繪製電路板，並將設計完成的圖稿透過洗印方式製作出第一代電路板。由於這是我們首次接觸電路板設計，當時未能注意到設計軟體中其實已提供標準的元件排版範例。我們改以自行測量排針與排針之間的間距，但因經驗不足，最終在電路板製作完成後才發現設計的間距過小，導致元件無法順利插入。這次失誤讓我們獲得了寶貴的學習經驗，也立即推動我們對設計進行修正與優化。經過快速調整後，我們完成了第二代電路板，成功解決了間距問題，使元件安裝更為順利，整體佈線也更加合理。
+
+ - To achieve a more organized circuit board layout, we used EasyEDA to design the PCB and then fabricated the first-generation board using a printed-etching process. Since this was our first experience with PCB design, we failed to notice that the software already provided standard component layout templates. Instead, we manually measured the spacing between pin headers. Due to our lack of experience, we only discovered after fabrication that the spacing was too narrow, which prevented the components from being properly inserted. This mistake provided us with valuable hands-on experience and immediately motivated us to revise and optimize our design. After a quick round of adjustments, we successfully developed the second-generation PCB, which resolved the spacing issue, improved component installation, and made the overall wiring layout more efficient.
 <div align="center" >
 <table >
 <tr align="center">
@@ -78,12 +80,11 @@ The following is a development record of the self-driving car model design and t
 </table>
 </div>
 
-## 2025/4/3 ~ 2025/4/14
+## 2025/04/3 ~ 2025/04/14
 
 **成員:** 胡賢邑、林展榮、張奕崴
 
 **內容:**  
-
  - 在第二代版本開發過程中，我們基於第一代的反饋，透過內建範例圖重新校準排針間距，成功優化了原始設計。然而，因作業疏忽導致 PCB 佈局時誤將背面視圖當作正面設計，致使電路板輸出後極性顛倒。此問題於組裝測試階段立即被發現，並於第三代版本中修正佈局方向，同時複查所有層面對齊規範，確保設計與實體成品的一致性。
 
 <div align="center" >
