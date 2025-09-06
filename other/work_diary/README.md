@@ -219,15 +219,17 @@ The following is a development record of the self-driving car model design and t
 **Content:**
  - 我們在本周發現了第三版轉向結構存在力矩上的問題，因此我們將轉向結構中拉桿和連桿之間的球形結構改到連桿之上，以改正轉向結構中的力矩，得到了第四版轉向結構。
 
- - 同時本周我們也一直在持續修改避障程序
+ - 同時我的隊友"林展榮"也持續在進行停車程序的撰寫工作。
 
  <div align=center>
     <table>
         <tr>
             <th align=center>第四版轉向結構</th>
+            <th align=center>修改停車程序</th>
         </tr>
         <tr>
             <td><img src="./img/9/1.jpg" align=center width=300/></td>
+            <td><img src="./img/9/2.jpg" width=300 align=center/></td>
         </tr>
     </table>
  </div>
