@@ -161,12 +161,13 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th>Before and After Modification</th>
-            <th>Before and After Modification</th>
+            <th>Waiting for test</th>
+            <th clospan = 2>Competition photo</th>
         </tr>
         <tr>
-            <td><img src="./img/7/前底盤.png"/></td>
-            <td><img src="./img/7/現底盤.png"/></td>
+            <td><img src="./img/8/wait.jpg"/></td>
+            <td><img src="./img/8/practise.jpg"/></td>
+            <td><img src="./img/8"/></td>
         </tr>
     </table>
  </div>
