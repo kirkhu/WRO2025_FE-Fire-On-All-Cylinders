@@ -133,7 +133,9 @@ The following is a development record of the self-driving car model design and t
 
 **內容:** 
 
- - 我們在進行避障程序的測試時，注意到了自駕車在進行過彎時會有些許卡頓，經過檢查過後發現問題出現在底盤上，因為轉向節跟底盤直接接觸，之間的磨擦力導致傳向結構出現卡頓，所以我們將原本用來接觸轉向節的孔洞擴大改為放置軸承用於減小摩擦力，經過測試後新版底板的軸承結構讓轉彎更加順暢。
+ - 在進行避障程式測試時，我們注意到自駕車在過彎時會出現些許卡頓。經檢查後發現問題源自底盤結構，因為轉向節與底盤直接接觸，過大的摩擦力導致傳動結構卡滯。為了解決此問題，我們將原本用來固定轉向節的孔洞擴大，並改為放置軸承以降低摩擦。經過測試後，採用軸承的新底盤結構有效改善了轉向的流暢度，使自駕車在過彎時更加平順。
+
+ - During obstacle-avoidance testing, we noticed that the autonomous car experienced slight stuttering when making turns. Upon inspection, we identified the issue in the chassis design: the steering knuckle was in direct contact with the chassis, and the resulting friction caused binding in the transmission structure. To address this, we enlarged the original holes used for mounting the steering knuckle and replaced them with bearings to reduce friction. Testing confirmed that the updated chassis with the bearing structure significantly improved turning smoothness, allowing the car to navigate corners more fluidly.
 
  <div align=center>
     <table>
