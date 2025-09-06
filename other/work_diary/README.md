@@ -6,7 +6,7 @@
 The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
 ## 2025/2/28 ~ 2025/3/30  
 
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:**  
 
@@ -38,7 +38,7 @@ The following is a development record of the self-driving car model design and t
 </div>
 
 ## 2025/03/01 ~ 2025/03/07
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:**
 
@@ -59,7 +59,7 @@ The following is a development record of the self-driving car model design and t
 
 ## 2025/03/11 ~ 2025/03/17
 
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:**  
 
@@ -82,7 +82,7 @@ The following is a development record of the self-driving car model design and t
 
 ## 2025/04/03 ~ 2025/04/14
 
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:**  
  - 在第二代版本的開發過程中，我們根據第一代的回饋，利用設計軟體內建的範例圖重新校準了排針間距，成功改善了原始設計。然而，由於作業上的疏忽，我們在進行 PCB 佈局時誤將背面視圖當作正面設計，導致電路板輸出後發生極性顛倒的問題。所幸在組裝與測試階段便立即發現此錯誤，並在第三代版本中修正了佈局方向。同時，我們也全面複查了各層的對齊規範，以確保設計檔與實體成品能夠完全一致。
@@ -108,7 +108,7 @@ The following is a development record of the self-driving car model design and t
 
 
 ## 2025/06/03 ~ 2025/06/08  
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:** 
 
@@ -129,7 +129,7 @@ The following is a development record of the self-driving car model design and t
 </div>
 
 ## 2025/07/02 ~ 2025/07/21
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:** 
 
@@ -150,7 +150,7 @@ The following is a development record of the self-driving car model design and t
  </div>
 
 ## 2025/08/25 ~ 2025/08/31
-**成員:** 胡賢邑、林展榮、張奕崴
+**成員:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **內容:**
 - 在參加全國賽的過程中，我們發現 Jetson Nano 在運算效能上存在不足，因此決定將主控制器升級為運算效率更高的 Jetson Orin Nano。同時，我們開始研究如何利用 WebSockets 建立 Jetson Orin Nano 與 Raspberry Pi Pico 之間的通訊。由於 WebSockets 通訊需要雙方皆能連線至網路，我們將原本的 Raspberry Pi Pico 更換為具備 WiFi 功能的 Raspberry Pi Pico2 WH，以滿足無線連線的需求。
