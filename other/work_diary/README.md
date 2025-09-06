@@ -140,7 +140,7 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th colspan=2>修改前與修改後</th>
+            <th colspan=2>Before and After Modification</th>
         </tr>
         <tr>
             <td><img src="./img/7/前底盤.png"/></td>
