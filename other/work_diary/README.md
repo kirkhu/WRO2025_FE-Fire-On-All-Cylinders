@@ -57,6 +57,8 @@ The following is a development record of the self-driving car model design and t
     </table>
 </div>
 
+## 2025/
+
 ## 2025/03/11 ~ 2025/03/17
 
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
@@ -219,7 +221,9 @@ The following is a development record of the self-driving car model design and t
 **Content:**
  - 我們在本周發現了第三版轉向結構存在力矩上的問題，因此我們將轉向結構中拉桿和連桿之間的球形結構改到連桿之上，以改正轉向結構中的力矩，得到了第四版轉向結構。
 
- - 同時我的隊友"林展榮"也持續在進行停車程序的撰寫工作。
+ - 同時本周我們也在進行自駕車的停車程式撰寫。
+
+ - 我們在安裝轉向結構的球形接頭部分時因為已經經過紫外線固化的原因而導致安裝困難，解決方法是在進行紫外線固化前先使用砂紙進行細磨，然後再接觸位置抹上潤滑油使球型結構可以更加順滑，完成之後安裝起來再進行紫外線固化，這樣就解決了組裝困難及轉動不順滑等問題。
 
  <div align=center>
     <table>
@@ -230,6 +234,21 @@ The following is a development record of the self-driving car model design and t
         <tr>
             <td><img src="./img/9/1.jpg" align=center width=300/></td>
             <td><img src="./img/9/2.jpg" width=300 align=center/></td>
+        </tr>
+    </table>
+ </div>
+
+ <div align=center>
+    <table>
+        <tr>
+            <th align=center>進行砂紙細磨</th>
+            <th align=center>結構抹潤滑油</th>
+            <th align=center>組裝後放進UV固化機</th>
+        </tr>
+        <tr>
+            <td><img src="" align=center width=300/></td>
+            <td><img src="" align=center width=300/></td>
+            <td><img src="" align=center width=300/></td>
         </tr>
     </table>
  </div>
