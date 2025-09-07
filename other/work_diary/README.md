@@ -258,7 +258,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本周我們找到指導老師和教練一起討論了可以如何改進停車動作及流程順序。
+ - 
 
 <div align=center>
     <table>
