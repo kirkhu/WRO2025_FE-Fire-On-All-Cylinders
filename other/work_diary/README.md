@@ -42,7 +42,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 我們在這一周進行了主控制器系統安裝及測試，同時也開始了避障程序的撰寫和反覆測試穩定性、修改程序中的問題以求在避賽中取得亮眼的成績。
+ - 我們在這一周進行了主控制器系統安裝及測試，同時也開始了避障程序的撰寫和反覆測試穩定性、修改程序中的問題以求在比賽中取得亮眼的成績。
 
 <div align="center">
     <table>
@@ -56,8 +56,6 @@ The following is a development record of the self-driving car model design and t
         </tr>
     </table>
 </div>
-
-## 2025/
 
 ## 2025/03/11 ~ 2025/03/17
 
