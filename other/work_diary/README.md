@@ -261,12 +261,14 @@ The following is a development record of the self-driving car model design and t
  - 本周我們找到指導老師和教練一起討論了可以如何改進停車動作及流程順序。
 
 <div align=center>
-    <tr>
-        <th>與指導老師和教練討論</th>
-    </tr>
-    <tr>
-        <td><img src="./img/9/5.jpg" width=300 align=center/></td>
-    </tr>
+    <table>
+        <tr>
+            <th>與指導老師和教練討論</th>
+        </tr>
+        <tr>
+            <td><img src="./img/9/5.jpg" width=300 align=center/></td>
+        </tr>
+    </table>
 </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
