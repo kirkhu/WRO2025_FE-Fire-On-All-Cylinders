@@ -208,8 +208,8 @@ The following is a development record of the self-driving car model design and t
            <th colspan=2>Onshape 設計畫面</th>
        </tr>
        <tr>
-           <td><img src="./img/8/8.png" width=300 align=center/></td>
-           <td><img src="./img/8/7.png" width=300 align=center/></td>
+           <td align=center><img src="./img/8/8.png" width=300/></td>
+           <td align=center><img src="./img/8/7.png" width=300/></td>
        </tr>
        <tr>
            <th>Raspberry Pi Pico</th>
@@ -239,8 +239,8 @@ The following is a development record of the self-driving car model design and t
             <th align=center>撰寫順向停車</th>
         </tr>
         <tr>
-            <td><img src="./img/9/1.jpg" align=center width=300/></td>
-            <td><img src="./img/9/2.jpg" width=300 align=center/></td>
+            <td align=center><img src="./img/9/1.jpg" width=300/></td>
+            <td align=center><img src="./img/9/2.jpg" width=300/></td>
         </tr>
     </table>
  </div>
@@ -253,9 +253,9 @@ The following is a development record of the self-driving car model design and t
             <th align=center>組裝後放進UV固化機</th>
         </tr>
         <tr>
-            <td><img src="./img/9/4.jpg" align=center width=300/></td>
-            <td><img src="./img/9/3.jpg" align=center width=300/></td>
-            <td><img src="" align=center width=300/></td>
+            <td align=center><img src="./img/9/4.jpg" width=300/></td>
+            <td align=center><img src="./img/9/3.jpg" width=300/></td>
+            <td align=center><img src="" align=center width=300/></td>
         </tr>
     </table>
  </div>
@@ -273,7 +273,7 @@ The following is a development record of the self-driving car model design and t
             <th align=center>與指導老師和教練討論</th>
         </tr>
         <tr>
-            <td><img src="./img/9/5.jpg" width=500 align=center/></td>
+            <td align=center><img src="./img/9/5.jpg" width=500/></td>
         </tr>
     </table>
 </div>
