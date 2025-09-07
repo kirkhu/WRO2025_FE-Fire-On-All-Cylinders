@@ -208,8 +208,8 @@ The following is a development record of the self-driving car model design and t
            <th colspan=2>Onshape 設計畫面</th>
        </tr>
        <tr>
-           <td><img src="./img/8/7.png" width=300 align=center/></td>
            <td><img src="./img/8/8.png" width=300 align=center/></td>
+           <td><img src="./img/8/7.png" width=300 align=center/></td>
        </tr>
        <tr>
            <th>Raspberry Pi Pico</th>
