@@ -205,6 +205,13 @@ The following is a development record of the self-driving car model design and t
            <td align=center><img src="./img/8/1.jpg"/></td>
        </tr>
        <tr>
+           <th colspan=2>Onshape 設計畫面</th>
+       </tr>
+       <tr>
+           <td><img src="./img/8/7.png" width=300 align=center/></td>
+           <td><img src="./img/8/8.png" width=300 align=center/></td>
+       </tr>
+       <tr>
            <th>Raspberry Pi Pico</th>
            <th>Raspberry Pi Pico2 WH</th>
        </tr>
@@ -221,7 +228,7 @@ The following is a development record of the self-driving car model design and t
 **Content:**
  - 我們在本周發現了第三版轉向結構存在力矩上的問題，因此我們將轉向結構中拉桿和連桿之間的球形結構改到連桿之上，以改正轉向結構中的力矩，得到了第四版轉向結構。
 
- - 同時本周我們也在進行自駕車的停車程式撰寫。
+ - 同時我們也在撰寫新的順向停車邏輯，我們的目標是將停車程序撰寫到順逆向都可以通用。
 
  - 我們在安裝轉向結構的球形接頭部分時因為已經經過紫外線固化的原因而導致安裝困難，解決方法是在進行紫外線固化前先使用砂紙進行細磨，然後再接觸位置抹上潤滑油使球型結構可以更加順滑，完成之後安裝起來再進行紫外線固化，這樣就解決了組裝困難及轉動不順滑等問題。
 
