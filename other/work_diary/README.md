@@ -106,19 +106,58 @@ The following is a development record of the self-driving car model design and t
 **Content:** 
 
  - 本周我們撰寫出了基本的程序架構，並且成功使用**UART**的方式搭建了Raspberry Pi Pico和Jetson Nano之間的通訊，將Jetson Nano上的控制指令傳輸到Raspberry Pi Pico。
+    
+    **Jetson Nano端**
+    ```python
+    import serial as AC
+    import struct
 
- <div align=center>
-    <table>
-        <tr>
-            <th align=center>Jetson Nano上的資料送出代碼</th>
-            <th align=center>Raspberry Pi Pico上的接收代碼</th>
-        </tr>
-        <tr>
-            <td align=center><img src="" width=400 /></td>
-            <td align=center><img src="" width=400 /></td>
-        </tr>
-    </table>
- </div>
+    combined_control_signal = 30
+    turn_side = 0
+    PWM = 80
+
+    try:
+        ser = AC.Serial('/dev/ttyTHS1', 115200, timeout=1)
+    except AC.SerialException as e:
+        print(f"Error: Could not open serial port: {e}")
+        exit()
+
+    data_to_send = (int(combined_control_signal), int(turn_side),int(PWM))
+    header = b"A"
+    send_data_value = struct.pack('3i', *data_to_send)
+    send_data_value = header + send_data_value
+    ser.write(send_data_value)
+    ```
+
+    **Raspberry Pi Pico端**
+    ```python
+    from machine import UART, Pin
+    import struct
+
+    uart = UART(0, baudrate=115200, tx=Pin(16), rx=Pin(17))
+
+    def jetson_nano_return(number):
+        global data_value
+        HEADER = b"A"
+        HEADER_SIZE = len(HEADER)
+        DATA_SIZE = 12
+        TOTAL_SIZE = HEADER_SIZE + DATA_SIZE
+
+        if uart.any():
+            data = uart.read(TOTAL_SIZE)
+            if len(data) == TOTAL_SIZE:
+                header_index = data.find(HEADER)
+                if header_index != -1:
+                    start_index = header_index + HEADER_SIZE
+                    data = data[start_index:] + data[:start_index]
+                    data_value = struct.unpack('3i', data[:DATA_SIZE])
+                    return data_value[number]
+                else:
+                    print("Error: Incorrect header received.")
+            else:
+                print("Error: Incomplete data received.")
+        return data_value[number]
+    ```
 
 ## 2025/04/03 ~ 2025/04/14
 
