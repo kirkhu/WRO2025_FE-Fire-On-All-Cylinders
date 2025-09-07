@@ -85,12 +85,12 @@ The following is a development record of the self-driving car model design and t
 
 **Content:** 
 
- - 我們先去觀察了去年世界第一和學長的自駕車程序，了解了裡面的架構後我們開始撰寫我們隊伍的自駕車程序。
+ - 本周我們開始撰寫我們的自駕車程序，我們為了能夠順利撰寫自駕車程序在網路上查詢了相關資料，例如：Raspberry Pi Pico和Jetson Nano之間要如何進行通訊、要如何使用Raspberry Pi Pico控制直流馬達上的Encode、讀取超音波數值等。
 
  <div align=center>
     <tr>
-        <th>參考去年隊伍程序</th>
-        <th>撰寫我們的自駕車程序</th>
+        <th>查找相關資料</th>
+        <th>撰寫自駕車程序</th>
     </tr>
     <tr>
         <td><img src="" width=300 /></td>
