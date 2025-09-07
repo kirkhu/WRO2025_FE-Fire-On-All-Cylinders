@@ -88,14 +88,16 @@ The following is a development record of the self-driving car model design and t
  - 本周我們開始撰寫我們的自駕車程序，我們為了能夠順利撰寫自駕車程序在網路上查詢了相關資料，例如：Raspberry Pi Pico和Jetson Nano之間要如何進行通訊、要如何使用Raspberry Pi Pico控制直流馬達上的Encoder、讀取超音波數值等。
 
  <div align=center>
-    <tr>
-        <th>查找相關資料</th>
-        <th>撰寫自駕車程序</th>
-    </tr>
-    <tr>
-        <td><img src="" width=300 /></td>
-        <td><img src="" width=300 /></td>
-    </tr>
+    <table>
+        <tr>
+            <th align=center>查找相關資料</th>
+            <th align=center>撰寫自駕車程序</th>
+        </tr>
+        <tr>
+            <td><img src="./img/3/4.jpg" width=300 /></td>
+            <td><img src="./img/3/5.jpg" width=300 /></td>
+        </tr>
+    </table>
  </div>
 
 ## 2025/04/03 ~ 2025/04/14
