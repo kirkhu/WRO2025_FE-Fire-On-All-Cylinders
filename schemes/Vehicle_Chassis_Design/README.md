@@ -64,7 +64,13 @@
   <td width="30%"><img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" ></td>
 
 
-  <td>In addition to addressing the issues of last year's competition model, we also reduced the vehicle's width to make it easier to maneuver through obstacles.</td>
+  <td>
+    我們在底盤的設計上經歷了兩次改版
+    <ol>
+      <li>第一次改版加入了弧形導角，避免自駕車前輪胎接觸邊牆導致卡住</li>
+      <li>第二次改版我們將放置轉降向節的孔洞擴大，改為放置軸承減小摩擦力，讓轉彎更加順滑</li>
+    </ol>
+  </td>
   </tr>
   </table>
   </div>
