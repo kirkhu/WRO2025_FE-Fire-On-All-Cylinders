@@ -6,7 +6,18 @@
   - Today is the first day of our team's establishment, so I took a photo as a souvenir. The location was chosen in the corridor outside the classroom on the third floor.
 <div align="center">
 
-|<img src="./img/team_photo.jpg" width = "50%"  alt="Team Photo " />|</div>  
+<table>
+  <tr>
+    <th align=center>團隊成立第一天</th>
+    <th align=center>全國賽後第一周</th>
+  </tr>
+  <tr>
+    <td><img src="./img/team_photo1.jpg" width = "50%"  alt="Team Photo " /></td>
+    <td><img src="" align=center width="50%" alt="Team Photo "></td>
+  </tr>
+</table>
+
+</div>
 
 - ### Funny Photo-搞笑照片
   - 由於我們沒有想法我們三個就排成一排拍照
