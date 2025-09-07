@@ -229,7 +229,7 @@ The following is a development record of the self-driving car model design and t
     <table>
         <tr>
             <th align=center>第四版轉向結構</th>
-            <th align=center>修改停車程序</th>
+            <th align=center>撰寫順向停車</th>
         </tr>
         <tr>
             <td><img src="./img/9/1.jpg" align=center width=300/></td>
