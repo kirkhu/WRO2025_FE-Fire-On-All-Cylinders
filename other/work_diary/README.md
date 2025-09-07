@@ -114,7 +114,7 @@ The following is a development record of the self-driving car model design and t
             <th align=center>Raspberry Pi Pico上的接收代碼</th>
         </tr>
         <tr>
-            <td width=500>
+            <td width=400>
 
 ```python
 try:
@@ -130,7 +130,7 @@ ser.write(send_data_value)
 ```
 <a>
             </td>
-            <td width=500>
+            <td width=400>
 
 ```python
 uart = UART(0, baudrate=115200, tx=Pin(16), rx=Pin(17))
