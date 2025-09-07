@@ -114,55 +114,8 @@ The following is a development record of the self-driving car model design and t
             <th align=center>Raspberry Pi Pico上的接收代碼</th>
         </tr>
         <tr>
-            <td width=400>
-
-```python
-try:
-    ser = AC.Serial('/dev/ttyTHS1', 115200, timeout=1)
-except AC.SerialException as e:
-    print(f"Error: Could not open serial port: {e}")
-    exit()
-data_to_send = (int(combined_control_signal), int(turn_side),int(PWM))
-header = b"A"
-send_data_value = struct.pack('3i', *data_to_send)
-send_data_value = header + send_data_value
-ser.write(send_data_value)
-```
-<a>
-            </td>
-            <td width=400>
-
-```python
-uart = UART(0, baudrate=115200, tx=Pin(16), rx=Pin(17))
-
-def jetson_nano_return(number):
-    global data_value
-    HEADER = b"A"  # Baotou definition
-    HEADER_SIZE = len(HEADER)
-    DATA_SIZE = 12 # 5 integers, 4 bytes each, 20 bytes in total
-    TOTAL_SIZE = HEADER_SIZE + DATA_SIZE  # Header + total length of data
-
-    if uart.any():
-        data = uart.read(TOTAL_SIZE)
-        
-        # Check if complete packet is received
-        if len(data) == TOTAL_SIZE:
-            # Find Baotou
-            header_index = data.find(HEADER)
-            if header_index != -1:
-                # If a header is found, remove the header and extract the data
-                start_index = header_index + HEADER_SIZE
-                data = data[start_index:] + data[:start_index]
-                data_value = struct.unpack('3i', data[:DATA_SIZE])
-                return data_value[number]
-            else:
-                print("Error: Incorrect header received.")
-        else:
-            print("Error: Incomplete data received.")
-    return data_value[number]
-```
-<a>
-            </td>
+            <td align=center><img src="" width=400 /></td>
+            <td align=center><img src="" width=400 /></td>
         </tr>
     </table>
  </div>
