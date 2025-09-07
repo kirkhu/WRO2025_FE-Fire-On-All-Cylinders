@@ -42,7 +42,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 我們在這一周進行了主控制器系統安裝及測試，同時也開始了避障程序的撰寫和反覆測試穩定性、修改程序中的問題以求在比賽中取得亮眼的成績。
+ - 本周我們進行了系統安裝及驅動下載，由於使用小螢幕連接Jetson Nano進行系統操作過於麻煩還有接口損傷的風險，因此我們在Jetson Nano上安裝了NoMachine遠端桌面軟體以便後續編寫自駕車程序，以下是安裝及測試系統和軟體功能的照片。
 
 <div align="center">
     <table>
@@ -81,6 +81,11 @@ The following is a development record of the self-driving car model design and t
 </div>
 
 ## 2025/03/18 ~ 2025/03/24
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:** 
+
+ - 我們先去觀察了去年世界第一和學長的自駕車程序，了解了裡面的架構後我們開始撰寫
 
 ## 2025/04/03 ~ 2025/04/14
 
