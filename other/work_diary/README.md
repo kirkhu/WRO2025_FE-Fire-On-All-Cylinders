@@ -4,7 +4,7 @@
 以下是本次自動駕駛汽車模型設計與任務解決的開發記錄，涵蓋了機械設計與製造、電路設計與實現、電子裝置選型、程式設計與測試以及整體的解題過程。
 
 The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
-## 2025/2/28 ~ 2025/3/30  
+## 2025/02/28 ~ 2025/03/30  
 
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
