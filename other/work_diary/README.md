@@ -215,7 +215,7 @@ The following is a development record of the self-driving car model design and t
     </table>
 </div>
 
-## 2025/09/01 ~ 2025/09/07
+## 2025/09/01 ~ 2025/09/06
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -252,5 +252,21 @@ The following is a development record of the self-driving car model design and t
         </tr>
     </table>
  </div>
+
+## 2025/09/07 ~ 2025/09/13
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:**
+
+ - 本周我們找到指導老師和教練一起討論了可以如何改進停車動作及流程順序。
+
+<div align=center>
+    <tr>
+        <th>與指導老師和教練討論</th>
+    </tr>
+    <tr>
+        <td><img src="./img/9/5.jpg" width=300 align=center/></td>
+    </tr>
+</div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
