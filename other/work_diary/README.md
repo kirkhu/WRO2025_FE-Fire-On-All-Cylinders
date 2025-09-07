@@ -85,7 +85,18 @@ The following is a development record of the self-driving car model design and t
 
 **Content:** 
 
- - 我們先去觀察了去年世界第一和學長的自駕車程序，了解了裡面的架構後我們開始撰寫
+ - 我們先去觀察了去年世界第一和學長的自駕車程序，了解了裡面的架構後我們開始撰寫我們隊伍的自駕車程序。
+
+ <div align=center>
+    <tr>
+        <th>參考去年隊伍程序</th>
+        <th>撰寫我們的自駕車程序</th>
+    </tr>
+    <tr>
+        <td><img src="" width=300 /></td>
+        <td><img src="" width=300 /></td>
+    </tr>
+ </div>
 
 ## 2025/04/03 ~ 2025/04/14
 
