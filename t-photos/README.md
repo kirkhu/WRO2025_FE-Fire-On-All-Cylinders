@@ -70,7 +70,10 @@
    <tr>
      <td align="center">JHANG,YI-WEI</td>
      <td align="left"> 工作分配:<br>
-         <ol><li>協助編寫程式</li>
+         <ol>
+            <li>協助編寫程式</li>
+            <li>協助撰寫Github報告</li>
+          </ol>
   </tr>
 
   <tr align="center">
