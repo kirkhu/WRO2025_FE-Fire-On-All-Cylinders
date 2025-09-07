@@ -48,7 +48,7 @@ The following is a development record of the self-driving car model design and t
     <table>
         <tr align=center>
             <th width=50% style="text-align: center;">System Installation</th>
-            <th width=50% style="text-align: center;">Obstacle-Avoidance Program Development</th>
+            <th width=50% style="text-align: center;">系統功能測試</th>
         </tr>
         <tr>
             <td><img src="./img/3/1.jpg"/></td>
