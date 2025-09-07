@@ -281,7 +281,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 由於我們在撰寫停車程序時遇到了問題遲遲無法解決，於是我們找了指導老師和教練尋求他們的幫助。
+ - 由於我們在撰寫停車程序時遇到了問題遲遲無法解決，於是我們找了指導老師和教練尋求他們的協助。
 
 <div align=center>
     <table>
