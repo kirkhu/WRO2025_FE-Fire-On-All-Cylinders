@@ -12,8 +12,8 @@
     <th align=center>全國賽後第一周</th>
   </tr>
   <tr>
-    <td><img src="./img/team_photo1.jpg" width = "50%"  alt="Team Photo " /></td>
-    <td><img src="./img/team_photo.jpg" align=center width="50%" alt="Team Photo "></td>
+    <td><img src="./img/team_photo1.jpg" width=300  alt="Team Photo " /></td>
+    <td><img src="./img/team_photo.jpg" align=center width=300 alt="Team Photo "></td>
   </tr>
 </table>
 
