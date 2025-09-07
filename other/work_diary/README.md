@@ -263,7 +263,7 @@ The following is a development record of the self-driving car model design and t
 <div align=center>
     <table>
         <tr>
-            <th>與指導老師和教練討論</th>
+            <th align=center>與指導老師和教練討論</th>
         </tr>
         <tr>
             <td><img src="./img/9/5.jpg" width=300 align=center/></td>
