@@ -247,7 +247,7 @@ The following is a development record of the self-driving car model design and t
         </tr>
         <tr>
             <td><img src="" align=center width=300/></td>
-            <td><img src="" align=center width=300/></td>
+            <td><img src="./img/9/3.jpg" align=center width=300/></td>
             <td><img src="" align=center width=300/></td>
         </tr>
     </table>
