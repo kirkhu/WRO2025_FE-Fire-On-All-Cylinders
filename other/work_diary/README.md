@@ -94,8 +94,8 @@ The following is a development record of the self-driving car model design and t
             <th align=center>撰寫自駕車程序</th>
         </tr>
         <tr>
-            <td><img src="./img/3/4.jpg" width=300 /></td>
-            <td><img src="./img/3/5.jpg" width=300 /></td>
+            <td><img src="./img/3/4.jpg" width=400 /></td>
+            <td><img src="./img/3/5.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
