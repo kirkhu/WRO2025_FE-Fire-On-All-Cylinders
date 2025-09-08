@@ -185,6 +185,10 @@ The following is a development record of the self-driving car model design and t
     </table>
 </div>
 
+## 2025/04/15 ~ 2025/04/21
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:**  
 
 ## 2025/06/03 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
