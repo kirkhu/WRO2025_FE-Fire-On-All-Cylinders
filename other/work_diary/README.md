@@ -313,7 +313,7 @@ The following is a development record of the self-driving car model design and t
 
  - 同時我們也在撰寫新的順向停車邏輯，我們的目標是將停車程序撰寫到順逆向都可以通用。
 
- - 我們在安裝轉向結構的球形接頭部分時因為已經經過紫外線固化的原因而導致安裝困難，解決方法是在進行紫外線固化前先使用砂紙進行細磨，然後再接觸位置抹上潤滑油使球型結構可以更加順滑，完成之後安裝起來再進行紫外線固化，這樣就解決了組裝困難及轉動不順滑等問題。
+ - 我們在安裝轉向結構的球形接頭部分時因為已經經過紫外線固化的原因而導致安裝困難，解決方法是在進行紫外線固化前先使用砂紙細磨，組裝起來後放進UV固化機，在固化完畢之後再給活動元件連接處上油，這樣一來就解決了安裝困難及轉動不順滑等問題了。
 
  <div align=center>
     <table>
@@ -331,14 +331,20 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th align=center>進行砂紙細磨</th>
-            <th align=center>結構抹潤滑油</th>
-            <th align=center>組裝後放進UV固化機</th>
+            <th align=center>砂紙細磨</th>
+            <th align=center>零件組裝</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/4.jpg" width=300/></td>
-            <td align=center><img src="./img/9/3.jpg" width=300/></td>
-            <td align=center><img src="" align=center width=300/></td>
+            <td><img src="" width=300 /></td>
+            <td><img src="" width=300 /></td>
+        </tr>
+        <tr>
+            <th align=center>紫外線固化</th>
+            <th align=center>活動部件上油</th>
+        </tr>
+        <tr>
+            <td><img src="" width=300 /></td>
+            <td><img src="" width=300 /></td>
         </tr>
     </table>
  </div>
