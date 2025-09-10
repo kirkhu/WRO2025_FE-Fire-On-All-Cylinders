@@ -354,18 +354,21 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 由於我們在撰寫停車程序時遇到了問題遲遲無法解決，於是我們找了指導老師和教練尋求他們的協助。
+ - 本周我們完成了順向停車邏輯流程。
+ - 流程為：
+    <div>
+        <ol>
+            <li>循跡至第一轉向區前</li>
+            <li>EnCoder後退直到和外邊牆垂直</li>
+            <li>EnCoder前進一段距離後使用秒數直到車頭觸碰在外邊牆</li>
+            <li>EnCoder後退直到與外邊牆平行</li>
+            <li>循跡前進到鏡頭看不見停車場方塊</li>
+            <li>EnCoder後退直到和外邊牆垂直再使用秒數後退直到碰外邊牆</li>
+            <li>EnCoder前進直到自駕車車身一半再停車場外面</li>
+            <li>EnCoder後退直到與外邊牆平行</li>
+            <li>EnCoder前進讓自駕車再停車場的正投影內</li>
+        </ol>
+    </div>
 
-<div align=center>
-    <table>
-        <tr>
-            <th align=center colspan=2>與指導老師和教練討論</th>
-        </tr>
-        <tr>
-            <td align=center><img src="./img/9/5.jpg" width=400/></td>
-            <td align=center><img src="./img/9/6.jpg" width=400/></td>
-        </tr>
-    </table>
-</div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
