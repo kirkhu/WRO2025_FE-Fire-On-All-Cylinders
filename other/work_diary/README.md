@@ -354,8 +354,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本周我們完成了順向停車邏輯流程。
- - 流程為：
+ - 本周我們完成了順向停車邏輯流程。流程如下：
     <div>
         <ol>
             <li>循跡至第一轉向區前</li>
