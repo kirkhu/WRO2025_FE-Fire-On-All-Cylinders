@@ -4,7 +4,7 @@
 
 - ### Vehicle Chassis Design-車輛底盤設計
 ### 中文:
-  - 這輛自駕車的軟硬體設計靈感來自於我們學長姐隊伍「Shinan-Fire-On-All-Cylinders」去年所打造的車型，並借鑑了去年世界冠軍車型的優點。在此基礎上，我們將主控制器從「Raspberry Pi 4B」升級為「Nvidia Jetson Nano」，提升性能並引入創新設計，使車輛更具競爭力。
+  - 這輛自駕車的軟硬體設計靈感來自於我們學長姐隊伍「Shinan-Fire-On-All-Cylinders」去年所打造的車型，並借鑑了去年世界冠軍車型的優點。在此基礎上，我們將主控制器從「Raspberry Pi 4B」升級為「Nvidia Jetson Orin Nano」，提升性能並引入創新設計，使車輛更具競爭力。
   - 本次比賽所使用的車輛底盤為自主設計與開發。
   - 車輛底盤採用了Ackermann轉向幾何結構，並針對去年機構的缺點進行改良，使避障及迴轉動作更加順暢。
   - 下表展示了車輛底盤的3D模型與實體成品。
