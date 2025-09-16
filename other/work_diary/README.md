@@ -411,9 +411,11 @@ sudo apt-get -y install sdkmanager
         </tr>
         <tr>
             <th>勾選左側選項，點擊下一步</th>
+            <th>輸入管理者密碼</th>
         </tr>
         <tr>
             <td><img src="./img/9/10.png" width=400 /></td>
+            <td><img src="./img/9/11.png" width=400></td>
         </tr>
     </table>
  </div>
