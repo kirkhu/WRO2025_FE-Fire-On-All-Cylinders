@@ -416,10 +416,12 @@ sudo apt-get -y install sdkmanager
         <tr>
             <th>填入主機板的相關資訊</th>
             <th>點擊結束"Finish"</th>
+            <th>安裝完畢後的Jetson Orin Nano系統介面</th>
         </tr>
         <tr>
             <td><img src="./img/9/12.png" width=400 /></td>
             <td><img src="./img/9/13.png" width=400 /></td>
+            <td><img src="./img/9/14.png" width=400 /></td>
         </tr>
     </table>
  </div>
