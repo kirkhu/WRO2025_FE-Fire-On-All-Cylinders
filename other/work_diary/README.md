@@ -329,16 +329,13 @@ The following is a development record of the self-driving car model design and t
  </div>
 
  <div align=center>
-    <table>
-        <tr>
-            <th>前轉向示意圖</th>
-            <th>現轉向示意圖</th>
-        </tr>
-        <tr>
-            <td><img src="./img/9/5.png" width=400 /></td>
-            <td><img src="" width=400 /></td>
-        </tr>
-    </table>
+    <tr>
+        <th colspan=2>全國賽停車流程</th>
+    </tr>
+    <tr>
+        <td><img src="./img/9/5-1.png" width=500 /></td>
+        <td><img src="./img/9/5-1.png" width=500 /></td>
+    </tr>
  </div>
 
  <div align=center>
