@@ -401,6 +401,14 @@ sudo apt-get -y install sdkmanager
             <td><img src="./img/9/7.jpg" width=400 /></td>
             <td><img src="./img/9/6.png" width=400 /></td>
         </tr>
+        <tr>
+            <th>選擇開發者套件</th>
+            <th>在第一階段選擇需要的JetPack版本</th>
+        </tr>
+        <tr>
+            <td><img src="./img/9/8.png" width=400 /></td>
+            <td><img src="./img/9/9.png" width=400 /></td>
+        </tr>
     </table>
  </div>
 
