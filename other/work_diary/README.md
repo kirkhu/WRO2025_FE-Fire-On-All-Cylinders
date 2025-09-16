@@ -396,24 +396,20 @@ sudo apt-get -y install sdkmanager
         <tr>
             <th>將Jetson Orin Nano連接上電腦</th>
             <th>確認是否連接成功</th>
+            <th>選擇開發者套件</th>
         </tr>
         <tr>
             <td><img src="./img/9/7.jpg" width=400 /></td>
             <td><img src="./img/9/6.png" width=400 /></td>
-        </tr>
-        <tr>
-            <th>選擇開發者套件</th>
-            <th>在選單中選中所需的JetPack版本</th>
-        </tr>
-        <tr>
             <td><img src="./img/9/8.png" width=400 /></td>
-            <td><img src="./img/9/9.png" width=400 /></td>
         </tr>
         <tr>
+            <th>在選單中選中所需的JetPack版本</th>
             <th>勾選左側選項，點擊下一步</th>
             <th>輸入管理者密碼</th>
         </tr>
         <tr>
+            <td><img src="./img/9/9.png" width=400 /></td>
             <td><img src="./img/9/10.png" width=400 /></td>
             <td><img src="./img/9/11.png" width=400></td>
         </tr>
