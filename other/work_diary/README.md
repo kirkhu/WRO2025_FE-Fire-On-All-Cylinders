@@ -398,7 +398,7 @@ sudo apt-get -y install sdkmanager
             <th>確認是否連接成功</th>
         </tr>
         <tr>
-            <td><img src="" width=400 /></td>
+            <td><img src="./img/9/7.jpg" width=400 /></td>
             <td><img src="./img/9/6.png" width=400 /></td>
         </tr>
     </table>
