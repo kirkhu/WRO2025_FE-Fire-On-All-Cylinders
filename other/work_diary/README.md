@@ -344,16 +344,16 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th align=center>砂紙細磨</th>
-            <th align=center>零件組裝</th>
+            <th>砂紙細磨</th>
+            <th>零件組裝</th>
         </tr>
         <tr>
             <td><img src="" width=300 /></td>
             <td><img src="" width=300 /></td>
         </tr>
         <tr>
-            <th align=center>紫外線固化</th>
-            <th align=center>活動部件上油</th>
+            <th>紫外線固化</th>
+            <th>活動部件上油</th>
         </tr>
         <tr>
             <td><img src="" width=300 /></td>
