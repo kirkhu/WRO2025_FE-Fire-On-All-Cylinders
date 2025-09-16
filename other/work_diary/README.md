@@ -322,8 +322,8 @@ The following is a development record of the self-driving car model design and t
             <th>撰寫順向停車</th>
         </tr>
         <tr>
-            <td><img src="./img/9/1.jpg" width=300/></td>
-            <td><img src="./img/9/2.jpg" width=300/></td>
+            <td><img src="./img/9/1.jpg" width=400/></td>
+            <td><img src="./img/9/2.jpg" width=400/></td>
         </tr>
     </table>
  </div>
