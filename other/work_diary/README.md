@@ -423,5 +423,11 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
+## 2025/09/14 ~ 2025/09/20
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:**
+
+ - 
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
