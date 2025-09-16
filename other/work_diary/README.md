@@ -309,9 +309,9 @@ The following is a development record of the self-driving car model design and t
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
- - 我們在本週發現了第三版轉向結構上存在力矩結構問題，
+ - 我們在本週發現了第三版轉向結構上存在力矩結構問題，我們將原先的
 
- - 同時我們開始重新撰寫新的自駕車停車程序流程，**表二**是停車流程的示意圖。
+ - 同時我們開始重新撰寫新的自駕車停車程序流程，**表二**是停車流程的示意圖比較。
 
  - 我們在安裝轉向結構的球形接頭部分時因為已經經過紫外線固化的原因而導致安裝困難，解決方法是在進行紫外線固化前先使用砂紙細磨，組裝起來後放進UV固化機，在固化完畢之後再給活動元件連接處上油，這樣一來就解決了安裝困難及轉動不順滑等問題了。
 
@@ -336,7 +336,7 @@ The following is a development record of the self-driving car model design and t
         </tr>
         <tr>
             <td><img src="./img/9/5.png" width=400 /></td>
-            <td><img src="" width=300 /></td>
+            <td><img src="" width=400 /></td>
         </tr>
     </table>
  </div>
