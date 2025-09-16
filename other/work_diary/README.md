@@ -367,7 +367,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本周我們除了撰寫完畢順、逆向停車，我們還向指導教練學習到了如何進行Jetson Orin Nano的JetPack升降級。
+ - 本週我們除了撰寫完畢順、逆向停車，我們還向指導教練學習到了如何進行Jetson Orin Nano的JetPack升降級。
 
  <div align=center>
     <table>
