@@ -403,11 +403,17 @@ sudo apt-get -y install sdkmanager
         </tr>
         <tr>
             <th>選擇開發者套件</th>
-            <th>在第一階段選擇需要的JetPack版本</th>
+            <th>在選單中選中所需的JetPack版本</th>
         </tr>
         <tr>
             <td><img src="./img/9/8.png" width=400 /></td>
             <td><img src="./img/9/9.png" width=400 /></td>
+        </tr>
+        <tr>
+            <th>勾選左側選項，點擊下一步</th>
+        </tr>
+        <tr>
+            <td><img src="./img/9/10.png" width=400 /></td>
         </tr>
     </table>
  </div>
