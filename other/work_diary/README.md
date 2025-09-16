@@ -430,6 +430,18 @@ sudo apt-get -y install sdkmanager
 
 **Content:**
 
- - 
+ - 由於我們將原本的I/O控制器Raspberry Pi Pico更換為Raspberry Pi Pico WH，因此我們在嘗試將超音波感測器改為紅外線感測器時遇到了腳位無法使用的問題，加上我們要在電路板上新增**插拔式接線端子**用來給Jetson Orin Nano進行供電，所以我們開始進行第四代PCB電路板的設計。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th colspan=2>設計第四代PCB電路板</th>
+        </tr>
+        <tr>
+            <td><img src="" width=500 /></td>
+            <td><img src="" width=500 /></td>
+        </tr>
+    </table>
+ </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
