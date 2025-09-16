@@ -438,7 +438,7 @@ sudo apt-get -y install sdkmanager
             <th colspan=2>設計第四代PCB電路板</th>
         </tr>
         <tr>
-            <td><img src="" width=500 /></td>
+            <td><img src="./img/9/15.jpg" width=500 /></td>
             <td><img src="" width=500 /></td>
         </tr>
     </table>
