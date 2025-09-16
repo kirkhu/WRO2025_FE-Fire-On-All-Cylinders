@@ -367,7 +367,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本週我們除了撰寫完畢順、逆向停車，我們還向指導教練學習到了如何進行Jetson Orin Nano的JetPack升降級。
+ - 本週我們向指導教練學習到了如何進行JetPack的升級和降級，不過因為Nvidia SDK Manager必須在實體的Ubuntu主機上才有辦法正常操作，因此老師在社團教室後方架設了一台Ubuntu系統的主機用於操作SDK Manager，以下是詳細的SDK Manager操作流程。
 
  <div align=center>
     <table>
@@ -380,6 +380,13 @@ The following is a development record of the self-driving car model design and t
         </tr>
     </table>
  </div>
+
+ ```bash
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install sdkmanager
+ ```
 
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
