@@ -417,6 +417,14 @@ sudo apt-get -y install sdkmanager
             <td><img src="./img/9/10.png" width=400 /></td>
             <td><img src="./img/9/11.png" width=400></td>
         </tr>
+        <tr>
+            <th>填入主機板的相關資訊</th>
+            <th>點擊結束"Finish"</th>
+        </tr>
+        <tr>
+            <td><img src="./img/9/12.png" width=400 /></td>
+            <td><img src="./img/9/13.png" width=400 /></td>
+        </tr>
     </table>
  </div>
 
