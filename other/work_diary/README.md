@@ -309,21 +309,34 @@ The following is a development record of the self-driving car model design and t
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
- - 我們在本周發現了第三版轉向結構存在力矩上的問題，因此我們將轉向結構中拉桿和連桿之間的球形結構改到連桿之上，以改正轉向結構中的力矩，得到了第四版轉向結構。
+ - 我們在本週發現了第三版轉向結構上存在力矩結構問題，
 
- - 同時我們也在撰寫新的順向停車邏輯，我們的目標是將停車程序撰寫到順逆向都可以通用。
+ - 同時我們開始重新撰寫新的自駕車停車程序流程，**表二**是停車流程的示意圖。
 
  - 我們在安裝轉向結構的球形接頭部分時因為已經經過紫外線固化的原因而導致安裝困難，解決方法是在進行紫外線固化前先使用砂紙細磨，組裝起來後放進UV固化機，在固化完畢之後再給活動元件連接處上油，這樣一來就解決了安裝困難及轉動不順滑等問題了。
 
  <div align=center>
     <table>
         <tr>
-            <th align=center>第四版轉向結構</th>
-            <th align=center>撰寫順向停車</th>
+            <th>第四版轉向結構</th>
+            <th>撰寫順向停車</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/1.jpg" width=300/></td>
-            <td align=center><img src="./img/9/2.jpg" width=300/></td>
+            <td><img src="./img/9/1.jpg" width=300/></td>
+            <td><img src="./img/9/2.jpg" width=300/></td>
+        </tr>
+    </table>
+ </div>
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>前轉向示意圖</th>
+            <th>現轉向示意圖</th>
+        </tr>
+        <tr>
+            <td><img src="" width=300 /></td>
+            <td><img src="" width=300 /></td>
         </tr>
     </table>
  </div>
@@ -354,20 +367,19 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本周我們完成了順向停車邏輯流程。流程如下：
-<div>
-    <ol>
-        <li>循跡至第一轉向區前</li>
-        <li>EnCoder後退直到和外邊牆垂直</li>
-        <li>EnCoder前進一段距離後使用秒數直到車頭觸碰在外邊牆</li>
-        <li>EnCoder後退直到與外邊牆平行</li>
-        <li>循跡前進到鏡頭看不見停車場方塊</li>
-        <li>EnCoder後退直到和外邊牆垂直再使用秒數後退直到碰外邊牆</li>
-        <li>EnCoder前進直到自駕車車身一半再停車場外面</li>
-        <li>EnCoder後退直到與外邊牆平行</li>
-        <li>EnCoder前進讓自駕車再停車場的正投影內</li>
-    </ol>
-</div>
+ - 本周我們除了撰寫完畢順、逆向停車，我們還向指導教練學習到了如何進行Jetson Orin Nano的JetPack升降級。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th colspan=2>學習如何進行JetPack升降級</th>
+        </tr>
+        <tr>
+            <td><img src="./img/9/3.jpg" width=400 /></td>
+            <td><img src="./img/9/4.jpg" width=400 /></td>
+        </tr>
+    </table>
+ </div>
 
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
