@@ -331,11 +331,11 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th colspan=2>全國賽停車流程</th>
+            <th>全國賽停車流程</th>
+            <th>國際賽停車流程</th>
         </tr>
         <tr>
-            <td><img src="./img/9/5-1.png" width=500 /></td>
-            <td><img src="./img/9/5-2.png" width=500 /></td>
+            <td><img src="./img/9/5.png" width=500 /></td>
         </tr>
     </table>
  </div>
