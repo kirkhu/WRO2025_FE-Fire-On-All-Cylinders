@@ -454,8 +454,8 @@ sudo apt-get -y install sdkmanager
             <th>使用 14K 3D打印機</th>
         </tr>
         <tr>
-            <td><img src="" width=400 /></td>
-            <td><img src="" width=400 /></td>
+            <td><img src="./img/9/21.png" width=400 /></td>
+            <td><img src="./img/9/22.png" width=400 /></td>
         </tr>
     </table>
  </div>
