@@ -44,10 +44,13 @@
     - [GitHub Edit(VScode Edit/GIT)](./src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)
 - ### Work Dairy
-    - [March](./other/work_diary/README.md#2025228--2025330)
-    - [April](./other/work_diary/README.md#202543--2025414)
+    - [February](./other/work_diary/README.md#20250228--20250330)
+    - [March](./other/work_diary/README.md#20250301--20250307)
+    - [April](./other/work_diary/README.md#20250403--20250414)
     - [June](./other/work_diary/README.md#20250603--20250608)
-    - [August](./other/work_diary/README.md#20250825--20250831)
+    - [July](./other/work_diary/README.md#20250702--20250721)
+    - [August](./other/work_diary/README.md#20250818--20250824)
+    - [September](./other/work_diary/README.md#20250901--20250906)
 
     <div align="center"><img src="./other/img/甘特圖.png" width="1300" alt=" 甘特圖"></div> 
 
