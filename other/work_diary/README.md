@@ -347,16 +347,16 @@ The following is a development record of the self-driving car model design and t
             <th>組裝轉向結構</th>
         </tr>
         <tr>
-            <td><img src="./img/9/16.jpg" width=300 /></td>
-            <td><img src="./img/9/17.jpg" width=300 /></td>
+            <td><img src="./img/9/16.jpg" width=400 /></td>
+            <td><img src="./img/9/17.jpg" width=400 /></td>
         </tr>
         <tr>
             <th>紫外線固化</th>
             <th>球形接頭上油</th>
         </tr>
         <tr>
-            <td><img src="./img/9/18.jpg" width=300 /></td>
-            <td><img src="./img/9/19.jpg" width=300 /></td>
+            <td><img src="./img/9/18.jpg" width=400 /></td>
+            <td><img src="./img/9/19.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
