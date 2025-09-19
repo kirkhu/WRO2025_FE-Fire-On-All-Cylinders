@@ -188,8 +188,20 @@ The following is a development record of the self-driving car model design and t
 ## 2025/04/15 ~ 2025/04/21
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
-**Content:**  
- - 
+**Content:**
+
+ - 本週我們完成了自駕車的停車程序流程，我們使用 **直角倒車入庫** 的方式完成我們的停車流程，下圖為停車程序流程的示意圖。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>停車流程示意圖</th>
+        </tr>
+        <tr>
+            <td><img src="./img/4/5.png" width=400 /></td>
+        </tr>
+    </table>
+ </div>
 
 
 ## 2025/06/03 ~ 2025/06/08  
