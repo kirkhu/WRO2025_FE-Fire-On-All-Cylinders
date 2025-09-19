@@ -447,7 +447,7 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
- <div>
+ <div align=center>
     <table>
         <tr>
             <th>使用 8K 3D打印機</th>
