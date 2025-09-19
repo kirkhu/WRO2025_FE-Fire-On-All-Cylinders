@@ -343,20 +343,20 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th>砂紙細磨</th>
-            <th>零件組裝</th>
+            <th>細磨球接頭</th>
+            <th>組裝轉向結構</th>
         </tr>
         <tr>
-            <td><img src="" width=300 /></td>
-            <td><img src="" width=300 /></td>
+            <td><img src="./img/9/16.jpg" width=300 /></td>
+            <td><img src="./img/9/17.jpg" width=300 /></td>
         </tr>
         <tr>
             <th>紫外線固化</th>
-            <th>活動部件上油</th>
+            <th>球形接頭上油</th>
         </tr>
         <tr>
-            <td><img src="" width=300 /></td>
-            <td><img src="" width=300 /></td>
+            <td><img src="./img/9/18.jpg" width=300 /></td>
+            <td><img src="./img/9/19.jpg" width=300 /></td>
         </tr>
     </table>
  </div>
@@ -432,6 +432,8 @@ sudo apt-get -y install sdkmanager
 
  - 由於我們將原本的I/O控制器Raspberry Pi Pico更換為Raspberry Pi Pico WH，因此我們在嘗試將超音波感測器改為紅外線感測器時遇到了腳位無法使用的問題，加上我們要在電路板上新增 **插拔式接線端子** 用來給Jetson Orin Nano進行供電，所以我們開始進行第四代PCB電路板的設計。
 
+ - 在本週我們發現了 **轉向節** 存在外八的問題，由於第一、二代轉向結構是使用 **8K** 3D打印機打印的，而我們的第三、四代轉向結構是使用 **14K** 3D打印機，因此在列印上會因精度問題而導致列印出來的原件與我們實際設計的還要大些。
+
  <div align=center>
     <table>
         <tr>
@@ -440,6 +442,19 @@ sudo apt-get -y install sdkmanager
         <tr>
             <td><img src="./img/9/15.jpg" width=450 /></td>
             <td><img src="" width=450 /></td>
+        </tr>
+    </table>
+ </div>
+
+ <div>
+    <table>
+        <tr>
+            <th>使用 8K 3D打印機</th>
+            <th>使用 14K 3D打印機</th>
+        </tr>
+        <tr>
+            <td><img src="" width=400 /></td>
+            <td><img src="" width=400 /></td>
         </tr>
     </table>
  </div>
