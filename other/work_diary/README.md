@@ -375,8 +375,8 @@ The following is a development record of the self-driving car model design and t
             <th colspan=2>學習如何進行JetPack升降級</th>
         </tr>
         <tr>
-            <td><img src="./img/9/3.jpg" width=400 /></td>
-            <td><img src="./img/9/4.jpg" width=400 /></td>
+            <td><img src="./img/9/9.jpg" width=400 /></td>
+            <td><img src="./img/9/10.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -399,9 +399,9 @@ sudo apt-get -y install sdkmanager
             <th>選擇開發者套件</th>
         </tr>
         <tr>
-            <td><img src="./img/9/7.jpg" width=400 /></td>
-            <td><img src="./img/9/6.png" width=400 /></td>
-            <td><img src="./img/9/8.png" width=400 /></td>
+            <td><img src="./img/9/11.jpg" width=400 /></td>
+            <td><img src="./img/9/12.png" width=400 /></td>
+            <td><img src="./img/9/13.png" width=400 /></td>
         </tr>
         <tr>
             <th>在選單中選中所需的JetPack版本</th>
@@ -409,9 +409,9 @@ sudo apt-get -y install sdkmanager
             <th>輸入管理者密碼</th>
         </tr>
         <tr>
-            <td><img src="./img/9/9.png" width=400 /></td>
-            <td><img src="./img/9/10.png" width=400 /></td>
-            <td><img src="./img/9/11.png" width=400></td>
+            <td><img src="./img/9/14.png" width=400 /></td>
+            <td><img src="./img/9/15.png" width=400 /></td>
+            <td><img src="./img/9/16.png" width=400></td>
         </tr>
         <tr>
             <th>填入主機板的相關資訊</th>
@@ -419,9 +419,9 @@ sudo apt-get -y install sdkmanager
             <th>安裝完畢後的Jetson Orin Nano系統介面</th>
         </tr>
         <tr>
-            <td><img src="./img/9/12.png" width=400 /></td>
-            <td><img src="./img/9/13.png" width=400 /></td>
-            <td><img src="./img/9/14.png" width=400 /></td>
+            <td><img src="./img/9/17.png" width=400 /></td>
+            <td><img src="./img/9/18.png" width=400 /></td>
+            <td><img src="./img/9/19.png" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -441,7 +441,7 @@ sudo apt-get -y install sdkmanager
             <th colspan=2>設計第四代PCB電路板</th>
         </tr>
         <tr>
-            <td><img src="./img/9/15.jpg" width=450 /></td>
+            <td><img src="./img/9/20.jpg" width=450 /></td>
             <td><img src="" width=450 /></td>
         </tr>
     </table>
