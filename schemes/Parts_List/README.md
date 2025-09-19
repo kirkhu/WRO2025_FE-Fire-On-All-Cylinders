@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>  
 
 ## <div align="center">BOM Part List </div>
-<li><a href="https://robotkingdom.com.tw/product/rk-nvidia-jetson-nano-developer-b01/" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a></li> 
+<li><a href="https://reurl.cc/Rk7yeZ" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a></li> 
 <li><a href="https://piepie.com.tw/product/raspberry-pi-pico-w" target="_blank">Raspberry Pi Pico W RP2040</a></li> 
 <li><a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293d motor controller</a></li>
 <li><a href="https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL">	MG513-P20 549RPM DC reduction motor</a></li>  
