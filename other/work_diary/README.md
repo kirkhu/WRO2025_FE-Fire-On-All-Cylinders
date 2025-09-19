@@ -291,8 +291,8 @@ The following is a development record of the self-driving car model design and t
            <th colspan=2>Onshape 設計畫面</th>
        </tr>
        <tr>
-           <td align=center><img src="./img/8/8.png"/></td>
            <td align=center><img src="./img/8/7.png"/></td>
+           <td align=center><img src="./img/8/8.png"/></td>
        </tr>
        <tr>
            <th>Raspberry Pi Pico</th>
@@ -367,7 +367,7 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本週我們向指導教練學習到了如何進行JetPack的升級和降級，不過因為Nvidia SDK Manager必須在實體的Ubuntu主機上才有辦法正常操作，因此老師在社團教室後方架設了一台Ubuntu系統的主機用於操作SDK Manager，以下是詳細的SDK Manager操作流程。
+ - 本週我們向指導教練學習到了如何進行JetPack的升級和降級，不過因為Nvidia SDK Manager必須在實體的Ubuntu主機上才有辦法正常操作，因此老師在社團教室後方架設了一台Ubuntu系統的主機用於操作SDK Manager，以下是如何使用SDK Manager進行JetPack升降級操作流程。
 
  <div align=center>
     <table>
@@ -431,9 +431,9 @@ sudo apt-get -y install sdkmanager
 
 **Content:**
 
- - 由於我們將原本的I/O控制器Raspberry Pi Pico更換為Raspberry Pi Pico WH，因此我們在嘗試將超音波感測器改為紅外線感測器時遇到了腳位無法使用的問題，加上我們要在電路板上新增 **插拔式接線端子** 用來給Jetson Orin Nano進行供電，所以我們開始進行第四代PCB電路板的設計。
+ - 由於我們將原本的I/O控制器Raspberry Pi Pico更換為Raspberry Pi Pico WH，因此我們在嘗試將超音波感測器改為紅外線感測器時遇到了腳位無法使用的問題，加上我們要在電路板上新增 **插拔式接線端子** 用來給Jetson Orin Nano連接供電線，所以我們開始進行第四代PCB電路板的設計。
 
- - 在本週我們發現了 **轉向節** 存在外八的問題，由於第一、二代轉向結構是使用 **8K** 3D打印機打印的，而我們的第三、四代轉向結構是使用 **14K** 3D打印機，因此在列印上會因精度問題而導致列印出來的原件與我們實際設計的還要大些。
+ - 在本週我們發現了 **轉向節** 存在外八的問題，由於第一、二代轉向結構是使用 **8K** 3D打印機打印的，而我們的第三、四代轉向結構是使用 **14K** 3D打印機，因此在列印上會因精度問題而導致列印出來的原件與我們實際設計的還要大一些。
 
  <div align=center>
     <table>
