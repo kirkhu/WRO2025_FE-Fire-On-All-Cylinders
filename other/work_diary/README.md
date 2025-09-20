@@ -478,7 +478,7 @@ sudo apt-get -y install sdkmanager
             <th>轉向結構呈現內八</th>
         </tr>
         <tr>
-            <td><img src="./img/9/23.jpg" width=600 /></td>
+            <td><img src="./img/9/23.png" width=600 /></td>
         </tr>
     </table>
  </div>
