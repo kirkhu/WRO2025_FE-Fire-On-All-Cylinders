@@ -208,7 +208,18 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 
+ - 本周我們開始撰寫自駕車的避障程序，我們自駕車的避障方式為，在畫面中繪畫出兩條的斜率路徑線，在[function.py](../../src/Programming/common/function.py)文件中的 **detect_color_final** 副程式會計算物件的正中心座標，自駕車會使用物件中心座標和物件與路徑線條之間的座標差完成避障動作，下方為自駕車的實際畫面。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>Jetson Nano程序執行畫面</th>
+        </tr>
+        <tr>
+            <td><img src="" width=400 /></td>
+        </tr>
+    </table>
+ </div>
 
 ## 2025/06/03 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
