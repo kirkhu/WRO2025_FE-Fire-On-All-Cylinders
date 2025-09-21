@@ -23,7 +23,7 @@
     
   #### 2. Power and Sense Management-電源和感測管理
     - __2-1 Vehicle Design__
-      - [2-1-1 BrOM Pats List (BrOM零件清單)](schemes/Parts_List/README.md)
+      - [2-1-1 BOM Pats List (BOM零件清單)](schemes/Parts_List/README.md)
       - [2-1-2 Circuit Design (電路設計)](models/Circuit_Design/README.md)
       - [2-1-3 Hardware Fool-Proof Design(硬體防呆設計) ](schemes/Fool-Proof-Design/README.md) 
       - [2-1-4 Assembly Instructions & Wiring Diagrams(裝配說明和接線圖) ](schemes/Assembly_Instructions/README.md)    
