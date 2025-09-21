@@ -88,7 +88,7 @@
   - 負責接收來自攝影機模組的影像資料，透過 OpenCV 進行影像辨識，並將辨識結果傳送給 Raspberry Pi Pico 進行後續處理。
  
     <br></br>
-    __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Nano™ developer-b01</a>__
+    __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ developer-b01</a>__
     </td>
     <td>
     <img src="./img/jetson_orin_nano.png" width = "400"  alt="Jjetson_orin_nano" align=center />   
