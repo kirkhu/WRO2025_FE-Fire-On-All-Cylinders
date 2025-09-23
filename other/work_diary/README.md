@@ -472,7 +472,7 @@ sudo apt-get -y install sdkmanager
  - 在本週我們發現了 **轉向節** 存在外八的問題，由於第一、二代轉向結構是使用 **8K** 3D打印機打印的，而我們的第三、四代轉向結構是使用 **14K** 3D打印機，因此在列印上會因精度問題而導致列印出來的原件與我們實際設計的還要大一些，也因使用了14K 3D打印機之後 **轉向節** 出現了元件的角度上面比原先設計的角度還要大，因此轉向結構組裝完畢後機器人會出現內八的情況。
 
  <div align=center>
-    <table>
+    <table width=90%>
         <tr>
             <th colspan=2>設計第四代PCB電路板</th>
         </tr>
@@ -484,7 +484,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
  <div align=center>
-    <table width=500>
+    <table width=90%>
         <tr>
             <th>使用 8K 3D打印機</th>
             <th>使用 14K 3D打印機</th>
@@ -497,7 +497,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
  <div align=center>
-    <table width=500>
+    <table width=90%>
         <tr>
             <th>轉向結構呈現內八</th>
         </tr>
