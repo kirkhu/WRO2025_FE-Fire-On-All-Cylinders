@@ -484,7 +484,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
  <div align=center>
-    <table>
+    <table width=500>
         <tr>
             <th>使用 8K 3D打印機</th>
             <th>使用 14K 3D打印機</th>
@@ -497,7 +497,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
  <div align=center>
-    <table>
+    <table width=500>
         <tr>
             <th>轉向結構呈現內八</th>
         </tr>
