@@ -507,4 +507,41 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
+ # 2025/09/21 ~ 2025/09/27
+ **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+ **Content:**
+
+ - 由於未來工程世界賽規則更新中提到 **"自駕車再進行停車時車身僅部分可以離開出發區，若是車身完全離開出發區將會時間終止以當下情況計分"** ，原先我們自駕車的超音波感測器是安裝在車身的中尾部，很容易因為沒有偵測到停車場方塊而整個車身離開出發區，因此我們設計了新的木板及支架讓超音波可以安裝在自駕車的前方。
+
+ - 本週我們決定將紅外線感測器安裝在自駕車的前後用於偵測邊牆及停車場方塊，於是我們設計了新的木板和紅外線L型支架用於安裝紅外線感測器。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>新版超音波支架</th>
+            <th>新版中木板</th>
+            <th>新版上木板</th>
+        </tr>
+        <tr>
+            <td><img src="" width=300 /></td>
+            <td><img src="" width=300 /></td>
+            <td><img src="" width=300 /></td>
+        </tr>
+    </table>
+ </div>
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>新版中木板</th>
+            <th>紅外線感測器L型支架</th>
+        </tr>
+        <tr>
+            <td><img src="" width=400 /></td>
+            <td><img src="" width=400 /></td>
+        </tr>
+    </table>
+ </div>
+
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
