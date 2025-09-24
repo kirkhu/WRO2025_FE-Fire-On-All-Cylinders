@@ -514,9 +514,9 @@ sudo apt-get -y install sdkmanager
             <th>新版上木板</th>
         </tr>
         <tr>
-            <td><img src="" width=300 /></td>
-            <td><img src="" width=300 /></td>
-            <td><img src="" width=300 /></td>
+            <td><img src="./img/9/25.jpg" width=300 /></td>
+            <td><img src="./img/9/26.jpg" width=300 /></td>
+            <td><img src="./img/9/27.jpg" width=300 /></td>
         </tr>
     </table>
  </div>
@@ -528,8 +528,8 @@ sudo apt-get -y install sdkmanager
             <th>紅外線感測器L型支架</th>
         </tr>
         <tr>
-            <td><img src="" width=400 /></td>
-            <td><img src="" width=400 /></td>
+            <td><img src="./img/9/28.jpg" width=400 /></td>
+            <td><img src="./img/9/29.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
