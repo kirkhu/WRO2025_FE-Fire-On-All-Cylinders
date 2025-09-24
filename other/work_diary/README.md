@@ -492,7 +492,7 @@ sudo apt-get -y install sdkmanager
             <th colspan=2>轉向結構呈現內八</th>
         </tr>
         <tr>
-            <td><img src="./img/9/23.png" width=600 /></td>
+            <td colspan=2><img src="./img/9/23.png" width=600 /></td>
         </tr>
     </table>
  </div>
