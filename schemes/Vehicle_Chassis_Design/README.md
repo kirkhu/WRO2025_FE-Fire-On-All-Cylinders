@@ -77,7 +77,7 @@
   </div>
 
   <div align=center>
-    <table width=900>
+    <table width=1200>
       <tr>
         <th colspan=2>轉向結構修改歷程</th>
       </tr>
