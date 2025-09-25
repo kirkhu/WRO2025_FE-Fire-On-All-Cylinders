@@ -86,7 +86,7 @@
       </tr>
       <tr>
         <td><img src="./img/20250925_180051.jpg" width=400 /></td>
-        <td>
+        <td width=300>
           <lo>
             <li>修改原因：<br>&nbsp;&nbsp;&nbsp;&nbsp;</li>
           </lo>
