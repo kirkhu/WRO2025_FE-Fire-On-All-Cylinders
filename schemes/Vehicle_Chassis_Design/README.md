@@ -77,7 +77,7 @@
   </div>
 
   <div align=center>
-    <table width=1200>
+    <table>
       <tr>
         <th colspan=2>轉向結構修改歷程</th>
       </tr>
@@ -85,8 +85,8 @@
         <th colspan=2>第一代轉向結構</th>
       </tr>
       <tr>
-        <td><img src="./img/20250925_180051.jpg" width=400 /></td>
-        <td width=300>
+        <td><img src="./img/20250925_180051.jpg" width=500 /></td>
+        <td width=400>
           描述：<br>&emsp;&emsp;這個版本的轉向結構過於寬大，因此我們在第二版轉向結構中將版型縮小，提升自駕車的靈活度。
         </td>
       </tr>
@@ -94,8 +94,8 @@
         <th colspan=2>第二代轉向結構</th>
       </tr>
       <tr>
-        <td><img src="./img/20250925_183354.png" width=400 /></td>
-        <td width=300>
+        <td><img src="./img/20250925_183354.png" width=500 /></td>
+        <td width=400>
           描述：<br>&emsp;&emsp;這個版本因為使用樂高元件進行連接使轉向的角度被限制住，因此我們在第三版中修改不同元件間的連接方式。
         </td>
       </tr>
@@ -103,8 +103,8 @@
         <th colspan=2>第三代轉向結構</th>
       </tr>
       <tr>
-        <td><img src="./img/20250925_184415.jpg" width=400 /></td>
-        <td width=300>
+        <td><img src="./img/20250925_184415.jpg" width=500 /></td>
+        <td width=400>
           描述：<br>&emsp;&emsp;這個版本的轉向結構中，力矩的設計有誤，因此我們修改了拉桿和連桿之間的位置，我們在連桿上新增了極限以防轉向結構轉過頭的問題。
         </td>
       </tr>
