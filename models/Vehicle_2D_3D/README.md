@@ -167,19 +167,19 @@
         <table>
         <tr align="center">
         <th rowspan="2">Photo (照片)</th>
-        <th> Stacked 3D Printe (堆疊式3D列印機)</th>
         <th> Stereolithography (SLA) 3D Printer(Phrozen Sonic Mini 8K) (立體光固化（SLA）3D列印機（Phrozen Sonic Mini 8K）)</th>
+        <th> Stereolithography (SLA) 3D Printer (Phrozen Sonic Mighty Revo)（立體光固化（SLA）3D列印機（Phrozen Sonic Mighty Revo））</th>
         </tr><tr align="center">
-        <td><img src="./img/Stacked_3D_Printe.png" width="300" alt="Stacked_3D_Printe"></td>
-        <td><img src="./img/Stereolithography_3D_Printer.png" width="300" alt="Stereolithography_3D_Printer" ></td>
+        <td><img src="./img/Stereolithography_3D_Printer.png" width="300" alt="Stereolithography_3D_Printer"></td>
+        <td><img src="./img/SonicMighty14KRevo_1400x1600_1.png" width="300" alt="" ></td>
         </tr><tr align="">
         <td>The required printing time (所需列印時間)</td>
-        <td>Faster(較快)</td>
         <td>Slower(較慢)</td>
+        <td>Faster(較快)</td>
         </tr><tr>
-        <td>Exterior(外觀)</td>
-        <td>Exterior with signs of layering(外觀有分層痕跡)</td>
-        <td>Smooth(光滑的)</td>
+        <td>printing precision(印刷精度)</td>
+        <td>slightly lower(略低)</td>
+        <td>relatively higher(較高)</td>
         </tr><tr>
         <td>Hardness(硬度)</td>
         <td>Dependent on the density(取決於密度)</td>
