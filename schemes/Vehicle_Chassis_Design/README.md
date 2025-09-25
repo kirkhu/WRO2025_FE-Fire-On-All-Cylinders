@@ -85,7 +85,7 @@
         <th colspan=2>第一代轉向結構</th>
       </tr>
       <tr>
-        <td><img src="" width=400 /></td>
+        <td><img src="./img/20250925_180051.jpg" width=400 /></td>
         <td>
           <lo>
             <li>修改原因：<br>&nbsp;&nbsp;&nbsp;&nbsp;</li>
