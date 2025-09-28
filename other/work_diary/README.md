@@ -234,7 +234,7 @@ The following is a development record of the self-driving car model design and t
 **Content:** 
 
 
-- 經修正前兩代的設計問題後，第三代版本已成功通過功能測試。實際運行測試顯示，排針接點與電路佈局無異常，系統可穩定運作。
+- 經修正前兩代的設計問題後，第四代版本已成功通過功能測試。實際運行測試顯示，排針接點與電路佈局無異常，系統可穩定運作。
 <div align="center" >
 <table >
 <tr align="center">
@@ -467,14 +467,14 @@ sudo apt-get -y install sdkmanager
 
 **Content:**
 
- - 由於我們將原本的I/O控制器Raspberry Pi Pico更換為Raspberry Pi Pico WH，因此我們在嘗試將超音波感測器改為紅外線感測器時遇到了腳位無法使用的問題，加上我們要在電路板上新增 **插拔式接線端子** 用來給Jetson Orin Nano連接供電線，所以我們開始進行第四代PCB電路板的設計。
+ - 由於我們將原本的I/O控制器Raspberry Pi Pico更換為Raspberry Pi Pico WH，因此我們在嘗試將超音波感測器改為紅外線感測器時遇到了腳位無法使用的問題，加上我們要在電路板上新增 **插拔式接線端子** 用來給Jetson Orin Nano連接供電線，所以我們開始進行第五代PCB電路板的設計。
 
  - 在本週我們發現了 **轉向節** 存在外八的問題，由於第一、二代轉向結構是使用 **8K** 3D打印機打印的，而我們的第三、四代轉向結構是使用 **14K** 3D打印機，因此在列印上會因精度問題而導致列印出來的原件與我們實際設計的還要大一些，也因使用了14K 3D打印機之後 **轉向節** 出現了元件的角度上面比原先設計的角度還要大，因此轉向結構組裝完畢後機器人會出現內八的情況。
 
  <div align=center>
     <table>
         <tr>
-            <th colspan=2>設計第四代PCB電路板</th>
+            <th colspan=2>設計第五代PCB電路板</th>
         </tr>
         <tr>
             <td><img src="./img/9/20.jpg" height=250 /></td>
@@ -506,6 +506,8 @@ sudo apt-get -y install sdkmanager
 
  - 本週我們決定將紅外線感測器安裝在自駕車的前後用於偵測邊牆及停車場方塊，於是我們設計了新的木板和紅外線L型支架用於安裝紅外線感測器。
 
+ - 我們在本週測試第五代電路板時發現了一個會導致陀螺儀不被Jetson Orin Nano偵測到的問題，由於我們在主控制器從Jetson Nano改為Jetson Orin Nano時將排線的VCC、GND...等Pin腳取消只剩下陀螺儀的SDA和SCL腳位，結果因為GND沒有接地的關係導致連接時沒有產生迴路而沒有辦法被Jetson Orin Nano偵測到，因此我們改出了第六版電路板將排線的GND腳位重新接上以解決GND沒有接地的問題。
+
  <div align=center>
     <table>
         <tr>
@@ -533,5 +535,25 @@ sudo apt-get -y install sdkmanager
         </tr>
     </table>
  </div>
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>第六代電路板(原理圖)</th>
+            <th>第六代電路板(PBC分布圖)</th>
+        </tr>
+        <tr>
+            <td align=center ><img src="" width=400 /></td>
+            <td align=center ><img src="" width=400 /></td>
+        </tr>
+    </table>
+ </div>
+
+ # 2025/09/28 ~ 2025/10/06
+ **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+ **Content:**
+
+ - 這一週我們將設計了第三代底盤，主要修改是將底盤長度縮短以減短轉彎時的軸距。在修改完底盤後我們發現自駕車轉彎時的軸距還是沒有達到我們的理想距離，因此我們將轉向拉桿的極限擋塊的大小縮小。
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
