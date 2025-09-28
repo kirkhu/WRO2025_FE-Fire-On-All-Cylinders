@@ -100,25 +100,12 @@
          <th>PBC 布局圖</th>
       </tr>
       <tr>
-         <td align=center ><img src="./img/New 3D View.png" width=250 height=250 /></td>
-         <td align=center ><img src="./img/New Schematic.png" width=250 height=250 /></td>
-         <td align=center ><img src="./img/New PCB Layouts.png" width=250 height=250 /></td>
+         <td align=center ><img src="./img/New 3D View.png" height=250 /></td>
+         <td align=center ><img src="./img/New Schematic.png" height=250 /></td>
+         <td align=center ><img src="./img/New PCB Layouts.png" height=250 /></td>
       </tr>
    </table>
  </div>
-
-<div align="center">
-<table>
-  <tr align="center">
-      <th>Circuit Diagram(電路圖)</th><th>PCB Layouts(PCB佈局圖)</th><th>Circuit Schematic(電路原理圖)</th>
-  </tr>
-  <tr align="center">
-     <td><img src="./img/Circuit_Diagram.png" width="300" height="300" alt="Circuit Diagram"></td>
-     <td><img src="./img/Circuit Schematic.png" width="300" height="300" alt="PCB Layouts"></td>
-     <td><img src="./img/PCB1.png" width="300" height="300" alt="Circuit Schematic"></td>
-  </tr>
-</table>
-</div>
 
  ***
  - ### Supplementary Information -補充資訊
