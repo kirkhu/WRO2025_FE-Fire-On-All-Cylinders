@@ -10,31 +10,86 @@
   - We adopted a PCB cleaning process that not only effectively reduces soldering errors and the risk of short circuits, but also enhances the visual quality of the board. Additionally, this approach offers greater flexibility in the manufacturing process and improved ease of operation.
   -The primary function of the circuit board is to provide power and signal connections for various sensors, motors, and controllers, ensuring smooth communication and coordinated operation among all components.communication and cooperation among them.
 
- - ### Circuit Board (Old Version) - 電路板(舊版)
-<div align="center">
-<table>
-  <tr align="center">
-      <th> Circuit Board Top View(電路板上視圖)</th><th>Circuit Board Button View(電路板下視圖)</th>
-  </tr>
-  <tr align="center">
-     <td> <img src="../Circuit_Design/img/circuitboardup2.png" width="300" alt="circuit_up"> </td><td><img src="../Circuit_Design/img/circuitboardback2.png" width="300" alt="circuit_lower.jpg"></td>
-  </tr>
-</table>
-</div>
+ - ### 實體電路板比較
 
-- ### Circuit Board (New Version) -電路板(新版)
-<div align="center">
-<table>
-  <tr align="center">
-      <th> Circuit Board Top View(電路板上視圖)</th><th>Circuit Board Button View(電路板下視圖)</th>
-  </tr>
-  <tr align="center">
-     <td> <img src="../Circuit_Design/img/circuitboardup1.png" width="300" alt="circuit_up"> </td><td><img src="../Circuit_Design/img/circuitboardback1.png" width="300" alt="circuit_lower.jpg"></td>
-  </tr>
-</table>
-</div>
+ <div align=center>
+   <table>
+      <tr>
+         <th colspan=3>第一代</th>
+      </tr>
+      <tr>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
+         <td>
+         描述
+            <ol>
+               <li>線路雜亂</li>
+               <li>焊接時間長</li>
+            <ol>
+         </td>
+      </tr>
+      <tr>
+         <th colspan=3>第二代</th>
+      </tr>
+      <tr>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
+         <td>
+         描述
+            <ol>
+               <li>Pin 腳間的距離有誤</li>
+            <ol>
+         </td>
+      </tr>
+      <tr>
+         <th colspan=3>第三代</th>
+      </tr>
+      <tr>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 3.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 3.png" width=250 /></td>
+         <td>
+         描述
+            <ol>
+               <li>設計錯誤導致極性顛倒</li>
+            <ol>
+         </td>
+      </tr>
+      <tr>
+         <th colspan=3>第四代</th>
+      </tr>
+      <tr>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 4.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 4.png" width=250 /></td>
+         <td>
+         描述
+            <ol>
+               <li>需要新增 插拔式接線端子</li>
+               <li>將感測器接口改為兩個紅外線、兩個超音波</li>
+            <ol>
+         </td>
+      </tr>
+   </table>
+ </div>
 
-- ### Circuit Schematic Drawing (Old version) -電路原理圖（舊版）
+ # 電路原理圖比較
+
+ - ### 初代設計 
+
+ <div align=center>
+   <table>
+      <tr>
+         <th>3D 檢視圖</th>
+         <th>電路原理圖</th>
+         <th>PBC 布局圖</th>
+      </tr>
+      <tr>
+         <td align=center ><img src="./img/Old 3D View.png" width=300 /></td>
+         <td align=center ><img src="./img/Old Schematic.png" width=300 /></td>
+         <td align=center ><img src="./img/Old PCB Layouts.png" width=300 /></td>
+      </tr>
+   </table>
+ </div>
+
 <div align="center">
 <table>
   <tr align="center">
@@ -48,7 +103,8 @@
 </table>
 </div>
 
-- ### Circuit Schematic Drawing (New version) -電路原理圖（新版）
+ - ### 最新版設計
+
 <div align="center">
 <table>
   <tr align="center">
