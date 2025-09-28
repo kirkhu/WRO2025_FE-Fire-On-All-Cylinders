@@ -543,8 +543,8 @@ sudo apt-get -y install sdkmanager
             <th>第六代電路板(PBC分布圖)</th>
         </tr>
         <tr>
-            <td align=center ><img src="" width=400 /></td>
-            <td align=center ><img src="" width=400 /></td>
+            <td align=center ><img src="./img/9/30.png" width=400 /></td>
+            <td align=center ><img src="./img/9/31.png" width=400 /></td>
         </tr>
     </table>
  </div>
