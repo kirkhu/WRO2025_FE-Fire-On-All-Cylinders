@@ -83,9 +83,9 @@
          <th>PBC 布局圖</th>
       </tr>
       <tr>
-         <td align=center ><img src="./img/Old 3D View.png" width=300 /></td>
-         <td align=center ><img src="./img/Old Schematic.png" width=300 /></td>
-         <td align=center ><img src="./img/Old PCB Layouts.png" width=300 /></td>
+         <td align=center ><img src="./img/Old 3D View.png" width=300 height=300 /></td>
+         <td align=center ><img src="./img/Old Schematic.png" width=300 height=300 /></td>
+         <td align=center ><img src="./img/Old PCB Layouts.png" width=300 height=300 /></td>
       </tr>
    </table>
  </div>
