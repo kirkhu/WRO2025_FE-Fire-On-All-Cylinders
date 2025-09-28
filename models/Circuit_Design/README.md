@@ -84,7 +84,7 @@
       </tr>
       <tr>
          <td align=center ><img src="./img/Old 3D View.png" height=250 /></td>
-         <td align=center ><img src="./img/Old Schematic.png" height=300 /></td>
+         <td align=center ><img src="./img/Old Schematic.png" height=250 /></td>
          <td align=center ><img src="./img/Old PCB Layouts.png" height=250 /></td>
       </tr>
    </table>
