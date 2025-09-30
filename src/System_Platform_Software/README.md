@@ -13,11 +13,11 @@
 
 - 到官網下載SDK Manager的安裝包=>[超連結](https://developer.nvidia.com/sdk-manager)
 
-  <img src="./img/NVIDIA SDK Manager Download Page.png" width=800>
+  <div align=center><img src="./img/NVIDIA SDK Manager Download Page.png" width=800></div>
 
 - 開啟下載資料夾雙擊安裝包，若是安裝完成並且登入成功後開啟可以看到以下畫面
 
-  <img src="./img/Start SDK Manager Page.png" width=800>
+  <div align=center><img src="./img/Start SDK Manager Page.png" width=800></div>
 
 ### 進行JetPack的升降及安裝操作界紹
 
