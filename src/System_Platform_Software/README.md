@@ -75,16 +75,26 @@
     sudo apt install update
     sudo apt install -y make build-essential libssl-dev zlib1g-dev \
       libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
-      libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev nano && curl https://pyenv.run | bash
-    # 設定pyenv的PATH
+      libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev nano
+
+    # 安装 pyenv
+    curl https://pyenv.run | bash
+
+    # 临时设置环境（仅当前会话有效）
     export PATH="$HOME/.pyenv/bin:$PATH"
-    eval "$(pyenv init --path)"
+    eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
-    # 安裝python3.11
+
+    # 安装 Python
     pyenv install 3.11.7
     pyenv global 3.11.7
-    # 設定永久開啟
-    printf '\nexport PATH="$HOME/.pyenv/bin:$PATH"\neval "$(pyenv init -)"\neval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+    # 永久设置环境
+    echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
+    echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+    echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+    # 重新加载配置
     source ~/.bashrc
 
     ```
@@ -113,6 +123,7 @@
 
  - 安裝支援CUDA加速的opencv
     ```bash
+    sudo apt install -y cmake
     # 下載 OpenCV 主程式碼
     cd ~
     git clone https://github.com/opencv/opencv.git
