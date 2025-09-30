@@ -23,7 +23,7 @@
 
 - SDK Manager是NVIDIA的官方工具，可以進行Jetson主機的JetPack版本升降級，在進行操作前要將Jetson主機進入到Recovery Mode在給Jetson主機通電，以下是SDK Manager的操作過程。
 
-  <img src="./img/20250930_212433.jpg" width=800 />
+  <div align=center><img src="./img/20250930_212433.jpg" width=800 /></div>
 
   <div align=center>
    <table>
