@@ -556,4 +556,27 @@ sudo apt-get -y install sdkmanager
 
  - 這一週我們將設計了第三代底盤，主要修改是將底盤長度縮短以減短轉彎時的軸距。在修改完底盤後我們發現自駕車轉彎時的軸距還是沒有達到我們的理想距離，因此我們將轉向拉桿的極限擋塊的大小縮小。
 
+ - 本週我們發現機器人在讀取BNO055的角度數據時遇到數值為0的情況，經過檢查及討論，發現問題有可能在PCB電路板上，因此我們嘗試將BNO055沒有用到的腳位線路斷開。
+
+ - 因為我們的Jetson Orin Nano和Raspberry pi pico w之間採用WebSucks的方法進行數據傳輸，因此我們在機器人上使用TPLink啟動AP模式讓Raspberry pi pico w可以連線進行數據交換，可因為TPLink的長度過長，因此我們將TPLink更換成ASUS的AC1200。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th colspan=2 >第三代底盤照片</th>
+        </tr>
+        <tr>
+            <td colspan=2 align=center ><img src="./img/9/" width=400 /></td>
+        </tr>
+        <tr>
+            <th>原機型使用TPLink</th>
+            <th>新機型使用ASUS AC1200</th>
+        </tr>
+        <tr>
+            <td align=center ><img src="" width=400 /></td>
+            <td align=center ><img src="" width=400 /></td>
+        </tr>
+    </table>
+ </div>
+
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>

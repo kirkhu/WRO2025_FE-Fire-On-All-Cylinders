@@ -68,6 +68,19 @@
             <ol>
          </td>
       </tr>
+      <tr>
+         <th colspan=3>第五代</th>
+      </tr>
+      <tr>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 5.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 5.png" width=250 /></td>
+         <td>
+         描述
+            <ol>
+               <li>電路繪畫錯誤，在第六版電路中將BNO055的不必要腳位取消</li>
+            <ol>
+         </td>
+      </tr>
    </table>
  </div>
 
