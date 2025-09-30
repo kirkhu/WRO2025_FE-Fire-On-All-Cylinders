@@ -62,8 +62,8 @@
 
  - 進行系統更新
     ```bash
-    sudo apt install update
-    sudo apt install upgrade -y
+    sudo apt update
+    sudo apt upgrade -y
 
     ```
 
@@ -83,7 +83,7 @@
     pyenv global 3.11.7
     # 設定永久開啟
     printf '\nexport PATH="$HOME/.pyenv/bin:$PATH"\neval "$(pyenv init -)"\neval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
-    scoure ~/.bashrc
+    source ~/.bashrc
 
     ```
 
