@@ -426,8 +426,8 @@ sudo apt-get update
 sudo apt-get -y install sdkmanager
  ```
 
- 介面操作
- <div align=center>
+ - ## 介面操作
+   <div align=center>
     <table>
         <tr>
             <th>將Jetson Orin Nano連接上電腦</th>
