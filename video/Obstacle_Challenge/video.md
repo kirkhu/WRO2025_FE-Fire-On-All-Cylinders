@@ -13,7 +13,7 @@
 
     </tr>
     <tr >
-       <td  width="500" ><a href="https://youtu.be/eLvywkpQvSg"><img src="./img/Obstacle-Challenge-noRed@Fire-On-All-Cylinders.png" alt="Obstacle Challenge noRed@Fire On All Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-noRed@Fire-On-All-Cylinders.png" alt="Obstacle Challenge noRed@Fire On All Cylinders"  ></a> </td>
 
     </tr>
     </table>  
@@ -32,9 +32,9 @@
        <th align="center">At Position 3</th>
     </tr>
     <tr >
-       <td  width="500" ><a href="https://youtu.be/gjE94JxwsU0"><img src="./img/Obstacle-Challenge-Red1@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red1@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/u6ZxDaY2Bvs"><img src="./img/Obstacle-Challenge-Red2@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red2@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/-C4rILvoJEo"><img src="./img/Obstacle-Challenge-Red3@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red3@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-Red1@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red1@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-Red2@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red2@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-Red3@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red3@Fire-On-All-Cylinders"  ></a> </td>
     </tr>
     </table>  
     </div>
@@ -51,10 +51,10 @@
        <th align="center">Position is at the bottom-位置在底部</th>
     </tr>
     <tr >
-       <td  width="500" ><a href="https://youtu.be/WXtJY850_cs"><img src="./img/parking_Left@Fire-On-All-Cylinders.png" alt="parking Left@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/BndS_ziducM"><img src="./img/parking_top@Fire-On-All-Cylinders.png" alt="parking Top@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/6mpcHpmLR-w"><img src="./img/parking_right@Fire-On-All-Cylinders.png" alt="parking Right@Fire On All Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/HETHSDXrlXc"><img src="./img/parking_down@Fire-On-All-Cylinders.png" alt="parking Down@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/parking_Left@Fire-On-All-Cylinders.png" alt="parking Left@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/parking_top@Fire-On-All-Cylinders.png" alt="parking Top@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/parking_right@Fire-On-All-Cylinders.png" alt="parking Right@Fire On All Cylinders"  ></a> </td>
+       <td  width="500" ><a href=""><img src="./img/parking_down@Fire-On-All-Cylinders.png" alt="parking Down@Fire-On-All-Cylinders"  ></a> </td>
     </tr>
     </table>  
     </div>

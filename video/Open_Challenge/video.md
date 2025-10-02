@@ -15,8 +15,8 @@
      <th>Power 70</th>    
   </tr>
   <tr >
-     <td width="40%"><a href="https://youtu.be/HJApmFGWUJk"><img src="./img/Open-Challenge-power-50-Full-width.png" alt="Open Challenge power 50 Full width @ Fire-On-All-Cylinders" ></a> </td>
-     <td width="40%"><a href="https://youtu.be/7IThmzik6xo"><img src="./img/Open-Challenge-power-70-Full-width.png" alt="Open Challenge power 70 Full width @ Fire-On-All-Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-Full-width.png" alt="Open Challenge power 50 Full width @ Fire-On-All-Cylinders" ></a> </td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-Full-width.png" alt="Open Challenge power 70 Full width @ Fire-On-All-Cylinders" ></a></td>
   </tr>
   </table>
 
@@ -31,8 +31,8 @@
      <th>Power 70</th>    
   </tr>
   <tr >
-     <td width="40%"><a href="https://youtu.be/qciWv4oi2Eo"><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge power 50 half width half height width @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href="https://youtu.be/DibKxSFe7u0"><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge power 70 half width half height width @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge power 50 half width half height width @ Fire On All Cylinders" ></a> </td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge power 70 half width half height width @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>
 
@@ -47,8 +47,8 @@
      <th>Power 70</th>    
   </tr>
   <tr >
-     <td width="40%"><a href="https://youtu.be/7TkYoP1qX1I"><img src="./img/Open-Challenge-power-50-full-narrow.png" alt="Open Challenge power 50 full narrow @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href="https://youtu.be/HVrJR1NFfWA"><img src="./img/Open-Challenge-power-70-full-narrow.png" alt="Open Challenge power 70 full narrow @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-full-narrow.png" alt="Open Challenge power 50 full narrow @ Fire On All Cylinders" ></a> </td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-full-narrow.png" alt="Open Challenge power 70 full narrow @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>  
 
@@ -62,8 +62,8 @@
      <th>Counter Clockwise</th>    
   </tr>
   <tr >
-     <td width="40%"><a href="https://youtu.be/dANRCvpfI9o"><img src="./img/Open-Challange-clockwise.png" alt="Open Challange clockwise @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href="https://youtu.be/PF8ZWLm3Beo"><img src="./img/Open-Challange-Counterclockwise.png" alt="Open Challange Countclockwise @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challange-clockwise.png" alt="Open Challange clockwise @ Fire On All Cylinders" ></a> </td>
+     <td width="40%"><a href=""><img src="./img/Open-Challange-Counterclockwise.png" alt="Open Challange Countclockwise @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>  
 
