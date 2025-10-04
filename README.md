@@ -78,4 +78,4 @@
       - [August (八月)](other/work_diary/README.md#20250818--20250824)
       - [September (九月)](other/work_diary/README.md#20250901--20250906)
 
-  <div align="center"><img src="./other/img/甘特圖 3.png" width="1300" alt=" 甘特圖"></div> 
+  <div align="center"><img src="./other/img/甘特圖 3.png" width="1300" alt=" 甘特圖" ></div> 
