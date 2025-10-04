@@ -442,7 +442,7 @@ The following is a development record of the self-driving car model design and t
     </table>
  </div>
 
- 安裝指令
+  - ## 安裝指令
 
  ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
@@ -451,8 +451,8 @@ sudo apt-get update
 sudo apt-get -y install sdkmanager
  ```
 
- - ## 介面操作
-   <div align=center>
+  - ## 介面操作
+    <div align=center>
     <table>
         <tr>
             <th>將Jetson Orin Nano連接上電腦</th>
