@@ -208,8 +208,8 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本周我們開始撰寫自駕車的避障程序，我們自駕車的避障方式為，在畫面中繪畫出兩條的斜率路徑線，在[function.py](../../src/Programming/common/function.py)文件中的 **detect_color_final** 副程式會計算物件的正中心座標，自駕車會使用物件中心座標和物件與路徑線條之間的座標差計算轉彎角度，從而完成避障流程，下方為自駕車的實際畫面。
-
+ - 本週，我們開始撰寫自駕車的避障程式。我們的避障方式是：在畫面中繪製兩條斜率路徑線。在 function.py
+ 文件中的 detect_color_final 副程式會計算物體的中心座標。自駕車利用物體中心座標與物體與路徑線之間的座標差來計算轉彎角度，從而完成避障流程。下方為自駕車的實際畫面。
  <div align=center>
     <table>
         <tr>
@@ -226,7 +226,9 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 在這一週我們在程序中加入轉向開始及結束判斷，如果在畫面中識別到轉向區線條的話會將模式切換至轉向模式，判斷是否離開轉向區是使用航向角、HSV偵測、秒數條件共同達成才會在轉向次數中加一。可經過實際運作測試中發現這種寫法容易去撞到障礙物方塊，因此我們在轉向機制中加入是否看到方塊，如果在轉向過程中看到方塊的話會優先躲避方塊，然後再判斷是否離開轉向區。
+ - 本週我們在程式中加入了轉向開始與結束的判斷機制。當畫面中識別到轉向區的線條時，程序會切換至轉向模式。判斷是否離開轉向區時，需同時滿足航向角、HSV偵測與時間條件，才會將轉向次數加一。
+
+   經過實際運作測試後，我們發現此方法容易導致車輛碰撞障礙物方塊。為此，我們在轉向機制中新增了障礙物偵測：在轉向過程中若識別到方塊，程序會優先執行避障，如果偵測到即將與牆體接觸也會先執行遠離邊牆，最後再判斷是否離開轉向區。下面是判斷是否離開轉向區邏輯程序。
 
     ```python
     if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 0 and heading < target_heading[count+1] + 35 and heading > target_heading[count+1] - 35:
@@ -237,7 +239,7 @@ The following is a development record of the self-driving car model design and t
             if round_number == 2:
                 turn_side = 3
                 time_count = 0
-                start_time = time.time() # Get the current time (seconds)
+                start_time = time.time()
         else:
             count += 1
             combined_control_signal = 0
