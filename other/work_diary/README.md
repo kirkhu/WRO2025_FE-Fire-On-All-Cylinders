@@ -226,7 +226,22 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 
+ - 在這一週我們在程序中加入轉向開始及結束判斷，如果在畫面中識別到轉向區線條的話會將模式切換至轉向模式，判斷是否離開轉向區是使用航向角、HSV偵測、秒數條件共同達成才會在轉向次數中加一。可經過實際運作測試中發現這種寫法容易去撞到障礙物方塊，因此我們在轉向機制中加入是否看到方塊，如果在轉向過程中看到方塊的話會優先躲避方塊，然後再判斷是否離開轉向區。
+
+    ```python
+    if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 0 and heading < target_heading[count+1] + 35 and heading > target_heading[count+1] - 35:
+        turn_side = 2
+        if count >= 3:
+            count = 0
+            round_number +=1
+            if round_number == 2:
+                turn_side = 3
+                time_count = 0
+                start_time = time.time() # Get the current time (seconds)
+        else:
+            count += 1
+            combined_control_signal = 0
+    ```
 
 ## 2025/06/03 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
