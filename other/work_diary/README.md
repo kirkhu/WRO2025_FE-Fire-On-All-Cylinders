@@ -566,7 +566,13 @@ sudo apt-get -y install sdkmanager
             <th colspan=2 >第三代底盤照片</th>
         </tr>
         <tr>
-            <td colspan=2 align=center ><img src="./img/9/" width=400 /></td>
+            <td colspan=2 align=center ><img src="./img/9/32.jpg" width=400 /></td>
+        </tr>
+        <tr>
+            <th colspan=2 >第三代中板照片</th>
+        </tr>
+        <tr>
+            <td colspan=2 align=center ><img src="./img/9/33.jpg" width=400 /></td>
         </tr>
         <tr>
             <th>TPLink AC1300 接收器</th>
