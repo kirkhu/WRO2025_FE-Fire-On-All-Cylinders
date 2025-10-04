@@ -245,6 +245,14 @@ The following is a development record of the self-driving car model design and t
             combined_control_signal = 0
     ```
 
+## 2025/05/08 ~ 2025/05/14
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:** 
+
+ - 
+
+
 ## 2025/06/03 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -576,6 +584,8 @@ sudo apt-get -y install sdkmanager
  - 本週我們發現機器人在讀取BNO055的角度數據時遇到數值為0的情況，經過檢查及討論，發現問題有可能在PCB電路板上，因此我們嘗試將BNO055沒有用到的腳位線路斷開。後來經過網路資料查詢得知原因可能是出在電路迴路上，由於我們的BNO055的正極是由Raspberry Pi Pico W供應，而負極和Jetson Orin Nano進行接地並沒有形成正確迴路，因此我們會在下一代電路板上做出改動，BNO055的電路就會完全是跟Jetson Orin Nano連接，不會有其他腳位去連接PCB上的任一元件。
 
  - 由於我們的自駕車已經採用WebSocket進行數據傳輸，因此網路天線對我們的自駕車來說就非常重要，但是目前使用的網路接收器是使用TPLink的AC1300，其長度就有約18CM左右，所以我們在網路上找到了另外一種網路接收器，ASUS的AC1200，其大小只有2CM*1.5CM，因此我們將網路接收器更換為ASUS的AC1200。
+
+ - 我們原本是使用手機作為WIFI媒介，但是我們發現了有傳輸延遲的情況，因此我們在網路上尋找到方法可以將Jetson Orin Nano變為AP來運作，減去了手機轉接訊號時會導致的延遲。
 
  <div align=center>
     <table>
