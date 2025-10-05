@@ -828,6 +828,6 @@ sudo apt-get -y install sdkmanager
 
  **Content:**
 
- - 
+ - 我們在本週調整線條LAB數值時發現了環境光線對於鏡頭LAB數值會有影響，因此我們在鏡頭支架加上擋板擋住上方光線以減小光線對鏡頭LAB數值的影響。
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
