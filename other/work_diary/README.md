@@ -208,8 +208,9 @@ The following is a development record of the self-driving car model design and t
 
 **Content:**
 
- - 本週，我們開始撰寫自駕車的避障程式。我們的避障方式是：在畫面中繪製兩條斜率路徑線。在 function.py
- 文件中的 detect_color_final 副程式會計算物體的中心座標。自駕車利用物體中心座標與物體與路徑線之間的座標差來計算轉彎角度，從而完成避障流程。下方為自駕車的實際畫面。
+ - 本週，我們開始撰寫自駕車的避障程式。我們的避障方式是：在影像畫面中繪製兩條具有斜率的路徑線，作為車輛行進的參考方向。在 function.py 檔案中的 detect_color_final 副程式中，系統會計算畫面中目標物體的中心座標。自駕車再根據物體中心座標與路徑線之間的座標差，計算出所需的轉彎角度，進而完成避障動作。
+
+ - 下方為自駕車的實際運作畫面。
  <div align=center>
     <table>
         <tr>
@@ -252,7 +253,9 @@ The following is a development record of the self-driving car model design and t
 
 **Content:** 
 
- - 我們的程式每次要運作前都需要我們手動啟動主程式，所以我們在Jetson Nano上面寫入了腳本自己啟動主程式，在使用Linux的Server服務搭配Systemctl達成每次自己啟動程式腳本，腳本在運行時會一直偵測Raspberry Pi Pico是否發出程式啟動訊號。以下是open-mode.service、open-mode.sh、open-mode.py的程式碼。
+ - 我們的程式在每次運作前，都需要手動啟動主程式。為了讓系統能自動啟動，我們在 Jetson Nano 上撰寫了一個啟動腳本，並透過 Linux 的 Systemctl 服務 讓系統在每次開機時自動執行該腳本。腳本運行後，會持續偵測 Raspberry Pi Pico 是否發出「程式啟動」的訊號。
+
+ - 以下為 open-mode.service、open-mode.sh、以及 open-mode.py 的程式碼。
  
  open-mode.service
  ```bash
@@ -359,8 +362,75 @@ except KeyboardInterrupt:
     GPIO.cleanup()
  ```
 
+## 2025/05/15 ~ 2025/05/21
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
-## 2025/06/03 ~ 2025/06/08  
+**Content:** 
+
+ - 在這一週我們發現我們停車的參數調整太過繁瑣，原因是因為程序的容許誤差太小，引此我們啟用了原先預留的超音波孔位，使用超音波輔助自駕車完成停車程序，這樣座以提升停車的成功率。下面是超音波數值的讀取程序。
+
+ ```python
+def measure_distance(trig, echo):
+    # Send trigger pulse
+    trig.value(0)
+    time.sleep_us(2)
+    trig.value(1)
+    time.sleep_us(10)
+    trig.value(0)
+
+    # Read Echo pulse width
+    duration = time_pulse_us(echo, 1)
+
+    # Calculate distance (speed of sound is approximately 343 m/s)
+    distance = (duration / 2) * 0.0343
+
+    return distance
+ ```
+
+## 2025/05/22 ~ 2025/05/28
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:** 
+
+ - 有了上一週加入的超音波數值輔助自駕車停車後，停車程序的調整次數也有顯著減少，我們也開始進行出發程序的轉寫。出發程序由Jetson Nano操控，檢測左右側ROI數值來判斷本場任務開頭是順時針還是逆時針行走，出發後就會將模式切換為避障繼續行走。以下是自駕車的出發程序。
+
+ ```python
+if turn_side == 8:
+    PWM = -45
+    if  roi_values[0]> roi_values[1] and start_0:
+        ROI_0 = True
+        start_1 = True
+        start_0 = False
+    elif  roi_values[0]< roi_values[1]and start_0:
+        ROI_1 = True
+        start_1 = True
+        start_0 = False
+    if  abs(heading) < 60 and start_1 or abs(heading) > 80 and start_1:
+        if ROI_1:
+            combined_control_signal = 180
+        elif ROI_0:
+            combined_control_signal = -180
+    if abs(heading) > 60 and abs(heading) < 80 and start_1:
+        start_2 = True
+        start_1 = False
+    if start_2:
+        PWM = 40
+        combined_control_signal = 0
+    if start_2 and roi_values[2] > 4000:
+        start_2 = False
+        start_3 = True
+    if abs(heading) > 10 and abs(heading) < 170 and start_3:
+        if ROI_1:
+            combined_control_signal = -180
+        elif ROI_0:
+            combined_control_signal = 180
+    if abs(heading) < 10 and start_3  or abs(heading) > 170 and start_3:
+        start_2 = False
+        start_1 = False
+        turn_side = 0
+ ```
+
+## 2025/06/04 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 

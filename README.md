@@ -2,13 +2,13 @@
 
 ### 中文
 - 這是 WRO 台灣隊伍「__Fire On All Cylinders.__」的官方 GitHub 倉庫。所有程式碼、文件和文件均在此。
-- 這款自動駕駛汽車的硬體和軟體設計靈感源自於我們姊妹團隊（Shinan-Fire-On-All-Cylinders）去年打造的模型，並藉鑒了去年世界冠軍模型的優勢。在此基礎上，我們將主控制器從“Raspberry Pi 4B”升級為“Nvidia Jetson Nano”，提升性​​能並引入創新設計元素，使車輛更具競爭力。
+- 這款自動駕駛汽車的硬體和軟體設計靈感源自於我們姊妹團隊（Shinan-Fire-On-All-Cylinders）去年打造的模型，並藉鑒了去年世界冠軍模型的優勢。在此基礎上，我們將主控制器從“Raspberry Pi 4B”升級為“Nvidia Jetson Orin Nano”，提升性​​能並引入創新設計元素，使車輛更具競爭力。
 - 您可以在此處找到技術報告內容和設定說明的鏈接，這些鏈接分別面向學習者和評委，方便您在學習或評估期間訪問。
 - 本技術文件將根據評分標準建立目錄，目錄標題將以超連結形式顯示，方便評審或學習者輕鬆導航至技術文件的關鍵內容，從而快速進行評估。
 - **特別提醒：**受網路速度影響，圖片可能無法正常顯示。如遇此情況，請嘗試重新整理網頁以解決問題。
 ### 英文
 - This is the official GitHub repository of the WRO Taiwan team "__Fire On All Cylinders.__". All code, files and documents are here.
-- The hardware and software design of this self-driving car is inspired by the model built by our sister team (Shinan-Fire-On-All-Cylinders) last year, and borrows the advantages of last year's world champion model. On this basis, we upgraded the main controller from "Raspberry Pi 4B" to "Nvidia Jetson Nano", improved performance and introduced innovative design elements to make the vehicle more competitive.
+- The hardware and software design of this self-driving car is inspired by the model built by our sister team (Shinan-Fire-On-All-Cylinders) last year, and borrows the advantages of last year's world champion model. On this basis, we upgraded the main controller from "Raspberry Pi 4B" to "Nvidia Jetson Orin Nano", improved performance and introduced innovative design elements to make the vehicle more competitive.
 - You can find links to the technical report content and setting instructions here, which are for learners and judges respectively, for your convenience during learning or evaluation.
 - This technical document will establish a table of contents according to the scoring criteria, and the table of contents titles will be displayed in the form of hyperlinks, so that judges or learners can easily navigate to the key content of the technical document for quick evaluation.
 - **Special reminder: **Due to the network speed, the image may not be displayed properly. If this happens, please try to refresh the webpage to solve the problem.
