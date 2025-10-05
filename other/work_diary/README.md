@@ -252,7 +252,112 @@ The following is a development record of the self-driving car model design and t
 
 **Content:** 
 
- - 
+ - 我們的程式每次要運作前都需要我們手動啟動主程式，所以我們在Jetson Nano上面寫入了腳本自己啟動主程式，在使用Linux的Server服務搭配Systemctl達成每次自己啟動程式腳本，腳本在運行時會一直偵測Raspberry Pi Pico是否發出程式啟動訊號。以下是open-mode.service、open-mode.sh、open-mode.py的程式碼。
+ 
+ open-mode.service
+ ```bash
+[Unit]
+Description=Open Terminal with Python Script on Boot
+After=graphical.target network.target
+Wants=graphical.target
+
+[Service]
+Type=simple
+User=user
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/user/.Xauthority"
+Environment="DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus"
+WorkingDirectory=/home/user/code
+ExecStart=/bin/bash -c "/home/user/code/open-mode.sh"
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=default.target
+ ```
+
+ open-mode.sh
+ ```bash
+#!/bin/bash
+
+# 等待X伺服器準備好
+while [ ! -e /tmp/.X11-unix/X0 ]; do
+    sleep 1
+done
+
+# 等待使用者會話完全啟動
+until xhost >/dev/null 2>&1; do
+    sleep 1
+done
+
+# 設置必要的環境變量
+export DISPLAY=:0
+export XAUTHORITY=/home/user/.Xauthority
+export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+
+# 啟動終端並保持打開
+/usr/bin/gnome-terminal --title='start code' -- bash -c '/home/user/code/open-mode.py; exec bash'
+ ```
+
+ open-mode.py
+ ```python
+#!/usr/bin/python3
+import Jetson.GPIO as GPIO
+import time
+import subprocess
+import os
+
+
+# 设置 GPIO 模式
+GPIO.setmode(GPIO.BOARD)  # 使用引脚编号方式
+
+# 设置 GPIO 12 为输入模式
+input_pin = 7
+output_pin = 40
+GPIO.setup(output_pin, GPIO.OUT)
+GPIO.setup(input_pin, GPIO.IN)
+
+# 保存进程信息的变量
+process = None
+GPIO.output(output_pin, GPIO.LOW)
+try:
+    command = "xrandr --fb 1900x1240"
+    subprocess.run(command, shell=True)
+    GPIO.output(output_pin, GPIO.LOW)
+    while True:
+        # 检测引脚电平状态
+        if GPIO.input(input_pin) == GPIO.HIGH:
+            print("检测到高电平，执行另一个程序")
+            # 执行另一个程序（例如运行一个脚本）并避免阻塞主程序
+            if process is not None and process.poll() is None:  # 检查进程是否仍在运行
+                time.sleep(1)  # 每隔1秒检测一次
+                continue
+            command = "echo '0000' | sudo -S chmod 777 /dev/ttyTHS1"
+            subprocess.run(command, shell=True)
+            folder_path = "/home/user/code/"  # 替换为你要进入的目录路径
+            os.chdir(folder_path)
+            
+            #process = subprocess.Popen(
+            #    ["xterm", "-e", "/usr/bin/python3", "/home/user/code/jetson_nano_main.py"]
+            #) # 資格賽
+            process = subprocess.Popen(
+                ["xterm", "-e", "/usr/bin/python3", "/home/user/code/jetson_nano_main_final.py"]
+            ) # 決賽
+
+        else:
+            if process is not None and process.poll() is None:  # 检查进程是否仍在运行
+                print("终止先前运行的程序")
+                process.terminate()  # 可以用 kill() 强制关闭
+                process.wait()       # 等待进程完全结束
+            GPIO.output(output_pin, GPIO.LOW)
+            print("低电平，熄燈")
+
+        time.sleep(1)  # 每隔1秒检测一次
+
+except KeyboardInterrupt:
+    # 清理 GPIO 设置
+    GPIO.cleanup()
+ ```
 
 
 ## 2025/06/03 ~ 2025/06/08  
