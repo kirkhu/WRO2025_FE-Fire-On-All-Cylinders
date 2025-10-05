@@ -456,11 +456,17 @@ if turn_side == 8:
         turn_side = 0
  ```
 
+## 2025/05/29 ~ 2025/06/03
+**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:**
+
+ - 
+
 ## 2025/06/04 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
-
 
 - 經修正前兩代的設計問題後，第四代版本已成功通過功能測試。實際運行測試顯示，排針接點與電路佈局無異常，系統可穩定運作。
 <div align="center" >
