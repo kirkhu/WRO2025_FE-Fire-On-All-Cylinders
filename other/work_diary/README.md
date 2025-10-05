@@ -791,7 +791,7 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
- # 2025/09/28 ~ 2025/10/06
+ # 2025/10/07 ~ 2025/10/13
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
