@@ -213,10 +213,12 @@ The following is a development record of the self-driving car model design and t
  <div align=center>
     <table>
         <tr>
-            <th>Jetson Nano程序執行畫面</th>
+            <th colspan=3 >Jetson Nano程序執行畫面</th>
         </tr>
         <tr>
-            <td><img src="" width=400 /></td>
+            <td><img src="./img/4/binarization_run.png" width=400 /></td>
+            <td><img src="./img/4/linecolor.png" width=400 /></td>
+            <td><img src="./img/4/Obstacle_detection.png" width=400 /></td>
         </tr>
     </table>
  </div>
