@@ -21,7 +21,7 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
          <td>
-         描述
+         問題&改動
             <ol>
                <li>線路雜亂</li>
                <li>焊接時間長</li>
@@ -35,7 +35,12 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
          <td>
-         描述
+         改進
+            <ol>
+               <li>使用PCB繪畫電路板整理線路。</li>
+               <li>只需將電子元件焊接上電路板省掉佈線的時間</li>
+            </ol>
+         問題&改動
             <ol>
                <li>Pin 腳間的距離有誤</li>
             <ol>
@@ -48,9 +53,13 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 3.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 3.png" width=250 /></td>
          <td>
-         描述
+         改進
             <ol>
-               <li>設計錯誤導致極性顛倒</li>
+               <li>使用EasyEDA的內建範例圖腳準Pin腳間的距離。</li>
+            </ol>
+         問題&改動
+            <ol>
+               <li>繪畫時正反面繪畫錯誤，導致電路極性顛倒。</li>
             <ol>
          </td>
       </tr>
@@ -61,10 +70,14 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 4.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 4.png" width=250 /></td>
          <td>
-         描述
+         改進
             <ol>
-               <li>需要新增 插拔式接線端子</li>
-               <li>將感測器接口改為兩個紅外線、兩個超音波</li>
+               <li>重新進行電路原理圖繪畫將錯誤連接刪除重連。</li>
+            </ol>
+         問題&改動
+            <ol>
+               <li>因使用Jetson Orin Nano所以需要新增插拔式接線端子供應電力。</li>
+               <li>在自駕車上新增紅外線感測器。</li>
             <ol>
          </td>
       </tr>
@@ -75,10 +88,15 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 5.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 5.png" width=250 /></td>
          <td>
-         描述
+         改進
             <ol>
-               <li>電路繪畫錯誤，在第六版電路中將BNO055的不必要腳位取消</li>
-               <li></li>
+               <li>在電路上新增插拔式接線端子。</li>
+               <li>新增紅外線感測器孔位。</li>
+            </ol>
+         問題&改動
+            <ol>
+               <li>電力迴路問題，須將Adafruit BNO055的VIN、GND、SDA、SCL都連接到Orin</li>
+               <li>因更改程式啟動訊號發出者，所以將程式啟動按鈕線路更改直接連線至Orin</li>
             <ol>
          </td>
       </tr>
