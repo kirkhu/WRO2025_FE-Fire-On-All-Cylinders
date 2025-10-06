@@ -55,7 +55,7 @@
          <td>
          改進
             <ol>
-               <li>使用EasyEDA的內建範例圖腳準Pin腳間的距離。</li>
+               <li>使用EasyEDA的內建範例圖校準Pin腳間的距離。</li>
             </ol>
          問題&改動
             <ol>
