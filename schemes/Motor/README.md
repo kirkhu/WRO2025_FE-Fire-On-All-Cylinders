@@ -40,7 +40,7 @@ Through careful selection of these two motors, we enhanced vehicle performance a
 <table>
 <tr><th colspan="3" width ="100%">Servo Motor Comparison-伺服馬達比較</th></tr>
 <tr align="center">
-<th rowspan="2"  ">Model-型號</th>
+<th rowspan="2">Model-型號</th>
 <th >MG90S</th>
 <th >SG90</th>
 </tr>
