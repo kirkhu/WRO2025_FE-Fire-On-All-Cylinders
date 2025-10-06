@@ -246,20 +246,20 @@ The following is a development record of the self-driving car model design and t
 
 下方為判斷是否離開轉向區的邏輯程式。
 
-    ```python
-    if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 0 and heading < target_heading[count+1] + 35 and heading > target_heading[count+1] - 35:
-        turn_side = 2
-        if count >= 3:
-            count = 0
-            round_number +=1
-            if round_number == 2:
-                turn_side = 3
-                time_count = 0
-                start_time = time.time()
-        else:
-            count += 1
-            combined_control_signal = 0
-    ```
+```python
+if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 0 and heading < target_heading[count+1] + 35 and heading > target_heading[count+1] - 35:
+    turn_side = 2
+    if count >= 3:
+        count = 0
+        round_number +=1
+        if round_number == 2:
+            turn_side = 3
+            time_count = 0
+            start_time = time.time()
+    else:
+        count += 1
+        combined_control_signal = 0
+```
 
 ## 2025/05/08 ~ 2025/05/14
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
