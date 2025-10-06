@@ -95,7 +95,7 @@
             </ol>
          問題&改動
             <ol>
-               <li>電力迴路問題，須將Adafruit BNO055的VIN、GND、SDA、SCL都連接到Orin。</li>
+               <li>電力迴路問題，須將Adafruit BNO055的VIN、GND、SDA、SCL都直接連接到Orin。</li>
                <li>因更改程式啟動訊號發出者，所以將程式啟動按鈕線路更改直接連線至Orin。</li>
             <ol>
          </td>
