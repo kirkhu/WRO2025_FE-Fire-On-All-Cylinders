@@ -16,15 +16,15 @@
 ## Rubric for Judging Engineering Documentation-工程文獻評審標準
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management-行動管理
-    * [1-1 Vehicle 2D/3D Models in CAD (CAD 中的車輛 2D/3D 模型) **已改動 ](models/Vehicle_2D_3D/README.md)
+    * [1-1 Vehicle 2D/3D Models in CAD (CAD 中的車輛 2D/3D 模型) **已改動](models/Vehicle_2D_3D/README.md)
     * [1-2 Vehicle Chassis Design(車輛底盤設計) **已改動](schemes/Vehicle_Chassis_Design/README.md)
     * [1-3 Motor Selection (馬達選擇)](schemes/Motor/README.md)
 
     
   #### 2. Power and Sense Management-電源和感測管理
     - __2-1 Vehicle Design__
-      - [2-1-1 BOM Pats List (BOM零件清單)](schemes/Parts_List/README.md)
-      - [2-1-2 Circuit Design (電路設計)](models/Circuit_Design/README.md)
+      - [2-1-1 BOM Pats List (BOM零件清單) **已改動](schemes/Parts_List/README.md)
+      - [2-1-2 Circuit Design (電路設計) **已改動](models/Circuit_Design/README.md)
       - [2-1-3 Hardware Fool-Proof Design(硬體防呆設計) ](schemes/Fool-Proof-Design/README.md) 
       - [2-1-4 Assembly Instructions & Wiring Diagrams(裝配說明和接線圖) ](schemes/Assembly_Instructions/README.md)    
       
