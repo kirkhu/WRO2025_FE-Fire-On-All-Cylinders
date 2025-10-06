@@ -461,7 +461,14 @@ if turn_side == 8:
 
 **Content:**
 
- - 
+ - 由於轉向結構可以轉動的角度有限，如果角度太大可能會使轉向結構扭斷，因此我們在程式碼結尾加入了角度限制，以防止Servo燒壞或轉向結構被扭斷。以下為限制轉向角度的程式碼。
+
+ ```python
+if combined_control_signal > 180:
+    combined_control_signal=180
+if combined_control_signal < -180:
+    combined_control_signal=-180
+ ```
 
 ## 2025/06/04 ~ 2025/06/08  
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
