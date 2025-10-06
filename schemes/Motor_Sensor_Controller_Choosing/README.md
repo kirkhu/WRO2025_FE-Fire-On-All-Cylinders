@@ -39,7 +39,7 @@ Here is a specification comparison between the two:
 <table>
 <tr>
 <th rowspan="2" width=200><div align=center>Photo(照片)</th>
-<th width=200><div align=center>Raspberry Pi Pico2 WH</th>
+<th width=200><div align=center>Raspberry Pi Pico W</th>
 <th width=200><div align=center>Raspberry Pi Pico</th>
 <th width=200><div align=center>Esp32 wifi</th>
 </tr><tr>
@@ -122,7 +122,7 @@ Here is a specification comparison between the two:
 </table>
 </div>
 
-Raspberry Pi Pico2 WH 提供簡單性、低功耗與經濟實惠，同時因為擁有WIFI模塊可以跟 Jetson Orin Nano 之間建立 Web Sucks 通訊，所以我們選擇 Raspberry Pi Pico2 WH 作為 Nvidia Jetson Orin Nano 的中繼控制器，負責管理馬達及感測器。
+Raspberry Pi Pico W 提供簡單性、低功耗與經濟實惠，同時因為擁有WIFI模塊可以跟 Jetson Orin Nano 之間建立 Web Sockets 通訊，所以我們選擇 Raspberry Pi Pico W 作為 Nvidia Jetson Orin Nano 的中繼控制器，負責管理馬達及感測器。
 
 The Raspberry Pi Pico  offers simplicity, low power consumption, and affordability, making it ideal for applications with low wireless demands. It also aligns well with the requirements of this competition. Therefore, we have chosen the Raspberry Pi Pico as a relay management controller for the Nvidia Jetson Nano, responsible for managing motors and sensors.
 

@@ -122,6 +122,6 @@
   |<div align="center"> <img src="./img/Prepare_to_reverse.png"  alt="Prepare_to_reverse"></div>|<div align="center"> <img src="./img/Start_reversing.png"  alt="Start_reversing"></div>|<div align="center"> <img src="./img/Parking_ends.png"  alt="Parking_ends"></div>|
 
 - ### Parking test video-停車測試影片
-[![Parking @ Fire On All Cylinders](./img/parking.jpg)](https://youtu.be/zhCsoUZu6ao "Open Challange clockwise @ Fire On All Cylinders")
+[![Parking @ Fire On All Cylinders](./img/parking.jpg)]( "Open Challange clockwise @ Fire On All Cylinders")
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
