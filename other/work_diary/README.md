@@ -465,9 +465,9 @@ if turn_side == 8:
 
  ```python
 if combined_control_signal > 180:
-    combined_control_signal=180
+    combined_control_signal=160
 if combined_control_signal < -180:
-    combined_control_signal=-180
+    combined_control_signal=-160
  ```
 
 ## 2025/06/04 ~ 2025/06/08  
