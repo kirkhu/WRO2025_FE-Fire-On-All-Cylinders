@@ -25,11 +25,11 @@
     - __2-1 Vehicle Design__
       - [2-1-1 BOM Pats List (BOM零件清單) **已改動](schemes/Parts_List/README.md)
       - [2-1-2 Circuit Design (電路設計) **已改動](models/Circuit_Design/README.md)
-      - [2-1-3 Hardware Fool-Proof Design(硬體防呆設計) ](schemes/Fool-Proof-Design/README.md) 
-      - [2-1-4 Assembly Instructions & Wiring Diagrams(裝配說明和接線圖) ](schemes/Assembly_Instructions/README.md)    
+      - [2-1-3 Hardware Fool-Proof Design(硬體防呆設計) ](schemes/Fool-Proof-Design/README.md)
+      - [2-1-4 Assembly Instructions & Wiring Diagrams(裝配說明和接線圖) ](schemes/Assembly_Instructions/README.md)
     - __2-2 Power Management-電源管理__
-      - [2-2-1 Battery choice for self-driving cars(自動駕駛汽車的電池選擇) ](schemes/Battery/README.md)  
-      - [2-2-2 Power Supply System(供電系統) ](schemes/Power_Supply_System/README.md) 
+      - [2-2-1 Battery choice for self-driving cars(自動駕駛汽車的電池選擇) ](schemes/Battery/README.md)
+      - [2-2-2 Power Supply System(供電系統) ](schemes/Power_Supply_System/README.md)
     - __2-3 Controller Selection-控制器選擇__
       - [2-3-1 Main Controller Comparison(主控制器對比) **已改動](schemes/Main_Controller_Choosing/README.md)
       - [2-3-2 Motor & Sensor Intermediate I/O Controller Comparison(馬達和感測器中間 I/O 控制器比較) **已改動](schemes/Motor_Sensor_Controller_Choosing/README.md)
@@ -43,7 +43,7 @@
     - [3-1 Software Platform Construction(軟體平台建設) ](src/System_Platform_Software/README.md)
     - [3-2 OpenCV Introduction (OpenCV介紹)](src/OpenCV/README.md)
     - __3-3 Image Recognition Processing and Steering-影像辨識處理和控制__
-      - [3-3-1 Image Recognition Processing(影像辨識處理) ](src/Image_Recognition_Processing/README.md)  
+      - [3-3-1 Image Recognition Processing(影像辨識處理) ](src/Image_Recognition_Processing/README.md)
       - [3-3-2 Steering Control(轉向控制) ](src/Steering_Control/README.md) 
       - [3-3-3 Automatically record the HSV values of the field (自動記錄田地的HSV值)](src/Automatically_record_HSV/README.md)
     - __3-4 Programming-程式設計__
