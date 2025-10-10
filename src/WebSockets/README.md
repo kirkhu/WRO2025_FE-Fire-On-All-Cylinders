@@ -18,7 +18,7 @@
         <tr>
             <th rowspan=2>特性</th>
             <th><div align=center><img src="img/HTTP.png" /></div></th>
-            <th><div align=center><img src="img/WebSocket.png" /></div></th>
+            <th><div align=center><img src="img/WebSockets.png" width=100/></div></th>
             <th><div align=center><img src="img/UART.png" /></div></th>
         </tr>
         <tr>
