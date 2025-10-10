@@ -16,10 +16,10 @@
             <th colspan=4>WebSockets vs HTTP vs UART 比較</th>
         </tr>
         <tr>
-            <td>特性</td>
-            <td>HTTP</td>
-            <td>WebSockets</td>
-            <td>UART</td>
+            <td align=center>特性</td>
+            <td align=center>HTTP</td>
+            <td align=center>WebSockets</td>
+            <td align=center>UART</td>
         </tr>
         <tr>
             <td>通訊型態</td>
