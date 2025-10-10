@@ -505,8 +505,8 @@ if combined_control_signal < -180:
             <th colspan=2>Before and After Modification</th>
         </tr>
         <tr>
-            <td><img src="./img/7/前底盤.png"/></td>
-            <td><img src="./img/7/現底盤.png"/></td>
+            <td><img src="./img/7/forward-driver.png"/></td>
+            <td><img src="./img/7/now-driver.png"/></td>
         </tr>
     </table>
  </div>

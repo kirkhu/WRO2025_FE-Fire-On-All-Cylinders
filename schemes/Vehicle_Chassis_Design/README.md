@@ -40,8 +40,8 @@
   <th width="30%"><div align=center>2025國際賽機型</th>
   <th><div align=center>Explanation(說明)</th>
   <tr>
-  <td><div align=center><img src="./img/全國賽機型.png" height=200></td>
-  <td><div align=center><img src="./img/國際賽機型.png" height=230></td>
+  <td><div align=center><img src="./img/National_competition_machine.png" height=200></td>
+  <td><div align=center><img src="./img/International_competition_machine.png" height=230></td>
   <td>基於全國賽我們發現機型存在一些問題：<br><br>
    <ol>
     <li>Jetson Nano的運算效率不足，導致有時會太晚看到障礙物。</li>
