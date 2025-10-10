@@ -51,7 +51,7 @@
       <th> Circuit Board of Top View(電路板頂視圖) </th><th>Circuit Board of Button View(電路板底視圖)</th>
   </tr>
   <tr align="center">
-     <td> <img src="../../models/Circuit_Design/img/circuitboardup1.png" width="300" alt="circuit_up.jpg"> </td><td><img src="../../models/Circuit_Design/img/circuitboardback1.png" width="300" alt="circuit_lower.jpg"></td>
+     <td> <img src="img/circuit board fount.png" width="300" alt="circuit_up.jpg"> </td><td><img src="img/circuit board back.png" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
