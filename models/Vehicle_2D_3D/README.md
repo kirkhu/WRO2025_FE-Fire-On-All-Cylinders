@@ -21,7 +21,7 @@
     </tr><tr>
     <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
     <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
-    <td><img src="../../schemes/Vehicle_Chassis_Design/img/國際賽機型.png" width=250 alt="最終出賽機型"></td>
+    <td><img src="../../schemes/Vehicle_Chassis_Design/img/International_competition_machine.png" width=250 alt="最終出賽機型"></td>
     </tr>
     </table>
  </div> 
