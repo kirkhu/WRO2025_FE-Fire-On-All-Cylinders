@@ -10,8 +10,8 @@
 
 - 而在此次比賽中我們就使用的Web Sockets這種通訊協定，使Jetson Orin Nano和Raspberry Pi Pico W可以進行資訊交換，像是傳送底盤控制參數，感測器數值交換等。以下是三種傳輸協定的特性比較。
 
-<div align=center width=500>
-    <table>
+<div align=center>
+    <table width=500>
         <tr>
             <th colspan=4>WebSockets vs HTTP vs UART 比較</th>
         </tr>
