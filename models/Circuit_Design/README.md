@@ -33,7 +33,8 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
          <td>
          描述：</br>&emsp;&emsp;
-         因上版電路板有焊接時間過長和線路雜亂的問題，因此我們使用EasyEDA繪畫並生成PCB電路。</br>此版本電路板有針腳間距不正確的問題。
+         因上版電路板有焊接時間過長和線路雜亂的問題，因此我們使用EasyEDA繪畫並生成PCB電路。</br>&emsp;&emsp;
+         在測試過程中發現元件無法組裝上去，經過檢查後發現是針腳間距錯誤導致。
          </td>
       </tr>
       <tr>
@@ -43,14 +44,9 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 3.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 3.png" width=250 /></td>
          <td>
-         改進
-            <ol>
-               <li>使用EasyEDA的內建範例圖校準Pin腳間的距離。</li>
-            </ol>
-         問題&改動
-            <ol>
-               <li>繪畫時正反面繪畫錯誤，導致電路極性顛倒。</li>
-            <ol>
+         描述：</br>&emsp;&emsp;
+         因上版電路板有針腳間距不正確的問題，因此我們使用EasyEDA的內建範例圖重新校準針腳間距。</br>&emsp;&emsp;
+         在測試過程中發現整體電路的極性顛倒了，經過查驗發現問題是因為繪畫時將電路板反面畫到正面導致的。
          </td>
       </tr>
       <tr>
@@ -60,15 +56,9 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 4.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 4.png" width=250 /></td>
          <td>
-         改進
-            <ol>
-               <li>重新進行電路原理圖繪畫將錯誤連接刪除重連。</li>
-            </ol>
-         問題&改動
-            <ol>
-               <li>因使用Jetson Orin Nano所以需要新增插拔式接線端子供應電力。</li>
-               <li>在自駕車上新增紅外線感測器。</li>
-            <ol>
+         描述：</br>&emsp;&emsp;
+         因上版電路板有電路極性顛倒的問題，因此我們重新繪畫電路並且經過多次確認電路繪畫正確後送出。</br>&emsp;&emsp;
+         因為機器將主控制器改為Jetson Orin Nano，並且改用紅外線感測器感測是否靠近物體，因此需要添加兩個2Pin插座母頭、插拔式接線端子。
          </td>
       </tr>
       <tr>
@@ -78,17 +68,9 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 5.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 5.png" width=250 /></td>
          <td>
-         改進
-            <ol>
-               <li>在電路上新增插拔式接線端子。</li>
-               <li>新增紅外線感測器孔位。</li>
-            </ol>
-         問題&改動
-            <ol>
-               <li>電力迴路問題，須將Adafruit BNO055的VIN、GND、SDA、SCL都直接連接到Orin。</li>
-               <li>因更改程式啟動訊號發出者，所以將程式啟動按鈕線路更改直接連線至Orin。</li>
-            <ol>
-         </td>
+         描述：</br>&emsp;&emsp;
+         因新版機器需要新增兩個2Pin插座母頭和插拔式接線端子，所以我們重新給PCB排版並且加入所需元件。</br>&emsp;&emsp;
+         此版本在運作程序讀取陀螺儀角度時，會有讀取數值為0的狀況，經過排查發現是電路的迴路問題，且需要將程序改為由Jetson Orin Nano偵測啟動按鈕是否按下，因此需要將陀螺儀的電路獨立連接到Jetson Orin Nano，並將按鈕電路改為連接到Jetson Orin Nano中間還要新增電阻。
       </tr>
    </table>
  </div>
