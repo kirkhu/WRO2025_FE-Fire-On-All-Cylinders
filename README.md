@@ -40,7 +40,7 @@
 
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management-障礙管理
-    - [3-1 Software Platform Construction(軟體平台建設) ](src/System_Platform_Software/README.md)
+    - [3-1 Software Platform Construction(軟體平台建設) **已改動](src/System_Platform_Software/README.md)
     - [3-2 OpenCV Introduction (OpenCV介紹)](src/OpenCV/README.md)
     - [3-3 Web Sockets Interdouction](src/WebSockets/README.md)
     - __3-4 Image Recognition Processing and Steering-影像辨識處理和控制__
