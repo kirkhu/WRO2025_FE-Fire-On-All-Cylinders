@@ -295,6 +295,19 @@
       </table>
       </div> 
 
+      <div align=center>
+      <table>
+      <tr>
+      <th width="50%">超音波支架</th>
+      <th width="50%">紅外線支架</th>
+      </tr>
+      <tr>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic stent.png" /></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Infrared bracket.png" /></td>
+      </tr>
+      </table>
+      </div>
+
  ***
 - ### Supplementary Information-補充資訊
 - #### 中文:
