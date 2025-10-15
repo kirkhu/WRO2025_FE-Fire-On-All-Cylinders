@@ -43,9 +43,9 @@ Here is a specification comparison between the two:
 <th width=200><div align=center>Raspberry Pi Pico</th>
 <th width=200><div align=center>Esp32 wifi</th>
 </tr><tr>
-<td><div align=center><img src="../../other/work_diary/img/8/4.png" height="200"></td>
+<td><div align=center><img src="./img/Raspberry_Pi_Pico_W.png" height="200"></td>
 <td><div align=center><img src="./img/Raspberry_Pi_Pico.png" height="200"></td>
-<td><div align=center><img src="./img/esp32.png" height="200"></td>
+<td><div align=center><img src="./img/ESP32.png" height="200"></td>
 </tr><tr>
 <th>CPU</th>
 <td>Dual Arm Cortex-M33 or dual RISC-V Hazard3 processors @ 150MHz</td>
