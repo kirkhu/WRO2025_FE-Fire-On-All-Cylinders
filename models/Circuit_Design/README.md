@@ -21,8 +21,8 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
          <td>
-         描述：</br>
-         &emsp;電路板焊接所需時間過長，且線路砸亂不美觀還不易檢查問題點
+         描述：</br>&emsp;&emsp;
+         電路板焊接所需時間過長，且線路砸亂不美觀還不易檢查問題點
          </td>
       </tr>
       <tr>
