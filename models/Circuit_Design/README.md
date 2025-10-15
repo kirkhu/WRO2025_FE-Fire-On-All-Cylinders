@@ -32,7 +32,7 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
          <td>
-         
+         ;
          </td>
       </tr>
       <tr>
