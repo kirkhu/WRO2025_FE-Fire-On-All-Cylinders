@@ -18,7 +18,7 @@
          <th colspan=3>第一代</th>
       </tr>
       <tr>
-         <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=300 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=500 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
          <td>
          描述：</br>&emsp;&emsp;
