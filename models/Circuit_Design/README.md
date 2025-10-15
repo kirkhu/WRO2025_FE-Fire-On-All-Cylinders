@@ -18,8 +18,8 @@
          <th colspan=3>第一代</th>
       </tr>
       <tr>
-         <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=500 /></td>
-         <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=400 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=400 /></td>
          <td>
          描述：</br>&emsp;&emsp;
          此版本電路板焊接所需時間過長，且線路砸亂不美觀還不易檢查問題點。
@@ -29,8 +29,8 @@
          <th colspan=3>第二代</th>
       </tr>
       <tr>
-         <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=250 /></td>
-         <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=400 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=400 /></td>
          <td>
          描述：</br>&emsp;&emsp;
          因上版電路板有焊接時間過長和線路雜亂的問題，因此我們使用EasyEDA繪畫並生成PCB電路。</br>&emsp;&emsp;
@@ -41,8 +41,8 @@
          <th colspan=3>第三代</th>
       </tr>
       <tr>
-         <td align=center ><img src="../Circuit_Design/img/circuit board fount 3.png" width=250 /></td>
-         <td align=center ><img src="../Circuit_Design/img/circuit board back 3.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 3.png" width=400 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 3.png" width=400 /></td>
          <td>
          描述：</br>&emsp;&emsp;
          因上版電路板有針腳間距不正確的問題，因此我們使用EasyEDA的內建範例圖重新校準針腳間距。</br>&emsp;&emsp;
@@ -53,8 +53,8 @@
          <th colspan=3>第四代</th>
       </tr>
       <tr>
-         <td align=center ><img src="../Circuit_Design/img/circuit board fount 4.png" width=250 /></td>
-         <td align=center ><img src="../Circuit_Design/img/circuit board back 4.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 4.png" width=400 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 4.png" width=400 /></td>
          <td>
          描述：</br>&emsp;&emsp;
          因上版電路板有電路極性顛倒的問題，因此我們重新繪畫電路並且經過多次確認電路繪畫正確後送出。</br>&emsp;&emsp;
@@ -65,8 +65,8 @@
          <th colspan=3>第五代</th>
       </tr>
       <tr>
-         <td align=center ><img src="../Circuit_Design/img/circuit board fount 5.png" width=250 /></td>
-         <td align=center ><img src="../Circuit_Design/img/circuit board back 5.png" width=250 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board fount 5.png" width=400 /></td>
+         <td align=center ><img src="../Circuit_Design/img/circuit board back 5.png" width=400 /></td>
          <td>
          描述：</br>&emsp;&emsp;
          因新版機器需要新增兩個2Pin插座母頭和插拔式接線端子，所以我們重新給PCB排版並且加入所需元件。</br>&emsp;&emsp;
