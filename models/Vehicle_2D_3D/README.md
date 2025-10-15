@@ -265,45 +265,48 @@
       </div> 
 
   - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer-使用立體光固化（SLA）3D列印機製作的車體支撐零件
-      <div align=center>
-      <table>
-      <tr>
-      <th>Front Assembly(前部組件)</th>
-      <th>Steering Knuckle(轉向節)</th>
-      <th>Steering shaft holder(轉向軸支架)</th>
-      </tr><tr>
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width="400" alt="Front Assembly"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle1.png" width="400" alt="Steering Knuckle"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width="350" alt="Steering-shaft-holder"></td> 
-      </tr>
-      </table>
-      </div> 
 
       <div align=center>
       <table>
       <tr>
-      <th width="25%">Steering rod(轉向橫桿)</th>
-      <th width="25%">Bearing Holder(軸承座)</th>
-      <th width="25%">Motor Holder(馬達支架)</th>
-      <th width="25%">Motor steering rod(馬達向拉桿)</th>
-      </tr><tr>
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width="300" alt="Bearing-Holder"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width="300" alt="Bearing-Holder"></td> 
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width="300" alt="Motor Holder"></td>
-      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor steering rod.png" width="300" alt="Motor Holder"></td>
+      <th width="400">Front Assembly</th>
+      <th width="400">Steering Knuckle</th>
+      <th width="400">Steering shaft holder</th>
+      </tr>
+      <tr>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" /></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle1.png" ></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" ></td>
       </tr>
       </table>
-      </div> 
+      </div>
 
       <div align=center>
       <table>
       <tr>
-      <th width="50%">超音波支架</th>
-      <th width="50%">紅外線支架</th>
+      <th width="400">Steering rod</th>
+      <th width="400">Bearing Holder</th>
+      <th width="400">Motor Holder</th>
+      </tr>
+      <tr>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" /></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" /></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" /></td>
+      </tr>
+      </table>
+      </div>
+
+      <div align=center>
+      <table>
+      <tr>
+      <th width="400">超音波支架</th>
+      <th width="400">紅外線支架</th>
+      <th width="400">Motor steering rod</th>
       </tr>
       <tr>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic stent.png" /></td>
       <td><img src="./Vehicle_Chassis_CAD_File/img/Infrared bracket.png" /></td>
+      <td><img src="./Vehicle_Chassis_CAD_File/img/Motor steering rod.png" /></td>
       </tr>
       </table>
       </div>
