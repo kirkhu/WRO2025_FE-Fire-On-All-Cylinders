@@ -22,7 +22,7 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
          <td>
          描述：</br>&emsp;&emsp;
-         電路板焊接所需時間過長，且線路砸亂不美觀還不易檢查問題點
+         此版本電路板焊接所需時間過長，且線路砸亂不美觀還不易檢查問題點。
          </td>
       </tr>
       <tr>
@@ -32,7 +32,8 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
          <td>
-         ;
+         描述：</br>&emsp;&emsp;
+         因上版電路板有焊接時間過長和線路雜亂的問題，因此我們使用EasyEDA繪畫並生成PCB電路。</br>此版本電路板有針腳間距不正確的問題。
          </td>
       </tr>
       <tr>
