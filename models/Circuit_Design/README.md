@@ -21,7 +21,7 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 1.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 1.png" width=250 /></td>
          <td>
-         描述：
+         描述：</br>
             電路板焊接所需時間過長，且線路砸亂不美觀還不易檢查問題點
          </td>
       </tr>
@@ -32,15 +32,7 @@
          <td align=center ><img src="../Circuit_Design/img/circuit board fount 2.png" width=250 /></td>
          <td align=center ><img src="../Circuit_Design/img/circuit board back 2.png" width=250 /></td>
          <td>
-         改進
-            <ol>
-               <li>使用PCB繪畫電路板整理線路。</li>
-               <li>只需將電子元件焊接上電路板省掉佈線的時間</li>
-            </ol>
-         問題&改動
-            <ol>
-               <li>Pin 腳間的距離有誤</li>
-            <ol>
+         
          </td>
       </tr>
       <tr>
