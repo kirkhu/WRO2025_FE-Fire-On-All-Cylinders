@@ -4,7 +4,7 @@
 
 - ### __Introduction to Infrared Sensors__
 
-<div align=center>
+<div align=center width=100%>
     <table>
         <tr>
             <td align=center width=500>
