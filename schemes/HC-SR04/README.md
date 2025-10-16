@@ -41,19 +41,17 @@
     <div align="center" width=100%>
     <table >
     <tr align="center">
-    <th colspan="4">HC-SR04 Ultrasonic Distance Sensor Placement Diagram on Vehicle-HC-SR04 超聲波距離感測器在車輛上的安裝位置示意圖
+    <th colspan="2">HC-SR04 Ultrasonic Distance Sensor Placement Diagram on Vehicle-HC-SR04 超聲波距離感測器在車輛上的安裝位置示意圖
 
 </th>
     </tr>
     <tr align="center">
       <th>Left(左側)</th>
       <th>Right(右側)</th>
-      <th colspan="2">Rear(後方)</th>
       </tr>
     <tr>
-      <td><img src="../../other/work_diary/img/5/car_left.png" alt="HC-SR04" width="250" /></td>
-      <td><img src="../../other/work_diary/img/5/car_right.png" alt="HC-SR04" width="250" /></td>
-      <td><img src="../../other/work_diary/img/5/car_rear.png" alt="HC-SR04" width="250" /></td>
+      <td><img src="./img/Car Left HC.png" alt="HC-SR04" width="250" /></td>
+      <td><img src="./img/Car Right HC.png" alt="HC-SR04" width="250" /></td>
       </tr>
     </table>
     </div>
