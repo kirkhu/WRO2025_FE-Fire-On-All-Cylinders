@@ -50,8 +50,8 @@
       <th>Right(右側)</th>
       </tr>
     <tr>
-      <td><img src="./img/Car Left HC.png" alt="HC-SR04" width="250" /></td>
-      <td><img src="./img/Car Right HC.png" alt="HC-SR04" width="250" /></td>
+      <td align=center><img src="./img/Car Left HC.png" alt="HC-SR04" width="250" /></td>
+      <td align=center><img src="./img/Car Right HC.png" alt="HC-SR04" width="250" /></td>
       </tr>
     </table>
     </div>
