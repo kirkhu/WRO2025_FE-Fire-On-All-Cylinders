@@ -35,8 +35,9 @@
       - [2-3-2 Motor & Sensor Intermediate I/O Controller Comparison(馬達和感測器中間 I/O 控制器比較) **已改動](schemes/Motor_Sensor_Controller_Choosing/README.md)
     - __2-4 Sense Management-感知管理__
       - [2-4-1 Ultrasonic rangefinder(超音波測距儀) ](schemes/HC-SR04/README.md)
-      - [2-4-2 Gyroscope orientation sensor(陀螺儀方向感應器) ](schemes/BNO055/README.md)
-      - [2-4-3 Camera Selection(相機選擇) ](schemes/Camera/README.md)
+      - [2-4-2 Infrared Sensor(紅外線感測器) ](schemes/Infrared-Sensor/README.md)
+      - [2-4-3 Gyroscope orientation sensor(陀螺儀方向感應器) ](schemes/BNO055/README.md)
+      - [2-4-4 Camera Selection(相機選擇) ](schemes/Camera/README.md)
 
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management-障礙管理

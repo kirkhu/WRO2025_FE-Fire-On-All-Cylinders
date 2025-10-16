@@ -1,4 +1,4 @@
-，<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 ## <div align="center">Ultrasonic rangefinder Introduction-超聲波測距儀簡介</div> 
 
