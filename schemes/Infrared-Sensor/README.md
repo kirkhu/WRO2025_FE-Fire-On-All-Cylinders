@@ -18,3 +18,19 @@
         </tr>
     </table>
 </div>
+
+<div align=center width=100%>
+    <table>
+        <tr align=center>
+            <th colspan=2>TCRT5000 Infrared Sensor Placement Diagram on Vehicle</th>
+        </tr>
+        <tr align=center>
+            <th>Front</th>
+            <th>Rear</th>
+        </tr>
+        <tr>
+            <td align=center><img src="./img/Car Front TCRT5000.png" /></td>
+            <td align=center><img src="./img/Car Back TCRT5000.png" /></td>
+        </tr>
+    </table>
+</div>
