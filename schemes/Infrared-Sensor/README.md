@@ -34,3 +34,5 @@
         </tr>
     </table>
 </div>
+
+- ### TCRT5000 連接到 Raspberry Pi Pico W的接線步驟：
