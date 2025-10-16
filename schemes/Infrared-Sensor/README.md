@@ -12,8 +12,8 @@
             </td>
             <td align=center width=500>
             <p><strong>Supports 3.3V operating voltage</strong></p>
-            <img src="./img/TCRT5000 front.png" width=250 />
-            <img src="./img/TCRT5000 back.png" width=250 />
+            <img src="./img/TCRT5000 front.png" width=300 />
+            <img src="./img/TCRT5000 back.png" width=300 />
             </td>
         </tr>
     </table>
