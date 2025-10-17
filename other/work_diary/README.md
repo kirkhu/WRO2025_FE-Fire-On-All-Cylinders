@@ -676,9 +676,9 @@ sudo apt-get -y install sdkmanager
             <th>選擇開發者套件</th>
         </tr>
         <tr>
-            <td><img src="./img/9/11.jpg" width=400 /></td>
-            <td><img src="./img/9/12.png" width=400 /></td>
-            <td><img src="./img/9/13.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 1.jpg" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 2.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 3.png" width=400 /></td>
         </tr>
         <tr>
             <th>在選單中選中所需的JetPack版本</th>
@@ -686,9 +686,9 @@ sudo apt-get -y install sdkmanager
             <th>輸入管理者密碼</th>
         </tr>
         <tr>
-            <td><img src="./img/9/14.png" width=400 /></td>
-            <td><img src="./img/9/15.png" width=400 /></td>
-            <td><img src="./img/9/16.png" width=400></td>
+            <td><img src="./img/9/JetPack Process 4.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 5.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 6.png" width=400></td>
         </tr>
         <tr>
             <th>填入主機板的相關資訊</th>
@@ -696,9 +696,9 @@ sudo apt-get -y install sdkmanager
             <th>安裝完畢後的Jetson Orin Nano系統介面</th>
         </tr>
         <tr>
-            <td><img src="./img/9/17.png" width=400 /></td>
-            <td><img src="./img/9/18.png" width=400 /></td>
-            <td><img src="./img/9/19.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 7.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 8.png" width=400 /></td>
+            <td><img src="./img/9/JetPack Process 9.png" width=400 /></td>
         </tr>
     </table>
  </div>
