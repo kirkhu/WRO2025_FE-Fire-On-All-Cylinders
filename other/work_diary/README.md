@@ -718,22 +718,22 @@ sudo apt-get -y install sdkmanager
             <th colspan=2>設計第五代PCB電路板</th>
         </tr>
         <tr>
-            <td><img src="./img/9/20.jpg" height=250 /></td>
-            <td><img src="./img/9/24.png" height=250 /></td>
+            <td><img src="./img/9/Design Circuit.jpg" height=250 /></td>
+            <td><img src="./img/9/Circuit PCB.png" height=250 /></td>
         </tr>
         <tr>
             <th>使用 8K 3D打印機</th>
             <th>使用 14K 3D打印機</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/21.png" width=400 /></td>
-            <td align=center><img src="./img/9/22.png" width=400 /></td>
+            <td align=center><img src="./img/9/steering knuckle 8K.png" width=400 /></td>
+            <td align=center><img src="./img/9/steering knuckle 14K.png" width=400 /></td>
         </tr>
         <tr>
             <th colspan=2>轉向結構呈現內八</th>
         </tr>
         <tr>
-            <td colspan=2 align=center><img src="./img/9/23.png" width=600 /></td>
+            <td colspan=2 align=center><img src="./img/9/Inner Eight.png" width=600 /></td>
         </tr>
     </table>
  </div>
