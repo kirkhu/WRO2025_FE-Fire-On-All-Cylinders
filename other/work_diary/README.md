@@ -812,8 +812,8 @@ sudo apt-get -y install sdkmanager
             <th>第三代中板</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/Driver Board 3.jpg" /></td>
-            <td align=center><img src="./img/9/Medium Board 3.jpg" /></td>
+            <td align=center><img src="./img/9/Driver Board 3.jpg" width=450 /></td>
+            <td align=center><img src="./img/9/Medium Board 3.jpg" width=450 /></td>
         </tr>
     </table>
  </div>
