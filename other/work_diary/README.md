@@ -844,6 +844,26 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
+ - ## 手動下指令
+
+    ```bash
+    sudo nmcli dev wifi hotspot ifname wlan0 ssid "snjh_jetson" password "1234567890" # 創建AP設置
+
+    # 設置AP模式自啟動
+    sudo nmcli connection modify Hotspot connection.autoconnect yes
+    sudo systemctl enable NetworkManager.service
+    sudo systemctl status NetworkManager
+
+    ```
+
+ - ## 使用自動腳本
+
+    ```bash
+    curl -fsSL -u "if0_39931049:microhack188" -o "Set_AP.sh" "ftp://ftpupload.net/htdocs/UserData/WRO2025-Orin/Set_Orin_AP_AutoStart.sh" # 獲取配置腳本
+
+    sudo bash ./Set_AP.sh # 執行腳本進行配置及啟用動作
+    ```
+
  # 2025/10/07 ~ 2025/10/13
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
