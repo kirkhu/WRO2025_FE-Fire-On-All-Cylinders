@@ -70,7 +70,7 @@
          <td>
          描述：</br>&emsp;&emsp;
          因新版機器需要新增兩個2Pin插座母頭和插拔式接線端子，所以我們重新給PCB排版並且加入所需元件。</br>&emsp;&emsp;
-         此版本在運作程序讀取陀螺儀角度時，會有讀取數值為0的狀況，經過排查發現是電路的迴路問題，且需要將程序改為由Jetson Orin Nano偵測啟動按鈕是否按下，因此需要將陀螺儀的電路獨立連接到Jetson Orin Nano，並將按鈕電路改為連接到Jetson Orin Nano中間還要新增電阻。
+         此版本在運作程序讀取陀螺儀角度時，會有讀取數值為0的狀況，經過排查發現是電路的迴路問題，且需要將程序改為由Jetson Orin Nano偵測啟動按鈕是否按下，因此需要將陀螺儀的電路獨立連接到Jetson Orin Nano，並新增第二塊電路板用於繪畫程式啟動按鈕電路。
       </tr>
    </table>
  </div>
@@ -107,6 +107,11 @@
          <td align=center ><img src="./img/New 3D View.png" height=250 /></td>
          <td align=center ><img src="./img/New Schematic.png" height=250 /></td>
          <td align=center ><img src="./img/New PCB Layouts.png" height=250 /></td>
+      </tr>
+      <tr>
+         <td align=center ><img src="./img/Button New 3D View.png" height=250 /></td>
+         <td align=center ><img src="./img/Button New Schematic.png" height=250 /></td>
+         <td align=center ><img src="./img/Button New PCB Layouts.png" height=250 /></td>
       </tr>
    </table>
  </div>

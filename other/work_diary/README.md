@@ -599,8 +599,8 @@ if combined_control_signal < -180:
             <th>撰寫順向停車</th>
         </tr>
         <tr>
-            <td><img src="./img/9/1.jpg" width=400/></td>
-            <td><img src="./img/9/2.jpg" width=400/></td>
+            <td><img src="./img/9/steering structure 4.jpg" width=400/></td>
+            <td><img src="./img/9/Write a Code.jpg" width=400/></td>
         </tr>
     </table>
  </div>
@@ -612,8 +612,8 @@ if combined_control_signal < -180:
             <th>國際賽停車流程</th>
         </tr>
         <tr>
-            <td><img src="./img/9/3.png" width=400 /></td>
-            <td><img src="./img/9/4.png" width=400 /></td>
+            <td><img src="./img/9/Forward Parking process.png" width=400 /></td>
+            <td><img src="./img/9/New Parking process.png" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -625,16 +625,16 @@ if combined_control_signal < -180:
             <th>組裝轉向結構</th>
         </tr>
         <tr>
-            <td><img src="./img/9/5.jpg" width=400 /></td>
-            <td><img src="./img/9/6.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure processing steps 1.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure processing steps 2.jpg" width=400 /></td>
         </tr>
         <tr>
             <th>紫外線固化</th>
             <th>球形接頭上油</th>
         </tr>
         <tr>
-            <td><img src="./img/9/7.jpg" width=400 /></td>
-            <td><img src="./img/9/8.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure processing steps 3.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure processing steps 4.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -652,8 +652,8 @@ if combined_control_signal < -180:
             <th colspan=2>學習如何進行JetPack升降級</th>
         </tr>
         <tr>
-            <td><img src="./img/9/9.jpg" width=400 /></td>
-            <td><img src="./img/9/10.jpg" width=400 /></td>
+            <td><img src="./img/9/Study.jpg" width=400 /></td>
+            <td><img src="./img/9/Study2.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -797,28 +797,42 @@ sudo apt-get -y install sdkmanager
 
  - 我們再進行出發程序撰寫時發現自駕車會有出發時容易觸碰停車場方塊的情況，因此我們先嘗試修改整體機器人的軸距，將底板上的空位刪除以縮短軸距。經過測試之後問題有減緩但是容許誤差還是太小，因此我們修改的轉向結構中拉桿的極限方塊，將方塊縮小讓轉向結構有更多空間可以轉動。與此同時我們在測試中發現一個問題，如果自駕車出現誤判導致撞牆、方塊時都是紅外線感測器先波及到，因此我們在設計上將前方的紅外線固定區塊縮短並且在底板上延伸出19mm的區塊讓紅外線不會因為誤判而導致撞擊損壞。
 
- - 本週我們發現機器人在讀取BNO055的角度數據時遇到數值為0的情況，經過檢查及討論，發現問題有可能在PCB電路板上，因此我們嘗試將BNO055沒有用到的腳位線路斷開。後來經過網路資料查詢得知原因可能是出在電路迴路上，由於我們的BNO055的正極是由Raspberry Pi Pico W供應，而負極和Jetson Orin Nano進行接地並沒有形成正確迴路，因此我們會在下一代電路板上做出改動，BNO055的電路就會完全是跟Jetson Orin Nano連接，不會有其他腳位去連接PCB上的任一元件。
+ - 本週我們再進行程式測試時，遇到陀螺儀數值讀取一直為0的狀態，經過相關技術文件查詢和實際電路測試後發現，BNO055的電路未形成正確的迴路。我們的電路是BNO055的VIN腳位由Raspberry Pi Pico W提供、GND和PCB上的原件共地，這樣的電路並未形成正確迴路。因此我們會再新一代電路板上將BNO055的電路使用排線腳位獨立連接到Jetson Orin Nano上的GPIO腳位上。
 
  - 由於我們的自駕車已經採用WebSocket進行數據傳輸，因此網路天線對我們的自駕車來說就非常重要，但是目前使用的網路接收器是使用TPLink的AC1300，其長度就有約18CM左右，所以我們在網路上找到了另外一種網路接收器，ASUS的AC1200，其大小只有2CM*1.5CM，因此我們將網路接收器更換為ASUS的AC1200。
 
- - 我們在這一週使用Onshape繪畫出可以調整鏡頭俯視角度的鏡頭固定支架，不過由於是第一版因此還有可以改進的空間，我們也準備在下一版鏡頭固定支架上多出一個可以放入程式啟動按鈕的位置。
+ - 由於我們的鏡頭支架是使用樂高零件進行組裝，這樣我們的鏡頭支架會有意外被拆開的情況，因此我們使用Onshape繪畫鏡頭支架模組，總共分為兩個元件：鏡頭固定板、鏡頭支架主體。我們為了之後如果需要調整鏡頭可視角度的需求，在鏡頭支架模組上繪畫可調整角度的滑軌。
 
- - 我們原本是使用手機作為WIFI媒介，但是我們發現了有傳輸延遲的情況，因此我們在網路上尋找到方法可以將Jetson Orin Nano變為AP來運作，減去了手機轉接訊號時會導致的延遲。由於WebSocket的特性會在連線之前將所有動作累積起來直到WebSocket連線成功一次性執行完導致我們的程序會在啟動之後很慢才開始有轉向的動作，因此我們打算將原先連接在Raspberry Pi Pico W上的程式啟動按鈕變為連接到Jetson Orin Nano上，讓Jetson Orin Nano控制程序的啟動及結束。
+ - 我們再進行測試時發現，我們當初未進行Jetson Orin Nano網路設置為AP模式，一直都是使用手機作為網路傳輸媒介，後來我們透過網路查找到Jetson Orin Nano要如何切換到AP模式的指令，成功啟動AP之後也設置了讓AP自行啟動的行為。
 
  <div align=center>
     <table>
         <tr>
-            <th colspan=2 >第三代底盤照片</th>
+            <th>第三代底盤</th>
+            <th>第三代中板</th>
         </tr>
         <tr>
-            <td colspan=2 align=center ><img src="./img/9/32.jpg" width=400 /></td>
+            <td align=center><img src="./img/9/32.jpg" /></td>
+            <td align=center><img src="./img/9/33.jpg" /></td>
+        </tr>
+    </table>
+ </div>
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>鏡頭支架主體</th>
+            <th>鏡頭固定板</th>
         </tr>
         <tr>
-            <th colspan=2 >第三代中板照片</th>
+            <td align=center><img src="" width=500 /></td>
+            <td align=center><img src="" width=500 /></td>
         </tr>
-        <tr>
-            <td colspan=2 align=center ><img src="./img/9/33.jpg" width=400 /></td>
-        </tr>
+    </table>
+ </div>
+
+ <div align=center>
+    <table>
         <tr>
             <th>TPLink AC1300 接收器</th>
             <th>ASUS AC1200 接收器</th>
@@ -835,6 +849,8 @@ sudo apt-get -y install sdkmanager
 
  **Content:**
 
- - 我們在本週調整線條LAB數值時發現了環境光線對於鏡頭LAB數值會有影響，因此我們在鏡頭支架加上擋板擋住上方光線以減小光線對鏡頭LAB數值的影響。
+ - 本周我們再進行LAB數值調試時，遇到了數值調整時正常但程式運行時卻無法準確辨識到物件的問題，經過測試發現問題在於環境光線的干擾和數值抓得太緊繃導致。解決問題的方法是：1.在鏡頭支架上方新增
+
+ - 我們在測試的過程中因為Web Sockets在成功連線之前會將成功前的所有動作堵住，並在連線成功後一次性執行，這樣會造成我們程式啟動時會有機器再向前行走但是舵機沒有運作、底盤沒有任何反應等...。所以我們決定將程序的啟動控制由Jetson Orin Nano來控制，因此我們須將程式啟動按鈕的電路更改，再更改過程中我們遇到程式按鈕按下狀態沒有更新，經過網路資料查詢發現我們需要使用上拉電阻的方式進行電路連接，所以我們使用EasyEDA另外繪畫了一塊電路板將程式啟動按鈕的電路獨立。
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
