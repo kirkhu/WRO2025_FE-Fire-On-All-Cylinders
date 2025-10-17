@@ -757,9 +757,9 @@ sudo apt-get -y install sdkmanager
             <th>新版上木板</th>
         </tr>
         <tr>
-            <td><img src="./img/9/25.jpg" width=300 /></td>
-            <td><img src="./img/9/26.jpg" width=300 /></td>
-            <td><img src="./img/9/27.jpg" width=300 /></td>
+            <td><img src="./img/9/New Ultrasonic sensor Bracket.jpg" width=300 /></td>
+            <td><img src="./img/9/Medium Board.jpg" width=300 /></td>
+            <td><img src="./img/9/Upper Board.jpg" width=300 /></td>
         </tr>
     </table>
  </div>
@@ -771,8 +771,8 @@ sudo apt-get -y install sdkmanager
             <th>紅外線感測器L型支架</th>
         </tr>
         <tr>
-            <td><img src="./img/9/28.jpg" width=400 /></td>
-            <td><img src="./img/9/29.jpg" width=400 /></td>
+            <td><img src="./img/9/New Medium Board.jpg" width=400 /></td>
+            <td><img src="./img/9/infrared sensor Bracket.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -784,8 +784,8 @@ sudo apt-get -y install sdkmanager
             <th>第六代電路板(PBC分布圖)</th>
         </tr>
         <tr>
-            <td align=center ><img src="./img/9/30.png" width=400 /></td>
-            <td align=center ><img src="./img/9/31.png" width=400 /></td>
+            <td align=center ><img src="./img/9/Circuit principle 6.png" width=400 /></td>
+            <td align=center ><img src="./img/9/Circuit PCB 6.png" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -812,8 +812,8 @@ sudo apt-get -y install sdkmanager
             <th>第三代中板</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/32.jpg" /></td>
-            <td align=center><img src="./img/9/33.jpg" /></td>
+            <td align=center><img src="./img/9/Driver Board 3.jpg" /></td>
+            <td align=center><img src="./img/9/Medium Board 3.jpg" /></td>
         </tr>
     </table>
  </div>
@@ -825,8 +825,8 @@ sudo apt-get -y install sdkmanager
             <th>鏡頭固定板</th>
         </tr>
         <tr>
-            <td align=center><img src="" width=500 /></td>
-            <td align=center><img src="" width=500 /></td>
+            <td align=center><img src="./img/9/Camera Bracket Main Body.png" width=500 /></td>
+            <td align=center><img src="./img/9/Camera Bracket Fixed Plate.png" width=500 /></td>
         </tr>
     </table>
  </div>
@@ -838,8 +838,8 @@ sudo apt-get -y install sdkmanager
             <th>ASUS AC1200 接收器</th>
         </tr>
         <tr>
-            <td align=center ><img src="./img/10/1.png" width=400 /></td>
-            <td align=center ><img src="./img/10/2.png" width=400 /></td>
+            <td align=center ><img src="./img/10/TPLink AC1300.png" width=400 /></td>
+            <td align=center ><img src="./img/10/ASUS AC1200.png" width=400 /></td>
         </tr>
     </table>
  </div>
