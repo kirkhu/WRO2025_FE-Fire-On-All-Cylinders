@@ -220,7 +220,7 @@
     <tr>
     <th>High-strength resin(高強度樹脂)</th>
     <th>Impact-resistant resin(耐衝擊樹脂)</th>
-    <th>Printing completed(列印完成)<th>
+    <th>Printing completed(列印完成)</th>
     </tr>
     <tr>
     <td align=center><img src="./img/High-strength_resin.png" width="150" ></td> 
