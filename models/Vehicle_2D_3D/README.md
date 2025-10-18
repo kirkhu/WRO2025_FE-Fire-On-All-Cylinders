@@ -174,21 +174,21 @@
         <td><img src="./img/SonicMighty14KRevo_1400x1600_1.png" width="300" alt="" ></td>
         </tr><tr align="">
         <td>The required printing time (所需列印時間)</td>
-        <td>Slower(較慢)</td>
-        <td>Faster(較快)</td>
+        <td>較快</td>
+        <td>較慢</td>
         </tr><tr>
         <td>printing precision(印刷精度)</td>
-        <td>slightly lower(略低)</td>
-        <td>relatively higher(較高)</td>
+        <td>低</td>
+        <td>高</td>
         </tr><tr>
         <td>Hardness(硬度)</td>
-        <td>Dependent on the density(取決於密度)</td>
-        <td>Dependent on the exposure time(取決於曝光時間)</td>
+        <td>較低</td>
+        <td>較高</td>
         </tr>
         </tr><tr>
         <td>Size dimensions（尺寸規格) </td>
-        <td>支持較小的規格</td>
-        <td></td>
+        <td>僅支持小規格物件，略粗糙</td>
+        <td>可支持大規格物件，精細</td>
         </tr>
         </table>
         </div>
