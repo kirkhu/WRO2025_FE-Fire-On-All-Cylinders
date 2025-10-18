@@ -31,8 +31,8 @@
     </div>
    <ol>
     ### 中文:
-    1. 我們在車輛的左側、右側及後方安裝了 HC-SR04 超聲波距離感測器，並將其連接到 Raspberry Pi Pico 控制器，以偵測車輛與側牆的距離。測得的距離資料會傳送到主程式進行處理，作為停車操作的依據。
-    2. 需特別注意的是，Raspberry Pi Pico 控制器所能讀取的最高訊號電壓為 3.3V，而市售 HC-SR04 超聲波距離感測器通常輸出最高訊號電壓為 5V。因此，在選用或使用此感測器時，必須特別注意其操作電壓，以避免因電壓不符導致的操作問題或控制器損壞。
+    1. 我們在車輛的左側、右側安裝了 HC-SR04 超聲波距離感測器，並將其連接到 Raspberry Pi Pico W控制器，以偵測車輛與側牆的距離。測得的距離資料會傳送到主程式進行處理，作為停車操作的依據。
+    2. 需特別注意的是，Raspberry Pi Pico W控制器所能讀取的最高訊號電壓為 3.3V，而市售 HC-SR04 超聲波距離感測器通常輸出最高訊號電壓為 5V。因此，在選用或使用此感測器時，必須特別注意其操作電壓，以避免因電壓不符導致的操作問題或控制器損壞。
     ### 英文:
     1. We installed HC-SR04 ultrasonic distance sensors on the left, right, and rear of the vehicle and connected them to the Raspberry Pi Pico controller to detect the distance between the vehicle and the side walls. The measured distance data is transmitted to the main program for processing, serving as a basis for parking maneuvers.
    2. It is worth noting that the maximum signal voltage read by the Raspberry Pi Pico controller is 3.3V, while commercially available HC-SR04 ultrasonic distance sensors typically output a maximum signal voltage of 5V. Therefore, when selecting or using the sensor, special attention should be paid to its operating voltage to avoid operational issues or potential damage to the controller due to voltage mismatch.
