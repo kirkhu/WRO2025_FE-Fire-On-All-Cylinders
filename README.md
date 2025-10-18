@@ -36,7 +36,7 @@
     - __2-4 Sense Management-感知管理__
       - [2-4-1 Ultrasonic rangefinder(超音波測距儀) **已改動](schemes/HC-SR04/README.md)
       - [2-4-2 Infrared Sensor(紅外線感測器) **已改動](schemes/Infrared-Sensor/README.md)
-      - [2-4-3 Gyroscope orientation sensor(陀螺儀方向感應器) ](schemes/BNO055/README.md)
+      - [2-4-3 Gyroscope orientation sensor(陀螺儀方向感應器) **已改動](schemes/BNO055/README.md)
       - [2-4-4 Camera Selection(相機選擇) ](schemes/Camera/README.md)
 
 - ### ${{\color{red} Software Overview }} $ 
