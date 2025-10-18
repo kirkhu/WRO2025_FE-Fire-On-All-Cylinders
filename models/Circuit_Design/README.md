@@ -72,6 +72,18 @@
          因新版機器需要新增兩個2Pin插座母頭和插拔式接線端子，所以我們重新給PCB排版並且加入所需元件。</br>&emsp;&emsp;
          此版本在運作程序讀取陀螺儀角度時，會有讀取數值為0的狀況，經過排查發現是電路的迴路問題，且需要將程序改為由Jetson Orin Nano偵測啟動按鈕是否按下，因此需要將陀螺儀的電路獨立連接到Jetson Orin Nano，並新增第二塊電路板用於繪畫程式啟動按鈕電路。
       </tr>
+      <tr>
+         <th colspan=3>第六代</th>
+      </tr>
+      <tr>
+         <td align=center><img src="" width=400 /></td>
+         <td align=center><img src="" width=400 /></td>
+         <td align=center rowspan=2></td>
+      </tr>
+      <tr>
+         <td align=center><img src="" width=400 /></td>
+         <td align=center><img src="" width=400 /></td>
+      </tr>
    </table>
  </div>
 
