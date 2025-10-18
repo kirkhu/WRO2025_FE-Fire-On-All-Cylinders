@@ -287,7 +287,7 @@
             <th>Bearing Holder</th>
           </tr>
           <tr>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width=300 /></td>
+            <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle1.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width=300 /></td>
           </tr>
@@ -302,7 +302,7 @@
             <th>Steering rod</th>
           </tr>
           <tr>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width=300 /></td>
+            <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Motor steering rod.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width=300 /></td>
           </tr>
@@ -317,9 +317,9 @@
             <th>Infrared bracket</th>
           </tr>
           <tr>
-            <td><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
-            <td><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic stent.png" width=300 /></td>
-            <td><img src="./Vehicle_Chassis_CAD_File/img/Infrared bracket.png" width=300 /></td>
+            <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic stent.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Infrared bracket.png" width=300 /></td>
           </tr>
         </table>
       </div>
