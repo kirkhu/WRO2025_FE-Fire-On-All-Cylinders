@@ -231,21 +231,52 @@
     </div> 
 
     - ####  3D Vehicle Model Dimension Diagram-3D車輛模型尺寸圖
-      <div align=center>
-      <table>
-      <tr>
-      <th width="30%">Front Assembly(前部組件)</th>
-      <th width="30%">Steering Knuckle(轉向節)</th>
-      <th width="30%">Bearing Holder(軸承座)</th>
 
-    </tr><tr>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Front_Assembly_size.png" width="300" alt="Front Assembly"></td> 
-      <td><img src="./Vehicle_Chassis_Sizse/img/Steering-Kunckle_size.png" width="300" alt="Steering Knuckle"></td> 
-      <td><img src="./Vehicle_Chassis_Sizse/img/center_Bearing_Holder_size.png" width="300" alt="Bearing Holder"></td>
-  
-      </tr>
-      </table>
-      </div> 
+      <div align=center>
+        <table>
+          <tr>
+            <th>Front Assembly</th>
+            <th>Steering Knuckle</th>
+            <th>Bearing Holder</th>
+          </tr>
+          <tr>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering_Knuckle_Fixed_Size.png" width=400 /></td>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering-Kunckle_size.png" width=400 /></td>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Bearing_Seat_Size.png" width=400 /></td>
+          </tr>
+        </table>
+      </div>
+
+      <div align=center>
+        <table>
+          <tr>
+            <th>Steering shaft holder</th>
+            <th>Motor steering rod</th>
+            <th>Steering rod</th>
+          </tr>
+          <tr>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size1.png" width=400 /></td>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering_Rod_Size.png" width=400 /></td>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering Linkage.png" width=400 /></td>
+          </tr>
+        </table>
+      </div>
+
+      <div align=center>
+        <table>
+          <tr>
+            <th>Motor Holder</th>
+            <th>Ultrasonic stent</th>
+            <th>Infrared bracket</th>
+          </tr>
+          <tr>
+            <td><img src="./Vehicle_Chassis_Sizse/img/Motor_Holder_Size.png" width=400 /></td>
+            <td><img src="" width=400 /></td>
+            <td><img src="" width=400 /></td>
+          </tr>
+        </table>
+      </div>
+
        <div align=center>
       <table>
       <tr>
