@@ -271,29 +271,11 @@
           </tr>
           <tr>
             <td><img src="./Vehicle_Chassis_Sizse/img/Motor_Holder_Size.png" width=400 /></td>
-            <td><img src="" width=400 /></td>
-            <td><img src="" width=400 /></td>
+            <td><img src="./Vehicle_Chassis_Sizse/img/Ultrasonic_Stent_Size.jpg" width=400 /></td>
+            <td><img src="./Vehicle_Chassis_Sizse/img/Infrared_Bracket_Size.jpg" width=400 /></td>
           </tr>
         </table>
       </div>
-
-       <div align=center>
-      <table>
-      <tr>
-      <th width="25%">Steering shaft holder(轉向軸支架)</th>
-      <th width="25%">Motor Holder(馬達支架)</th>
-       <th width="25%">Steering rod(轉向橫桿)</th>
-       <th width="25%">Motor steering rod(馬達轉向拉桿)</th>
-  
-
-    </tr><tr>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size1.png" width="300" alt="Steering shaft holder"></td>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Motor-Holder_size1.png" width="300" alt="Motor Holder"></td>
-      <td><img src="./Vehicle_Chassis_Sizse/img/Steering Linkage.png" width="300" alt="Motor Holder"></td>
-       <td><img src="./Vehicle_Chassis_Sizse/img/Motor steering rod.png" width="300" alt="Motor Holder"></td>
-      </tr>
-      </table>
-      </div> 
 
   - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer-使用立體光固化（SLA）3D列印機製作的車體支撐零件
 
