@@ -174,8 +174,8 @@
         <td><img src="./img/SonicMighty14KRevo_1400x1600_1.png" width="300" alt="" ></td>
         </tr><tr align="">
         <td>The required printing time (所需列印時間)</td>
-        <td>較快</td>
-        <td>較慢</td>
+        <td>較短</td>
+        <td>較長</td>
         </tr><tr>
         <td>printing precision(印刷精度)</td>
         <td>低</td>
