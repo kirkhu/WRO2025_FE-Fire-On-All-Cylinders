@@ -2,6 +2,12 @@
 
 ## <div align="center">Software Platform Construction </div> 
 
+### 系統安裝流程圖
+
+<div align=center>
+ <img src="./img/Orin System Installation.jpg" width=800 />
+</div>
+
 ### 操作前的準備
 
 <ol>
