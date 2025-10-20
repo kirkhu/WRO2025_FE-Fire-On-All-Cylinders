@@ -112,12 +112,21 @@
 
     ```
 
- - 安裝ASUS AC1200驅動程序
+ - 安裝ASUS AC1200驅動程式 或 安裝TP Link AC1300驅動程式
     ```bash
     mkdir -p ~/src && cd ~/src/
     git clone https://github.com/morrownr/88x2bu-20210702.git
     cd ~/src/88x2bu-20210702/
     sudo ./install-driver.sh
+
+    ```
+
+    ```bash
+    sudo apt install dkms git -y && \
+    sudo git clone https://github.com/RinCat/RTL88x2BU-Linux-Driver.git /usr/src/rtl88x2bu-git && \
+    sudo sed -i 's/PACKAGE_VERSION="@PKGVER@"/PACKAGE_VERSION="git"/' /usr/src/rtl88x2bu-git/dkms.conf && \
+    sudo dkms add -m rtl88x2bu -v git && \
+    sudo dkms install -m rtl88x2bu -v git
 
     ```
 
