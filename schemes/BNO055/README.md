@@ -33,7 +33,7 @@
     </div>
 
     ### 中文:
-    - 我們將 BNO055 陀螺儀方向感測器安裝於車體上，並透過 I2C 模式將其與 Nvidia Jetson Nano 控制器連接。該配置用於讀取車輛的即時方向資訊，並將獲得的方向數據傳送至主程序進行運算與分析，作為車輛轉向決策的依據。
+    - 我們將 BNO055 陀螺儀方向感測器安裝於車體上，並透過 I2C 模式將其與 Nvidia Jetson Orin Nano 控制器連接。該配置用於讀取車輛的即時方向資訊，並將獲得的方向數據傳送至主程序進行運算與分析，作為車輛轉向決策的依據。
     ### 英文:
     - We installed the BNO055 gyroscope orientation sensor on the vehicle and connected it to the Nvidia Jetson Nano controller, using I2C mode for data transmission. This setup is used to read the vehicle's current orientation, and the obtained orientation data is transmitted to the main program for calculation and analysis, serving as a basis for the vehicle's steering decisions.
  
@@ -50,8 +50,8 @@
      
     **I²C Communication:**
     ### 中文:
-    - 將 BNO055 的 VDD 腳位 接至 Raspberry Pi Pico 的 3.3V 腳位（第 36 腳）。BNO055 的工作電壓範圍為 2.4V 至 3.6V，而 Raspberry Pi Pico 提供穩定的 3.3V 輸出，因此可作為其電源供應。
-    - 將 BNO055 的 GND 腳位 接至 Raspberry Pi Pico 的其中一個 GND 腳位（第 8 腳），以確保兩個裝置之間的共地連接。
+    - 將 BNO055 的 VDD 腳位 接至 Raspberry Pi Pico W的 3.3V 腳位（第 36 腳）。BNO055 的工作電壓範圍為 2.4V 至 3.6V，而 Raspberry Pi Pico W提供穩定的 3.3V 輸出，因此可作為其電源供應。
+    - 將 BNO055 的 GND 腳位 接至 Raspberry Pi Pico W的其中一個 GND 腳位（第 8 腳），以確保兩個裝置之間的共地連接。
 
     ### 英文:
     - Connect SDA (BNO055) to the SDA pin on the Jetson Nano (pin 3 on header J41).
@@ -59,7 +59,7 @@
     - Connect both PS0 and PS1 pins (BNO055) to ground (GND) to set the device to I²C mode.
     - Connect the ADD pin (BNO055) to ground (GND) to set the I²C address to 0x28.
 
-- 以下是 Python 程式碼，使用 類別方式 在 Nvidia Jetson Nano 上從 BNO055 陀螺儀感測器 實作方向偵測功能。
+- 以下是 Python 程式碼，使用 類別方式 在 Nvidia Jetson Orin Nano 上從 BNO055 陀螺儀感測器 實作方向偵測功能。
    
 - The following is __Python__ code that implements orientation detection functionality from the __BNO055 gyroscope sensor__ on an __Nvidia Jetson Nano__ using a class-based approach.
 

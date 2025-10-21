@@ -5,7 +5,7 @@
 ### 系統安裝流程圖
 
 <div align=center>
- <img src="./img/Orin System Installation.jpg" width=800 />
+ <img src="./img/Orin System Installation.jpg" width=1000 />
 </div>
 
 ### 操作前的準備
