@@ -738,7 +738,7 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
- # 2025/09/21 ~ 2025/09/27
+ ## 2025/09/21 ~ 2025/09/27
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -790,7 +790,7 @@ sudo apt-get -y install sdkmanager
     </table>
  </div>
 
- # 2025/09/28 ~ 2025/10/06
+ ## 2025/09/28 ~ 2025/10/06
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -864,7 +864,7 @@ sudo apt-get -y install sdkmanager
     sudo bash ./Set_AP.sh # 執行腳本進行配置及啟用動作
     ```
 
- # 2025/10/07 ~ 2025/10/13
+ ## 2025/10/07 ~ 2025/10/13
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -874,7 +874,7 @@ sudo apt-get -y install sdkmanager
  - 我們在測試的過程中因為Web Sockets在成功連線之前會將成功前的所有動作堵住，並在連線成功後一次性執行，這樣會造成我們程式啟動時會有機器再向前行走但是舵機沒有運作、底盤沒有任何反應等...。所以我們決定將程序的啟動控制由Jetson Orin Nano來控制，因此我們須將程式啟動按鈕的電路更改，再更改過程中我們遇到程式按鈕按下狀態沒有更新，經過網路資料查詢發現我們需要使用上拉電阻的方式進行電路連接，所以我們使用EasyEDA另外繪畫了一塊電路板將程式啟動按鈕的電路獨立。
 
 
- # 2025/10/14 ~ 2025/10/20
+ ## 2025/10/14 ~ 2025/10/20
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
