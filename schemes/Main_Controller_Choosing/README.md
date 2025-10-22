@@ -15,7 +15,7 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 </tr>
 <tr> 
 <td><div align=center><img src="./img/jeston_nano.png" width=200></div></td> 
-<td><div align=center><img src="./img/jetson_orin_nano.png" width=200></div></td> 
+<td><div align=center><img src="./img/jetson_orin_nano.png" width=400></div></td> 
 </tr>
 <tr> 
 <th>Number of Pins</th>
