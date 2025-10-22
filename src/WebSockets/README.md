@@ -16,7 +16,7 @@
             <th colspan=4>WebSockets vs HTTP vs UART 比較</th>
         </tr>
         <tr>
-            <th rowspan=2 width=10%>特性</th>
+            <th rowspan=2 width=30%>特性</th>
             <th width=30%><div align=center><img src="img/HTTP.png" width=150/></div></th>
             <th width=30%><div align=center><img src="img/WebSockets.png" width=150/></div></th>
             <th width=30%><div align=center><img src="img/UART.png" /></div></th>
