@@ -27,37 +27,37 @@
             <th>UART</th>
         </tr>
         <tr>
-            <td>通訊型態</td>
+            <th>通訊型態</th>
             <td>請求 - 回應(半雙工)</td>
             <td>持續連線(全雙工)</td>
             <td>點對點(全雙工)</td>
         </tr>
         <tr>
-            <td>建立連線</td>
+            <th>建立連線</th>
             <td>每次請求都重新建立</td>
             <td>只需一次握手，保持連線</td>
             <td>物理層面直接連線</td>
         </tr>
         <tr>
-            <td>即時性</td>
+            <th>即時性</th>
             <td>低(需重複請求)</td>
             <td>高(伺服器可主動推送)</td>
             <td>高(即時傳輸)</td>
         </tr>
         <tr>
-            <td>傳輸媒介</td>
+            <th>傳輸媒介</th>
             <td>網路(TCP/HTTP)</td>
             <td>網路(TCP/WebSocket協定)</td>
             <td>實體線路（UART TX/RX）</td>
         </tr>
         <tr>
-            <td>適用場景</td>
+            <th>適用場景</th>
             <td>網頁瀏覽、API 請求</td>
             <td>即時聊天、線上遊戲、IoT</td>
             <td>裝置間資料傳輸</td>
         </tr>
         <tr>
-            <td>延遲</td>
+            <th>延遲</th>
             <td>高</td>
             <td>低</td>
             <td>低</td>
