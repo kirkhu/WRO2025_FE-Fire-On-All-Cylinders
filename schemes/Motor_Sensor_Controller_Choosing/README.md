@@ -48,7 +48,7 @@ Here is a specification comparison between the two:
 <td><div align=center><img src="./img/ESP32.png" height="200"></td>
 </tr><tr>
 <th>CPU</th>
-<td>Dual Arm Cortex-M33 or dual RISC-V Hazard3 processors @ 150MHz</td>
+<td>Dual-core Arm Cortex-M0+ @ 133 MHz</td>
 <td>Dual-core ARM Cortex-M0+ @ 133 MHz</td>
 <td>Dual-core Xtensa LX6 @ 160/240 MHz</td>
 </tr>
@@ -144,13 +144,13 @@ The Raspberry Pi Pico  offers simplicity, low power consumption, and affordabili
     <div align=center>
     <table>
     <tr>
-    <th><div align=center>Thonnry Website-Thonnry 網站</th>
+    <th><div align=center>Thonny Website-Thonny 網站</th>
     </tr><tr>
     <td><div align=center><img src="./img/Thonny.png" width=250 ></td>
     </tr>
     </table>
        
-    <a href="https://thonny.org/">Thonnry Website</a>    
+    <a href="https://thonny.org/">Thonny Website</a>    
     </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
