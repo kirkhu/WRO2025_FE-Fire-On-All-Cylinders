@@ -53,7 +53,7 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 </tr>
 </table>
 </div>
-  根據去年世界賽和今年全國選拔賽的經驗以及世界冠軍得主的機型，並結合以下控制器優缺點比較。我們發現Jetson Oein Nano在影像處理方面明顯優於 Jetson Nano 及 Raspberry Pi4。因此我們決定在2025年WRO世界錦標賽中使用Jetson Orin Nano作為主要控制器。
+  根據去年世界賽和今年全國選拔賽的經驗以及世界冠軍得主的機型，並結合以下控制器優缺點比較。我們發現Jetson Orin Nano在影像處理方面明顯優於 Jetson Nano 及 Raspberry Pi4。因此我們決定在2025年WRO世界錦標賽中使用Jetson Orin Nano作為主要控制器。
 
   Based on last year’s unsuccessful experience and the world championship-winning model, along with the comparison of advantages and disadvantages of the controllers below, we found that the Jetson Nano significantly outperforms the Raspberry Pi 4 in image recognition. Therefore, we decided to use the Jetson Nano as the main controller in the 2025 WRO World Championship.
 
