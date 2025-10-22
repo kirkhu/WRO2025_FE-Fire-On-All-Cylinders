@@ -18,7 +18,7 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 <td><div align=center><img src="./img/jetson_orin_nano.png" width=200></div></td> 
 </tr>
 <tr> 
-<th>Number of Pins(腳位數量)</th>
+<th>Number of Pins</th>
 <td>40P</td> 
 <td>40P</td>
 </tr>
@@ -33,21 +33,21 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 <td>NVIDIA Ampere architecture with 1024 NVIDIA CUDA® cores</td>
 </tr>
 <tr>
-<th>Storage Space(儲存空間)</th>
+<th>Storage Space</th>
 <td>4 GB 64-bit LPDDR4</td>
 <td>8 GB 128-bit LPDDR5</td>
 </tr>
 <tr>
-<th>Built-in Bluetooth and Wireless WiFi Connectivity(內建藍牙與無線 WiFi 連接功能)</th>
+<th>Built-in Bluetooth and Wireless WiFi Connectivity</th>
 <td>Requires external Bluetooth and wireless WiFi connectivity</td>
 <td>Requires external Bluetooth and wireless WiFi connectivity</td>
 </tr>
 <tr>
-<th>Gflops(每秒千兆次浮點運算)</th>
+<th>Gflops</th>
 <td>472</td> <td>40,000 (FP16)</td>
 </tr>
 <tr>
-<th>Price(價格)</th>
+<th>Price</th>
 <td>Expensive</td>
 <td>Very Expensive</td>
 </tr>
