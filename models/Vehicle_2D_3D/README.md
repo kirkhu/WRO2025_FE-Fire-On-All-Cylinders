@@ -307,7 +307,7 @@
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width=300 /></td>
           </tr>
         </table>
-      </div>
+        </div>
 
       <div align=center>
         <table>
@@ -320,6 +320,19 @@
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic stent.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Infrared bracket.png" width=300 /></td>
+          </tr>
+        </table>
+      </div>
+
+      <div align=center>
+        <table>
+          <tr>
+            <th>鏡頭支架主體</th>
+            <th>鏡頭固定板</th>
+          </tr>
+          <tr>
+            <td align=center width=500><img src="" width=450 /></td>
+            <td align=center width=500><img src="" width=450 /></td>
           </tr>
         </table>
       </div>
