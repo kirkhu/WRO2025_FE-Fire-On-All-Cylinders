@@ -881,7 +881,7 @@ sudo apt-get -y install sdkmanager
             <th colspan=2>新增遮光板</th>
         </tr>
         <tr>
-            <td colapsn=2 align=center><img src="" width=900 /></td>
+            <td colspan=2 align=center><img src="" width=900 /></td>
         </tr>
         <tr>
             <th>獨立按鈕電路 - 原理圖</th>
