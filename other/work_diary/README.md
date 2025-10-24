@@ -881,7 +881,7 @@ sudo apt-get -y install sdkmanager
             <th colspan=2>新增遮光板</th>
         </tr>
         <tr>
-            <td align=center><img src="" width=900 /></td>
+            <td colapsn=2 align=center><img src="" width=900 /></td>
         </tr>
         <tr>
             <th>獨立按鈕電路 - 原理圖</th>
@@ -896,8 +896,8 @@ sudo apt-get -y install sdkmanager
             <th>鏡頭支架主體 - 照片</th>
         </tr>
         <tr>
-            <td align=center width=500><img src="" width=450 /></td>
-            <td align=center width=500><img src="" width=450 /></td>
+            <td align=center width=500><img src="./img/10/Lens holder body Onshape.png" width=450 /></td>
+            <td align=center width=500><img src="./img/10/Lens holder body imager.png" width=450 /></td>
         </tr>
     </table>
 </div>
