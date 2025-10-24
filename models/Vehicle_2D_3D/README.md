@@ -277,6 +277,19 @@
         </table>
       </div>
 
+      <div align=center>
+        <table>
+          <tr>
+            <th>鏡頭支架主體</th>
+            <th>鏡頭固定板</th>
+          </tr>
+          <tr>
+            <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens holder body size.jpg" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens mounting plate size.jpg" width=450 /></td>
+          </tr>
+        </table>
+      </div>
+
     - ####  Vehicle body support components produced with Stereolithography (SLA) 3D Printer-使用立體光固化（SLA）3D列印機製作的車體支撐零件
 
       <div align=center>
