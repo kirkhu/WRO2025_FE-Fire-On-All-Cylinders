@@ -58,6 +58,25 @@
 
 - ### Overview of Important Parts List-重要零件清單總覽
   - #### NVIDIA® Jetson Orin Nano™ Developer Kit – B01 Controller NVIDIA® Jetson Orin Nano™ 開發板 – B01 控制器
+    <div align=center>
+      <table border=0 width=100% >
+        <tr>
+          <td>
+      __Specification:__ 
+        - Processor: 6-core Arm Cortex-A78AE v8.2 64-bit CPU, 1.5 MB L2 + 4 MB L3
+        - GPU: 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores
+        - Memory: 8 GB 128-bit LPDDR5 @ 102 GB/s
+        - Connectivity: 4× USB 3.2 Gen2 Type-A, 1× USB Type-C (for debug and device mode)
+        - GPIO: 40-pin Header (UART, SPI, I2S, I2C, GPIO), 12-pin Button Header
+        - Dimensions: 100 mm × 79 mm × 21 mm
+        - Weight: 771 gram
+
+      __Uses in Competition:__ 
+        - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
+          </td>
+        </tr>
+      </table>
+    </div>
     <table border=0 width="100%" >
       <tr>
       <td >
