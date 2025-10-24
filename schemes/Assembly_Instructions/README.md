@@ -70,9 +70,11 @@
     - GPIO: 40-pin Header (UART, SPI, I2S, I2C, GPIO), 12-pin Button Header
     - Dimensions: 100 mm × 79 mm × 21 mm
     - Weight: 771 gram
+  <br>
 
   __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
+  <br>
 
   __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ developer-b01</a>__
           </td>
