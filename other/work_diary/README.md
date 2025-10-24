@@ -873,6 +873,35 @@ sudo apt-get -y install sdkmanager
 
  - 我們在測試的過程中因為Web Sockets在成功連線之前會將成功前的所有動作堵住，並在連線成功後一次性執行，這樣會造成我們程式啟動時會有機器再向前行走但是舵機沒有運作、底盤沒有任何反應等...。所以我們決定將程序的啟動控制由Jetson Orin Nano來控制，因此我們須將程式啟動按鈕的電路更改，再更改過程中我們遇到程式按鈕按下狀態沒有更新，經過網路資料查詢發現我們需要使用上拉電阻的方式進行電路連接，所以我們使用EasyEDA另外繪畫了一塊電路板將程式啟動按鈕的電路獨立。
 
+ - 由於我們需要新增遮光板因此我們在鏡頭支架上面新增樂高插銷孔洞用於安裝樂高的5x11科技面板零件，後來又因為設計了第二塊按鈕Led獨立電路，因此我們在鏡頭支架上方設計螺絲孔位用於安裝第二塊按鈕Led獨立電路板。
+
+<div align=center>
+    <table>
+        <tr>
+            <th colspan=2>新增遮光板</th>
+        </tr>
+        <tr>
+            <td align=center><img src="" width=900 /></td>
+        </tr>
+        <tr>
+            <th>獨立按鈕電路 - 原理圖</th>
+            <th>獨立按鈕電路 - PCB原理圖</th>
+        </tr>
+        <tr>
+            <td align=center width=500><img src="./img/10/Led and Button a Circuit.png" height=300 /></td>
+            <td align=center width=500><img src="./img/10/Led and Button a PCB.png" height=300 /></td>
+        </tr>
+        <tr>
+            <th>鏡頭支架主體 - Onshape</th>
+            <th>鏡頭支架主體 - 照片</th>
+        </tr>
+        <tr>
+            <td align=center width=500><img src="" width=450 /></td>
+            <td align=center width=500><img src="" width=450 /></td>
+        </tr>
+    </table>
+</div>
+
 
  ## 2025/10/14 ~ 2025/10/20
  **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
