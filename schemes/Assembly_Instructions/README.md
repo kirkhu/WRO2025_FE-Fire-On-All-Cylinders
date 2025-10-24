@@ -77,7 +77,6 @@
 
 **Purchase URL:**  
 <a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ Developer Kit – B01</a>
-
       </td>
       <td>
 <img src="./img/jetson_orin_nano.png" width="400" alt="Jetson Orin Nano" align="center" />   
@@ -100,7 +99,6 @@
 
 **Purchase URL:**  
 [MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)
-
       </td>
       <td>
 <img src="./img/Motor1.png" width="250" alt="MG513-P30" align="center" />   
@@ -124,7 +122,6 @@
 
 **Purchase URL:**  
 <a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>
-
       </td>
       <td>
 <img src="./img/MG90S.png" width="250" alt="MG90S servo motor" align="center" />  
@@ -148,7 +145,6 @@
 
 **Purchase URL:**  
 <a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>
-
       </td>
       <td>
 <img src="./img/l293d.png" width="250" alt="L293d motor controller" align="center" />  
@@ -171,7 +167,6 @@
 
 **Purchase URL:**  
 <a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>
-
       </td>
       <td>
 <img src="./img/lipo_battery.png" width="250" alt="Li-Polymer 3S Battery" align="center" />  
@@ -194,7 +189,6 @@
 
 **Purchase URL:**  
 <a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>
-
       </td>
       <td>
 <img src="./img/button.jpg" width="250" alt="Button(TACK-SW)" align="center" />   
@@ -217,7 +211,6 @@
 
 **Purchase URL:**  
 <a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>
-
       </td>
       <td>
 <img src="../Power_Supply_System/img/ADIO-DC36V5A.png" width="250" alt="ADIO-DC36V5A" align="center" />   
@@ -242,7 +235,60 @@
 - Captures images and transmits them to the Jetson Orin Nano for image recognition to detect obstacles or boundary walls.  
 
 **Purchase URL:**  
-<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%
+<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%94%AF%E6%8F%B4%E6%A8%B9%E8%8E%93%E6%B4%BECM3-4%E3%80%81Jetson-Nano-i.10207300.8215149686?srsltid=AfmBOor9HmpX2guySAnFvW5drNG4qJtdwx98_e6muraV4LUtXM50YR5Q" target="_blank">SONY IMX477</a>
+      </td>
+      <td>
+<img src="../../schemes/Camera/img/SONY_IMX477.png" width="250" alt="SONY IMX477 Camera Module" align="center" />    
+      </td>
+    </tr>
+  </table>
+
+- #### BNO055 Gyroscope Orientation Sensor
+  <table border=0 width="100%">
+    <tr>
+      <td>
+
+**Specifications:**  
+- 9-Axis Sensing: Includes accelerometer, gyroscope, and magnetometer  
+- Operating Voltage: 3.6V - 5V  
+- Interface: Supports I²C and UART  
+- Orientation Data: Provides direct angle data for accurate positioning  
+
+**Uses in Competition:**  
+- Detects vehicle's orientation values and provides data to the Jetson Orin Nano for processing and decision-making.  
+
+**Purchase URL:**  
+<a href="https://www.remisys.com.tw/product-page/bno055-absolute-orientation-sensor" target="_blank">BNO055</a>
+      </td>
+      <td>
+<img src="../../schemes/BNO055/img/BNO055up.png" width="250" alt="BNO055 Gyroscope orientation sensor" align="center" />    
+      </td>
+    </tr>
+  </table>
+
+- #### HC-SR04 Ultrasonic Distance Sensor
+  <table border=0 width="100%">
+    <tr>
+      <td>
+
+**Specifications:**  
+- Measuring Range: 2 cm to 400 cm  
+- Measurement Accuracy: ±3 mm  
+- Operating Voltage: 5V DC  
+- Ultrasonic Frequency: 40kHz  
+- Transmission Interface: Trig and Echo pins  
+
+**Uses in Competition:**  
+- Collects distance data in three directions and provides it to the Raspberry Pi Pico for controlling vehicle direction.  
+
+**Purchase URL:**  
+<a href="https://robotkingdom.com.tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>
+      </td>
+      <td>
+<img src="../../schemes/HC-SR04/img/HC-SR04.png" width="250" alt="HC-SR04 ultrasonic distance sensor" align="center" />    
+      </td>
+    </tr>
+  </table>
 
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
