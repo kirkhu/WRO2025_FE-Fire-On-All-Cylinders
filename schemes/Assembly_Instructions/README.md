@@ -62,25 +62,6 @@
       <table border=0 width=100% >
         <tr>
           <td>
-      __Specification:__ 
-        - Processor: 6-core Arm Cortex-A78AE v8.2 64-bit CPU, 1.5 MB L2 + 4 MB L3
-        - GPU: 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores
-        - Memory: 8 GB 128-bit LPDDR5 @ 102 GB/s
-        - Connectivity: 4× USB 3.2 Gen2 Type-A, 1× USB Type-C (for debug and device mode)
-        - GPIO: 40-pin Header (UART, SPI, I2S, I2C, GPIO), 12-pin Button Header
-        - Dimensions: 100 mm × 79 mm × 21 mm
-        - Weight: 771 gram
-
-      __Uses in Competition:__ 
-        - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
-          </td>
-        </tr>
-      </table>
-    </div>
-    <table border=0 width="100%" >
-      <tr>
-      <td >
-
   __Specification:__ 
     - Processor: 6-core Arm Cortex-A78AE v8.2 64-bit CPU, 1.5 MB L2 + 4 MB L3
     - GPU: 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores
@@ -92,16 +73,15 @@
 
   __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
-    <br></br>
- 
-    <br></br>
-    __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ developer-b01</a>__
-    </td>
-    <td>
-    <img src="./img/jetson_orin_nano.png" width = "400"  alt="Jjetson_orin_nano" align=center />   
-    </td>
-    </tr>
-    </table>
+
+  __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ developer-b01</a>__
+          </td>
+          <td>
+          <img src="./img/jetson_orin_nano.png" width = "400"  alt="Jjetson_orin_nano" align=center /> 
+          </td>
+        </tr>
+      </table>
+    </div>
 
   - #### MG513 Rear-Drive DC Motor-MG513 後驅直流馬達
     <table border=0 width="100%" >
