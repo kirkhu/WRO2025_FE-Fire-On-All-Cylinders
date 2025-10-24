@@ -331,8 +331,8 @@
             <th>鏡頭固定板</th>
           </tr>
           <tr>
-            <td align=center width=500><img src="" width=450 /></td>
-            <td align=center width=500><img src="" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_CAD_File/img/Lens support frame body.png" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_CAD_File/img/Lens mounting plate.png" width=450 /></td>
           </tr>
         </table>
       </div>
