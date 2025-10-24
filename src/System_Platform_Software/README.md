@@ -118,6 +118,11 @@
 
     ```
 
+ - 安裝 **WebSockets** 12.x 的最新版本
+    ```bash
+    pip install "websockets>=12<13"
+    ```
+
  - 安裝ASUS AC1200驅動程式 或 安裝TP Link AC1300驅動程式
     ```bash
     mkdir -p ~/src && cd ~/src/
