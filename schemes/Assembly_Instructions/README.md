@@ -57,7 +57,7 @@
 </div>
 
 - ### Overview of Important Parts List-重要零件清單總覽
-  - #### NVIDIA® Jetson Orin Nano™ Developer Kit – B01 Controller NVIDIA® Jetson Orin Nano™ 開發板 – B01 控制器
+ - #### NVIDIA® Jetson Orin Nano™ Developer Kit – B01 Controller NVIDIA® Jetson Orin Nano™ 開發板 – B01 控制器
     <div align=center>
       <table border=0 width=100% >
         <tr>
@@ -85,7 +85,7 @@
       </table>
     </div>
 
-  - #### MG513 Rear-Drive DC Motor-MG513 後驅直流馬達
+ - #### MG513 Rear-Drive DC Motor-MG513 後驅直流馬達
     <div align=center>
       <tabele border=0 width=100% >
         <table>
