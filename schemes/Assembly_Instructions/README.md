@@ -56,286 +56,193 @@
 </table>
 </div>
 
-- ### Overview of Important Parts List-重要零件清單總覽
- - #### NVIDIA® Jetson Orin Nano™ Developer Kit – B01 Controller NVIDIA® Jetson Orin Nano™ 開發板 – B01 控制器
-    <div align=center>
-      <table border=0 width=100% >
-        <tr>
-          <td>
-  __Specification:__ 
-    - Processor: 6-core Arm Cortex-A78AE v8.2 64-bit CPU, 1.5 MB L2 + 4 MB L3
-    - GPU: 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores
-    - Memory: 8 GB 128-bit LPDDR5 @ 102 GB/s
-    - Connectivity: 4× USB 3.2 Gen2 Type-A, 1× USB Type-C (for debug and device mode)
-    - GPIO: 40-pin Header (UART, SPI, I2S, I2C, GPIO), 12-pin Button Header
-    - Dimensions: 100 mm × 79 mm × 21 mm
-    - Weight: 771 gram
-  <br>
+### Overview of Important Parts List
 
-  __Uses in Competition:__ 
-    - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
-  <br>
-
-  __Purchase URL:<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ developer-b01</a>__
-          </td>
-          <td>
-          <img src="./img/jetson_orin_nano.png" width = "400"  alt="Jjetson_orin_nano" align=center /> 
-          </td>
-        </tr>
-      </table>
-    </div>
-
- - #### MG513 Rear-Drive DC Motor-MG513 後驅直流馬達
-    <div align=center>
-      <tabele border=0 width=100% >
-        <table>
-          <tr>
-            <td>
-  __Specifications:__  
-    - No-load Speed: 366 rpm
-    - Reduction Ratio: 1:30
-    - Operating Voltage: 6 - 12V
-  <br>
-
-  __Uses in Competition：__
-    - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
-  <br>
-
-  __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://pse.is/89v7tp)__
-            </td>
-            <td>
-              <img src="./img/Motor1.png" width = "250"  alt="MG513-P30" align=center />   
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <table border=0 width="100%" >
-      <tr>
-      <td> 
-
-  __Specifications:__  
-    - No-load Speed: 366 rpm
-    - Reduction Ratio: 1:30
-    - Operating Voltage: 6 - 12V
-
-  __Uses in Competition：__
-    - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
-    <br></br>    
-    <br></br>
-    __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
-    </td>
-       <td >
-    <img src="./img/Motor1.png" width = "250"  alt="MG513-P30" align=center />   
-      </td>
-      </tr>
-    </table>
-
-  - ### MG90S Front Steering Mechanism by Servo Motor -MG90S 前輪轉向伺服馬達機構
-      <table border=0 width="100%" >
-      <tr>
+- #### NVIDIA® Jetson Orin Nano™ Developer Kit – B01 Controller
+  <table border=0 width="100%">
+    <tr>
       <td>
-  __Specifications:__
-    - Controllable Rotation Angle: 0-180°  
-    - Maximum Torque: 2.0 kg/cm (at 4.8V)  
-    - Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
-    - Operating Voltage: 4.8V - 7.2V  
 
-    __Uses in Competition：__
-    - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
-    <br></br>
+**Specifications:**  
+- Processor: 6-core Arm Cortex-A78AE v8.2 64-bit CPU, 1.5 MB L2 + 4 MB L3  
+- GPU: 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores  
+- Memory: 8 GB 128-bit LPDDR5 @ 102 GB/s  
+- Connectivity: 4× USB 3.2 Gen2 Type-A, 1× USB Type-C (for debug and device mode)  
+- GPIO: 40-pin Header (UART, SPI, I2S, I2C, GPIO), 12-pin Button Header  
+- Dimensions: 100 mm × 79 mm × 21 mm  
+- Weight: 771 grams  
 
-    __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
-    </td>
-       <td >
-    <img src="./img/MG90S.png" width = "250"  alt="MG90S servo motor" align=center />  
-       </td>
-      </tr>
-    </table>
+**Uses in Competition:**  
+- Receives image data from the camera module, performs image recognition via OpenCV, and sends recognition results to the Raspberry Pi Pico for further processing.  
 
-  - #### Dual H-bridge DC motor driver IC - L293D-雙 H 橋直流馬達驅動晶片 – L293D
+**Purchase URL:**  
+<a href="https://robotkingdom.com.tw/product/nvidia-jetson-orin-nano-super-developer-set-1/" target="_blank">NVIDIA® Jetson Orin Nano™ Developer Kit – B01</a>
 
-    <table border=0 width="100%" >
-      <tr>
-      <td>  
-
-    __Specifications:__ 
-    - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
-    - Wide operating voltage range: 4.5V to 36V.
-    - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
-    - Output voltage range: 3 V to 36 V.
-
-    __Uses in Competition：__  
-    - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
-    <br></br>
-
-    <br></br>
-    __Purchase URL:<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>__
-    </td>
-      <td>
-    <img src="./img/l293d.png" width = "250" alt="L293d motor controler" align=center />  
       </td>
-      </tr>
-    </table>
-
-
-  - #### Li-Polymer 3S Battery-鋰聚合物 3S 電池
-    <table border=0 width="100%" >
-      <tr>
-      <td> 
-
-    __Specifications:__
-    - Maximum Current: 45.5A  
-    - Net Weight: Approximately 107g  
-    - Rated Voltage: 11.1V
-    __Uses in Competition：__  
-    - Supply power to the vehicle for use.  
-    <br></br>
-   
-    <br></br>
-    __Purchase URL:<a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>__
-    </td>
-    <td>
-    <img src="./img/lipo_battery.png" width = "250"  alt="Li-Polymer 3S Battery" align=center />  
-    </td>
+      <td>
+<img src="./img/jetson_orin_nano.png" width="400" alt="Jetson Orin Nano" align="center" />   
+      </td>
     </tr>
-    </table>
+  </table>
 
-  - #### Micro switch (TACK-SW)-微動開關（TACK-SW）
-
-    <table border=0 width=100% >
-      <tr>
+- #### MG513 Rear-Drive DC Motor
+  <table border=0 width="100%">
+    <tr>
       <td>
-   
-    __Specifications:__ 
-    - Operating Voltage: 3.3V - 5.0V  
-    - Number of Pins: 3  
-    - Output Signal: Digital  
 
-    __Uses in Competition：__
-    - Control the vehicle's start and drive switch.
-    <br></br>
-    <br></br>
-    __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>__
-    </td>
-      <td>
-    <img src="./img/button.jpg" width = "250"  alt="Button(TACK-SW)" align=center />   
+**Specifications:**  
+- No-load Speed: 366 rpm  
+- Reduction Ratio: 1:30  
+- Operating Voltage: 6 - 12V  
+
+**Uses in Competition:**  
+- Receives control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.  
+
+**Purchase URL:**  
+[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)
+
       </td>
-      </tr>
-    </table>
-
-  - #### High Current 5A Constant Voltage Constant Current Buck Power Supply Module ADIO-DC36V5A-高電流 5A 降壓穩壓穩流電源模組 ADIO-DC36V5A
-
-    <table border=0 width=100% >
-      <tr>
-      <td> 
-
-  __Specifications:__ 
-    - Input Voltage Range: 4 - 38V
-    - Output Voltage Range: 1.25 - 36V, continuously adjustable
-    - Output Current Range: Adjustable, maximum of 5A
-
-  __Uses in Competition：__  
-    - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
-    <br></br>
-  
-    <br></br>
-    __Purchase URL:<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>__
-    </td>
       <td>
-    <img src="../Power_Supply_System/img/ADIO-DC36V5A.png" width = "250"  alt="ADIO-DC36V5A" align=center />   
+<img src="./img/Motor1.png" width="250" alt="MG513-P30" align="center" />   
       </td>
-      </tr>
-    </table>
+    </tr>
+  </table>
 
- 
-  - #### SONY IMX477 Camera Module-SONY IMX477 鏡頭模組
-
-    <table border=0 width="100%" >
-      <tr>
+- #### MG90S Front Steering Mechanism by Servo Motor
+  <table border=0 width="100%">
+    <tr>
       <td>
 
-  __Specifications:__
-    - Viewing Angle: 160 degrees
-    - pixels: 4056 x 3040
-    - Maximum aperture: F2.0
-    - Focal length: 7.9mm
-    - Interface: CSI (Camera Serial Interface)
-    - Operating Voltag：3.3V
+**Specifications:**  
+- Controllable Rotation Angle: 0-180°  
+- Maximum Torque: 2.0 kg/cm (at 4.8V)  
+- Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
+- Operating Voltage: 4.8V - 7.2V  
 
-  __Uses in Competition：__  
-    - Responsible for capturing images and transmitting them to the Jetson Nano for image recognition to detect the presence of obstacles or boundary walls.
-    <br></br>
-    
-    <br></br>
-    __Purchase URL:<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%94%AF%E6%8F%B4%E6%A8%B9%E8%8E%93%E6%B4%BECM3-4%E3%80%81Jetson-Nano-i.10207300.8215149686?srsltid=AfmBOor9HmpX2guySAnFvW5drNG4qJtdwx98_e6muraV4LUtXM50YR5Q" target="_blank">SONY IMX477</a>__
-    </td>
-       <td >
-    <img src="../../schemes/Camera/img/SONY_IMX477.png" width = "250"  alt="SONY IMX477 Camera Module" align=center />    
-       </td>
-      </tr>
-    </table>
+**Uses in Competition:**  
+- Receives control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.  
 
-  - #### BNO055 Gyroscope orientation sensor-BNO055 陀螺儀方向感測器
-    <table border=0 width="100%" >
-      <tr>
-      <td> 
+**Purchase URL:**  
+<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>
 
-  __Specifications:__
-    - 9-Axis Sensing: Includes accelerometer, gyroscope, and magnetometer for motion and orientation detection
-    - Operating Voltage: 3.6V - 5V
-    - Interface: Supports both I²C and UART, making it compatible with various devices
-    - Orientation Data: Provides direct angle data for accurate positioning
-  __Uses in Competition：__  
-    - Responsible for detecting the vehicle's current orientation values, which are provided to the  Jetson Nano controller for processing and decision-making.
-    <br></br>
+      </td>
+      <td>
+<img src="./img/MG90S.png" width="250" alt="MG90S servo motor" align="center" />  
+      </td>
+    </tr>
+  </table>
 
-   __產品規格：__
+- #### Dual H-bridge DC motor driver IC - L293D
+  <table border=0 width="100%">
+    <tr>
+      <td>
 
-    - 9 軸感測：包含加速度計、陀螺儀與磁力計，用於動作與方向檢測
-    - 工作電壓：3.6V – 5V
-    - 介面：支援 I²C 與 UART，兼容多種裝置
-    - 方向數據：提供直接的角度數據以實現精確定位
+**Specifications:**  
+- L293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.  
+- Wide operating voltage range: 4.5V to 36V.  
+- Output current: 600 mA (continuous) and 1.2 A (peak) per channel.  
+- Output voltage range: 3 V to 36 V.  
 
-  __競賽中之應用：__
-    - 負責偵測車輛目前的方向數值，並提供給 Jetson Nano 控制器進行運算與決策。 
-    <br></br>
-    __Purchase URL:<a href="https://www.remisys.com.tw/product-page/bno055-absolute-orientation-sensor" target="_blank">BNO055</a>__
-    </td>
-       <td >
-    <img src="../../schemes/BNO055/img/BNO055up.png" width = "250"  alt="SBNO055 Gyroscope orientation sensor" align=center />    
-       </td>
-      </tr>
-    </table>
+**Uses in Competition:**  
+- Drives the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.  
 
-  - #### HC-SR04 ultrasonic distance sensor-HC-SR04 超音波距離感測器
-    <table border=0 width="100%" >
-      <tr>
-      <td> 
+**Purchase URL:**  
+<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>
 
-    __Specifications:__
-    - Measuring Range: 2 cm to 400 cm, capable of detecting objects within a distance of 2 cm to 4 meters.
-    - Measurement Accuracy: Approximately 3 mm, with a margin of error around ±3 mm.
-    - Operating Voltage: 5V, powered by direct current.
-    - Ultrasonic Frequency: 40kHz, measuring distance by emitting a 40kHz ultrasonic signal.
-    - Transmission Interface: Includes Trig and Echo pins, where Trig sends out the ultrasonic signal and Echo receives the reflected signal to calculate the distance.
+      </td>
+      <td>
+<img src="./img/l293d.png" width="250" alt="L293d motor controller" align="center" />  
+      </td>
+    </tr>
+  </table>
 
-    __Uses in Competition：__  
-    - Primarily responsible for collecting distance data from HC-SR04 ultrasonic distance sensors in three directions and providing it to the Raspberry Pi Pico controller for calculations to control the vehicle's direction.
-    <br></br>
-  __產品規格：__
-    - 測量範圍： 2 公分至 400 公分，可偵測 2 公分至 4 公尺內的物體。
-    - 測量精度： 約 ±3 毫米，誤差範圍大約為 ±3 毫米。
-    - 工作電壓： 5V，採用直流供電。
-    - 超音波頻率： 40kHz，透過發射 40kHz 的超音波訊號來進行距離測量。
-    - 傳輸介面： 包含 Trig 與 Echo 腳位，Trig 負責發射超音波訊號，Echo 負責接收反射回來的訊號並計算距離。
-    <br></br>
-    __Purchase URL:<a href="https://robotkingdom.com.tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>__
-    </td>
-       <td >
-    <img src="../../schemes/HC-SR04/img/HC-SR04.png" width = "250"  alt="HC-SR04 ultrasonic distance sensor" align=center />    
-       </td>
-      </tr>
-    </table>
+- #### Li-Polymer 3S Battery
+  <table border=0 width="100%">
+    <tr>
+      <td>
+
+**Specifications:**  
+- Maximum Current: 45.5A  
+- Net Weight: Approximately 107g  
+- Rated Voltage: 11.1V  
+
+**Uses in Competition:**  
+- Supplies power to the vehicle.  
+
+**Purchase URL:**  
+<a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>
+
+      </td>
+      <td>
+<img src="./img/lipo_battery.png" width="250" alt="Li-Polymer 3S Battery" align="center" />  
+      </td>
+    </tr>
+  </table>
+
+- #### Micro switch (TACK-SW)
+  <table border=0 width="100%">
+    <tr>
+      <td>
+
+**Specifications:**  
+- Operating Voltage: 3.3V - 5.0V  
+- Number of Pins: 3  
+- Output Signal: Digital  
+
+**Uses in Competition:**  
+- Controls the vehicle's start and drive switch.  
+
+**Purchase URL:**  
+<a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>
+
+      </td>
+      <td>
+<img src="./img/button.jpg" width="250" alt="Button(TACK-SW)" align="center" />   
+      </td>
+    </tr>
+  </table>
+
+- #### High Current 5A Constant Voltage Constant Current Buck Power Supply Module ADIO-DC36V5A
+  <table border=0 width="100%">
+    <tr>
+      <td>
+
+**Specifications:**  
+- Input Voltage Range: 4 - 38V  
+- Output Voltage Range: 1.25 - 36V, continuously adjustable  
+- Output Current Range: Adjustable, maximum of 5A  
+
+**Uses in Competition:**  
+- Steps down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.  
+
+**Purchase URL:**  
+<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>
+
+      </td>
+      <td>
+<img src="../Power_Supply_System/img/ADIO-DC36V5A.png" width="250" alt="ADIO-DC36V5A" align="center" />   
+      </td>
+    </tr>
+  </table>
+
+- #### SONY IMX477 Camera Module
+  <table border=0 width="100%">
+    <tr>
+      <td>
+
+**Specifications:**  
+- Viewing Angle: 160 degrees  
+- Pixels: 4056 x 3040  
+- Maximum aperture: F2.0  
+- Focal length: 7.9mm  
+- Interface: CSI (Camera Serial Interface)  
+- Operating Voltage: 3.3V  
+
+**Uses in Competition:**  
+- Captures images and transmits them to the Jetson Orin Nano for image recognition to detect obstacles or boundary walls.  
+
+**Purchase URL:**  
+<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%
+
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
