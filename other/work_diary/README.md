@@ -928,7 +928,7 @@ sudo apt-get -y install sdkmanager
             <th>最終停車程序示意圖</th>
         </tr>
         <tr>
-            <td width=1200><img src="./img/10/Parking_process.png" width=800 /></td>
+            <td width=1000 align=center><img src="./img/10/Parking_process.png" width=700 /></td>
         </tr>
     </table>
  </div>
