@@ -915,4 +915,22 @@ sudo apt-get -y install sdkmanager
 
  ```
 
+ ## 2025/10/21 ~ 2025/10/26
+ **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+ **Content:**
+
+ - 本周我們完成了最終的程式架構，經過先前的更動我們的停車流程也做了些微的更動。下面為最終版的停車流程順序示意圖。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>最終停車程序示意圖</th>
+        </tr>
+        <tr>
+            <td width=1200><img src="./img/10/Parking_process.png" width=800 /></td>
+        </tr>
+    </table>
+ </div>
+
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
