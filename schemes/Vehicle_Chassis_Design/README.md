@@ -123,7 +123,7 @@
         <th colspan=2>第五代轉向結構</th>
       </tr>
       <tr>
-        <td><img src="" width=500 /></td>
+        <td><img src="./img/20251025_140133.jpg" width=500 /></td>
         <td width=400>
           描述：<br>&emsp;&emsp;經過測試此版本已經符合我們自駕車的需求。
         </td>
