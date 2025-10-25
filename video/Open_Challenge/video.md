@@ -77,8 +77,8 @@ These are test videos of a vehicle in a "wide-wide-narrow-narrow" field configur
       <th>Counterclockwise</th>
     </tr>
     <tr>
-      <td align=center><img src="" width=400 /></td>
-      <td align=center><img src="" width=400 /></td>
+      <td align=center width=40%><a href=""><img src="" width=400 /></a></td>
+      <td align=center width=40%><a href=""><img src="" width=400 /></a></td>
     </tr>
   </table>
 </div>
