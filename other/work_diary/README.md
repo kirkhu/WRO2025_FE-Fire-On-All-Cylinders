@@ -922,6 +922,8 @@ sudo apt-get -y install sdkmanager
 
  - 本周我們完成了最終的程式架構，經過先前的更動我們的停車流程也做了些微的更動。下面為最終版的停車流程順序示意圖。
 
+ - 在完成程式架構和流程後我們也開始進行介紹影片的拍攝。
+
  <div align=center>
     <table>
         <tr>
