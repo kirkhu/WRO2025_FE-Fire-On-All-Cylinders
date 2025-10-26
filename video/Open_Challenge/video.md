@@ -28,7 +28,7 @@
     <table>
       <tr align="center">
         <th>Shun</th>
-        <th>counterclockwise</th>    
+        <th>counterclockwise</th>
       </tr>
       <tr >
         <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge Shun half width half height width @ Fire On All Cylinders" ></a> </td>
