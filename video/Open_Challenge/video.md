@@ -52,20 +52,22 @@
 - ### wide narrow wide narrow
 
   These are test videos of a vehicle in a "wide-narrow-wide-narrow", recorded clockwise and counterclockwise.
-<table>
-  <tr align="center">
-     <th>Clockwise</th>
-     <th>counterclockwise</th>    
-  </tr>
-  <tr >
-     <td width="40%"><a href=""><img src="./img/Open-Challange-clockwise.png" alt="Open Challange clockwise @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href=""><img src="./img/Open-Challange-Counterclockwise.png" alt="Open Challange counterclockwise @ Fire On All Cylinders" ></a></td>
-  </tr>
-  </table>  
+  <div align=center>
+    <table>
+      <tr align="center">
+        <th>Clockwise</th>
+        <th>counterclockwise</th>    
+      </tr>
+      <tr >
+        <td width="40%"><a href=""><img src="./img/Open-Challange-clockwise.png" alt="Open Challange clockwise @ Fire On All Cylinders" ></a> </td>
+        <td width="40%"><a href=""><img src="./img/Open-Challange-Counterclockwise.png" alt="Open Challange counterclockwise @ Fire On All Cylinders" ></a></td>
+      </tr>
+    </table>
+  </div>
 
 - ### Wide Wide Narrow Narrow
 
-This is a test video of a vehicle in a field set to "wide-wide-narrow-narrow", recorded clockwise and counterclockwise.
+  This is a test video of a vehicle in a field set to "wide-wide-narrow-narrow", recorded clockwise and counterclockwise.
 <div align=center>
   <table>
     <tr align=center>
@@ -81,7 +83,7 @@ This is a test video of a vehicle in a field set to "wide-wide-narrow-narrow", r
 
 - ### Narrow Narrow Wide Wide
 
-This is a test video of a vehicle in a field set to "narrow-narrow-wide-wide", recorded clockwise and counterclockwise.
+  This is a test video of a vehicle in a field set to "narrow-narrow-wide-wide", recorded clockwise and counterclockwise.
 <div align=center>
   <table>
     <tr align=center>
@@ -97,7 +99,7 @@ This is a test video of a vehicle in a field set to "narrow-narrow-wide-wide", r
 
 - ### Wide Narrow Narrow Narrow
 
-This is a test video of a vehicle in a field set to "wide-narrow-narrow-narrow", recorded clockwise and counterclockwise.
+  This is a test video of a vehicle in a field set to "wide-narrow-narrow-narrow", recorded clockwise and counterclockwise.
 <div align=center>
   <table>
     <tr align=center>
@@ -113,7 +115,7 @@ This is a test video of a vehicle in a field set to "wide-narrow-narrow-narrow",
 
 - ### Narrow Wide Wide Wide
 
-This is a test video of a vehicle in a field set to "Narrow Wide Wide Wide", recorded clockwise and counterclockwise.
+  This is a test video of a vehicle in a field set to "Narrow Wide Wide Wide", recorded clockwise and counterclockwise.
 <div align=center>
   <table>
     <tr align=center>
