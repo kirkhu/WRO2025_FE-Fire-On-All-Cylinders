@@ -5,7 +5,7 @@
 
   Here are test videos of vehicles in different power and field combinations.
 
-- ### Full width
+- ### Full wide
 
   This is a test video of a vehicle in a field set to "wide-wide-wide-wide", recorded clockwise and counterclockwise.
   <div align=center>
