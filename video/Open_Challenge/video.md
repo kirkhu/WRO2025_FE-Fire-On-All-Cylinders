@@ -10,12 +10,12 @@
   This is a test video of a vehicle in a field set to "wide-wide-wide-wide", recorded clockwise and counterclockwise.
 <table>
   <tr align="center">
-     <th>Shun</th>
-     <th>Inverse</th>    
+     <th>clockwise</th>
+     <th>counterclockwise</th>    
   </tr>
   <tr >
      <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-Full-width.png" alt="Open Challenge Shun Full width @ Fire-On-All-Cylinders" ></a> </td>
-     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-Full-width.png" alt="Open Challenge Inverse Full width @ Fire-On-All-Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-Full-width.png" alt="Open Challenge counterclockwise Full width @ Fire-On-All-Cylinders" ></a></td>
   </tr>
   </table>
 
@@ -26,11 +26,11 @@
 <table>
   <tr align="center">
      <th>Shun</th>
-     <th>Inverse</th>    
+     <th>counterclockwise</th>    
   </tr>
   <tr >
      <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-half-width-half-height-width.png" alt="Open Challenge Shun half width half height width @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge Inverse half width half height width @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-half-width-half-height-width.png" alt="Open Challenge counterclockwise half width half height width @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>
 
@@ -41,11 +41,11 @@
 <table>
   <tr align="center">
      <th>Power 50</th>
-     <th>Power 70</th>    
+     <th>counterclockwise</th>    
   </tr>
   <tr >
      <td width="40%"><a href=""><img src="./img/Open-Challenge-power-50-full-narrow.png" alt="Open Challenge power 50 full narrow @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-full-narrow.png" alt="Open Challenge power 70 full narrow @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challenge-power-70-full-narrow.png" alt="Open Challenge counterclockwise full narrow @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>  
 
@@ -55,11 +55,11 @@
 <table>
   <tr align="center">
      <th>Clockwise</th>
-     <th>Counter Clockwise</th>    
+     <th>counterclockwise</th>    
   </tr>
   <tr >
      <td width="40%"><a href=""><img src="./img/Open-Challange-clockwise.png" alt="Open Challange clockwise @ Fire On All Cylinders" ></a> </td>
-     <td width="40%"><a href=""><img src="./img/Open-Challange-Counterclockwise.png" alt="Open Challange Countclockwise @ Fire On All Cylinders" ></a></td>
+     <td width="40%"><a href=""><img src="./img/Open-Challange-Counterclockwise.png" alt="Open Challange counterclockwise @ Fire On All Cylinders" ></a></td>
   </tr>
   </table>  
 
@@ -70,7 +70,7 @@ This is a test video of a vehicle in a field set to "wide-wide-narrow-narrow", r
   <table>
     <tr align=center>
       <th>Clockwise</th>
-      <th>Counterclockwise</th>
+      <th>counterclockwise</th>
     </tr>
     <tr>
       <td align=center width=40%><a href=""><img src="" width=400 /></a></td>
@@ -86,7 +86,7 @@ This is a test video of a vehicle in a field set to "narrow-narrow-wide-wide", r
   <table>
     <tr align=center>
       <th>Clockwise</th>
-      <th>Counterclockwise</th>
+      <th>counterclockwise</th>
     </tr>
     <tr>
       <td align=center width=40%><a href=""><img src="" width=400 /></a></td>
