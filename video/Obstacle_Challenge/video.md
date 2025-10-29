@@ -2,63 +2,44 @@
 
 ## <div align="center">Testing Video of Self-Driving Car in Obstacle Challenge-自駕車在障礙挑戰中的測試影片</div>
 
-- #### The last traffic light on the second lap is a green signal.(No need to turn around )-第二圈的最後一個紅綠燈是綠燈訊號。（無需掉頭）
-  這是一段車輛第二圈行駛的測試影片，最後一個紅綠燈為綠燈。
-
-  Here is a test video of a vehicle on the second lap, with the last traffic light being green. 
+- ### Test videos of theSelf-Driving Car parking in the four zones of the site.-自駕車駛入場地四個區域的停車測試影片。
+  #### Clockwise 順時計
   <div align="center">
   <table >
     <tr >
-       <th align="center">The last traffic light on the second lap is a green signal-第二圈的最後一個紅綠燈是綠燈訊號。</th>
+       <th align="center">The parking lot is located below.</th>
+       <th align="center">The parking lot is on the left side.</th>
+       <th align="center">The parking lot is located above.</th>
+       <th align="center">The parking lot is on the right side.</th>
 
     </tr>
     <tr >
-       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-noRed@Fire-On-All-Cylinders.png" alt="Obstacle Challenge noRed@Fire On All Cylinders"  ></a> </td>
-
+       <td  width="500" ><a href="https://youtu.be/XRuhmoaAwWk"><img src="./img/01Below_clockwise@Obstacle_Challenge.jpg" alt="01Below_clockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/aFe098mwWvI"><img src="./img/03Left_clockwise@Obstacle_Challenge.jpg" alt="03Left_clockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/csCRfZYZlrQ"><img src="./img/05Above_clockwise@Obstacle_Challenge.jpg" alt="05Above_clockwise@Obstacle_Challenge_Fire On All Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/UbKV_qW2KB4"><img src="./img/07Right_clockwise@Obstacle_Challenge.jpg" alt="07Right_clockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
     </tr>
     </table>  
     </div>
 
-- #### The last traffic light on the second lap is red.(Need to turn around)-第二圈的最後一個紅綠燈是紅燈訊號。（需要掉頭）
-  以下是第二圈最後一個紅綠燈在不同位置的測試影片。
-  
-  Here are test videos of the last traffic light being red in different positions on the second lap.  
-
+  #### Counterclockwise
   <div align="center">
   <table >
     <tr >
-       <th align="center">At Position 1</th>
-       <th align="center">At Position 2</th>
-       <th align="center">At Position 3</th>
+       <th align="center">The parking lot is located below.</th>
+       <th align="center">The parking lot is on the left side.</th>
+       <th align="center">The parking lot is located above.</th>
+       <th align="center">The parking lot is on the right side.</th>
+
     </tr>
     <tr >
-       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-Red1@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red1@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-Red2@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red2@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href=""><img src="./img/Obstacle-Challenge-Red3@Fire-On-All-Cylinders.png" alt="Obstacle-Challenge-Red3@Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/o1Zwdhd-V9o"><img src="./img/02Below_counterclockwise@Obstacle_Challenge.jpg" alt="02Below_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/6Rew_saSqYM"><img src="./img/04Left_counterclockwise@Obstacle_Challenge.jpg" alt="04Left_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/mTPq-y7aNzw"><img src="./img/06Above_counterclockwise@Obstacle_Challange.jpg" alt="06Above_counterclockwise@Obstacle_Challange_Fire On All Cylinders"  ></a> </td>
+       <td  width="500" ><a href="https://youtu.be/lZ-AYxOD-XM"><img src="./img/08Right_counterclockwise@Obstacle_Challenge.jpg" alt="08Right_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
     </tr>
     </table>  
     </div>
-
-
-- #### Video of parking tests at different positions.-不同位置停車測試的影片。
-  
-  <div align="center">
-  <table >
-    <tr >
-       <th align="center">Position is on the Left-位置在左邊</th>
-       <th align="center">Position is at the top-位置在頂部</th>
-       <th align="center">Position is on the right-位置在右邊</th>
-       <th align="center">Position is at the bottom-位置在底部</th>
-    </tr>
-    <tr >
-       <td  width="500" ><a href=""><img src="./img/parking_Left@Fire-On-All-Cylinders.png" alt="parking Left@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href=""><img src="./img/parking_top@Fire-On-All-Cylinders.png" alt="parking Top@Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href=""><img src="./img/parking_right@Fire-On-All-Cylinders.png" alt="parking Right@Fire On All Cylinders"  ></a> </td>
-       <td  width="500" ><a href=""><img src="./img/parking_down@Fire-On-All-Cylinders.png" alt="parking Down@Fire-On-All-Cylinders"  ></a> </td>
-    </tr>
-    </table>  
-    </div>
-
 
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
