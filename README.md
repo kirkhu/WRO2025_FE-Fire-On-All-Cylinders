@@ -1,11 +1,5 @@
 <div align="center"><img src="./other/img/logo.png" width="300" alt=" logo"></div> 
 
-### 中文
-- 這是 WRO 台灣隊伍「__Fire On All Cylinders.__」的官方 GitHub 倉庫。所有程式碼、文件和文件均在此。
-- 這款自動駕駛汽車的硬體和軟體設計靈感源自於我們學長姐團隊（Shinan-Fire-On-All-Cylinders）去年打造的模型，並藉鑒了去年世界冠軍模型的優勢。在此基礎上，我們將主控制器從“jetson orin nano”升級為“Nvidia Jetson Orin Nano”，提升性​​能並引入創新設計元素，使車輛更具競爭力。
-- 您可以在此處找到技術報告內容和設定說明的鏈接，這些鏈接分別面向學習者和評委，方便您在學習或評估期間訪問。
-- 本技術文件將根據評分標準建立目錄，目錄標題將以超連結形式顯示，方便評審或學習者輕鬆導航至技術文件的關鍵內容，從而快速進行評估。
-- **特別提醒：**受網路速度影響，圖片可能無法正常顯示。如遇此情況，請嘗試重新整理網頁以解決問題。
 ### 英文
 - This is the official GitHub repository of the WRO Taiwan team "__Fire On All Cylinders.__". All code, files and documents are here.
 - The hardware and software design of this self-driving car is inspired by the model built by our sister team (Shinan-Fire-On-All-Cylinders) last year, and borrows the advantages of last year's world champion model. On this basis, we upgraded the main controller from "Raspberry Pi 4B" to "Nvidia Jetson Orin Nano", improved performance and introduced innovative design elements to make the vehicle more competitive.
@@ -14,10 +8,10 @@
 - **Special reminder: **Due to the network speed, the image may not be displayed properly. If this happens, please try to refresh the webpage to solve the problem.
     #### [For Learners](learners_contents.md)
 
-## Rubric for Judging Engineering Documentation-工程文獻評審標準
+## Rubric for Judging Engineering Documentation
 
 - ###  ${{\color{red} Hardware Overview }} $ 
-  #### 1. Mobility Management-行動管理
+  #### 1. Mobility Management
     * [1-1 Vehicle 2D/3D Models in CAD (CAD 中的車輛 2D/3D 模型) **已改動](models/Vehicle_2D_3D/README.md)
     * [1-2 Vehicle Chassis Design(車輛底盤設計) **已改動](schemes/Vehicle_Chassis_Design/README.md)
     * [1-3 Motor Selection (馬達選擇)](schemes/Motor/README.md)
