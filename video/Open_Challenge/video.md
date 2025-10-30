@@ -1,9 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Testing Video of Self-Driving Car inOpen Challenge rounds-自駕車在開放挑戰中的測試影片</div> 
-競賽場地賽道寬度變化的測試影片
-
-Here is the test video of the competition track width variations.
+## <div align="center">Testing Video of Self-Driving Car inOpen Challenge rounds</div> 
+- **Here is the test video of the competition track width variations.**
 
 - ### Full wide
 
