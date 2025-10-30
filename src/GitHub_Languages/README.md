@@ -1,7 +1,8 @@
 <div align="center"><img src="../../other/img/logo.png" width=300></div>
 
 ## <div align="center">GitHub Web Editor Supported Markup Languages</div> 
- - To write engineering documentation on GitHub, we need to learn the following two types of web markup languages:
+
+ To write engineering documentation on GitHub, we need to learn the following two types of web markup languages:
   - **HTML (HyperText Markup Language)**: HTML is a markup language used to create and structure webpage content. It defines the structure for elements like text, images, links, and tables, allowing browsers to properly display content. When writing engineering documentation, HTML helps us organize the page structure, making information more readable.
     - #### [HTML Document link](https://www.w3schools.com/html/)
 
