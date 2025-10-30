@@ -59,7 +59,7 @@
     - [5-2 Obstacle Challenge rounds OK](video/Obstacle_Challenge/video.md)
   #### 6. GitHub Utilization-GitHub
     - [6-1 GitHub Editing Tools Introduction OK(VScode Edit/GIT)](src/GitHub_Edit/README.md)
-    - [6-2 GitHub Web Editor Supported Markup Languages](src/GitHub_Languages/README.md)  
+    - [6-2 GitHub Web Editor Supported Markup Languages OK](src/GitHub_Languages/README.md)  
   #### 7. Engineering Factor
     - [7-1 Work Diary](other/work_diary/README.md)
       - [February](other/work_diary/README.md#20250228--20250330)
