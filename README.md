@@ -70,6 +70,6 @@
       - [July](other/work_diary/README.md#20250702--20250721)
       - [August](other/work_diary/README.md#20250818--20250824)
       - [September](other/work_diary/README.md#20250901--20250906)
-      - [October](other/work_diary/README.md#20250604--20250608)
+      - [October](other/work_diary/README.md#20251007--20251013)
 
   <div align="center"><img src="./other/img/Gantt-Chart_4.png" width="1300" alt="Gantt-Char" /></div> 
