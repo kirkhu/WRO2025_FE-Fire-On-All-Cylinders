@@ -25,8 +25,8 @@
 <div align="center">
 <table>
 <tr align="center">
-<th>Last year's senior's model</th>
-<th>This year's senior's model</th>
+<th>Last year's competition vehicle model</th>
+<th>This year's competition vehicle model</th>
 </tr>
 <tr align="center">
 <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
