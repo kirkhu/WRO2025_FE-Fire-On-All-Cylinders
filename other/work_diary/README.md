@@ -37,7 +37,7 @@
 <div align="center">
 <table>
 <tr align="center">
-<th >Refer to the seniors GitHub reports(參考學長姐們的Github報告)</th>
+<th >For the design reference of this project, we consulted the engineering documents from our school's past teams and conducted a deep dive analysis of the technical files from last year's world champion team.)</th>
 </tr>
 <tr align="center">
 <td> <img src="./img/find_data.jpg" width = "500"  alt="data" align=center /></td>
