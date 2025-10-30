@@ -95,17 +95,17 @@
 
 **Content:** 
 
- - 本周我們開始撰寫我們的自駕車程序，我們為了能夠順利撰寫自駕車程序在網路上查詢了相關資料，例如：Raspberry Pi Pico和Jetson Nano之間要如何進行通訊、要如何使用Raspberry Pi Pico控制直流馬達上的Encoder、讀取超音波數值等。
+ - This week, we officially commenced the development of the Self-Driving-Cars software. To ensure seamless coordination between the main control unit (Jetson Nano) and the auxiliary unit (Raspberry Pi Pico), we dedicated time to researching critical communication protocols. Our specific areas of investigation included: the communication mechanism between the Jetson Nano and the Raspberry Pi Pico, how to precisely control the DC motor encoder using the Raspberry Pi Pico, and the implementation strategy for reading ultrasonic sensor data.
 
  <div align=center>
     <table>
         <tr>
-            <th align=center>查找相關資料</th>
-            <th align=center>撰寫自駕車程序</th>
+            <th align=center>Searched for relevant information online.</th>
+            <th align=center>Coding the self-driving-cars program.</th>
         </tr>
         <tr>
-            <td><img src="./img/3/4.jpg" width=400 /></td>
-            <td><img src="./img/3/5.jpg" width=400 /></td>
+            <td><img src="./img/3/4.jpg" alt="Searched for relevant information online." width=400 /></td>
+            <td><img src="./img/3/5.jpg" alt="Coding the self-driving-cars program." width=400 /></td>
         </tr>
     </table>
  </div>
