@@ -70,7 +70,7 @@
       - [July](other/work_diary/README.md#20250702--20250721)
       - [August](other/work_diary/README.md#20250818--20250824)
       - [September](other/work_diary/README.md#20250901--20250906)
-      - [October](other/work_diary/README.md#20250928--20251006)
+      - [October](other/work_diary/README.md#20251007--20251013)
 
 - ### Autonomous Vehicle Design: Key Upgrades and Iterations
   This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
