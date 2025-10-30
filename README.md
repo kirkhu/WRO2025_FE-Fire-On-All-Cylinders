@@ -52,7 +52,7 @@
 
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and Vehicle
-    - [4-1 Team Members Introduction ](t-photos/README.md)
+    - [4-1 Team Members Introduction OK ](t-photos/README.md)
     - [4-2 Vehicle Photos ](v-photos/README.md)  
   #### 5. Performance Videos - Challenge rounds
     - [5-1 Open Challenge rounds OK](video/Open_Challenge/video.md)
