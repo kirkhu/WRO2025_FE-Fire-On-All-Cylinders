@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width=300 ></div>
 
-## <div align="center">GitHub's Editing Process-GitHub 的編輯流程 </div>
+## <div align="center">Introduction to GitHub Editing Tools </div>
 - 在GitHub網頁上編輯非常直觀，適合線上編輯；但新增或刪除檔案、資料夾相對不方便。因此，我們的團隊選擇使用離線編輯。下面我們介紹一下離線編輯的具體方法。
 
 - Editing on the GitHub webpage is very intuitive and suitable for online editing; however, it is relatively inconvenient for adding or deleting files and folders. Therefore, our team has chosen to use offline editing. Below, we introduce the specific methods for offline editing.
