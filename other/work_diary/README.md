@@ -842,8 +842,8 @@ sudo apt-get -y install sdkmanager
             <th>ASUS AC1200 接收器</th>
         </tr>
         <tr>
-            <td align=center ><img src="./img/10/TPLink AC1300.png" width=200 /></td>
-            <td align=center ><img src="./img/10/ASUS AC1200.png" width=200 /></td>
+            <td align=center ><img src="./img/10/TPLink AC1300.png" width=150 /></td>
+            <td align=center ><img src="./img/10/ASUS AC1200.png" width=150 /></td>
         </tr>
     </table>
  </div>
