@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Testing Video of Self-Driving Car in Obstacle Challenge</div>
+## <div align="center">Challenge rounds-testing Video of Self-Driving Car in Obstacle Challenge</div>
 
 - ### Test videos of the Self-Driving Car parking in the four zones of the game field.
   #### Clockwise
