@@ -55,7 +55,7 @@
     - [4-1 Team Members Introduction ](t-photos/README.md)
     - [4-2 Vehicle Photos ](v-photos/README.md)  
   #### 5. Performance Videos - Challenge rounds
-    - [5-1 Open Challenge rounds](video/Open_Challenge/video.md)
+    - [5-1 Open Challenge rounds OK](video/Open_Challenge/video.md)
     - [5-2 Obstacle Challenge rounds OK](video/Obstacle_Challenge/video.md)
   #### 6. GitHub Utilization-GitHub
     - [6-1 GitHub Edit(VScode Edit/GIT)](src/GitHub_Edit/README.md)
