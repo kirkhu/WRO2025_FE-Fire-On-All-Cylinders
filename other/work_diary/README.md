@@ -1,9 +1,18 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 # <div align="center">Work Diary-工作日記</div>
-以下是本次自動駕駛汽車模型設計與任務解決的開發記錄，涵蓋了機械設計與製造、電路設計與實現、電子裝置選型、程式設計與測試以及整體的解題過程。
+- The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
 
-The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
+- ### Autonomous Vehicle Design: Key Upgrades and Iterations
+  This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
+
+  We didn't just reference the successful elements of the previous year's winning teams; we implemented **key technological iterations**:
+
+  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Orin Nano to the **superior-performing Nvidia Jetson Orin Nano**.
+  * **Mechanical Overhaul:** We have **restructured and optimized** the vehicle's mechanical components, specifically the steering and chassis.
+  * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
+
+  The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
 ## 2025/02/28 ~ 2025/03/30  
 
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
