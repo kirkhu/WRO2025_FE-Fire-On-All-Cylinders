@@ -83,9 +83,9 @@
 <th>First-Generation PCB Back View</th>
 <tr align="center">
 <td>
-<img src="./img/4/1.png" width = "300"  alt="data" align=center /></td>
+<img src="./img/4/1.png" width = "300"  alt="First-Generation PCB Front View" align=center /></td>
 <td>
-<img src="./img/4/2.png" width = "300"  alt="data" align=center /></td>
+<img src="./img/4/2.png" width = "300"  alt="First-Generation PCB Back View" align=center /></td>
 </tr>
 </table>
 </div>
