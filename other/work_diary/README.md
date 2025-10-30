@@ -55,8 +55,8 @@
 <div align="center">
     <table>
         <tr align=center>
-            <th width=50% style="text-align: center;">System Installation</th>
-            <th width=50% style="text-align: center;">系統功能測試</th>
+            <th width=50% style="text-align: center;">Jetson Orin Nano Software Environment Installation</th>
+            <th width=50% style="text-align: center;">Jetson Orin Nano Software Environment Testing</th>
         </tr>
         <tr>
             <td><img src="./img/3/1.jpg"/></td>
