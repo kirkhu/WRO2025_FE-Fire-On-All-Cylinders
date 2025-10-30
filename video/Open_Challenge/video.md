@@ -1,20 +1,35 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Testing Video of Self-Driving Car inOpen Challenge rounds</div> 
-- **Here is the test video of the competition track width variations.**
+## <div align="center">Testing Video of Self-Driving Car inOpen Challenge rounds-自駕車在開放挑戰中的測試影片</div> 
+競賽場地賽道寬度變化的測試影片
 
-- ### Full wide
-
-  This is a test video of a vehicle in a field set to "wide-wide-wide-wide", recorded clockwise and counterclockwise.
+### Here is the test video of the competition track width variations.
+- ### Full narrow
+  This is a test video of a vehicle in a field set to 'narrow-narrow-narrow-narrow', recorded clockwise and counterclockwise.
   <div align=center>
     <table>
       <tr align="center">
-        <th>clockwise</th>
-        <th>counterclockwise</th>    
+        <th>Clockwise</th>
+        <th>Counterclockwise</th>    
       </tr>
       <tr >
-        <td width="40%"><a href="https://youtu.be/G9K3tHob7iE"><img src="./img/15_Full_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Full_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders" ></a> </td>
-        <td width="40%"><a href="https://youtu.be/5vnI3IxLeD8"><img src="./img/16_Full_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Full_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders" ></a></td>
+        <td width="40%"><a href="https://youtu.be/C6ylflxoQq0"><img src="./img/01_Full_Narrow_clockwise@Open Challange.jpg" alt="Full_Narrow_clockwise@Open Challange" ></a> </td>
+        <td width="40%"><a href="https://youtu.be/30k0c0JbF3A"><img src="./img/02_Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" alt="Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" ></a></td>
+      </tr>
+    </table>
+  </div>
+
+- ### Narrow Wide Wide Wide
+  This is a test video of a vehicle in a field set to "Narrow Wide Wide Wide", recorded clockwise and counterclockwise.
+  <div align=center>
+    <table>
+      <tr align=center>
+        <th>Clockwise</th>
+        <th>Counterclockwise</th>
+      </tr>
+      <tr>
+        <td align=center width=40%><a href="https://youtu.be/rn5UsgO7_QA"><img src="./img/03_Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
+        <td align=center width=40%><a href="https://youtu.be/zKaRvkeFm-4"><img src="./img/04_Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
       </tr>
     </table>
   </div>
@@ -25,29 +40,12 @@
   <div align=center>
     <table>
       <tr align="center">
-        <th>clockwise</th>
-        <th>counterclockwise</th>
+        <th>Clockwise</th>
+        <th>Counterclockwise</th>
       </tr>
       <tr >
         <td width="40%"><a href="https://youtu.be/GNtNA6J2SKY"><img src="./img/07_Narrow_Wide_Narrow_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Narrow_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders" ></a> </td>
         <td width="40%"><a href="https://youtu.be/w7hL-hwOTlY"><img src="./img/08_Narrow_Wide_Narrow_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Narrow_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders" ></a></td>
-      </tr>
-    </table>
-  </div>
-
-
-- ### Full narrow
-
-  This is a test video of a vehicle in a field set to 'narrow-narrow-narrow-narrow', recorded clockwise and counterclockwise.
-  <div align=center>
-    <table>
-      <tr align="center">
-        <th>clockwise</th>
-        <th>counterclockwise</th>    
-      </tr>
-      <tr >
-        <td width="40%"><a href="https://youtu.be/C6ylflxoQq0"><img src="./img/01_Full_Narrow_clockwise@Open Challange.jpg" alt="Full_Narrow_clockwise@Open Challange" ></a> </td>
-        <td width="40%"><a href="https://youtu.be/30k0c0JbF3A"><img src="./img/02_Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" alt="Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" ></a></td>
       </tr>
     </table>
   </div>
@@ -59,7 +57,7 @@
     <table>
       <tr align="center">
         <th>Clockwise</th>
-        <th>counterclockwise</th>    
+        <th>Counterclockwise</th>    
       </tr>
       <tr >
         <td width="40%"><a href="https://youtu.be/-3bPgdEguyA"><img src="./img/11_Wide_Narrow_Wide_Narrow_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Wide_Narrow_Wide_Narrow_clockwise@Open_Challange_Fire_On_All_Cylinders" ></a> </td>
@@ -75,7 +73,7 @@
     <table>
       <tr align=center>
         <th>Clockwise</th>
-        <th>counterclockwise</th>
+        <th>Counterclockwise</th>
       </tr>
       <tr>
         <td width="40%"><a href="https://youtu.be/lICgnjzpW08"><img src="./img/13_Wide_Wide_Narrow_Narrow_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Wide_Wide_Narrow_Narrow_clockwise@Open_Challange_Fire_On_All_Cylinders" ></a> </td>
@@ -91,7 +89,7 @@
     <table>
       <tr align=center>
         <th>Clockwise</th>
-        <th>counterclockwise</th>
+        <th>Counterclockwise</th>
       </tr>
       <tr>
         <td width="40%"><a href="https://youtu.be/ywlkTwc3BKk"><img src="./img/05_Narrow_Narrow_Wide_Wide_clockwise@Open_Challange_Fire _On_All_Cylinders.jpg" alt="Narrow_Narrow_Wide_Wide_clockwise@Open_Challange_Fire _On_All_Cylinders" ></a> </td>
@@ -107,7 +105,7 @@
     <table>
       <tr align=center>
         <th>Clockwise</th>
-        <th>counterclockwise</th>
+        <th>Counterclockwise</th>
       </tr>
       <tr>
         <td align=center width=40%><a href="https://youtu.be/y2OTN4GNG0c"><img src="./img/09_Wide_Narrow_Narrow_Narrow_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Wide_Narrow_Narrow_Narrow_clockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
@@ -116,18 +114,18 @@
     </table>
   </div>
 
-- ### Narrow Wide Wide Wide
 
-  This is a test video of a vehicle in a field set to "Narrow Wide Wide Wide", recorded clockwise and counterclockwise.
+- ### Full wide
+  This is a test video of a vehicle in a field set to "wide-wide-wide-wide", recorded clockwise and counterclockwise.
   <div align=center>
     <table>
-      <tr align=center>
+      <tr align="center">
         <th>Clockwise</th>
-        <th>counterclockwise</th>
+        <th>Counterclockwise</th>    
       </tr>
-      <tr>
-        <td align=center width=40%><a href="https://youtu.be/rn5UsgO7_QA"><img src="./img/03_Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
-        <td align=center width=40%><a href="https://youtu.be/zKaRvkeFm-4"><img src="./img/04_Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
+      <tr >
+        <td width="40%"><a href="https://youtu.be/G9K3tHob7iE"><img src="./img/15_Full_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Full_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders" ></a> </td>
+        <td width="40%"><a href="https://youtu.be/5vnI3IxLeD8"><img src="./img/16_Full_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Full_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders" ></a></td>
       </tr>
     </table>
   </div>
