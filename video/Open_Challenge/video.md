@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Testing Video of Self-Driving Car in Open Challenge-自駕車在開放挑戰中的測試影片</div> 
+## <div align="center">Challenge rounds-testing Video of Self-Driving Car in Open Challenge-自駕車在開放挑戰中的測試影片</div> 
   以下是不同動力和場地組合的車輛測試影片。
 
   Here are test videos of vehicles in different power and field combinations.
