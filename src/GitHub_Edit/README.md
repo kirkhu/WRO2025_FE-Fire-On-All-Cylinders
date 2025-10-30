@@ -10,27 +10,34 @@
 
   Here’s the process for editing a GitHub page using VS Code and Git:
 
-  #### 1. Install Git and VS Code-安裝 Git 和 VS Code
-  - 確保已安裝 Git 和 VS Code。如果沒有，請從官方網站下載並安裝：
+  #### 1. Install Git and VS Code, and perform the initial configuration.-安裝 Git 及 VS Code 軟體並完成基礎設定
+  - 請確認您的電腦上已安裝 Git 和 VS Code 軟體。若尚未安裝，請點擊下方官方網站連結下載並進行安裝
+  - 安裝 Git 後，建議先在終端機或命令提示字元中執行以下命令，設定你的使用者名稱和電子郵件，這些資訊會被記錄在每次你提交 (commit) 的紀錄中
 
-  - Make sure Git and VS Code are installed. If not, download and install them from the official websites:
+  - Please confirm that Git and VS Code software are installed on your computer. If they are not installed, please click the official website links below to download and install them.
+  - Once Git is installed, it is advisable to set your username and email in the terminal or command prompt. This information will be associated with all your future commits.
+
+    ```
+      git config --global user.name "Your Name"
+      git config --global user.email "your.email@example.com"
+    ```
   <ul>
   <li><a href="https://git-scm.com/downloads" target="_blank">Git download page</a></li>
   <li><a href="https://code.visualstudio.com/Download" target="_blank">VS Code download page</a></li>
   </ul>
   
 
-  #### 2. Clone the Repository from GitHub-從 GitHub 複製儲存庫從 GitHub 複製儲存庫
+  #### 2. Clone the Repository from GitHub-從 GitHub 複製儲存庫
 ### 中文:
   1. 開啟 VS Code，按下 Ctrl + Shift + P（Mac 請按 Cmd + Shift + P）以開啟指令選單（Command Palette）。
   2. 輸入 Git: Clone 並選擇該選項。
   3. 貼上 GitHub 儲存庫的網址（例如：`https://github.com/username/repo.git`），然後按下 Enter。
-  4. 選擇本地資料夾作為儲存位置，VS Code 將自動下載並開啟專案。
+  4. 選擇本地路徑作為工作區儲存點。VS Code 將自動進行 Git Clone 或拉取（Pull）操作，將 GitHub 上的程式碼庫（Repository）內容下載至本機並初始化專案。這不僅便於開發，也確保了資料的本地備份。
 ### 英文:
   1. Open VS Code and press `Ctrl + Shift + P` (or `Cmd + Shift + P` on Mac) to open the Command Palette.
   2. Type `Git: Clone` and select that option.
   3. Paste the GitHub repository URL (e.g., `https://github.com/username/repo.git`) and press Enter.
-  4. Choose a local directory to save the project, and VS Code will automatically download and open it.
+  4. Select a local path as the workspace storage location. VS Code will automatically perform the Git Clone or Pull operation, downloading the repository content from GitHub to your local machine and initializing the project. This not only facilitates development but also ensures local backup of the data.
 
   #### 3. Edit Files-編輯文件
   - 現在您可以直接在 VS Code 中瀏覽和編輯專案中的文件。任何變更都會立即顯示在編輯器中。
@@ -106,9 +113,9 @@
     Git is widely used in development, particularly when combined with remote code hosting platforms like GitHub and GitLab, allowing teams to collaborate, manage, and release projects with ease.
 - ### Introduction to Code Editor Software(Visal Studio Code) -程式碼編輯器軟體介紹（Visual Studio Code）
  
-  Visual Studio Code（VS Code）是微軟開發的一款免費的、跨平台的程式碼編輯器，廣泛應用於各種開發環境。 VS Code 支援 Windows、macOS 和 Linux，為 Python、JavaScript、C++ 和 Java 等多種程式語言提供內建語法高亮和自動完成功能，非常適合多樣化的開發需求。
+Visual Studio Code（VS Code）是微軟推出的一款功能強大、免費且跨平台的程式碼編輯器，已成為現代軟體開發領域中廣受歡迎的首選工具。它原生支援 Windows、macOS 及 Linux 作業系統，並對 Python、JavaScript、C++、Java 等主流程式語言提供卓越的內建支援，包括語法高亮和智能自動完成功能，完美契合多元化的開發場景。近年來，透過整合 Copilot AI 輔助編碼，VS Code 更大幅簡化了程式撰寫的流程，顯著提升了開發效率。
 
-  Visual Studio Code (VS Code) is a free, cross-platform code editor developed by Microsoft, widely used in various development environments. VS Code supports Windows, macOS, and Linux, offering built-in syntax highlighting and auto-completion for multiple programming languages, such as Python, JavaScript, C++, and Java, making it ideal for diverse development needs.
+  Visual Studio Code (VS Code) is a powerful, free, and cross-platform code editor released by Microsoft, which has become the widely popular, first-choice tool in modern software development. It natively supports Windows, macOS, and Linux operating systems, and offers excellent built-in support for mainstream programming languages like Python, JavaScript, C++, and Java, including features like syntax highlighting and intelligent autocompletion, perfectly suiting diverse development scenarios. In recent years, by integrating the Copilot AI coding assistant, VS Code has significantly streamlined the programming process, markedly boosting development efficiency..
 
 __這是一個很棒的選擇！ VS Code 在管理和編輯專案文件方面非常高效，尤其是其整合的 Git 支援和 markdown 預覽功能，使其成為保持 GitHub 儲存庫井然有序和保持最新狀態的理想選擇。__
 
