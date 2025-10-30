@@ -79,8 +79,8 @@
 <div align="center" >
 <table >
 <tr align="center">
-<th>First-Generation Front View</th>
-<th>First-Generation Back View</th>
+<th>First-Generation PCB Front View</th>
+<th>First-Generation PCB Back View</th>
 <tr align="center">
 <td>
 <img src="./img/4/1.png" width = "300"  alt="data" align=center /></td>
