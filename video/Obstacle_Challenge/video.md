@@ -2,7 +2,7 @@
 
 ## <div align="center">Testing Video of Self-Driving Car in Obstacle Challenge</div>
 
-- ### Test videos of theSelf-Driving Car parking in the four zones of the site.
+- ### Test videos of the Self-Driving Car parking in the four zones of the game field.
   #### Clockwise
   <div align="center">
   <table >
