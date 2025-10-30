@@ -54,7 +54,7 @@
   #### 4. Pictures – Team and Vehicle
     - [4-1 Team Members Introduction ](t-photos/README.md)
     - [4-2 Vehicle Photos ](v-photos/README.md)  
-  #### 5. Performance Videos
+  #### 5. Performance Videos - Challenge rounds
     - [5-1 Open Challenge](video/Open_Challenge/video.md)
     - [5-2 Obstacle Challenge OK](video/Obstacle_Challenge/video.md)
   #### 6. GitHub Utilization-GitHub
