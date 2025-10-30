@@ -15,7 +15,7 @@
   The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
 ## 2025/02/28 ~ 2025/03/30  
 
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**  
  - Our teammate, HU,SIAN-YI, has accumulated solid hands-on experience in mechanical design and programming optimization through years of participation in the "Future Engineering Competition."
@@ -46,7 +46,7 @@
 </div>
 
 ## 2025/03/01 ~ 2025/03/07
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -69,7 +69,7 @@
 
 ## 2025/03/11 ~ 2025/03/17
 
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**  ( 補電路設計圖)
 
@@ -91,7 +91,7 @@
 </div>
 
 ## 2025/03/18 ~ 2025/03/24
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -111,7 +111,7 @@
  </div>
 
 ## 2025/03/25 ~ 2025/03/31
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -171,7 +171,7 @@
 
 ## 2025/04/03 ~ 2025/04/14
 
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**  
  - 在第二代版本的開發過程中，我們根據第一代的回饋，利用設計軟體內建的範例圖重新校準了排針間距，成功改善了原始設計。然而，由於作業上的疏忽，我們在進行 PCB 佈局時誤將背面視圖當作正面設計，導致電路板輸出後發生極性顛倒的問題。所幸在組裝與測試階段便立即發現此錯誤，並在第三代版本中修正了佈局方向。同時，我們也全面複查了各層的對齊規範，以確保設計檔與實體成品能夠完全一致。
@@ -196,7 +196,7 @@
 </div>
 
 ## 2025/04/15 ~ 2025/04/21
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -218,7 +218,7 @@
  </div>
 
 ## 2025/04/22 ~ 2025/04/30
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -239,7 +239,7 @@
  </div>
 
 ## 2025/05/01 ~ 2025/05/07
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -272,7 +272,7 @@ if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 
 ```
 
 ## 2025/05/08 ~ 2025/05/14
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -386,7 +386,7 @@ except KeyboardInterrupt:
  ```
 
 ## 2025/05/15 ~ 2025/05/21
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -417,7 +417,7 @@ def measure_distance(trig, echo):
  ```
 
 ## 2025/05/22 ~ 2025/05/28
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -467,7 +467,7 @@ if turn_side == 8:
  ```
 
 ## 2025/05/29 ~ 2025/06/03
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -481,7 +481,7 @@ if combined_control_signal < -180:
  ```
 
 ## 2025/06/04 ~ 2025/06/08  
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -501,7 +501,7 @@ if combined_control_signal < -180:
 </div>
 
 ## 2025/07/02 ~ 2025/07/21
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
 
@@ -522,7 +522,7 @@ if combined_control_signal < -180:
  </div>
 
 ## 2025/08/18 ~ 2025/08/24
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
  - 我們的比賽是在8月23日，在早上的資格賽中第一局因為撞到內側邊牆直接結束比賽，而第二局時我們完成了繞場三圈的任務但是在最後的停車節自駕車超出了指定區塊而無法獲取完整分數，但就算如此我們也成功進入到了下午的決賽中。
@@ -549,7 +549,7 @@ if combined_control_signal < -180:
 
 
 ## 2025/08/25 ~ 2025/08/31
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 - 在參加全國賽的過程中，我們發現 Jetson Nano 在運算效能上存在不足，因此決定將主控制器升級為運算效率更高的 Jetson Orin Nano。同時，我們開始研究如何利用 WebSockets 建立 Jetson Orin Nano 與 Raspberry Pi Pico 之間的通訊。由於 WebSockets 通訊需要雙方皆能連線至網路，我們將原本的 Raspberry Pi Pico 更換為具備 WiFi 功能的 Raspberry Pi Pico W，以滿足無線連線的需求。
@@ -593,7 +593,7 @@ if combined_control_signal < -180:
 </div>
 
 ## 2025/09/01 ~ 2025/09/06
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
  - 我們在本週發現了第三版轉向結構上存在力矩結構問題，我們將原先的球型十字元件棄用，將圓頭改到連桿上，使其角度為0度時可以使舵盤和拉桿呈現90度。
@@ -650,7 +650,7 @@ if combined_control_signal < -180:
  </div>
 
 ## 2025/09/07 ~ 2025/09/13
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -714,7 +714,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
 ## 2025/09/14 ~ 2025/09/20
-**Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
@@ -749,7 +749,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
  ## 2025/09/21 ~ 2025/09/27
- **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
 
@@ -801,7 +801,7 @@ sudo apt-get -y install sdkmanager
  </div>
 
  ## 2025/09/28 ~ 2025/10/06
- **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
 
@@ -875,7 +875,7 @@ sudo apt-get -y install sdkmanager
     ```
 
  ## 2025/10/07 ~ 2025/10/13
- **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
 
@@ -914,7 +914,7 @@ sudo apt-get -y install sdkmanager
 
 
  ## 2025/10/14 ~ 2025/10/20
- **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
 
@@ -926,7 +926,7 @@ sudo apt-get -y install sdkmanager
  ```
 
  ## 2025/10/21 ~ 2025/10/26
- **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
 
