@@ -18,7 +18,7 @@
 **Member:** HU XIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**  
- - Our teammate, Hu Xianyi, has accumulated solid hands-on experience in mechanical design and programming optimization through years of participation in the "Future Engineering Competition."
+ - Our teammate, HU,SIAN-YI, has accumulated solid hands-on experience in mechanical design and programming optimization through years of participation in the "Future Engineering Competition."
 - Considering the annual changes in competition themes and rules—and drawing inspiration from the world champion team’s outstanding achievements in image recognition technology last year—our team conducted in-depth discussions and decided to implement a key lightweight design for this year’s competition model.
 - By streamlining the overall structure, we achieved multiple benefits: improved the vehicle’s smooth entry and exit from parking zones, significantly enhanced maneuverability on the field, and enabled more precise obstacle avoidance, thereby comprehensively reinforcing the vehicle’s operational performance.
 
