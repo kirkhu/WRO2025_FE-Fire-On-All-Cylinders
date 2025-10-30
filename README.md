@@ -2,7 +2,16 @@
 
 ### 英文
 - This is the official GitHub repository of the WRO Taiwan team "__Fire On All Cylinders.__". All code, files and documents are here.
-- The hardware and software design of this self-driving car is inspired by the model built by our sister team (Shinan-Fire-On-All-Cylinders) last year, and borrows the advantages of last year's world champion model. On this basis, we upgraded the main controller from "Raspberry Pi 4B" to "Nvidia Jetson Orin Nano", improved performance and introduced innovative design elements to make the vehicle more competitive.
+- ### Autonomous Vehicle Design: Key Upgrades and Iterations
+  This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
+
+  We didn't just reference the successful elements of the previous year's winning teams; we implemented **key technological iterations**:
+
+  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Orin Nano to the **superior-performing Nvidia Jetson Orin Nano**.
+  * **Mechanical Overhaul:** We have **restructured and optimized** the vehicle's mechanical components, specifically the steering and chassis.
+  * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
+
+  The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
 - You can find links to the technical report content and setting instructions here, which are for learners and judges respectively, for your convenience during learning or evaluation.
 - This technical document will establish a table of contents according to the scoring criteria, and the table of contents titles will be displayed in the form of hyperlinks, so that judges or learners can easily navigate to the key content of the technical document for quick evaluation.
 - **Special reminder: **Due to the network speed, the image may not be displayed properly. If this happens, please try to refresh the webpage to solve the problem.
