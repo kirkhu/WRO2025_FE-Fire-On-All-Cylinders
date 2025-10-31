@@ -44,7 +44,7 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/hu.jpg" alt="HU" width="50%"> </td>
+      <td><img src="./img/hu.jpg" alt="HU" width="80%"> </td>
       <td><img src="./img/hu_work.jpg" alt="Hu WORK" width="100%"></td>
   </tr>
     <tr align="center">
@@ -61,7 +61,7 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/lin.jpg" alt="lin" width="50%"> </td>
+      <td><img src="./img/lin.jpg" alt="lin" width="80%"> </td>
       <td><img src="./img/lin_work.jpg" alt="lin WORK" width="100%"></td>
   </tr>
     <tr align="center">
@@ -79,7 +79,7 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/wi.jpg" alt="wi" width="60%"> </td>
+      <td><img src="./img/wi.jpg" alt="wi" width="80%"> </td>
       <td><img src="./img/wi.work.jpg" alt="Fu WORK" width="100%"></td>
   </tr>
 </table>
