@@ -31,7 +31,7 @@
 
 <table>
   <tr align="center">
-     <th>Personal photo</th>
+     <th width="50%">Personal photo</th>
      <th>Work photo</th>    
   </tr>
   <tr >
