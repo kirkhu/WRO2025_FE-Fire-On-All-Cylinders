@@ -13,7 +13,7 @@
     <th align=center>The First Commemorative Group Photo After Qualifying for the World Championship</th>
   </tr>
   <tr>
-    <td><img src="./img/team_photo1.jpg" width=300  alt="Team Photo " /></td>
+    <td><img src="./img/team_photo1.jpg" align=center width=300  alt="Team Photo " /></td>
     <td><img src="./img/team_photo.jpg" align=center width=300 alt="Team Photo "></td>
   </tr>
 </table>
