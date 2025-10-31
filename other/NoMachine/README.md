@@ -57,18 +57,16 @@
 
         4. Find the username.
 
-        <div align="center" ><img src="./img/nomachine_ip.png" width="500" alt="nomachine ip"></div>
+          <div align="center" ><img src="./img/nomachine_ip.png" width="500" alt="nomachine ip"></div>
         ```
             hostname 
         ```
         
 
         5. After connecting, enter the username and password. 
-
           <div align="center" > <img src="./img/nomachine_connet.png" width="500" alt="nomachine connet"></div>
 
         Once done, you’ll be able to connect.
-
           <div align="center" ><img src="./img/nomachine_orin_ok.png" width="500" alt="nomachine jetson ok"></div>
 
     - #### Reference link:
