@@ -53,7 +53,7 @@
   </tr>
   <tr align="center">
      <td>LIN,JHAN-RONG</td>
-     <td align="left">Work Assignments<br>
+     <td align="center">Work Assignments<br>
          <ol><li>Primary responsibility for vehicle hardware integration.</li>
              <li>Assistance with report documentation and program debugging.</li>
          </ol>
