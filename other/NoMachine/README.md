@@ -28,7 +28,7 @@
        
         If you see this icon, the installation is complete.
         
-        <img src="./img/nomachine_ok.png" width="500" alt="nomachine download">
+       <div align="center" > <img src="./img/nomachine_ok.png" width="500" alt="nomachine download"></div>
 
     - #### Computer Configuration for Windows Systems 
 
@@ -39,13 +39,13 @@
         - In a Windows computer, open a browser and go to the <a href="https://download.nomachine.com/download/?id=3&platform=windows" target="_blank">NoMachine download page</a>. Find and select the NoMachine for Windows (64-bit) software package to download the version compatible with Windows.
         - After downloading, run the installation file. You will need to __restart__ the computer afterward.
 
-          <img src="./img/nomachine_download.png" width="500" alt="nomachine download">
+           <div align="center" ><img src="./img/nomachine_download.png" width="500" alt="nomachine download"></div>
 
 
     - #### Connecting to Jetson Orin Nano
 
        1. Open NoMachine on Windows.
-         <img src="./img/nomachine_open.jpg" width="500" alt="nomachine open">
+          <div align="center" ><img src="./img/nomachine_open.jpg" width="500" alt="nomachine open"></div>
 
         2. Enter the Jetson Orin Nano IP address.
 
@@ -55,17 +55,17 @@
         ```
 
         4. Find the username.
-          <img src="./img/nomachine_ip.png" width="500" alt="nomachine ip">
+           <div align="center" ><img src="./img/nomachine_ip.png" width="500" alt="nomachine ip"></div>
         ```
             hostname 
         ```
         
 
         5. After connecting, enter the username and password. 
-          <img src="./img/nomachine_connet.png" width="500" alt="nomachine connet">
+          <div align="center" > <img src="./img/nomachine_connet.png" width="500" alt="nomachine connet"></div>
 
         Once done, you’ll be able to connect.
-        <img src="./img/nomachine_orin_ok.png" width="500" alt="nomachine jetson ok">
+         <div align="center" ><img src="./img/nomachine_orin_ok.png" width="500" alt="nomachine jetson ok"></div>
 
     - #### Reference link:
     - <a href="https://www.waveshare.net/wiki/JetRacer_ROS_AI_Kit_%E6%95%99%E7%A8%8B%E4%BA%8C%E3%80%81%E5%AE%89%E8%A3%85Jetson_nano_%E9%95%9C%E5%83%8F?fbclid=IwZXh0bgNhZW0CMTEAAR0V-M05bMx0xIQx-QcMI9sqtP8dBWXZpjhOegNngVdwizYW9Frqc738AiA_aem_wfqPbQnY9yv5tcLjEwcHYw#Jetson_Nano.E4.B8.8A.E5.AE.89.E8.A3.85" target="_blank">Waveshare Wiki</a>
