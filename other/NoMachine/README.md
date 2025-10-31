@@ -8,7 +8,7 @@
 - Especially for development platforms like the NVIDIA® Jetson Orin Nano, NoMachine provides a convenient solution for wireless remote control, greatly enhancing device operational flexibility and application possibilities.
 
 - ### Installing NoMachine software
-    - #### On the NVIDIA® Jetson Orin Nano
+    - #### NVIDIA® Jetson Orin Nano System Configuration
          
       To install NoMachine on an NVIDIA® Jetson Orin Nano, follow these steps:
 
@@ -30,7 +30,8 @@
         
         <td><img src="./img/nomachine_ok.png" width="500" alt="nomachine download"></td>
 
-    - #### On the Windows System  of Computer-在電腦Windows系統上       
+    - #### Computer Configuration for Windows Systems 
+
       若要在 Windows 上安裝 NoMachine，請依照下列步驟操作：
 
       To install NoMachine on Windows, follow these steps:
