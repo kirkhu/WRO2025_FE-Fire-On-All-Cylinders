@@ -1,28 +1,23 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">NoMachine Introduction-NoMachine簡介</div> 
-### 中文
-- NoMachine 是一款高效能的跨平台遠端桌面存取軟體，可讓使用者隨時隨地遠端連線到另一台電腦。其主要特點包括快速流暢的遠端操作體驗，並相容於 Windows、macOS、Linux、iOS 和 Android 等各種作業系統。
-- NoMachine 採用先進的影像壓縮技術，即使在低頻寬網路環境下也能確保高品質的圖形和音訊傳輸。此外，NoMachine 還支援遠端列印、檔案共享、USB 傳輸等功能，使其成為遠端辦公、技術支援和多裝置管理的理想選擇。
-- 特別針對 NVIDIA® Jetson Orin Nano 等開發平台，NoMachine 提供了便利的無線遠端控制解決方案，大幅提升了裝置操作的靈活性和應用可能性。
-### 英文 
+## <div align="center">NoMachine software Introduction-/div> 
+
+
 - NoMachine is a high-performance remote desktop access software that offers cross-platform support, allowing users to remotely connect to another computer anytime, anywhere. Its main features include a fast and smooth remote operation experience, compatible with various operating systems such as Windows, macOS, Linux, iOS, and Android.
 - NoMachine uses advanced image compression technology to ensure high-quality graphics and audio transmission, even in low-bandwidth network environments. Additionally, NoMachine supports remote printing, file sharing, USB transfer, and other functions, making it ideal for remote work, technical support, and multi-device management. 
 - Especially for development platforms like the NVIDIA® Jetson Orin Nano, NoMachine provides a convenient solution for wireless remote control, greatly enhancing device operational flexibility and application possibilities.
 
-- ### Installing NoMachine-安裝NoMachine
-    - #### On the NVIDIA® Jetson Orin Nano-在 NVIDIA® Jetson Orin Nano 上
-      若要在 NVIDIA® Jetson Orin Nano 上安裝 NoMachine，請依照下列步驟操作：
-      
+- ### Installing NoMachine software
+    - #### On the NVIDIA® Jetson Orin Nano
+         
       To install NoMachine on an NVIDIA® Jetson Orin Nano, follow these steps:
 
-      __Download NoMachine for Linux ARM:-下載適用於 Linux ARM 的 NoMachine：__
-      ### 中文
-        - 在 Jetson Orin Nano 的控制器介面中，開啟瀏覽器並導航至 <a href="https://download.nomachine.com/download/?id=30&platform=linux&distro=arm" target="_blank">NoMachine 下載頁面</a>。尋找並選擇與 Jetson Orin Nano 相容的 NoMachine for Linux ARM（64 位元）軟體套件。
-        - 下載完成後，打開終端機並輸入 cd Downloads 導航至下載資料夾。
-        ### 英文
-        - In the Jetson Orin Nano’s controller interface, open a browser and navigate to the <a href="https://download.nomachine.com/download/?id=30&platform=linux&distro=arm" target="_blank">NoMachine download page</a>. Locate and select the NoMachine for Linux ARM (64-bit) software package, which is compatible with the Jetson Orin Nano.      
-        - After downloading, open the terminal and enter cd Downloads to navigate to the folder.-下載後，打開終端機並輸入 cd Documents 導航到該資料夾。
+      __Download NoMachine for Linux ARM:__
+
+        - In the control interface of the Jetson Orin Nano, open a browser and navigate to the <a href="https://download.nomachine.com/download/?id=30&platform=linux&distro=arm" target="_blank">NoMachine download page</a>. Look for and select the NoMachine for Linux ARM (64-bit) software package compatible with the Jetson Orin Nano.     
+
+        
+        - After the download is complete, open the terminal and enter cd Downloads to navigate to the download folder.
         ```
         cd Documents
         ```

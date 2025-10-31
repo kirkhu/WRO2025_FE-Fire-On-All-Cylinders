@@ -48,7 +48,7 @@
       - [3-5-3 Distinctive Pseudo Code ](src/Distinctive_Pseudo_Code/README.md)
       - [3-5-4 Parking Instruction ](src/parking/README.md)
     - __3-6 Remote Connection__
-      - [3-6-1 NoMachine Introduction ](other/NoMachine/README.md)
+      - [3-6-1 NoMachine software Introduction OK ](other/NoMachine/README.md)
 
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and Vehicle
