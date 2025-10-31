@@ -45,7 +45,7 @@
     - #### Connecting to Jetson Orin Nano
 
        1. Open NoMachine on Windows.
-       
+
           <div align="center" ><img src="./img/nomachine_open.jpg" width="500" alt="nomachine open"></div>
 
         2. Enter the Jetson Orin Nano IP address.
@@ -57,7 +57,7 @@
 
         4. Find the username.
 
-           <div align="center" ><img src="./img/nomachine_ip.png" width="500" alt="nomachine ip"></div>
+        <div align="center" ><img src="./img/nomachine_ip.png" width="500" alt="nomachine ip"></div>
         ```
             hostname 
         ```
