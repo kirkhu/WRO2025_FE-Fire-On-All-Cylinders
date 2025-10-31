@@ -21,9 +21,9 @@
         ```
         cd Documents
         ```
-        - Then, enter unzip Nomachine_9.2.18_1_arm64.zip to unzip the file.
+        - Next, the user needs to execute the corresponding command-line instruction to complete the software package installation. The software packages for this system all use the Debian package format (.deb).
         ```
-        sudo dpkg -i Nomachine_9.2.18_1_arm64.zip
+        sudo dpkg -i nomachine_9.2.18_3_armhf.deb
         ```
        
         If you see this icon, the installation is complete.
