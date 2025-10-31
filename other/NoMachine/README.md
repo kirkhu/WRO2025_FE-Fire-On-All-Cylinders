@@ -38,7 +38,7 @@
 
         - In a Windows computer, open a browser and go to the <a href="https://download.nomachine.com/download/?id=3&platform=windows" target="_blank">NoMachine download page</a>. Find and select the NoMachine for Windows (64-bit) software package to download the version compatible with Windows.
         - After downloading, run the installation file. You will need to __restart__ the computer afterward.
-        <td><img src="./img/nomachine_download.png" width="500" alt="nomachine download"></td>
+        <img src="./img/nomachine_download.png" width="500" alt="nomachine download">
 
 
     - #### Connecting to Jetson Orin Nano-連接到 Jetson Orin Nano
