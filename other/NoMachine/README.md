@@ -32,15 +32,10 @@
 
     - #### Computer Configuration for Windows Systems 
 
-      若要在 Windows 上安裝 NoMachine，請依照下列步驟操作：
-
-      To install NoMachine on Windows, follow these steps:
+      To install NoMachine on Windows System, follow these steps:
       
-      __Download NoMachine for Windows (64-bit)-下載適用於 Windows（64 位元）的 NoMachine__
-       ### 中文
-        - 在 Windows 電腦上，開啟瀏覽器並造訪 <a href="https://download.nomachine.com/download/?id=3&platform=windows" target="_blank">NoMachine 下載頁面</a>。尋找並選擇適用於 Windows（64 位元）的 NoMachine 軟體包，下載與 Windows 相容的版本。
-        - 下載完成後，執行安裝檔。安裝完成後，您需要__重新啟動__電腦。
-        ### 英文
+      __Download NoMachine for Windows (64-bit)__
+
         - In a Windows computer, open a browser and go to the <a href="https://download.nomachine.com/download/?id=3&platform=windows" target="_blank">NoMachine download page</a>. Find and select the NoMachine for Windows (64-bit) software package to download the version compatible with Windows.
         - After downloading, run the installation file. You will need to __restart__ the computer afterward.
         <td><img src="./img/nomachine_download.png" width="500" alt="nomachine download"></td>
