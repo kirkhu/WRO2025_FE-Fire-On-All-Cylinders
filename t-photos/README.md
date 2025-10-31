@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td align=center><img src="./img/team_photo1.jpg"  width=300  alt="Team Photo " /></td>
-    <td align=center><img src="./img/team_photo.jpg"  width=300 alt="Team Photo "></td>
+    <td align="center"><img src="./img/team_photo.jpg"  width=300 alt="Team Photo "></td>
   </tr>
 </table>
 
