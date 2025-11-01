@@ -2,14 +2,16 @@
 
 ## <div align="center">Battery choice for self-driving cars-自動駕駛汽車的電池選擇</div> 
 ### 中文:
-- 在去年的國際賽中，我們的指導老師觀察到大多數隊伍都是使用 18650電池 為車輛供電。因此，老師指派我們比較 3S鋰聚合物電池（LiPo） 和 18650電池 之間的差異，以便決定今年比賽車輛最合適的電池類型。
+- 為配合本年度的系統升級，我們已將主控制器正式更換為 NVIDIA Jetson Orin Nano 平台。鑑於該模組的輸入電壓要求為 **9V至20V DC**，本次技術評估的核心在於比較 **3S 鋰聚合物電池（LiPo）**與 **18650** 鋰離子電池組對整體車輛效能（如續航力、瞬時功率輸出與穩定性）的具體影響，以期選定最契合今年競賽規格的電源解決方案。
 ### 英文:
- At last year's international competition, our coach observed that most teams were using 18650 batteries to power their vehicles. He tasked us with comparing the differences between 3S Lithium Polymer (LiPo) and 18650 batteries to determine the optimal battery type for our competition vehicle this year.
-### Comparison between 3S Li-Polymer and 18650 Li-ion batteries-3S 鋰聚合物電池與 18650 鋰離子電池比較
+ -In alignment with this year's system upgrade, we have officially replaced the main controller with the NVIDIA Jetson Orin Nano platform. Given the module's input voltage requirement of 9V to 20V DC, the core of this technical evaluation is to **compare the specific impact of 3S Lithium Polymer (LiPo) batteries versus 18650 Lithium-ion battery packs** on the overall vehicle performance (such as endurance, instantaneous power output, and stability), in order to select the power solution that is most suitable for this year's competition specifications.
+
+
+### Comparison between 3S Li-Polymer and 18650 - Li-ion batteries-3S 鋰聚合物電池與 18650 鋰離子電池比較
 ### 中文:
-  - 以下是相同電壓配置的3S鋰聚合物電池和18650鋰離子電池的優缺點比較。
+  - 以下是相同電壓(12V)配置的3S鋰聚合物電池和18650鋰離子電池的優缺點比較。
 ### 英文:  
-  - The following is a comparison of the advantages and disadvantages of 3S Li-Polymer batteries and 18650 Li-ion batteries with the same voltage configuration.
+  - The following is a comparison of the advantages and disadvantages of 3S Li-Polymer batteries and 18650 Li-ion batteries with the same voltage(12V) configuration.
   <table border="1">
     <thead>
       <tr>
@@ -86,11 +88,12 @@
   
   ### 中文:
 
-  - 如上表所示，3S 鋰聚合物電池（LiPo）具有高輸出電流、高能量密度及輕量化設計的優勢，特別適合需要高瞬時電流的應用，例如無人機及遙控車輛。因此，我們決定選擇 3S 鋰聚合物電池（LiPo） 作為本次比賽自駕車的電源。
+  - 依據上表數據，3S鋰聚合物電池（LiPo） 憑藉其高C值放電能力、高能量密度與極輕的重量，成為滿足高瞬時電流需求的理想選擇，特別適用於高性能競賽車輛。因此，我們最終決定採用 3S LiPo 電池作為本次自駕車的電源，主要目的在於在確保足夠動力的前提下，實現車體質量最小化，以維持最佳的運動表現和反應速度。
   - 我們使用 3S Li-Po 電池的經驗顯示，其安全性是一大考量。不當的充電操作曾導致電池起火，錯誤的存放也造成電池損壞，這些事件突顯了嚴格遵守電池操作規範的重要性。
   
   ### 英文:
-   - As shown in the table above, the 3S Li-Polymer (LiPo) battery has advantages of high output current, high energy density, and a lightweight design, making it particularly suitable for applications that require high instantaneous current, such as drones and RC vehicles. Therefore, we decided to select the __3S Li-Polymer battery (LiPo)__ as the power source for the autonomous vehicle in this competition.
+   - According to the data in the table above, the **3S Lithium Polymer (LiPo) battery** is the ideal choice for meeting high instantaneous current demands, especially for high-performance racing vehicles, due to its **high C-rate discharge capability, high energy density, and extremely low weight**. Therefore, we have ultimately decided to adopt the 3S LiPo battery as the power source for this autonomous vehicle competition. The primary objective is to **minimize the vehicle's mass while ensuring sufficient power delivery, thereby maintaining optimal dynamic performance and response speed**.
+
    - Our experience with 3S Li-Po batteries has shown that their safety is a significant concern. Improper charging practices have led to battery fires, and incorrect storage has resulted in battery damage. These incidents underscore the importance of following strict guidelines for handling these batteries.
   <div align=center>
   <table>
@@ -105,11 +108,11 @@
 
  ### Step-Down power supply Module  Selection-降壓電源模組選擇
   ### 中文：
-  - 像 Nvidia Jetson Nano 和 Raspberry Pi Pico 這類控制器的工作電壓為 5V，而我們選擇的 3S 鋰聚合物電池電壓為 12V。因此，需要一個 12V 降到 5V 的降壓模組，以降低電壓並保護控制板免受高壓損害。
+  - 系統中，Raspberry Pi Pico 等核心控制器要求 5v 供電，這與 3S 鋰聚合物電池的 12V 輸出電壓存在電壓不匹配問題。為此，我們規劃整合一個**12V降至 5V 的降壓模組**，確保電壓的精確調節，從而**保障控制板在安全電壓範圍內運行**。
   - 起初，我們選擇了 LM2596 可調直流降壓模組，因為它能顯示輸出電壓值，便於監控，且能確保整個比賽過程中電壓穩定。然而，該模組的最大輸出電流僅為 3A，無法滿足所有設備的需求。
   - 因此，我們在線上找到了一款 5A 恆壓恆流降壓電源模組，最大輸出電流達 5A，足以支持自動車的正常運作。雖然此模組沒有電壓顯示功能，但可以使用電池低壓報警器來監控電池電壓，確保電力充足。
   ### 英文:
-   - The working voltage of controllers like the Nvidia Jetson Nano and Raspberry Pi Pico is 5V, while the 3S Li-Polymer battery we selected has a voltage of 12V. Therefore, a 12V to 5V step-down module is needed to reduce the voltage and protect the control board from high voltage damage.
+   - There is a voltage mismatch in the system, as core controllers such as the **Raspberry Pi Pico** require 5V power, while the 3S Lithium Polymer battery outputs approximately 12V. Consequently, we plan to integrate a **12V to 5V** step-down module to ensure precise voltage regulation, thereby guaranteeing that **the control board operates within a safe voltage range**.
 
    - Initially, we chose the LM2596 DC-DC adjustable step-down module because it displays output voltage values, which makes monitoring easier and ensures stable voltage throughout the competition. However, the module’s maximum output current is only 3A, which is insufficient for all devices.
 
