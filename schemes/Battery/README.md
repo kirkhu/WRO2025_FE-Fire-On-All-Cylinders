@@ -179,7 +179,7 @@
 
     - __Regular Battery Checks:__ Inspect the battery regularly for appearance and voltage. If swelling, cracking, or voltage abnormalities are detected, immediately stop using and dispose of it safely.
 
-  - #### Low Voltage Alarm-低電壓警報       
+  - #### Low Voltage Alarm      
       
       <div align="center">
        <table>
