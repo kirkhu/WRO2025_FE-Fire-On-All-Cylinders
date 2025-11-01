@@ -22,7 +22,7 @@
       - [2-1-3 Hardware Fool-Proof Design OK](schemes/Fool-Proof-Design/README.md)
       - [2-1-4 Assembly Instructions & Wiring Diagrams ](schemes/Assembly_Instructions/README.md)
     - __2-2 Power Management__
-      - [2-2-1 Battery choice for self-driving cars ](schemes/Battery/README.md)
+      - [2-2-1 Battery choice for self-driving cars OK](schemes/Battery/README.md)
       - [2-2-2 Power Supply System ](schemes/Power_Supply_System/README.md)
     - __2-3 Controller Selection__
       - [2-3-1 Main Controller Comparison ](schemes/Main_Controller_Choosing/README.md)
