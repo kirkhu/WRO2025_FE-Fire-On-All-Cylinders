@@ -7,7 +7,7 @@
 
 ### Comparison between 3S Li-Polymer and 18650
 
-### 英文:  
+
   - The following is a comparison of the advantages and disadvantages of 3S Li-Polymer batteries and 18650 Li-ion batteries with the same voltage(12V) configuration.
   <table border="1">
     <thead>
@@ -164,7 +164,7 @@
      </table>
      </div>     
 
-    ### 英文:
+ 
     - __Monitor the Charging Process:__ Supervise the battery during charging, avoiding extended periods without monitoring to quickly detect and resolve any charging abnormalities.
 
     - __Control Charging Voltage and Current:__ Keep the charging voltage below the standard 4.2V per cell and maintain an appropriate charging current to prevent damage from fast charging.
