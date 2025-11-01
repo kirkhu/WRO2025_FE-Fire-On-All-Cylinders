@@ -64,7 +64,8 @@
           <th>Overhead view of the switch circuit board</th>
       </tr>
       <tr align="center">
-        <td> <img src="../models/Circuit_Design/img/Circuit_6_Top.png" width="300" alt="circuit_up"> </td><td><img src="../models/Circuit_Design/img/Button_And_Led_Top.png" width="300" alt="circuit_lower"></td>
+        <td> <img src="../models/Circuit_Design/img/Circuit_6_Top.png" width="300" alt="circuit_up"> </td>
+        <td><img src="../models/Circuit_Design/img/Button_And_Led_Top.png" width="150" alt="circuit_lower"></td>
       </tr>
     </table>
     </div>
