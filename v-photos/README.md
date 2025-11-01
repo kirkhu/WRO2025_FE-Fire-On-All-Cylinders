@@ -10,7 +10,7 @@
   </tr>
     <tr align="center">
     <td><img src="./img/top.png"  width = "80%" alt="Top view" > </td>
-    <td><img src="../schemes/Assembly_Instructions/img/down.png"  width = "55%"  alt="Bottom view " ></td>
+    <td><img src="./img/down.png"  width = "55%"  alt="Bottom view " ></td>
 
   </tr>
     <tr align="center">
@@ -48,11 +48,11 @@
     <tr align="center">
       <td>  <img src="img/top.png"  width = "400" alt="Top View of the Overall Apparatus" >
       </td>
-      <td><img src="../schemes/Assembly_Instructions/img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" >
+      <td><img src="img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" >
       </td>
-      <td><img src="../schemes/Vehicle_Chassis_Design/img/2025Vehicle_Chassis_Design_down.png" width="400" alt="Top View of Vehicle Chassis" >
+      <td><img src="img/Driver Top.png" width="400" alt="Top View of Vehicle Chassis" >
       </td>
-      <td><img src="../schemes/Assembly_Instructions/img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
+      <td><img src="img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
     </tr>
   </table>
   </div>
@@ -64,7 +64,7 @@
           </th><th>Circuit Board Button View(電路板按鈕視圖)</th>
       </tr>
       <tr align="center">
-        <td> <img src="../models/Circuit_Design/img/circuitboardup.png" width="300" alt="circuit_up"> </td><td><img src="../models/Circuit_Design/img/circuitboardback.png" width="300" alt="circuit_lower.jpg"></td>
+        <td> <img src="../models/Circuit_Design/img/Circuit 6 Top.png" width="300" alt="circuit_up"> </td><td><img src="../models/Circuit_Design/img/Button And Led Top.png" width="300" alt="circuit_lower.jpg"></td>
       </tr>
     </table>
     </div>
