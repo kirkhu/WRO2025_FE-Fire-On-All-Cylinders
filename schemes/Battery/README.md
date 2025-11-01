@@ -2,7 +2,7 @@
 
 ## <div align="center">Battery choice for self-driving cars</div> 
 
- -In alignment with this year's system upgrade, we have officially replaced the main controller with the NVIDIA Jetson Orin Nano platform. Given the module's input voltage requirement of 9V to 20V DC, the core of this technical evaluation is to **compare the specific impact of 3S Lithium Polymer (LiPo) batteries versus 18650 Lithium-ion battery packs** on the overall vehicle performance (such as endurance, instantaneous power output, and stability), in order to select the power solution that is most suitable for this year's competition specifications.
+ - In alignment with this year's system upgrade, we have officially replaced the main controller with the NVIDIA Jetson Orin Nano platform. Given the module's input voltage requirement of 9V to 20V DC, the core of this technical evaluation is to **compare the specific impact of 3S Lithium Polymer (LiPo) batteries versus 18650 Lithium-ion battery packs** on the overall vehicle performance (such as endurance, instantaneous power output, and stability), in order to select the power solution that is most suitable for this year's competition specifications.
 
 
 ### Comparison between 3S Li-Polymer and 18650
@@ -90,9 +90,9 @@
   <table>
   <tr>
   
-  <th>This is a photograph taken two years ago showing the aftermath of a $3\text{S}$ Lithium Polymer (LiPo) battery burnout that occurred during the charging process.</th>
+  <th>This is a photograph taken two years ago showing the aftermath of a 3S Lithium Polymer (LiPo) battery burnout that occurred during the charging process.</th>
   </tr><tr>
-  <td><img src="./img/Burnout.jpg" width="450" alt="battery burnout during charging" align="center" /></td>
+  <td align="center"><img src="./img/Burnout.jpg" width="450" alt="battery burnout during charging"  /></td>
   </tr>
   </table>
   </div>
