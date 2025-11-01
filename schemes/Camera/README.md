@@ -43,9 +43,10 @@
   - ### Correction Methods
       When performing wide-angle lens distortion correction on the NVIDIA Jetson Orin Nano, the calibration functions in the OpenCV library are typically used. The basic steps are as follows:
     <ol>
+    <div align="center">
     <li>
       <strong>Capture Calibration Images:</strong> Place a checkerboard or dot array within the field of view of the wide-angle lens and capture multiple images from different angles. These images are used to calculate calibration parameters.</li>
-        <div align="center">
+    
     <table>
     <tr align="center" >
     <th >Checkerboard Image</th> 
@@ -66,7 +67,7 @@
     
     <li>
     <strong>Real-Time Processing (If Needed):</strong> If real-time correction is required on the Jetson Nano, ensure efficiency in image processing. Given the limited performance of the NVIDIA Jetson Orin Nano, consider adjusting image resolution or optimizing processing steps to enhance correction speed.</li>
-    
+
      __A simple code example is as follows:__
     - ### python Code-Python
 
