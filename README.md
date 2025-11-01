@@ -14,10 +14,10 @@
   #### 1. Mobility Management
     * [1-1 Vehicle 2D/3D Models in CAD ](models/Vehicle_2D_3D/README.md)
     * [1-2 Vehicle Chassis Design ](schemes/Vehicle_Chassis_Design/README.md)
-    * [1-3 Motor Selection ](schemes/Motor/README.md)
+    * [1-3 Motor Selection OK ](schemes/Motor/README.md)
   #### 2. Power and Sense Management
     - __2-1 Vehicle Design__
-      - [2-1-1 BOM Pats List ](schemes/Parts_List/README.md)
+      - [2-1-1 BOM Pats List OK](schemes/Parts_List/README.md)
       - [2-1-2 Circuit Design ](models/Circuit_Design/README.md)
       - [2-1-3 Hardware Fool-Proof Design ](schemes/Fool-Proof-Design/README.md)
       - [2-1-4 Assembly Instructions & Wiring Diagrams ](schemes/Assembly_Instructions/README.md)
