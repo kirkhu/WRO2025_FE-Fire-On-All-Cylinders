@@ -55,13 +55,18 @@
     </tr>  
     </table>
     </div>
-    1. <strong>Detect Checkerboard Corners:</strong> Use OpenCV's findChessboardCorners() function to automatically detect the corner positions of the checkerboard. For each calibration image, this step finds the corner coordinates needed for calculating the correction parameters.
+    <li>
+    <strong>Detect Checkerboard Corners:</strong> Use OpenCV's findChessboardCorners() function to automatically detect the corner positions of the checkerboard. For each calibration image, this step finds the corner coordinates needed for calculating the correction parameters.</li>
     
-    2. <strong>Calculate Calibration Parameters:<strong> Use the calibrateCamera() function to calculate the camera's intrinsic parameters and distortion coefficients. These parameters include focal length, optical center, and radial and tangential distortion coefficients of the lens.
+    <li>
+    <strong>Calculate Calibration Parameters:<strong> Use the calibrateCamera() function to calculate the camera's intrinsic parameters and distortion coefficients. These parameters include focal length, optical center, and radial and tangential distortion coefficients of the lens.</li>
    
-    3. <strong>Apply Correction Parameters:</strong> In actual images, use the undistort() function to apply the correction parameters to each frame. This corrected image will reduce the distortion caused by the wide-angle lens, making the image closer to true proportions.
+    <li>
+    <strong>Apply Correction Parameters:</strong> In actual images, use the undistort() function to apply the correction parameters to each frame. This corrected image will reduce the distortion caused by the wide-angle lens, making the image closer to true proportions.</li>
     
-    4. <strong>Real-Time Processing (If Needed):</strong> If real-time correction is required on the Jetson Nano, ensure efficiency in image processing. Given the limited performance of the NVIDIA Jetson Orin Nano, consider adjusting image resolution or optimizing processing steps to enhance correction speed.
+    <li>
+    <strong>Real-Time Processing (If Needed):</strong> If real-time correction is required on the Jetson Nano, ensure efficiency in image processing. Given the limited performance of the NVIDIA Jetson Orin Nano, consider adjusting image resolution or optimizing processing steps to enhance correction speed.</li>
+    
      __A simple code example is as follows:__
     - ### python Code-Python
 
