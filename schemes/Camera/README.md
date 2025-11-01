@@ -43,11 +43,11 @@
   - ### Correction Methods
       When performing wide-angle lens distortion correction on the NVIDIA Jetson Orin Nano, the calibration functions in the OpenCV library are typically used. The basic steps are as follows:
     <ol>
-    <div align="center">
+   
     <li>
-    
+
       __Capture Calibration Images:__ Place a checkerboard or dot array within the field of view of the wide-angle lens and capture multiple images from different angles. These images are used to calculate calibration parameters.</li>
-    
+ 
     <table>
     <tr align="center" >
     <th >Checkerboard Image</th> 
@@ -56,7 +56,7 @@
     <td><img src="./img/chessboard.png" width="300" alt="Chessboard" /></td>
     </tr>  
     </table>
-    </div>
+ 
     <li>
 
     __Detect Checkerboard Corners:__ Use OpenCV's findChessboardCorners() function to automatically detect the corner positions of the checkerboard. For each calibration image, this step finds the corner coordinates needed for calculating the correction parameters.</li>
