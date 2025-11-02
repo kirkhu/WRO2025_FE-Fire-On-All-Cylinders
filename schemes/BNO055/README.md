@@ -43,8 +43,6 @@ Here is the **Python code**, implemented using an **Object-Oriented Programming 
 
 - ####  Python code
 ```python
-     
-
             import time
             from Adafruit_BNO055 import BNO055
             class BNO055Sensor:
