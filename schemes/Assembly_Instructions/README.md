@@ -256,6 +256,7 @@
 
   __Uses in Competition：__  
    - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
+ <br></br>
 
   __Purchase URL:<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>__
     </td>
@@ -331,10 +332,10 @@
  <br></br>
 
   __Uses in Competition：__  
-    - The core function of this system is to acquire real-time measurement data from two sets of HC-SR04 ultrasonic distance sensors. Subsequently, this distance data is transmitted to the Raspberry Pi Pico W microcontroller for computational and decision-making processes, with the ultimate goal of achieving precise control over the vehicle's driving direction.
+   - The core function of this system is to acquire real-time measurement data from two sets of HC-SR04 ultrasonic distance sensors. Subsequently, this distance data is transmitted to the Raspberry Pi Pico W microcontroller for computational and decision-making processes, with the ultimate goal of achieving precise control over the vehicle's driving direction.
    <br></br>
 
-  __Purchase URL:<a href="https://www.icshop.com.tw/products/368030501146" target="_blank">HC-SR04</a>__
+  __Purchase URL:<a href="https://robotkingdom.com.tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>__
     </td>
        <td >
     <img src="../../schemes/HC-SR04/img/HC-SR04.png" width = "800"  alt="HC-SR04 ultrasonic distance sensor" align=center />    
