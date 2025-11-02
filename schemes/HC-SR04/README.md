@@ -1,8 +1,8 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Ultrasonic rangefinder Introduction-超聲波測距儀簡介</div> 
+## <div align="center">Ultrasonic rangefinder Introduction</div> 
 
-- ### __Instruction to HC-SR04 ultrasonic distance sensor-HC-SR04 超聲波距離感測器說明__
+- ### __Instruction to HC-SR04 ultrasonic distance sensor__
     <div align="center">
     <table>
     <tr>  
@@ -20,7 +20,7 @@
     </ol>
     </td>
     <td width=300 align="center"><p>
-    <strong>Supports 3.3V operating voltage-支援3.3伏特操作電壓</strong>
+    <strong>Supports 3.3V operating voltage</strong>
     </p>
         <img src="./img/HC-SR04.png" alt="HC-SR04" width="250" />
         <img src="./img/HC-SR04back.png" alt="HC-SR04" width="250" />
