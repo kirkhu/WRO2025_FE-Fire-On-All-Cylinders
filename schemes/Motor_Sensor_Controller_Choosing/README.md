@@ -1,44 +1,37 @@
 <div align=center><img src="../../other/img/logo.png" width=300></div>
 
-## <div align="center">Motor & Sensor Intermediate I/O controller Selection-馬達與感測器中介輸入輸出控制器選擇 </div> 
-### 中文:
-- 在審查Jetson Orin Nano的輸入輸出控制能力後，我們發現以下缺點：
+## <div align="center">Motor & Sensor Intermediate I/O controller Selection</div> 
 
-__處理限制：__ 雖然Jetson Orin Nano在處理AI和機器學習任務上表現出色，但其CPU相對有限，當同時執行大量I/O控制任務和複雜運算時，可能會遇到性能瓶頸。
 
-__GPIO延遲：__ 與專用微控制器（如Arduino、ESP32等）相比，Jetson Orin Nano使用Python或其他高階語言控制GPIO時延較高，影響對高即時性要求的應用。
+為了在本次 WRO Future Engineers 自駕車挑戰賽中，能最大化車輛的辨識與運算效能，我們選用了 Jetson Orin Nano 作為主要控制器。然而，在深入分析其輸入/輸出（I/O）控制能力後，我們發現了以下幾項亟待解決的技術瓶頸：
+- GPIO 控制延遲偏高： 相較於專用微控制器（如 Arduino、ESP32 等），Jetson Orin Nano 在透過 Python 等高階語言操控通用輸入/輸出（GPIO）時，會產生較高的時間延遲。這對於例如驅動馬達 2 控制等需要高度即時性反應的應用，造成明顯影響。
+- 硬體介面資源受限： Jetson Orin Nano 提供的 GPIO 腳位數量相對稀少。若專案需要連接大量感測器 3 或 I/O 介面，可能必須額外採用擴展板，這將無可避免地增加開發成本與系統的整體複雜度。
+- 電壓不相容挑戰： Jetson Orin Nano 的 GPIO 通常運行在 3V 電壓標準，這與部分廣泛使用的 5V I/O 裝置存在電壓差異，因此必須配置電壓轉換器才能進行信號匹配。鑑於 Jetson Orin Nano 在同步處理多重感測器訊號方面存在效率限制，我們決定引入額外的微控制器，作為專責的 I/O 擴展中介板。此舉旨在建立一個更高效的訊號通訊橋梁，連接感測器與 Jetson Orin Nano 主控制器。
 
-__硬體介面數量有限：__ Jetson Orin Nano提供的GPIO腳位數量較少，若需要大量I/O介面，可能需使用擴展板，增加開發成本與複雜度。
+在台灣市場上，Raspberry Pi Pico、Raspberry Pi Pico W 及 ESP32 WiFi 這三款微控制器板，都以其優異的感測器資料處理與馬達控制能力而廣受歡迎。
 
-__電壓不相容：__ Jetson Orin Nano的GPIO通常為3.3V，可能與部分5V的I/O裝置不相容，需使用電壓轉換器進行電平匹配。
+為了選出最適合我們車輛控制程式的中介 I/O 控制器(下位控制器)，我們將針對這三款常見裝置，進行詳細的技術規格與預算成本比較分析。
 
-由於Jetson Orin Nano無法同時處理太多感測器，因此我們需要使用額外的微控制器作為擴展板，以便更有效率地在感測器與Jetson Orin Nano主控器間進行訊號通訊。
 
-在台灣常用的Raspberry Pi Pico與Raspberry Pi Pico W及ESP32 WiFi這三款微控制器板，皆具備良好的感測器資料與馬達控制能力。
-
-為方便選擇最適合我們自駕車的中介I/O控制器，我們將針對這三款裝置的規格與成本進行比較分析。
 ### 英文:
-- After reviewing the I/O control aspects of the Jetson Nano, we identified the following drawbacks:
-  - __Processing Limitations:__ While the Jetson Nano excels in handling AI and machine learning tasks, its CPU is relatively limited and may face performance bottlenecks when performing extensive I/O control tasks, especially when handling complex computations and I/O operations simultaneously.
-  - __GPIO Latency:__ Compared to dedicated microcontrollers (such as Arduino, ESP32, etc.), the Jetson Nano may have higher latency when using Python or other high-level languages for GPIO control, which affects applications requiring high real-time performance.
-  - __Limited Hardware Interfaces:__ The number of GPIO pins provided by the Jetson Nano is relatively limited. If a large number of I/O interfaces are needed, expansion boards may be required, increasing development costs and complexity. 
-  - __Voltage Incompatibility:__ The GPIO on the Jetson Nano typically operates at 3.3V, which can be incompatible with some 5V I/O devices, necessitating the use of voltage converters for level matching.
+- To maximize the sensing and computing performance of our vehicle in the WRO Future Engineers Self-Driving Car Challenge, we selected the Jetson Orin Nano as the main controller. However, a detailed analysis of its Input/Output (I/O) control capabilities revealed several critical technical bottlenecks:
+  - Elevated GPIO Control Latency: Compared to dedicated microcontrollers (such as Arduino, ESP32, etc.), the Jetson Orin Nano exhibits higher time delays when controlling General-Purpose Input/Output (GPIO) via high-level languages like Python. This significantly impacts applications, such as Driving Motor  control, that demand high-level real-time responsiveness.
+  - Limited Hardware Interface Resources: The number of GPIO pins provided by the Jetson Orin Nano is relatively scarce. If the project requires interfacing with a large number of sensors  or I/O components, it may necessitate the use of an external expansion board, which invariably increases development costs and the overall complexity of the system.
+  - Voltage Incompatibility Challenge: The Jetson Orin Nano's GPIO typically operates under the 3.3V voltage standard. This voltage mismatch with some widely adopted 5V I/O devices requires the implementation of voltage converters for proper signal matching.
 
-- Due to the Jetson Nano's inability to handle too many sensors simultaneously, we need to use additional microcontrollers as extension boards to facilitate more efficient signal communication between the sensors and the Jetson Nano main controller.
-- The Raspberry Pi Pico and ESP32 WiFi, two commonly used microcontroller boards in Taiwan, are well-equipped to handle sensor data and motor control tasks.
-- To facilitate the selection of the optimal intermediate I/O controller for our autonomous vehicle, we will conduct a comparative analysis of the specifications and costs of these two options.
+- In the Taiwanese market, the Raspberry Pi Pico, Raspberry Pi Pico W, and ESP32 WiFi development boards are popular choices, known for their excellent capabilities in sensor data handling and motor control.
+
+- To select the most suitable intermediate I/O controller (sub-controller) for our vehicle's control program, we will conduct a detailed comparative analysis of the technical specifications and budgetary costs for these three common devices.
+
+### Raspberry Pi Pico, Raspberry Pi Pico W and Esp32 wifi Controller
 
 
-
-### Raspberry Pi Pico & Esp32 wifi Controller -Comparison-Raspberry Pi Pico 與 ESP32 WiFi 控制器比較
-以下是三者的規格比較：
-
-Here is a specification comparison between the two:
+Here is a specification comparison among the three devices
 
 <div align=center>
 <table>
 <tr>
-<th rowspan="2" width=200><div align=center>Photo(照片)</th>
+<th rowspan="2" width=200><div align=center>Photo</th>
 <th width=200><div align=center>Raspberry Pi Pico W</th>
 <th width=200><div align=center>Raspberry Pi Pico</th>
 <th width=200><div align=center>Esp32 wifi</th>
@@ -122,12 +115,16 @@ Here is a specification comparison between the two:
 </table>
 </div>
 
-Raspberry Pi Pico W可以提供簡單性、低功號及實惠，同時因為擁有的內建WIFI晶片可以做到我們Jetson Orin Nano和I/O控制器建立Web Sockets通訊的需求。因此我們選擇了Raspberry Pi Pico W做為我們Nvidia Jetson Orin Nano的中繼控制器，主要負責直流馬達控制、超音波感測器和紅外線感測器數值讀取、離開和回到停車場流程控制。
+綜合前述分析，我們最終決定採納 Raspberry Pi Pico W 作為 NVIDIA Jetson Orin Nano 系統中的下位控制器（I/O 控制單元）。此項關鍵技術決策基於以下核心優勢：
+- **優異的成本效益與 I/O 擴展能力：** Pico W 不僅具備高性價比，同時提供充足且可靠的 GPIO 腳位 ，充分滿足本專案連接多樣化感測器和驅動馬達的 I/O 擴展需求。
+- **高效的 WebSockets 通訊整合：** Pico W 內建的 Wi-Fi 晶片 完美契合我們的技術架構要求，能夠在 Jetson Orin Nano（主控端） 與 I/O 控制器（從屬端） 之間，建立 WebSockets 數據通訊橋梁。這使得 Jetson Orin Nano 能夠即時且高效地傳遞控制指令到下位控制器，確保車輛行進動作的精確執行 。
 
-The Raspberry Pi Pico  offers simplicity, low power consumption, and affordability, making it ideal for applications with low wireless demands. It also aligns well with the requirements of this competition. Therefore, we have chosen the Raspberry Pi Pico as a relay management controller for the Nvidia Jetson Nano, responsible for managing motors and sensors.
+Based on the preceding analysis, we have ultimately decided to adopt the Raspberry Pi Pico W as the sub-controller (I/O control unit) within our NVIDIA Jetson Orin Nano system. This key technical decision is founded upon the following core advantages:
+- **Excellent Cost-Effectiveness and I/O Expansion Capability:** The Pico W offers high cost-performance while providing sufficient and reliable GPIO pins, fully meeting the I/O expansion requirements of this project for integrating diverse sensors and driving motors.
+- **Efficient WebSockets Communication Integration:** The Pico W's integrated Wi-Fi chip  perfectly aligns with our required technical architecture, enabling the establishment of a WebSockets data communication bridge between the Jetson Orin Nano (Host/Master) and the I/O Controller (Subordinate/Slave). This setup ensures that the Jetson Orin Nano can transmit control commands instantaneously and efficiently to the sub-controller, guaranteeing the precise execution of the vehicle's driving actions.
 
  ***
-- ### Supplementary Information-補充資訊
+- ### Supplementary Information
 ### 中文:
  __Thonny 軟體介紹__
  - 在本次競賽中，我們選擇使用 Thonny 軟體撰寫 Raspberry Pi Pico W 控制板的程式。
