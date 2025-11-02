@@ -53,7 +53,7 @@
 - ### Overview of Important Parts List
   
   - #### NVIDIA® Jetson Orin Nano
-    <table border=0 width="100%" >
+  <table border=0 width="100%" >
       <tr>
       <td >
   __Specification:__ 
@@ -84,7 +84,7 @@
     </table>
 
   - #### Raspberry Pi Pico w
-    <table border=0 width="100%" >
+  <table border=0 width="100%" >
       <tr>
       <td> 
 
@@ -118,7 +118,7 @@
     </table>
 
   - #### MG513-P30 Rear-Drive DC Motor-MG513-P30 後驅直流馬達
-    <table border=0 width="100%" >
+  <table border=0 width="100%" >
       <tr>
       <td> 
 
@@ -138,16 +138,11 @@
       </tr>
     </table>
 
-
-
-
-  - #### MG90S Front Steering Mechanism by Servo Motor -MG90S 前輪轉向伺服馬達機構
-      <table border=0 width="100%" >
+  - #### MG90S Front Steering Mechanism by Servo Motor
+  <table border=0 width="100%" >
       <tr>
       <td> 
-  ### 中文:    
-  
-  ### 英文:  
+
   __Specifications:__
     - Controllable Rotation Angle: 0-180°  
     - Maximum Torque: 2.0 kg/cm (at 4.8V)  
@@ -156,19 +151,8 @@
 
   __Uses in Competition：__
     - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
-    <br></br>
 
-  __產品規格：__
-    - 可控制旋轉角度： 0–180°
-    - 最大扭力： 2.0 公斤·公分（於 4.8V）
-    - 最快旋轉速度： 0.11 秒/60°（於 4.8V）
-    - 工作電壓： 4.8V – 7.2V
-
-  __競賽中之應用：__
-    - 負責接收來自 Raspberry Pi Pico 的控制數值，調整前輪的轉向角度，實現行駛中的精準轉向控制。
-    <br></br>
-
-    __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
+  __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
     </td>
        <td >
     <img src="./img/MG90S.png" width = "500"  alt="MG90S servo motor" align=center />  
@@ -176,31 +160,22 @@
       </tr>
     </table>
 
-  - #### Dual H-bridge DC motor driver IC - L293D-雙 H 橋直流馬達驅動晶片 – L293D
+  - #### Dual H-bridge DC motor driver IC - L293D
 
-    <table border=0 width="100%" >
+  <table border=0 width="100%" >
       <tr>
       <td>  
 
-    __Specifications:__ 
+  __Specifications:__ 
     - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
     - Wide operating voltage range: 4.5V to 36V.
     - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
     - Output voltage range: 3 V to 36 V.
 
-    __Uses in Competition：__  
+  __Uses in Competition：__  
     - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
-    <br></br>
 
-    __產品規格：__
-      - L293D 是一款雙 H 橋直流馬達驅動 IC，可用來控制兩顆直流馬達。
-      - 寬廣的工作電壓範圍：4.5V 至 36V。
-      - 輸出電流：每個通道持續 600 mA，峰值 1.2 A。
-      - 輸出電壓範圍：3V 至 36V。
-    __競賽中之應用：__
-      - 主要負責驅動 MG513 減速直流馬達，以控制車輛的前進與後退運動，以及調整馬達的轉速。
-    <br></br>
-    __Purchase URL:<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>__
+  __Purchase URL:<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>__
     </td>
       <td>
     <img src="./img/l293d.png" width = "500" alt="L293d motor controler" align=center />  
@@ -208,30 +183,18 @@
       </tr>
     </table>
 
-
-  - #### Li-Polymer 3S Battery-鋰聚合物 3S 電池
-    <table border=0 width="100%" >
+  - #### Li-Polymer 3S Battery
+  <table border=0 width="100%" >
       <tr>
       <td> 
 
-    __Specifications:__
-    - Maximum Current: 45.5A  
+  __Specifications:__
+     - Maximum Current: 45.5A  
     - Net Weight: Approximately 107g  
     - Rated Voltage: 11.1V
-    __Uses in Competition：__  
+  __Uses in Competition：__  
     - Supply power to the vehicle for use.  
-    <br></br>
-
-     __產品規格：__
-      - 最大電流： 45.5A
-      - 淨重： 約 107 公克
-      - 額定電壓： 11.1V
-
-    __競賽中之應用：__
-      - 為車輛提供電力使用。
-   
-    <br></br>
-    __Purchase URL:<a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>__
+  __Purchase URL:<a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>__
     </td>
     <td>
     <img src="./img/lipo_battery.png" width = "250"  alt="Li-Polymer 3S Battery" align=center />  
@@ -239,31 +202,20 @@
     </tr>
     </table>
 
-  - #### Micro switch (TACK-SW)-微動開關（TACK-SW）
-
-    <table border=0 width=100% >
+  - #### Micro switch
+  <table border=0 width=100% >
       <tr>
       <td>
    
-    __Specifications:__ 
+  __Specifications:__ 
     - Operating Voltage: 3.3V - 5.0V  
     - Number of Pins: 3  
     - Output Signal: Digital  
 
-    __Uses in Competition：__
+  __Uses in Competition：__
     - Control the vehicle's start and drive switch.
-    <br></br>
 
-     __產品規格：__
-      - 工作電壓： 3.3V – 5.0V
-      - 引腳數量： 3 支
-      - 輸出訊號： 數位訊號
-
-    __競賽中之應用：__
-      - 控制車輛的啟動與行駛開關。
-
-    <br></br>
-    __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>__
+  __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>__
     </td>
       <td>
     <img src="./img/button.jpg" width = "250"  alt="Button(TACK-SW)" align=center />   
@@ -271,9 +223,9 @@
       </tr>
     </table>
 
-  - #### High Current 5A Constant Voltage Constant Current Buck Power Supply Module ADIO-DC36V5A-高電流 5A 降壓穩壓穩流電源模組 ADIO-DC36V5A
+  - #### High Current 5A Constant Voltage Constant Current Buck Power Supply Module ADIO-DC36V5A
 
-    <table border=0 width=100% >
+  <table border=0 width=100% >
       <tr>
       <td> 
 
@@ -284,17 +236,8 @@
 
   __Uses in Competition：__  
     - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
-    <br></br>
 
-  __產品規格：__
-     - 輸入電壓範圍： 4 – 38V
-     - 輸出電壓範圍： 1.25 – 36V，可連續調整
-     - 輸出電流範圍： 可調，最大為 5A
-  __競賽中之應用：__
-     - 主要負責將電池電壓從 11.1V 降壓至 5V，以提供車輛運作所需的各種穩定電壓。  
-  
-    <br></br>
-    __Purchase URL:<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>__
+  __Purchase URL:<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>__
     </td>
       <td>
     <img src="../Power_Supply_System/img/ADIO-DC36V5A.png" width = "600"  alt="ADIO-DC36V5A" align=center />   
@@ -303,7 +246,7 @@
     </table>
 
  
-  - #### SONY IMX477 Camera Module-SONY IMX477 鏡頭模組
+  - #### SONY IMX477 Camera Module
 
     <table border=0 width="100%" >
       <tr>
@@ -319,20 +262,8 @@
 
   __Uses in Competition：__  
     - Responsible for capturing images and transmitting them to the Jetson Nano for image recognition to detect the presence of obstacles or boundary walls.
-    <br></br>
-  __產品規格：__
-    - 視角： 160 度
-    - 像素： 4056 × 3040
-    - 最大光圈： F2.0
-    - 焦距： 7.9 mm
-    - 介面： CSI（Camera Serial Interface）
-    - 工作電壓： 3.3V
-  __競賽中之應用：__
-    - 負責擷取影像並傳送至 Jetson Nano 進行影像辨識，以偵測障礙物或邊界牆的存在。
 
-    
-    <br></br>
-    __Purchase URL:<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%94%AF%E6%8F%B4%E6%A8%B9%E8%8E%93%E6%B4%BECM3-4%E3%80%81Jetson-Nano-i.10207300.8215149686?srsltid=AfmBOor9HmpX2guySAnFvW5drNG4qJtdwx98_e6muraV4LUtXM50YR5Q" target="_blank">SONY IMX477</a>__
+  __Purchase URL:<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%94%AF%E6%8F%B4%E6%A8%B9%E8%8E%93%E6%B4%BECM3-4%E3%80%81Jetson-Nano-i.10207300.8215149686?srsltid=AfmBOor9HmpX2guySAnFvW5drNG4qJtdwx98_e6muraV4LUtXM50YR5Q" target="_blank">SONY IMX477</a>__
     </td>
        <td >
     <img src="../../schemes/Camera/img/SONY_IMX477.png" width = "500"  alt="SONY IMX477 Camera Module" align=center />    
@@ -340,8 +271,8 @@
       </tr>
     </table>
 
-  - #### BNO055 Gyroscope orientation sensor-BNO055 陀螺儀方向感測器
-    <table border=0 width="100%" >
+  - #### BNO055 Gyroscope orientation sensor
+  <table border=0 width="100%" >
       <tr>
       <td> 
 
@@ -352,19 +283,8 @@
     - Orientation Data: Provides direct angle data for accurate positioning
   __Uses in Competition：__  
     - Responsible for detecting the vehicle's current orientation values, which are provided to the  Jetson Nano controller for processing and decision-making.
-    <br></br>
 
-   __產品規格：__
-
-    - 9 軸感測：包含加速度計、陀螺儀與磁力計，用於動作與方向檢測
-    - 工作電壓：3.6V – 5V
-    - 介面：支援 I²C 與 UART，兼容多種裝置
-    - 方向數據：提供直接的角度數據以實現精確定位
-
-  __競賽中之應用：__
-    - 負責偵測車輛目前的方向數值，並提供給 Jetson Nano 控制器進行運算與決策。 
-    <br></br>
-    __Purchase URL:<a href="https://www.remisys.com.tw/product-page/bno055-absolute-orientation-sensor" target="_blank">BNO055</a>__
+  __Purchase URL:<a href="https://www.remisys.com.tw/product-page/bno055-absolute-orientation-sensor" target="_blank">BNO055</a>__
     </td>
        <td >
     <img src="../../schemes/BNO055/img/BNO055up.png" width = "500"  alt="SBNO055 Gyroscope orientation sensor" align=center />    
@@ -372,34 +292,21 @@
       </tr>
     </table>
 
-  - #### HC-SR04 ultrasonic distance sensor-HC-SR04 超音波距離感測器
+  - #### HC-SR04 ultrasonic distance sensor
     <table border=0 width="100%" >
       <tr>
       <td> 
 
-    __Specifications:__
+  __Specifications:__
     - Measuring Range: 2 cm to 400 cm, capable of detecting objects within a distance of 2 cm to 4 meters.
     - Measurement Accuracy: Approximately 3 mm, with a margin of error around ±3 mm.
     - Operating Voltage: 5V, powered by direct current.
     - Ultrasonic Frequency: 40kHz, measuring distance by emitting a 40kHz ultrasonic signal.
     - Transmission Interface: Includes Trig and Echo pins, where Trig sends out the ultrasonic signal and Echo receives the reflected signal to calculate the distance.
 
-    __Uses in Competition：__  
+  __Uses in Competition：__  
     - The core function of this system is to acquire real-time measurement data from two sets of HC-SR04 ultrasonic distance sensors. Subsequently, this distance data is transmitted to the Raspberry Pi Pico W microcontroller for computational and decision-making processes, with the ultimate goal of achieving precise control over the vehicle's driving direction.
-    <br></br>
-
-    __產品規格：__
-    - 測量範圍： 2 公分至 400 公分，可偵測 2 公分至 4 公尺內的物體。
-    - 測量精度： 約 ±3 毫米，誤差範圍大約為 ±3 毫米。
-    - 工作電壓： 5V，採用直流供電。
-    - 超音波頻率： 40kHz，透過發射 40kHz 的超音波訊號來進行距離測量。
-    - 傳輸介面： 包含 Trig 與 Echo 腳位，Trig 負責發射超音波訊號，Echo 負責接收反射回來的訊號並計算距離。
-
-    __競賽中之應用：__
-    - 本本系統的核心功能在於實時獲取兩組 HC-SR04 超音波距離感測器所量測之數據。隨後，這些距離數據將傳輸至 Raspberry Pi Pico W 微控制器進行運算與決策處理，其最終目的為實現對車輛行駛方向的精確控制。
-
-    <br></br>
-    __Purchase URL:<a href="https://robotkingdom.com.tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>__
+  .tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>__
     </td>
        <td >
     <img src="../../schemes/HC-SR04/img/HC-SR04.png" width = "800"  alt="HC-SR04 ultrasonic distance sensor" align=center />    
@@ -408,8 +315,8 @@
     </table>
 
   - #### TCRT5000 Infrared Sensor
-    <div align=center>
-    <table>
+
+  <table>
       <tr>
       <td>
 
@@ -418,27 +325,14 @@
       - Measuring Range: 0 to 1.5 centimeters (cm)
       - Operating Voltage: 3.3 Volts (V) to 5 Volts (V)
       
-     __Uses in Competition：__  
+    __Uses in Competition：__  
       - The primary function of this system is to accurately measure the distance between the vehicle and the field boundary (or surrounding walls). The acquired data is then transmitted to the Raspberry Pi Pico W for efficient computation and decision-making processing, with the ultimate goal of achieving precise navigation and control over the vehicle's direction of travel.
-
-    <br>
-    </br> 
-
-    __產品規格__
-
-      - 測量範圍：0 ~ 1.5cm
-      - 操作電壓：3.3V ~ 5V
-
-    __競賽中之應用：__
-      - 本系統主要功能為精準量測車輛與場域邊界（或外牆）的距離，並將所獲取的數據傳輸至 Raspberry Pi Pico W 進行高效的運算及決策處理，以達成對車輛行駛路徑的精確導航與控制。
-  
-      __Purchase URL:<a href="https://www.icshop.com.tw/products/368030501146" target="_blank">TCRT5000</a>__
+    __Purchase URL:<a href="https://www.icshop.com.tw/products/368030501146" target="_blank">TCRT5000</a>__
         </td>
         <td>
           <img src="./img/TCRT5000.png" width="800" />
         </td>
       </tr>
     </table>
-   </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
