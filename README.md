@@ -30,7 +30,7 @@
     - __2-4 Sense Management__
       - [2-4-1 Ultrasonic rangefinder OK](schemes/HC-SR04/README.md)
       - [2-4-2 Infrared Sensor OK](schemes/Infrared-Sensor/README.md)
-      - [2-4-3 Gyroscope orientation sensor ](schemes/BNO055/README.md)
+      - [2-4-3 Gyroscope orientation sensor OK](schemes/BNO055/README.md)
       - [2-4-4 Camera Selection OK ](schemes/Camera/README.md)
 
 - ### ${{\color{red} Software Overview }} $ 
