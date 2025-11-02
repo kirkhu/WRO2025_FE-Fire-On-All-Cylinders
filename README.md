@@ -42,6 +42,7 @@
       - [3-4-1 Image Recognition Processing OK](src/Image_Recognition_Processing/README.md)
       - [3-4-2 Steering Control ](src/Steering_Control/README.md) 
       - [3-4-3 Automatically record the HSV values of the field ](src/Automatically_record_HSV/README.md)
+      - [3-4-4 Automatic storage and recording of game field object LAB values](src/Automatically_record_LAB/README.md)
     - __3-5 Programming - Vehicle’s control program__
       - [3-5-1 Open Challenge Code Overview ](src/Programming/Open_hallenge/README.md)
       - [3-5-2 Obstacle Challenge Code Overview](src/Programming/Obstacle_Challenge/README.md)
