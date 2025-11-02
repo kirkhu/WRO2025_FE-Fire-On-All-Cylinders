@@ -40,7 +40,7 @@
     - [3-3 Web Sockets Interdouction](src/WebSockets/README.md)
     - __3-4 Image Recognition Processing and Steering__
       - [3-4-1 Image Recognition Processing OK](src/Image_Recognition_Processing/README.md)
-      - [3-4-2 Parking Lot Departure Steering Control Overview](src/Overview_of_Parking_Lot_Departure_Steering_Control/README.md) 
+      - [3-4-2 Parking Lot Departure Steering Control Overview OK](src/Overview_of_Parking_Lot_Departure_Steering_Control/README.md) 
       - [3-4-3 Steering Control ](src/Steering_Control/README.md) 
       - [3-4-4 Automatically record the LAB values of the field OK](src/Automatically_record_LAB/README.md)
     - __3-5 Programming - Vehicle’s control program__
