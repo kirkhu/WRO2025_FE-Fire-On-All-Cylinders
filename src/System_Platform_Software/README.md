@@ -67,11 +67,11 @@
 
    - ### System environment initial setup Steps
       - Update the operating environment.
-         ```bash
+      ```bash
          sudo apt update
          sudo apt upgrade -y
-         ```
-     - Python version updata
+      ```
+      - Python version updata
       ```bash
   
          sudo apt install update
@@ -86,7 +86,7 @@
       eval "$(pyenv init -)"
       eval "$(pyenv virtualenv-init -)"
       ```
-     -  Python Installation
+      -  Python Installation
       ```bash      
       pyenv install 3.11.7
       pyenv global 3.11.7
