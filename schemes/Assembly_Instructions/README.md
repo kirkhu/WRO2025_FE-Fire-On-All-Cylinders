@@ -128,16 +128,16 @@
       <td> 
 
   __Specifications:__  
-    - No-load Speed: 366 rpm
-    - Reduction Ratio: 1:30
-    - Operating Voltage: 6 - 12V
+   - No-load Speed: 366 rpm
+   - Reduction Ratio: 1:30
+   - Operating Voltage: 6 - 12V
 
  <br></br>
 
   __Uses in Competition：__
   - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
  <br></br>
- 
+
   __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
     </td>
        <td >
@@ -152,13 +152,14 @@
       <td> 
 
   __Specifications:__
-    - Controllable Rotation Angle: 0-180°  
-    - Maximum Torque: 2.0 kg/cm (at 4.8V)  
-    - Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
-    - Operating Voltage: 4.8V - 7.2V  
+   - Controllable Rotation Angle: 0-180°  
+   - Maximum Torque: 2.0 kg/cm (at 4.8V)  
+   - Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
+   - Operating Voltage: 4.8V - 7.2V  
+ <br></br>
 
   __Uses in Competition：__
-    - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
+   - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
 
   __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
     </td>
@@ -175,14 +176,16 @@
       <td>  
 
   __Specifications:__ 
-    - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
-    - Wide operating voltage range: 4.5V to 36V.
-    - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
-    - Output voltage range: 3 V to 36 V.
+   - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
+   - Wide operating voltage range: 4.5V to 36V.
+   - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
+   - Output voltage range: 3 V to 36 V.
+ <br></br>
 
   __Uses in Competition：__  
-    - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
-
+   - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
+ <br></br>
+ 
   __Purchase URL:<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>__
     </td>
       <td>
