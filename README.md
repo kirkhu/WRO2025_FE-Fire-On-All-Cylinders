@@ -25,7 +25,7 @@
       - [2-2-1 Battery choice for self-driving cars OK](schemes/Battery/README.md)
       - [2-2-2 Power Supply System OK](schemes/Power_Supply_System/README.md)
     - __2-3 Controller Selection__
-      - [2-3-1 Main Controller Comparison ](schemes/Main_Controller_Choosing/README.md)
+      - [2-3-1 Main Controller Comparison OK ](schemes/Main_Controller_Choosing/README.md)
       - [2-3-2 Motor & Sensor Intermediate I/O Controller Comparison](schemes/Motor_Sensor_Controller_Choosing/README.md)
     - __2-4 Sense Management__
       - [2-4-1 Ultrasonic rangefinder ](schemes/HC-SR04/README.md)
