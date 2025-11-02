@@ -104,7 +104,7 @@
   * **Communication Interfaces:** I²C, SPI, UART, USB 1.1 (Device/Host)
   * **Power Supply:** 1.8–5.5V (via USB or external power input)
  <br></br>
- 
+
   __Uses in Competition：__
   - This Low-Level Controller (LLC) is responsible for data acquisition, integration, and control execution. Its functions include:
     - Real-time acquisition of environmental distance data from all ultrasonic distance sensors and the TCRT5000 Infrared Sensor.
@@ -124,7 +124,7 @@
   <table border=0 width="100%" >
       <tr>
       <td> 
-
+ <br></br>
   __Specifications:__  
     - No-load Speed: 366 rpm
     - Reduction Ratio: 1:30
