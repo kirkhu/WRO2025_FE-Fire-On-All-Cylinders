@@ -84,4 +84,4 @@
 
   The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
 
-  <div align="center"><img src="./other/img/Gantt-Chart_4.png" width="1300" alt="Gantt-Char" /></div> 
+  <div align="center"><img src="./other/img/Gantt-Chart_5.png" width="1300" alt="Gantt-Char" /></div> 
