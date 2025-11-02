@@ -10,14 +10,21 @@
     <ol>
 
     ### 中文:
-    1. HC-SR04 超聲波距離感測器是一種具成本效益且易於使用的距離測量方案。它透過發射超聲波脈衝並測量飛行時間來判斷物體距離。量測範圍為 2 公分到 400 公分，精度達 3 毫米，提供高度準確且可靠的距離資料，適用於避障、自主導航及物體偵測等多種應用。
-    2. HC-SR04 超聲波距離感測器幫助我們在車輛進入停車區時偵測與側牆的距離，便利停車操作。透過根據偵測距離進行精確控制的程式設計，我們能順利引導車輛進入停車區，協助成功完成任務。
+    * **關於 HC-SR04 超聲波距離感測器的功能性描述**
+    HC-SR04 超聲波距離感測器 是一種高成本效益且易於整合的距離測量解決方案。其原理是透過發射超聲波脈衝，並精確測量聲波來回的飛行時間（Time-of-Flight, TOF）來判斷與物體之間的距離。該感測器的有效量測範圍為 2公分到400公分，並可達到 3毫米 的高精度。這使得它能夠提供高度準確且可靠的距離數據，非常適用於避障、自主導航以及車輛周遭的物體偵測等多種應用情境。
+    
+    * **HC-SR04 在自駕車任務中的應用**
+    HC-SR04 超聲波距離感測器在我們的自駕車任務中扮演了關鍵角色，尤其是在執行 停車操作 時。它被用於即時偵測車輛與側牆或障礙物之間的距離，從而極大地提升了停車的便利性與精確度。透過程式設計，我們可以根據感測器回傳的精確距離數據進行閉環控制，順利引導車輛以適當的角度和速度進入指定的停車區，這對於任務的成功完成具有實質性的助益。
+    
     ### 英文:
-    1. The HC-SR04 ultrasonic distance sensor is a cost-effective and user-friendly solution for distance measurement. It operates by transmitting ultrasonic pulses and measuring the time of flight to determine the distance to an object. With a measurement range of 2cm to 400cm and a precision of 3mm, it provides highly accurate and reliable distance data, making it suitable for a wide range of applications including obstacle avoidance, autonomous navigation, and object detection.
+    ### Functional Description of the HC-SR04 Ultrasonic Distance Sensor
 
-    2. The HC-SR04 ultrasonic distance sensor helps us detect the distance between the vehicle and the side wall when entering the parking area, facilitating parking maneuvers. By programming precise control based on the detected distance, we can guide the vehicle into the parking area smoothly, helping us successfully complete the task.
+    The **HC-SR04 Ultrasonic Distance Sensor** is a **cost-effective and easily integrated** solution for distance measurement. Its operation relies on **emitting an ultrasonic pulse** and precisely measuring the **Time-of-Flight (TOF)** of the sound wave to determine the distance to an object. The sensor provides an effective measurement range from 2cm up to 400 with a high accuracy of 3mm. This capability ensures **highly accurate and reliable** distance data, making it well-suited for various applications such as **obstacle avoidance, autonomous navigation,** and perimeter **object detection**.
+
+    ### Application of the HC-SR04 in the Autonomous Vehicle Mission
+
+    The HC-SR04 ultrasonic distance sensor plays a **critical role** in our autonomous vehicle mission, particularly during the **parking operation**. It is utilized for the **real-time detection of the distance between the vehicle and the side wall or obstacles**, which significantly enhances the ease and precision of parking. By programming **closed-loop control** based on the **precise distance data** returned by the sensor, we can smoothly guide the vehicle at the appropriate angle and velocity into the designated **parking lot**, providing **substantial assistance** toward the successful completion of this mission task.
         
-
     </ol>
     </td>
     <td width=300 align="center"><p>
