@@ -74,7 +74,7 @@
 
     - Below is the code written in MicroPython, implemented as a class to read the detection distance from the HC-SR04 ultrasonic sensor using the Raspberry Pi Pico W.
 
-   - #### MicroPython code-MicroPython
+- #### MicroPython code-MicroPython
    ```
             from machine import Pin, time_pulse_us
             import time
@@ -106,7 +106,7 @@
 
                     return distance
   ```
-   - #### Example usage-範例使用方法  
+- #### Example usage  
   ```
             sensor = HCSR04(trigger_pin=3, echo_pin=2)  # Assign pins accordingly
             while True:
@@ -118,7 +118,7 @@
                 time.sleep(1)
   ```
 
-   - #### Explanation-說明  
+- #### Explanation  
     This code includes a class named <strong>HC-SR04</strong> that measures distance by defining trigger and echo pins. The distance_cm() method returns the distance in centimeters, and if a measurement error occurs or the distance is out of range, it returns -1.
 
 
