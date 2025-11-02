@@ -119,7 +119,7 @@ Based on the preceding analysis, we have ultimately decided to adopt the Raspber
     <div align=center>
     <table>
     <tr>
-    <th><div align=center>Thonny Website-Thonny 網站</th>
+    <th><div align=center>Thonny Website-Thonny</th>
     </tr><tr>
     <td><div align=center><img src="./img/Thonny.png" width=250 ></td>
     </tr>
