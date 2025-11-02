@@ -14,7 +14,7 @@
 
   |Counterclockwise direction|Clockwise direction|
   |:---:|:---:|
-  |<div align="center"> <img src="./img/Counterclockwise_direction.png" width="80%"  alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/clockwise_direction.png" width="90%" alt="Detecting_nearby_obstacles"></div>|
+  |<div align="center"> <img src="./img/Counterclockwise_direction.png" width="400"  alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/clockwise_direction.png" width="400" alt="Detecting_nearby_obstacles"></div>|
 
 </div> 
 
@@ -60,8 +60,8 @@
     <th>Counterclockwise Direction, Green Signal</th>
     <th>Drive on Inner Walls</th>
     </tr><tr>
-    <td align=center><img src="./img/Counterclockwise_green.png" width=90% /></td>
-    <td align=center><img src="./img/Counter-clockwise green route.png" width=100%% /></td>
+    <td align=center><img src="./img/Counterclockwise_green.png" width=400 /></td>
+    <td align=center><img src="./img/Counter-clockwise green route.png" width=400 /></td>
     </tr>
     </table>
     </div>
