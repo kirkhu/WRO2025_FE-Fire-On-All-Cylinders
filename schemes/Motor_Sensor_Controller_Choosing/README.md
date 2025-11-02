@@ -103,12 +103,12 @@ Here is a specification comparison among the three devices
 </div>
 <br></br>
 Based on the preceding analysis, we have ultimately decided to adopt the Raspberry Pi Pico W as the sub-controller (I/O control unit) within our NVIDIA Jetson Orin Nano system. This key technical decision is founded upon the following core advantages:
-- **Excellent Cost-Effectiveness and I/O Expansion Capability:** The Pico W offers high cost-performance while providing sufficient and reliable GPIO pins, fully meeting the I/O expansion requirements of this project for integrating diverse sensors and driving motors.
-- **Efficient WebSockets Communication Integration:** The Pico W's integrated Wi-Fi chip  perfectly aligns with our required technical architecture, enabling the establishment of a WebSockets data communication bridge between the Jetson Orin Nano (Host/Master) and the I/O Controller (Subordinate/Slave). This setup ensures that the Jetson Orin Nano can transmit control commands instantaneously and efficiently to the sub-controller, guaranteeing the precise execution of the vehicle's driving actions.
+
+* **Excellent Cost-Effectiveness and I/O Expansion Capability:** The Pico W offers high cost-performance while providing sufficient and reliable GPIO pins, fully meeting the I/O expansion requirements of this project for integrating diverse sensors and driving motors.
+* **Efficient WebSockets Communication Integration:** The Pico W's integrated Wi-Fi chip  perfectly aligns with our required technical architecture, enabling the establishment of a WebSockets data communication bridge between the Jetson Orin Nano (Host/Master) and the I/O Controller (Subordinate/Slave). This setup ensures that the Jetson Orin Nano can transmit control commands instantaneously and efficiently to the sub-controller, guaranteeing the precise execution of the vehicle's driving actions.
 
  ***
 - ### Supplementary Information
-### 中文:
 
   __Introduction to  Thonny software__
   - In this competition, we chose to use Thonny software to write programs for the Raspberry Pi Pico control board.
