@@ -103,7 +103,8 @@
   * **PWM Output:** Multiple channels available
   * **Communication Interfaces:** I²C, SPI, UART, USB 1.1 (Device/Host)
   * **Power Supply:** 1.8–5.5V (via USB or external power input)
-
+ <br></br>
+ 
   __Uses in Competition：__
   - This Low-Level Controller (LLC) is responsible for data acquisition, integration, and control execution. Its functions include:
     - Real-time acquisition of environmental distance data from all ultrasonic distance sensors and the TCRT5000 Infrared Sensor.
