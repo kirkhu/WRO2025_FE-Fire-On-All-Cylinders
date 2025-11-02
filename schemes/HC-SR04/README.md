@@ -66,7 +66,7 @@
     - VCC (HC-SR04) connects to the 3.3V (pin 36) on the Raspberry Pi Pico W: Provides power to the ultrasonic sensor.
     - GND (HC-SR04) connects to the GND pin on the Raspberry Pi Pico W: Ensures a common ground between both devices.
     - Trig (HC-SR04) connects to the GPIO pins on the Raspberry Pi Pico W:
-         - pin 12 (left),
+        - pin 12 (left),
         - pin 13 (right), used for sending ultrasonic pulse signals.
     - Echo (HC-SR04) connects to the GPIO pins on the Raspberry Pi Pico W:
         - pin 8 (left),
