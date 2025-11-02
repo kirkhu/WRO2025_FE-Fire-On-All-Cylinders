@@ -349,8 +349,8 @@
       <td>
 
   __Specifications:__ 
-    - Measuring Range: 0 to 1.5 centimeters (cm)
-    - Operating Voltage: 3.3 Volts (V) to 5 Volts (V)
+   - Measuring Range: 0 to 1.5 centimeters (cm)
+   - Operating Voltage: 3.3 Volts (V) to 5 Volts (V)
  <br></br>
 
   __Uses in Competition：__  
