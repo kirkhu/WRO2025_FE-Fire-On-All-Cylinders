@@ -118,7 +118,7 @@
       pip install "websockets>=12<13"
       ```
 
-      - ASUS AC1200 or TP Link AC1300 Driver Installation 
+      - **ASUS AC1200** or **TP Link AC1300** Driver Installation 
       ```bash
       mkdir -p ~/src && cd ~/src/
       git clone https://github.com/morrownr/88x2bu-20210702.git
