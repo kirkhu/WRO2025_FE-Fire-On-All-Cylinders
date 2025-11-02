@@ -348,13 +348,15 @@
       <tr>
       <td>
 
-    __Specifications:__
- 
+    __Specifications:__ 
       - Measuring Range: 0 to 1.5 centimeters (cm)
       - Operating Voltage: 3.3 Volts (V) to 5 Volts (V)
-      
-    __Uses in Competition：__  
-      - The primary function of this system is to accurately measure the distance between the vehicle and the field boundary (or surrounding walls). The acquired data is then transmitted to the Raspberry Pi Pico W for efficient computation and decision-making processing, with the ultimate goal of achieving precise navigation and control over the vehicle's direction of travel.
+ <br></br>
+
+  __Uses in Competition：__  
+   - The primary function of this system is to accurately measure the distance between the vehicle and the field boundary (or surrounding walls). The acquired data is then transmitted to the Raspberry Pi Pico W for efficient computation and decision-making processing, with the ultimate goal of achieving precise navigation and control over the vehicle's direction of travel.
+
+  <br></br>
     __Purchase URL:<a href="https://www.icshop.com.tw/products/368030501146" target="_blank">TCRT5000</a>__
         </td>
         <td>
