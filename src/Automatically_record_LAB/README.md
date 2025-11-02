@@ -41,7 +41,7 @@ To accurately record the LAB values for the traffic sign blocks (red and green),
 |:----:|:----:|:----:|
 |<img src="./img/Orangeline/Adjusting_the_LAB_Range_Values_for_Orangeline_Color.png" alt="Adjusting_the_LAB_Range_Values_for_Orange line_Color" align=center />|<img src="./img/Orangeline/Save_the_LAB_range_values_for_Orangeline.png"  alt="Save_the_LAB_range_values_for_Orange linee" align=center />|<img src="./img/Orangeline/Live_image_ of_the_Orangeline_block.png" alt="Live_image_ of_the_Orange_line" align=center />|
 
-**magenta side walls**
+### magenta side walls ###
 
 |Adjusting the LAB Range Values for magenta Color|Save the LAB range values for magenta|Real-time image of the magenta side walls|
 |:----:|:----:|:----:|
