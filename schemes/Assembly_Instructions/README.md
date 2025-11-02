@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Hardware Assembly Instructions & Wiring diagram-硬體組裝說明和接線圖</div>
+## <div align="center">Hardware Assembly Instructions & Wiring diagram</div>
 - ### Hardware Configuration of Electronic Equipment 
   - The diagram below shows the placement of electronic equipment in the  Self-Driving-Cars.
   
@@ -120,7 +120,7 @@
       </tr>
     </table>
 
-  - #### MG513-P30 Rear-Drive DC Motor-MG513-P30 後驅直流馬達
+  - #### MG513-P30 Rear-Drive DC Motor
   <table border=0 width="100%" >
       <tr>
       <td> 
@@ -131,9 +131,9 @@
     - Operating Voltage: 6 - 12V
 
  <br></br>
- 
+
   __Uses in Competition：__
-    - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
+  - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
 
   __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
     </td>
