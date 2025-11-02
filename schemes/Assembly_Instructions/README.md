@@ -124,12 +124,14 @@
   <table border=0 width="100%" >
       <tr>
       <td> 
- <br></br>
+
   __Specifications:__  
     - No-load Speed: 366 rpm
     - Reduction Ratio: 1:30
     - Operating Voltage: 6 - 12V
 
+ <br></br>
+ 
   __Uses in Competition：__
     - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
 
