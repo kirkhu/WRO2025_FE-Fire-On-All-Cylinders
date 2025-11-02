@@ -268,8 +268,7 @@
 
  
   - #### SONY IMX477 Camera Module
-
-    <table border=0 width="100%" >
+  <table border=0 width="100%" >
       <tr>
       <td>
 
@@ -319,7 +318,7 @@
     </table>
 
   - #### HC-SR04 ultrasonic distance sensor
-    <table border=0 width="100%" >
+  <table border=0 width="100%" >
       <tr>
       <td> 
 
