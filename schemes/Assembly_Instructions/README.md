@@ -56,6 +56,7 @@
   <table border=0 width="100%" >
       <tr>
       <td >
+      
   __Specification:__ 
 
     - **AI Performance**  Up to **40 TOPS** (Sparse) or **20 TOPS** (Dense) 
