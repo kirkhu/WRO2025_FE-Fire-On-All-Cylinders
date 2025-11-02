@@ -3,11 +3,11 @@
 ## <div align="center">Ultrasonic rangefinder Introduction</div> 
 
 - ### __Instruction to HC-SR04 ultrasonic distance sensor__
-  #### Functional Description of the HC-SR04 Ultrasonic Distance Sensor
+  - #### Functional Description of the HC-SR04 Ultrasonic Distance Sensor
 
     The **HC-SR04 Ultrasonic Distance Sensor** is a **cost-effective and easily integrated** solution for distance measurement. Its operation relies on **emitting an ultrasonic pulse** and precisely measuring the **Time-of-Flight (TOF)** of the sound wave to determine the distance to an object. The sensor provides an effective measurement range from 2cm up to 400 with a high accuracy of 3mm. This capability ensures **highly accurate and reliable** distance data, making it well-suited for various applications such as **obstacle avoidance, autonomous navigation,** and perimeter **object detection**.
 
-    ### Application of the HC-SR04 in the Autonomous Vehicle Mission
+  - #### Application of the HC-SR04 in the Autonomous Vehicle Mission
 
     The HC-SR04 ultrasonic distance sensor plays a **critical role** in our autonomous vehicle mission, particularly during the **parking operation**. It is utilized for the **real-time detection of the distance between the vehicle and the side wall or obstacles**, which significantly enhances the ease and precision of parking. By programming **closed-loop control** based on the **precise distance data** returned by the sensor, we can smoothly guide the vehicle at the appropriate angle and velocity into the designated **parking lot**, providing **substantial assistance** toward the successful completion of this mission task.
     <div align="center">
