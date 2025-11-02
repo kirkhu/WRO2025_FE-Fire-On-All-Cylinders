@@ -71,7 +71,7 @@
     - **Display Output**  1x DP 1.2 (+MST) or eDP 1.4/HDMI 1.4 
     - **Storage**  Supports external NVMe SSD (on Developer Kit) and MicroSD card 
     - **Input Voltage**  DC **9V-20V** 
-
+    <br>
   __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
 
