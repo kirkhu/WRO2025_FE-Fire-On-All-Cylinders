@@ -2,40 +2,26 @@
 
 ## <div align="center">Hardware Assembly Instructions & Wiring diagram-硬體組裝說明和接線圖</div>
 - ### Hardware Configuration of Electronic Equipment 
-- 電子設備的硬體配置
-  - 下圖顯示了電子設備在自走車中的安裝位置。
   - The diagram below shows the placement of electronic equipment in the  Self-Driving-Cars.
   
     <div align="center"><img src="./img/car_introduce.png" alt="Components's Position"></div>
 
-- ### System Operation Process -系統操作流程
+- ### System Operation Process
     <div align="center"><img src="./img/System_operation_process.png"   alt="System Operation Process" > </div>
-#### 中文:
-- 本系統以 NVIDIA Jetson Orin Nano 作為核心控制器，整合攝影模組擷取即時影像。影像資料經由 OpenCV 函式庫進行高效能處理，用以精準識別賽道上的關鍵元素，包括紅色與綠色障礙柱、黑色邊界牆、洋紅色停車場邊界，以及地面上的藍色與橘色標線。此外，系統透過 I2C 通訊協定，從 BNO055 慣性量測單元 (IMU) 收集方向數據，進而計算出精確的行進方向，以實現動態避開障礙物與邊界、並準確計算賽道圈數的自動化控制目標。
-
-- NVIDIA Jetson Orin Nano 作為上位控制器，在完成影像與感測資料處理後，將產生的最終控制訊號透過 WebSocket 通訊協定進行即時（Low-Latency）傳輸。該訊號被Raspberry Pi Pico W I/O 控制器接收，由其負責執行底層的運算調校與實體運動控制。
-
-- 在自動停車階段，Raspberry Pi Pico W I/O 控制器升級為決策核心。它不僅接收來自 Jetson Orin Nano 主控制器的上位指令，還需同步融合多源感測數據進行即時計算：包括來自兩側 HC-SR04 超聲波測距感測器的距離資訊，以及前後 TCRT5000 紅外線循線感測器的邊界數據，最終依此精確控制車輛的移動路徑。
-
-- 作為底層的 I/O 控制器，Raspberry Pi Pico W 接收來自 Jetson Orin Nano 主控制器的車輛運動控制參數。Pico W 隨即在內部進行輔助運算與訊號轉換，最終將校準後的控制訊號傳輸至前輪伺服馬達（MG90S），從而精確調整轉向角度，以確保避障任務的順利執行。
-
-- 同時，身為 I/O 控制器的 Raspberry Pi Pico W 負責解譯並處理來自 Jetson Orin Nano 主控制器的車輛移動指令。隨後，Pico W 透過生成 脈衝寬度調變 (PWM) 訊號，將資料傳送給 L293D 馬達驅動晶片，以實現對直流馬達的轉速調節及正反轉控制。
-
-
 - This system utilizes the NVIDIA Jetson Orin Nano as its core controller, integrating a camera module to capture real-time imagery. The image data is processed efficiently using the **OpenCV library** to precisely identify critical elements on the race track, including **red and green obstacle pylons, the black boundary wall, the magenta parking boundary, and the blue and orange ground lines**. Furthermore, the system collects orientation data via the **I2C communication protocol** from a BNO055 Inertial Measurement Unit (IMU). This directional data is then used to calculate the precise heading, enabling the automated control objective of dynamically avoiding obstacles and boundaries, as well as accurately counting the number of laps completed.
 - The NVIDIA Jetson Orin Nano, acting as the primary controller, generates final control signals after processing visual and sensor data. These signals are transmitted in real-time via the **WebSocket communication protocol** to the Raspberry Pi Pico W I/O Controller, which is tasked with executing the subsequent low-level computation and physical actuation control.
 - During the automated parking sequence, the Raspberry Pi Pico W I/O Controller functions as a crucial decision-making node. It not only receives high-level commands from the Jetson Orin Nano Master Controller but also simultaneously fuses data from various sensors for real-time calculation. This input includes distance measurements from dual HC-SR04 ultrasonic rangefinders located on both sides, as well as line-detection data from front and rear TCRT5000 infrared line sensors, all used to precisely govern the vehicle's maneuvering path.
 - Serving as the I/O controller, the Raspberry Pi Pico W receives the vehicle motion control values transmitted from the Jetson Orin Nano master controller. The Pico W then performs further internal computation and signal conditioning before sending the resulting commands to the **front wheel servo motor (MG90S)**, thereby precisely controlling the steering angle to successfully complete the obstacle avoidance task.
 - Concurrently, the Raspberry Pi Pico W, acting as the I/O controller, processes the vehicle movement control values received from the Jetson Orin Nano master controller. It then transmits this data to the **L293D Motor Driver** using **Pulse Width Modulation (PWM)** signals, which is necessary to control both the direction (forward/reverse) and the speed of the DC motor.
 
-- ### Vehicle Body Structure Display Diagram-車體結構展示圖
+- ### Vehicle Body Structure Display Diagram
 <div align="center">
 <table>
   <tr>
-      <th>Top View of the Overall Apparatus(整體裝置頂視圖)</th>
+      <th>Top View of the Overall Apparatus</th>
       <th>Top-Down View of the Vehicle's Mid-Level Structure</th>
       <th>Top View of Vehicle Chassis</th>
-      <th>Bottom View of Vehicle Chassis(車體底盤底視圖)</th>
+      <th>Bottom View of Vehicle Chassis</th>
   </tr>
   <tr align="center">
      <td><img src="./img/car_all.png"  width = "600" alt="Top View of the Overall Apparatus" > </td>
@@ -50,13 +36,13 @@
 <div align="center">
 <table>
   <tr align="center">
-      <th> Overhead view of the main circuit board(電路板頂視圖) </th><th>Bottom View of the Main Circuit Board(電路板底視圖)</th>
+      <th> Overhead view of the main circuit board </th><th>Bottom View of the Main Circuit Board</th>
   </tr>
   <tr align="center">
      <td> <img src="img/circuit_board_fount.png" width="300" alt="circuit_up.jpg"> </td><td><img src="img/circuit_board_back.png" width="300" alt="circuit_lower.jpg"></td>
   </tr>
   <tr align="center">
-      <th> Overhead view of the switch circuit board(電路板頂視圖) </th><th>Bottom view of the switch circuit board(電路板底視圖)</th>
+      <th> Overhead view of the switch circuit board</th><th>Bottom view of the switch circuit board</th>
   </tr>
   <tr align=center>
     <td><img src="./img/circuit_board_fount_2.png" width="200" /></td>
@@ -64,7 +50,7 @@
 </table>
 </div>
 
-- ### Overview of Important Parts List-重要零件清單總覽
+- ### Overview of Important Parts List
   
   - #### NVIDIA® Jetson Orin Nano
     <table border=0 width="100%" >
@@ -87,25 +73,7 @@
 
   __Uses in Competition:__ 
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
-    <br></br>
 
-   __產品規格：__
-    - **AI 效能：**  高達 **40 TOPS** (Sparse) 或 **20 TOPS** (Dense) 
-    - **GPU：**  **1024** 個 NVIDIA **Ampere** 架構 **CUDA 核心** + **32** 個 **Tensor 核心** 
-    - **CPU：**  **6 核心** Arm Cortex-A78AE v8.2 64 位元 CPU (最高 1.5 GHz) 
-    - **記憶體 (RAM)：**  **8GB** 128 位元 **LPDDR5** (記憶體頻寬高達 **68 GB/s**) 
-    - **視訊編碼器：**  1x 4K @ 30fps, 2x 4K @ 30fps, 5x 1080p @ 60fps 等 (H.265) 
-    - **視訊解碼器：**  1x 4K @ 60fps, 2x 4K @ 30fps, 5x 1080p @ 60fps 等 (H.265) 
-    - **相機介面：**  **8 通道 MIPI CSI-2** D-PHY 2.1 (支援最多 4 個實體相機) 
-    - **PCIe：**  1 個 x4 + 3 個 x1 (PCIe Gen3) 
-    - **連接埠：**  4 個 USB 3.2 Gen2, 1 個 USB Type-C (供電/Debug), Gigabit Ethernet 
-    - **顯示輸出：**  1 個 DP 1.2 (+MST) 或 eDP 1.4/HDMI 1.4 
-    - **儲存：**  支援外部 NVMe SSD (在開發套件上) 及 MicroSD 卡 
-    - **輸入電壓：** 9V-20V
-
-  __競賽中之應用：__
-  - 本系統負責接收來自攝影機模組的原始影像資料，隨後利用 OpenCV 函式庫執行影像辨識與運算。同步地，整合 BNO055 慣性量測單元 (IMU) 所採集的方向數據，進行數據融合與姿態運算。最終，將處理後的控制指令傳輸至 Raspberry Pi Pico W，以驅動其進行後續的決策與執行。
- 
     <br></br>
     __Purchase URL:<a href="https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nano/docs/Jetson-Orin-Nano-DevKit-Carrier-Board-Specification_SP-11324-001_v1.3.pdf?__token__=exp=1762055025~hmac=44deefcad3991bd2cb50e865d48d7e757ec2b7de324168816ccc7a624fe85ce0&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9" target="_blank">NVIDIA® Jetson Orin Nano</a>__
     </td>
@@ -141,38 +109,15 @@
     - Integrating and computing the acquired sensor data and control commands to generate precise actuation signals.
     - Driving and controlling the front-wheel steering servo motor and the rear-drive DC motor to achieve precise vehicle steering and locomotion control.
 
-    <br></br>
-
-    __產品規格：__
-    - 處理器 (CPU)：	Raspberry Pi RP2040 晶片（雙核心 ARM Cortex-M0+）
-    - 主頻：	最高 133 MHz
-    - 記憶體 (SRAM)：	264 KB
-    - 快閃記憶體 (Flash)：	2 MB 外掛 QSPI Flash
-    - 無線連線：	2.4GHz Wi-Fi (802.11 b/g/n) – 透過 Infineon CYW43439 晶片
-    - 藍牙：	不支援（CYW43439 具備藍牙，但 Pico W 暫未開放）
-    - GPIO 腳位：	26 個可用 GPIO（3.3V 邏輯）
-    - ADC 類比輸入：	3 組 (12-bit)
-    - PWM 輸出：	多通道可用
-    - 通訊介面：	I²C、SPI、UART、USB 1.1（Device/Host）
-    - 電源供應：	1.8–5.5V（可由 USB 或外部電源供應）
-
-    __競賽中之應用：__
-    - 作為下位控制器（Low-Level Controller） 專責資料收集、整合與執行控制任務。它負責：
-      - 即時採集所有超音波距離感測器與 TCRT5000 紅外線感測器所提供的環境距離數據。
-      - 接收來自上位控制器（High-Level Controller） NVIDIA® Jetson Orin Nano 傳送的決策控制指令。
-      - 整合運算上述感測數據與控制指令，生成精確的致動訊號。
-      - 驅動並控制前輪轉向伺服馬達（Steering Servo Motor）及後驅直流馬達（DC Motor），以實現車輛的精準轉向與行駛控制。
-
-    
-    <br></br>
-      __Purchase URL:[Raspberry Pi Pico w](https://piepie.com.tw/product/raspberry-pi-pico-w)__
+  __Purchase URL:[Raspberry Pi Pico w](https://piepie.com.tw/product/raspberry-pi-pico-w)__
     </td>
        <td >
     <img src="./img/Raspberry_Pi_Pico_W.png" width = "500"  alt="MG513-P30" align=center />   
       </td>
       </tr>
     </table>
-- #### MG513-P30 Rear-Drive DC Motor-MG513-P30 後驅直流馬達
+
+  - #### MG513-P30 Rear-Drive DC Motor-MG513-P30 後驅直流馬達
     <table border=0 width="100%" >
       <tr>
       <td> 
@@ -184,20 +129,8 @@
 
   __Uses in Competition：__
     - Responsible for receiving control signals from the motor driver controller L293D to adjust the vehicle's forward and reverse movements and control the rear wheel speed.
-    <br></br>
 
-    __產品規格：__
-    - 空載轉速： 366 轉/分鐘（rpm）
-    - 減速比： 1:30
-    - 工作電壓： 6 – 12V
-
-    __競賽中之應用：__
-    - 負責接收來自馬達驅動控制器 L293D 的控制訊號，以調整車輛的前進與後退動作，並控制後輪的轉速。
-    
-    ### 英文:
-    
-    <br></br>
-      __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
+  __Purchase URL:[MG513-P30 336RPM DC reduction motor](https://www.amazon.com/-/zh_TW/MG513-12V-%E6%B8%9B%E9%80%9F%E9%BD%92%E8%BC%AA%E9%A6%AC%E9%81%94%E7%B7%A8%E7%A2%BC%E5%99%A8%E4%BB%A3%E7%A2%BC%E9%80%9F%E5%BA%A6%E6%B8%AC%E9%87%8F-DIY-%E8%87%AA%E5%B9%B3%E8%A1%A1%E6%B1%BD%E8%BB%8A%E5%80%92%E7%BD%AE%E6%93%BA/dp/B0B3LXV4PL)__
     </td>
        <td >
     <img src="./img/Motor1.png" width = "500"  alt="MG513-P30" align=center />   
