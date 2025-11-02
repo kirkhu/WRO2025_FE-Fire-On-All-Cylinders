@@ -160,6 +160,7 @@
 
   __Uses in Competition：__
    - Responsible for receiving control values from the Raspberry Pi Pico to adjust the front wheel steering angle, enabling precise steering during driving.
+ <br></br>
 
   __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM" target="_blank">MG90s servo motor</a>__
     </td>
@@ -185,7 +186,7 @@
   __Uses in Competition：__  
    - Primarily responsible for driving the MG513 geared DC motor to control the vehicle’s forward and reverse movement, as well as the motor’s speed.
  <br></br>
- 
+
   __Purchase URL:<a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293D</a>__
     </td>
       <td>
@@ -200,15 +201,19 @@
       <td> 
 
   __Specifications:__
-     - Maximum Current: 45.5A  
-    - Net Weight: Approximately 107g  
-    - Rated Voltage: 11.1V
+   - Maximum Current: 45.5A  
+   - Net Weight: Approximately 107g  
+   - Rated Voltage: 11.1V
+   <br></br>
+  
   __Uses in Competition：__  
-    - Supply power to the vehicle for use.  
+   - Supply power to the vehicle for use.  
+ <br></br>
+
   __Purchase URL:<a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB" target="_blank">Li-Polymer 3S Battery</a>__
     </td>
     <td>
-    <img src="./img/lipo_battery.png" width = "250"  alt="Li-Polymer 3S Battery" align=center />  
+    <img src="./img/lipo_battery.png" width = "100%"  alt="Li-Polymer 3S Battery" align=center />  
     </td>
     </tr>
     </table>
@@ -219,12 +224,14 @@
       <td>
    
   __Specifications:__ 
-    - Operating Voltage: 3.3V - 5.0V  
-    - Number of Pins: 3  
-    - Output Signal: Digital  
+   - Operating Voltage: 3.3V - 5.0V  
+   - Number of Pins: 3  
+   - Output Signal: Digital  
+ <br></br>
 
   __Uses in Competition：__
-    - Control the vehicle's start and drive switch.
+   - Control the vehicle's start and drive switch.
+ <br></br>
 
   __Purchase URL:<a href="https://www.amazon.com/-/zh_TW/PLKXSEYUJ/dp/B0D4HZFM6S" target="_blank">Micro switch</a>__
     </td>
@@ -241,12 +248,14 @@
       <td> 
 
   __Specifications:__ 
-    - Input Voltage Range: 4 - 38V
-    - Output Voltage Range: 1.25 - 36V, continuously adjustable
-    - Output Current Range: Adjustable, maximum of 5A
+   - Input Voltage Range: 4 - 38V
+   - Output Voltage Range: 1.25 - 36V, continuously adjustable
+   - Output Current Range: Adjustable, maximum of 5A
+
+ <br></br>
 
   __Uses in Competition：__  
-    - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
+   - Primarily responsible for stepping down the battery voltage from 11.1V to 5V to provide various stable voltages needed for vehicle operation.
 
   __Purchase URL:<a href="https://shop.cpu.com.tw/product/57434/info/" target="_blank">ADIO-DC36V5A</a>__
     </td>
@@ -264,15 +273,17 @@
       <td>
 
   __Specifications:__
-    - Viewing Angle: 160 degrees
-    - pixels: 4056 x 3040
-    - Maximum aperture: F2.0
-    - Focal length: 7.9mm
-    - Interface: CSI (Camera Serial Interface)
-    - Operating Voltag：3.3V
+   - Viewing Angle: 160 degrees
+   - pixels: 4056 x 3040
+   - Maximum aperture: F2.0
+   - Focal length: 7.9mm
+   - Interface: CSI (Camera Serial Interface)
+   - Operating Voltag：3.3V
+ <br></br>
 
   __Uses in Competition：__  
-    - Responsible for capturing images and transmitting them to the Jetson Nano for image recognition to detect the presence of obstacles or boundary walls.
+   - Responsible for capturing images and transmitting them to the Jetson Nano for image recognition to detect the presence of obstacles or boundary walls.
+ <br></br>
 
   __Purchase URL:<a href="https://shopee.tw/%E7%8F%BE%E8%B2%A8-SONY-IMX477-%E6%94%9D%E5%BD%B1%E9%8F%A1%E9%A0%AD%E6%A8%A1%E7%B5%84-1230%E8%90%AC%E5%83%8F%E7%B4%A0-160%C2%B0%E5%BB%A3%E8%A7%92-%E6%94%AF%E6%8F%B4%E6%A8%B9%E8%8E%93%E6%B4%BECM3-4%E3%80%81Jetson-Nano-i.10207300.8215149686?srsltid=AfmBOor9HmpX2guySAnFvW5drNG4qJtdwx98_e6muraV4LUtXM50YR5Q" target="_blank">SONY IMX477</a>__
     </td>
@@ -288,12 +299,15 @@
       <td> 
 
   __Specifications:__
-    - 9-Axis Sensing: Includes accelerometer, gyroscope, and magnetometer for motion and orientation detection
-    - Operating Voltage: 3.6V - 5V
-    - Interface: Supports both I²C and UART, making it compatible with various devices
-    - Orientation Data: Provides direct angle data for accurate positioning
+   - 9-Axis Sensing: Includes accelerometer, gyroscope, and magnetometer for motion and orientation detection
+   - Operating Voltage: 3.6V - 5V
+   - Interface: Supports both I²C and UART, making it compatible with various devices
+   - Orientation Data: Provides direct angle data for accurate positioning
+  <br></br>
+
   __Uses in Competition：__  
-    - Responsible for detecting the vehicle's current orientation values, which are provided to the  Jetson Nano controller for processing and decision-making.
+   - Responsible for detecting the vehicle's current orientation values, which are provided to the  Jetson Nano controller for processing and decision-making.
+ <br></br>
 
   __Purchase URL:<a href="https://www.remisys.com.tw/product-page/bno055-absolute-orientation-sensor" target="_blank">BNO055</a>__
     </td>
@@ -309,15 +323,18 @@
       <td> 
 
   __Specifications:__
-    - Measuring Range: 2 cm to 400 cm, capable of detecting objects within a distance of 2 cm to 4 meters.
-    - Measurement Accuracy: Approximately 3 mm, with a margin of error around ±3 mm.
-    - Operating Voltage: 5V, powered by direct current.
-    - Ultrasonic Frequency: 40kHz, measuring distance by emitting a 40kHz ultrasonic signal.
-    - Transmission Interface: Includes Trig and Echo pins, where Trig sends out the ultrasonic signal and Echo receives the reflected signal to calculate the distance.
+   - Measuring Range: 2 cm to 400 cm, capable of detecting objects within a distance of 2 cm to 4 meters.
+   - Measurement Accuracy: Approximately 3 mm, with a margin of error around ±3 mm.
+   - Operating Voltage: 5V, powered by direct current.
+   - Ultrasonic Frequency: 40kHz, measuring distance by emitting a 40kHz ultrasonic signal.
+   - Transmission Interface: Includes Trig and Echo pins, where Trig sends out the ultrasonic signal and Echo receives the reflected signal to calculate the distance.
+ <br></br>
 
   __Uses in Competition：__  
     - The core function of this system is to acquire real-time measurement data from two sets of HC-SR04 ultrasonic distance sensors. Subsequently, this distance data is transmitted to the Raspberry Pi Pico W microcontroller for computational and decision-making processes, with the ultimate goal of achieving precise control over the vehicle's driving direction.
-  .tw/product/hc-sr04p-ultrasonic-ranger/" target="_blank">HC-SR04</a>__
+   <br></br>
+
+  __Purchase URL:<a href="https://www.icshop.com.tw/products/368030501146" target="_blank">HC-SR04</a>__
     </td>
        <td >
     <img src="../../schemes/HC-SR04/img/HC-SR04.png" width = "800"  alt="HC-SR04 ultrasonic distance sensor" align=center />    
