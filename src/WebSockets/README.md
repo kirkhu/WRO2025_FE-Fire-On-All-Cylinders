@@ -63,7 +63,7 @@
     </table>
 </div>
 
--Based on the preceding analysis, we have confirmed that the WebSockets protocol represents a persistent-connection, bidirectional, real-time communication technology. Unlike the request-response paradigm of the traditional HTTP protocol, WebSockets enable the client and server to establish an always-open, dedicated data channel. Both parties can actively push messages at any time, significantly eliminating transmission latency caused by repetitive connection establishment. Its inherent characteristics of high speed and low latency make it an ideal choice for systems requiring rapid response, such as real-time IoT device monitoring and robotic control applications.
+- Based on the preceding analysis, we have confirmed that the WebSockets protocol represents a persistent-connection, bidirectional, real-time communication technology. Unlike the request-response paradigm of the traditional HTTP protocol, WebSockets enable the client and server to establish an always-open, dedicated data channel. Both parties can actively push messages at any time, significantly eliminating transmission latency caused by repetitive connection establishment. Its inherent characteristics of high speed and low latency make it an ideal choice for systems requiring rapid response, such as real-time IoT device monitoring and robotic control applications.
 
 - From a software implementation perspective, this solution is highly feasible: the client side can utilize the JavaScript WebSocket object for connection, while the server side can flexibly implement the WebSocket service using mainstream technology stacks like Python (e.g., the WebSockets library or FastAPI framework), Node.js, or Go.
 
