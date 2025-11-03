@@ -36,7 +36,7 @@
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
     - [3-1 Software Platform Construction 缺圖](src/System_Platform_Software/README.md)
-    - [3-2 OpenCV Introduction ](src/OpenCV/README.md)
+    - [3-2 OpenCV Introduction OK ](src/OpenCV/README.md)
      - __3-4 Image Recognition Processing and Steering__
       - [3-4-1 Image Recognition Processing OK](src/Image_Recognition_Processing/README.md)
       - [3-4-2 Parking Lot Departure Steering Control Overview OK](src/Overview_of_Parking_Lot_Departure_Steering_Control/README.md) 
