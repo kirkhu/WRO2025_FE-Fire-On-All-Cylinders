@@ -3,7 +3,7 @@
 ## <div align="center">Software Platform Construction </div> 
 - ### __Installing System Software Required for Self-Driving Cars__
 
-   - ### Self-Driving Car Operating System Installation Flowchart-系統安裝流程圖
+   - ### Self-Driving Car Operating System Installation Flowchart
 
    <div align=center>
    <img src="./img/Orin_System_Installation.jpg" width="100%" />
@@ -11,9 +11,7 @@
 
    - ### Installing the Operating System on Nvidia Jetson Orin Nano
 
-      - #### Preparation Before Installation - 操作前的準備
-         - 請配置或備妥一台運行 Ubuntu 作業系統的實體主機。 嚴禁使用任何虛擬化環境 (如虛擬機) 來執行相關任務。
-         - 務必確認您的 Jetson Orin Nano 已妥善安裝固態硬碟 (SSD)。
+      - #### Preparation Before Installation
          - Please prepare or configure a physical host machine running the Ubuntu operating system. The use of any virtualization environment (such as a virtual machine) for executing the relevant tasks is strictly prohibited.
          - Please ensure that a Solid-State Drive (SSD) is properly installed on your Jetson Orin Nano.
 
@@ -23,13 +21,10 @@
 
           <div align=center><img src="./img/NVIDIA SDK Manager Download Page.png" width="80%"></div>
 
-         - Double-click the installation package to install, and upon completion and successful login, launching the application will display the following screen雙擊安裝包開始安裝，安裝完成後，登入並開啟（應用程式），即可看到以下畫面 
-          <div align=center><img src="./img/Start SDK Manager Page.png" width="80%"></div>
-
+         - Double-click the installation package to install, and upon completion and successful login, launching the application will display the following screen.
    
       - #### JetPack Software Version Installation, Upgrade, and Downgrade Guide
 
-         - SDK Manager 是 NVIDIA 的官方工具，可為 Jetson 主機執行 JetPack 版本的安裝、升級與降級。操作前請先將 Nvidia Jetson Orin Nano 切換至 Recovery Mode 並依指示接通電源與連線。以下為 SDK Manager 的操作流程。
          - SDK Manager is an official tool from NVIDIA that allows you to install, upgrade, or downgrade JetPack versions on Jetson devices. Before proceeding, please switch the Nvidia Jetson Orin Nano to Recovery Mode and follow the instructions to connect the power and establish a connection. Below is the operation procedure for SDK Manager.
          
          <div align=center><img src="./img/20250930_212433.jpg" width="80%" /></div>
@@ -134,7 +129,7 @@
       ```
       - __OpenCV Installation Instructions, please refer to Section [3-2 OpenCV Introduction](../OpenCV/README.md)-"安裝Open CV 說明，參考3-2 OpenCV Introduction單元"__
 
-      - Setting up Program Automatic Startup 程式開機自動啟動設定 **程序自啟動**設置 -> 需要下載 __[Set_Auto_Run.sh](./code/Set_Auto_Run.sh)__
+      - Setting up Program Automatic Startup  Download __[Set_Auto_Run.sh](./code/Set_Auto_Run.sh)__ to run
       ```bash
       sudo bash ./Set_Auto_Run.sh
       ```
