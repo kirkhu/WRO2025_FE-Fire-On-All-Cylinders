@@ -71,6 +71,8 @@
 
 - In the Self-Driving Cars architecture for this competition, we successfully deployed the WebSockets protocol to achieve efficient information exchange between the Jetson Orin Nano (acting as the main controller) and the Raspberry Pi Pico W (serving as the subordinate controller). This includes the transmission of precise chassis control parameters and the real-time return of sensor data. Through this stable and low-latency communication framework, we have significantly enhanced the vehicle's response speed and overall control accuracy.
 
+- To ensure the exclusivity and stability of the communication channel, we have decided to configure the **main controller, the Jetson Orin Nano** system, to operate in **Access Point (AP) Mode**. By establishing this independent local area network environment, we enable the **subordinate controller, the Raspberry Pi Pico W**, to reliably connect as a client (Station Mode), thereby establishing the high-performance WebSockets transmission channel upon it. This deployment strategy effectively isolates external network interference, ensuring the **exclusivity and low-latency operation** of the autonomous vehicle system's internal communication.
+
 
 
 
