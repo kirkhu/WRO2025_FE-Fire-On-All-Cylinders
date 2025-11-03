@@ -1,13 +1,15 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 ## <div align="center">3D Vehicle Model Design -3D車輛模型設計</div>
-- 根據去年的經驗，我們將自駕車的長度由原本的21公分縮短至17公分，不僅大幅提升了停車的靈活性，也讓車輛能更自如地穿梭於狹小空間中。為更有效應對當前的競賽任務，我們對自駕車的設計與結構進行了全面調整與優化，顯著提升了整體性能與運行穩定性。
+- 我們的隊員胡賢邑，憑藉多年參與 WRO未來工程師挑戰賽（WRO Future Engineers Category）的經驗，在機械結構設計與 車輛控制程式（Vehicle’s control program）優化方面，累積了扎實的實戰基礎，鑒於每年競賽主題與規則的調整 ，特別是今年新增了在障礙賽回合中（Obstacle Challenge rounds）執行 平行停車（parallel parking）及從 起始區（含停車場）（starting section (including the parking lot)）出發的任務 。我們評估發現，若沿用去年車身寬9.8公分、長18.5公分的設計，將不利於執行停車動作，因為規則規定停車區的長度為車輛長度的1.5倍 。因此，我們決定將 自駕車（Vehicle）的長度從18.5公分調整延長至23.4公分，並將車身形狀改為橢圓設計。此優化不僅顯著提升了停車的靈活性，也使車輛在通過狹窄通道（a narrow corridor）時更加順暢，總體而言，為更有效地完成當前競賽任務，我們對自駕車的整體設計與機械結構進行了全面性調整與優化，顯著提升了車輛的整體性能與運行穩定性。
 
 - 本次比賽所使用的車輛底盤是我們自行研發的內部設計。接下來將介紹車輛底盤的設計與製作過程。
 
 - 我們使用 Onshape 設計車輛的 3D 模型結構，並根據底盤的特性，利用激光切割機和立體光刻（SLA）3D 打印機等設備製造所需的車輛零部件。
 
-- Based on last year's experience, we shortened the length of the self-driving car from 21 cm to 17 cm, which significantly improved parking flexibility and allowed the vehicle to move more freely in narrow spaces. To better respond to the current competition tasks, we comprehensively adjusted and optimized the design and structure of the car, greatly enhancing its overall performance and operational stability.
+- Our teammate, Hu Xianyi, possesses a solid foundation of practical experience in mechanical design and **Vehicle’s control program** optimization, leveraged from years of participation in the **WRO Future Engineers Category**.
+- Considering the annual changes to the competition themes and rules, particularly the addition this year of executing **parallel parking**  during **Obstacle Challenge rounds**  and starting from the **starting section (including the parking lot)**. We determined that reusing last year's vehicle design (9.8 cm wide, 18.5 cm long) would be disadvantageous for the parking maneuver, as the rules stipulate that the parking lot length is $1.5 \times$ the length of the robot. Consequently, we decided to modify and extend the length of our **Self-Driving Car**from the original 18.5 cm to 23.4 cm, and adopt an ellipsoidal body shape. This optimization not only significantly enhances parking flexibility but also allows the vehicle to navigate a **narrow corridor**  more smoothly.
+- Overall, to more effectively complete the current competition tasks, we conducted a comprehensive adjustment and optimization of the vehicle's design and mechanical structure, leading to a notable improvement in the vehicle's overall performance and operational stability.
 
 - The vehicle chassis used in this competition is our in-house, self-developed design. The following will introduce the vehicle chassis design and production process.
 
@@ -15,13 +17,13 @@
 <div align=center>
     <table>
     <tr>
-    <th width=30%><div align=center>2024 Before shortening (縮短前) </th>
-    <th width=30%><div align=center>2025 After shortening (縮短後) </th>
+    <th width=30%><div align=center>2024 Before shortening </th>
+    <th width=30%><div align=center>2025 After shortening</th>
     <th width=30%><div align=center>2025 最終出賽機型</th>
     </tr><tr>
-    <td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="500" alt="Vehicle_cad"></td> 
-    <td><img src="../../v-photos/img/right.png" width="500" alt="vehicle Underfloor"></td> 
-    <td><img src="../../schemes/Vehicle_Chassis_Design/img/International_competition_machine.png" width=250 alt="最終出賽機型"></td>
+    <td><img src="./img/2024_Before_Shortening.png"  width="500" alt="Vehicle_cad"></td> 
+    <td><img src="./img/2025_After_Shortening.png" width="500" alt="vehicle Underfloor"></td> 
+    <td><img src="./img/2025_Final_Model.png" width=250 alt="Final Model"></td>
     </tr>
     </table>
  </div> 
@@ -100,9 +102,9 @@
     <th><div align=center>Vehicle Mid-Deck(車輛中層板)</th>
     <th><div align=center>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
-    <td><img src="./Vehicle_Chassis_Sizse/img/2D_bottom.jpg" height=150 alt=" 2D_bottom"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/2D_mid.jpg" height=150 alt=" 2D_mid"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/2D_top.jpg" height=150 alt=" 2D_top"></td>
+    <td><img src="./Vehicle_Chassis_Sizse/img/2D_bottom_size.jpg" height=150 alt=" 2D_bottom"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/2D_mid_size.jpg" height=150 alt=" 2D_mid"></td> 
+    <td><img src="./Vehicle_Chassis_Sizse/img/2D_top_size.jpg" height=150 alt=" 2D_top"></td>
     </tr>
     </table>
     </div> 
@@ -257,7 +259,7 @@
           <tr>
             <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size1.png" width=400 /></td>
             <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering_Rod_Size.png" width=400 /></td>
-            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering Linkage.png" width=400 /></td>
+            <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering_Linkage.png" width=400 /></td>
           </tr>
         </table>
       </div>
@@ -284,8 +286,8 @@
             <th>鏡頭固定板</th>
           </tr>
           <tr>
-            <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens holder body size.jpg" width=450 /></td>
-            <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens mounting plate size.jpg" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens_holder_body_size.jpg" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens_mounting_plate_size.jpg" width=450 /></td>
           </tr>
         </table>
       </div>
@@ -301,7 +303,7 @@
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Assembly.png" width=300 /></td>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle1.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering-Knuckle.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Bearing-Holder.png" width=300 /></td>
           </tr>
         </table>
@@ -315,7 +317,7 @@
             <th>Steering rod</th>
           </tr>
           <tr>
-            <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder1.png" width=300 /></td>
+            <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Motor steering rod.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width=300 /></td>
           </tr>
@@ -430,5 +432,4 @@
 
    
 
-# <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
-  
+# <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
