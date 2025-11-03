@@ -127,7 +127,7 @@
       sudo dkms install -m rtl88x2bu -v git
 
       ```
-      - __OpenCV Installation Instructions, please refer to Section [3-2 OpenCV Introduction](../OpenCV/README.md)-"安裝Open CV 說明，參考3-2 OpenCV Introduction單元"__
+      - __OpenCV Installation Instructions, please refer to Section [3-2 OpenCV Introduction](../OpenCV/README.md)__
 
       - Setting up Program Automatic Startup  Download __[Set_Auto_Run.sh](./code/Set_Auto_Run.sh)__ to run
       ```bash
