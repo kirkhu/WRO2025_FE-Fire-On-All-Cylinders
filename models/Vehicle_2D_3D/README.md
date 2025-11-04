@@ -3,23 +3,27 @@
 ## <div align="center">3D Vehicle Model Design -3D車輛模型設計</div>
 - 我們的隊員胡賢邑，憑藉多年參與 WRO未來工程師挑戰賽（WRO Future Engineers Category）的經驗，在機械結構設計與 車輛控制程式（Vehicle’s control program）優化方面，累積了扎實的實戰基礎，鑒於每年競賽主題與規則的調整 ，特別是今年新增了在障礙賽回合中（Obstacle Challenge rounds）執行 平行停車（parallel parking）及從 起始區（含停車場）（starting section (including the parking lot)）出發的任務 。我們評估發現，若沿用去年車身寬9.8公分、長18.5公分的設計，將不利於執行停車動作，因為規則規定停車區的長度為車輛長度的1.5倍 。因此，我們決定將 自駕車（Vehicle）的長度從18.5公分調整延長至23.4公分，並將車身形狀改為橢圓設計。此優化不僅顯著提升了停車的靈活性，也使車輛在通過狹窄通道（a narrow corridor）時更加順暢，總體而言，為更有效地完成當前競賽任務，我們對自駕車的整體設計與機械結構進行了全面性調整與優化，顯著提升了車輛的整體性能與運行穩定性。
 
-- 本次比賽所使用的車輛底盤是我們自行研發的內部設計。接下來將介紹車輛底盤的設計與製作過程。
+- 在本次競賽中，我們沿用了先前製造車輛所累積的設備與技術基礎。其中，**自駕車**（Self-Driving-Cars）的核心組件——**底盤**（Chassis），是完全由我們團隊自行研發設計而成，以確保技術的獨立性與高度客製化能力。
 
-- 我們使用 Onshape 設計車輛的 3D 模型結構，並根據底盤的特性，利用激光切割機和立體光刻（SLA）3D 打印機等設備製造所需的車輛零部件。
+- 在設計方面，我們使用 **Onshape** 進行車輛的 **3D 模型結構** 設計。接著，我們根據底盤的特性與組件需求，利用 **激光切割機**（Laser Cutting Machine）和 **立體光刻（SLA）3D 打印機**（SLA 3D Printer）等精密製造設備，製作出所需的車輛零部件。
+
+- 接下來，我們將詳細介紹本次競賽中自駕車（Self-Driving-Cars）底盤（Chassis）的設計理念與精密的製作過程。
 
 - Our teammate, Hu Xianyi, possesses a solid foundation of practical experience in mechanical design and **Vehicle’s control program** optimization, leveraged from years of participation in the **WRO Future Engineers Category**.
 - Considering the annual changes to the competition themes and rules, particularly the addition this year of executing **parallel parking**  during **Obstacle Challenge rounds**  and starting from the **starting section (including the parking lot)**. We determined that reusing last year's vehicle design (9.8 cm wide, 18.5 cm long) would be disadvantageous for the parking maneuver, as the rules stipulate that the parking lot length is $1.5 \times$ the length of the robot. Consequently, we decided to modify and extend the length of our **Self-Driving Car**from the original 18.5 cm to 23.4 cm, and adopt an ellipsoidal body shape. This optimization not only significantly enhances parking flexibility but also allows the vehicle to navigate a **narrow corridor**  more smoothly.
 - Overall, to more effectively complete the current competition tasks, we conducted a comprehensive adjustment and optimization of the vehicle's design and mechanical structure, leading to a notable improvement in the vehicle's overall performance and operational stability.
+- For this competition, we continued to utilize the foundational equipment and technical expertise accumulated from our previous vehicle builds. Critically, the core component of our **Self-Driving Car**—the **chassis**—was entirely developed and designed in-house by our team, ensuring technical independence and high customizability.
 
-- The vehicle chassis used in this competition is our in-house, self-developed design. The following will introduce the vehicle chassis design and production process.
+- Regarding the design process, we used **Onshape** to create the vehicle's **3D model structure**. Subsequently, based on the characteristics of the chassis and component requirements, we utilized precision manufacturing equipment such as a **Laser Cutting Machine** and a **Stereolithography (SLA) 3D Printer** to fabricate the necessary vehicle components.
 
-- We use Onshape to design the 3D model structure of the vehicle, and based on the chassis's characteristics, we manufacture the necessary vehicle parts using equipment such as laser cutting machines and Stereolithography (SLA) 3D Printer.
+- **Next, we will provide a detailed introduction to the design philosophy and precise fabrication process of the chassis for our Self-Driving Car in this competition.**
+
 <div align=center>
     <table>
     <tr>
-    <th width=30%><div align=center>2024 Before shortening </th>
-    <th width=30%><div align=center>2025 After shortening</th>
-    <th width=30%><div align=center>2025 最終出賽機型</th>
+    <th width=30%><div align=center>2024 Season Competition Self-Driving Car Prototype 2024世界賽機型 </th>
+    <th width=30%><div align=center>2025 WRO Taiwan Final Self-Driving Car Prototype</th>
+    <th width=30%><div align=center>2025 WRO World Final Competition Prototype 2025 世界賽最終出賽機型</th>
     </tr><tr>
     <td><img src="./img/2024_Before_Shortening.png"  width="500" alt="Vehicle_cad"></td> 
     <td><img src="./img/2025_After_Shortening.png" width="500" alt="vehicle Underfloor"></td> 
@@ -28,16 +32,16 @@
     </table>
  </div> 
 
-- ### Onshape Model Draft -Onshape 模型草圖
-  - #### 3D modeling software  Onshape Introduction -3D 建模軟體  Onshape 介紹
-    #### 中文
-    - 我們使用 Onshape 來設計自駕車的 3D 模型。Onshape 是一款免費且易於使用的網頁版 CAD 軟體。
-    - 在 Onshape 建立模型後，可以輸出 2D 尺寸圖，接著可將其送至雷射切割機進行切割，或轉換後送至 3D 印表機進行列印。
-    - 本次比賽所製作的所有 3D／2D 車輛模型皆使用 OnShape 設計完成。
-    #### 英文
-    - We use Onshape to design 3D models of self-driving cars. Onshape is a free and easy-to-use web-based CAD software.
-    - After creating a model in Onshape, you can output a 2D dimension drawing, which can then be sent to a laser-cutting machine for cutting or converted and sent to a 3D printer for output.
-    - All 3D/2D vehicle models created for this competition were designed in OnShape.
+- ### Onshape 3D Model Structure Sketch -Onshape 模型草圖
+  - #### 3D Modeling Software Onshape Introduction -3D 建模軟體  Onshape 介紹
+    * 我們選擇使用 **Onshape** [cite: 981, 982] 來設計 **自駕車** [cite: 1] 的 **3D 模型結構** ，這是一款免費且易於操作的網頁版 CAD 軟體。
+    * 在 **Onshape** 完成模型建立後，我們能夠輸出所需的 **2D 尺寸圖** 。這些圖檔可直接用於 **激光切割機** [cite: 593]（Laser Cutting Machine）進行切割，或轉換為適當格式後送至 **3D 打印機** （3D Printer）進行零件製造。
+    * 本次競賽中所需的所有 **3D/2D 車輛模型** ，均透過 **Onshape** 平台設計完成。
+
+    * We chose **Onshape** [cite: 981, 982] to design the **3D model structure**  of our **Self-Driving Car**[cite: 1]. It is a free and user-friendly web-based CAD software.
+    * After completing the model creation in **Onshape**, we can output the necessary **2D dimension drawings**. These files can then be sent directly to a **Laser Cutting Machine** [cite: 593] for cutting, or converted and sent to a **3D Printer** for part fabrication.
+    * All **3D/2D vehicle models**  required for this competition were designed entirely using the **Onshape** platform.
+
     - Software Website：[Onshape](https://www.onshape.com/en/) 
     <div align=center>
     <table>
@@ -62,10 +66,10 @@
     <th><div align=center>Vehicle Mid-Deck(車輛中層板)</th>
     <th><div align=center>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
-    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png" width="300" alt="Vehicle_cad"></td> 
-    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png" height="150"  alt="vehicle Underfloor"></td> 
-    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" height="150" alt="Vehicle_Mid_deck"></td> 
-    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png" height="150" alt="Vehicle_Top_Deck"></td> 
+    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_cad.png"  alt="Vehicle_cad"></td> 
+    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/vehicle_Underfloor.png"   alt="vehicle Underfloor"></td> 
+    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Mid_deck.png" alt="Vehicle_Mid_deck"></td> 
+    <td align="center" width="25%"><img src="./Vehicle_Chassis_Sizse/img/Vehicle_Top_Deck.png"  alt="Vehicle_Top_Deck"></td> 
     </tr>
     </table>
     </div> 
@@ -76,25 +80,41 @@
     <th><div align=center>3D Vehicle Chassis Models (車輛底盤 3D 模型)</th>
     </tr><tr>
     <td width="50%"><div align=center><img src="./Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" height=300 ></td> 
-    <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png" width="450"  ></td> 
+    <td width="50%"><img src="./Vehicle_Chassis_CAD_File/img/onshape_3D_model_CAD.png"   ></td> 
     </tr>
     </table>
     </div> 
 
   - #### The Production of Vehicle Chassis Panels Introduction - Using a laser-cutting machine -車輛底盤板件製作簡介 — 使用雷射切割機
   #### 中文:
-    - 雷射切割機是一種利用雷射光束來切割材料的設備。雷射光束具有高能量密度，能夠快速且精確地切割各種材料，包括木材、金屬、塑膠、紙張等。
-    - 我們使用學校提供的雷射切割機，製作車輛底盤所需的「車輛底板」、「車輛中層板」與「車輛頂層板」。我們依照自行設計的車輛平面尺寸圖，切割厚度為 3mm 的木板。
-    - 我們選用較輕的木板作為車輛平面結構的材料，以降低車輛的整體重量。
-    - 在設計車輛結構時，我們首先使用 3D 建模軟體 Onshape 來創建設計草圖並生成工程圖（DXF 文件）。這些圖紙隨後被匯入雷射切割機的編輯軟體（LaserWorkV）進行詳細調整。最後，根據設計草圖，我們描繪出切割線並將木板切割成形。
-    #### 英文:
-    - A laser-cutting machine is a device that utilizes a laser beam to cut materials. The laser beam has high energy density and can cut a variety of materials, including wood, metal, plastic, paper, and more, quickly and precisely.
-    - We use the laser-Cutting machine provided by the school to produce the 'vehicle underfloor,' 'vehicle mid-deck,' and 'vehicle top deck' required for the vehicle chassis. We cut 3mm thick wooden boards according to the self-designed vehicle flat panel dimensions chart.  
-    - We use lighter-weight wooden boards as the material for vehicle flat panels to reduce the vehicle's weight. 
-    - When designing the vehicle structure, we first used 3D modeling software Onshape to create draft designs and generate engineering drawings (DXF files). These drawings were then imported into the laser cutter's editing software (LaserWorkV) for detailed adjustments. Finally, based on the design drafts, we outlined the lines and cut the wooden boards into shape.
+    - 為了應對新的競賽規則（例如新增的平行停車任務 ），我們不僅將 自駕車（Vehicle）的車身進行了加長 ，同時也優化了轉向結構（Steering Motor ）。因此，車輛底盤 的結構和尺寸也必須進行相應的全面調整，以更好地適應和支撐新系統的需求。
+    - **雷射切割機的應用與製造流程**
+      - 雷射切割機（Laser Cutting Machine）是一種利用高能量密度的雷射光束來精確切割材料的設備，能夠快速處理木材、金屬、塑膠、紙張等多種材料。
+      - 我們利用學校提供的雷射切割機，製作了 自駕車（Self-Driving-Cars）底盤 的主要平面結構件，包括：車輛底板、車輛中層板、與車輛頂層板。
 
- 
-  - #### Vehicle Chassis Panels Dimensions Chart -車輛底盤板件尺寸圖表
+      - **材料選用與設計整合：**
+        - 我們選用厚度為 3mm 的輕質木板 作為車輛平面結構的材料，這有助於有效降低車輛的整體重量。
+        - 在設計流程上，我們首先使用 Onshape 這款 3D 建模軟體來創建設計草圖，並生成工程圖文件（DXF 格式）。
+        - 隨後，這些圖紙會被匯入雷射切割機的編輯軟體（LaserWorkV）中進行細部調整。
+        - 最後，根據精確的設計草圖描繪出切割線，將輕質木板精確切割成所需的車輛底盤組件。
+  #### 英文: 
+    - To accommodate the new competition rules (such as the added parallel parking task ), we not only extended the length of the **Vehicle body** but also optimized the **Steering structure** . Consequently, the structure and dimensions of the vehicle chassis were comprehensively adjusted to better meet the requirements of the new system.
+    
+    - **Application and Manufacturing Process of the Laser Cutting Machine**
+      - A Laser Cutting Machine is an equipment that utilizes a high-energy-density laser beam to precisely cut materials. It is capable of rapidly processing various materials, including wood, metal, plastic, and paper.
+
+      - We utilized the laser cutting machine provided by our school to manufacture the main planar structural components of the Self-Driving Car's chassis, including the Vehicle Bottom Plate, the Vehicle Middle Plate, and the Vehicle Top Plate.
+      - **Material Selection and Design Integration:** 
+        - We selected 3mm thick lightweight wood panels as the material for the vehicle's planar structures, which helps to effectively reduce the overall weight of the vehicle.
+
+        - In the design process, we first used the 3D modeling software Onshape to create the design sketch and generate engineering drawing files (DXF format).
+
+        - Subsequently, these drawings were imported into the laser cutting machine's editing software (LaserWorkV) for detailed adjustments.
+
+        - Finally, the cutting lines were traced according to the precise design sketch, and the lightweight wood panels were accurately cut into the required vehicle chassis components.
+
+
+   - #### Vehicle Chassis Panels Dimensions Chart -車輛底盤板件尺寸圖表
     <div align=center>
     <table>
     <tr>
@@ -102,9 +122,9 @@
     <th><div align=center>Vehicle Mid-Deck(車輛中層板)</th>
     <th><div align=center>Vehicle Top Deck(車輛頂層板)</th>
     </tr><tr>
-    <td><img src="./Vehicle_Chassis_Sizse/img/2D_bottom_size.jpg" height=150 alt=" 2D_bottom"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/2D_mid_size.jpg" height=150 alt=" 2D_mid"></td> 
-    <td><img src="./Vehicle_Chassis_Sizse/img/2D_top_size.jpg" height=150 alt=" 2D_top"></td>
+    <td width="30%"><img src="./Vehicle_Chassis_Sizse/img/2D_bottom_size.jpg"  alt=" 2D_bottom"></td> 
+    <td width="30%"><img src="./Vehicle_Chassis_Sizse/img/2D_mid_size.jpg"  alt=" 2D_mid"></td> 
+    <td width="30%"><img src="./Vehicle_Chassis_Sizse/img/2D_top_size.jpg"  alt=" 2D_top"></td>
     </tr>
     </table>
     </div> 
@@ -128,17 +148,26 @@
     <div align="center"><img src="./img/operate_Rachel.jpg" width="400" alt="car_board"></div>
 
  - ###  3D Vehicle Model - Onshape Model Sketch-3D 車輛模型 — Onshape 模型草圖
- - #### 中文:
-     - 我們使用 Onshape 進行設計，並使用光固化（SLA）3D 印表機製作本次競賽所需的車輛底盤 3D 列印零件。  其設計與製作流程如下：
- - #### 英文:   
-     - We used Onshape for the design and employed a Stereolithography (SLA) 3D Printer to manufacture the 3D-printed parts for the vehicle chassis needed for this competition. The design and production process is as follows:
+ - #### Design and Fabrication Process for Stereolithography (SLA) 3D Printed Parts 光固化（SLA）3D 打印零件的設計與製作流程
+  
+     - 我們主要使用 Onshape 進行 3D 模型結構 設計 。接著，我們利用 光固化（SLA）3D 打印機（Stereolithography (SLA) 3D Printer）來製作本次競賽所需的車輛底盤 3D 列印零件，其設計與製作流程如下：
+
+     - We primarily used Onshape for designing the 3D model structure. Subsequently, we utilized a Stereolithography (SLA) 3D Printer to fabricate the 3D printed parts for the vehicle chassis required for this competition.The design and fabrication process is as follows:
+     
     - #### The usage and introduction of Stereolithography (SLA) 3D printers -光固化（SLA）3D 印表機的使用與介紹
-    - #### 中文:
-      - 光固化（SLA）3D 列印技術使用液態感光樹脂作為材料，並透過雷射固化的方式逐層成型。SLA 印表機擅長製作高精度且幾何結構複雜的零件，特別適合用於對細節要求較高的原型製作與模型開發。
-      - 為了解決去年所使用的 SLA 3D 印表機在列印範圍與品質上的限制，我們特別採用了 8K 解析度的 SLA 3D 印表機（Phrozen Sonic Mini 8K）與紫外線固化箱，以提升列印品質與精度。
-      - #### 英文:
-      - Stereolithography (SLA) 3D printing technology uses liquid photosensitive resin as the material and forms objects layer by layer through laser curing.  SLA printers excel in producing high-precision parts with complex geometries, making them especially suitable for prototyping and model making where fine details are required.
-      - To address the limitations in printing range and quality of last year's SLA 3D printer, we specifically adopted an 8K resolution SLA 3D printer (Phrozen Sonic Mini 8K) and an ultraviolet curing box to enhance print quality and precision.
+      * **光固化（SLA）技術特性與設備升級** 
+        - 技術特性： 光固化（SLA）3D 列印技術 使用液態感光樹脂作為材料，並透過雷射（或高解析度光）固化的方式逐層成型。SLA 打印機擅長製作高精度且幾何結構複雜的零件，特別適合用於對細節要求較高的原型製作與模型開發。
+
+        - 設備升級： 為了克服去年所使用的 SLA 3D 打印機在列印範圍與品質上的限制，我們特別採用了配備 10.1 吋 14K 解析度 的大尺寸 SLA 3D 打印機（Phrozen Sonic Mighty Revo 14K），並搭配紫外線固化箱。
+
+        - 效益： 此次設備升級顯著提升了零件的列印品質與精度，確保我們能製造出符合 自駕車 嚴格結構要求的客製化組件。
+      * **Stereolithography (SLA) Technology and Equipment Upgrade**
+        - Technology Features: Stereolithography (SLA) 3D printing technology uses liquid photosensitive resin as the material and cures it layer by layer using a laser (or high-resolution light). SLA printers excel at producing parts with high precision and complex geometric structures, making them particularly suitable for prototyping and model development that require high detail.
+
+        - Equipment Upgrade: To address the limitations in printing area and quality of the SLA 3D printer used last year, we specifically adopted a large-format SLA 3D printer featuring a 10.1-inch 14K resolution (Phrozen Sonic Mighty Revo 14K), complemented by a UV curing station.
+
+        - Benefit: This equipment upgrade significantly enhanced the printing quality and precision of the components, ensuring we can manufacture customized parts that meet the stringent structural requirements of the Self-Driving Car.
+
       - #### 中文:
       - SLA 3D 印表機的使用流程通常包含以下幾個步驟：
 
@@ -160,40 +189,52 @@
       
           SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial desgn. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
 
-      - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer-堆疊式3D列印機與立體光固化（SLA）3D列印機的比較
+      - #### Comparison between Phrozen Sonic Mini 8K and  Stereolithography (SLA) 3D Printer-堆疊式3D列印機與立體光固化（SLA）3D列印機的比較
       
-         透過對3D車用零件進行實際列印與操作比較，我們得出以下結論：
+        透過對 Phrozen Sonic Mini 8K 與 Phrozen Sonic Mighty Revo 14K 兩款 立體光固化（SLA）3D 打印機 進行實際列印與操作比較，我們得出了以下結論：
 
-         By conducting practical printing and operation comparisons of the 3D vehicle parts, we have reached the following conclusions:
-        <div align="center">
-        <table>
-        <tr align="center">
-        <th rowspan="2">Photo (照片)</th>
-        <th> Stereolithography (SLA) 3D Printer(Phrozen Sonic Mini 8K) (立體光固化（SLA）3D列印機（Phrozen Sonic Mini 8K）)</th>
-        <th> Stereolithography (SLA) 3D Printer (Phrozen Sonic Mighty Revo)（立體光固化（SLA）3D列印機（Phrozen Sonic Mighty Revo））</th>
-        </tr><tr align="center">
-        <td><img src="./img/Stereolithography_3D_Printer.png" width="320" alt="Stereolithography_3D_Printer"></td>
-        <td><img src="./img/SonicMighty14KRevo_1400x1600_1.png" width="300" alt="" ></td>
-        </tr><tr align="">
-        <td>The required printing time (所需列印時間)</td>
-        <td>較短</td>
-        <td>較長</td>
-        </tr><tr>
-        <td>printing precision(印刷精度)</td>
-        <td>低</td>
-        <td>高</td>
-        </tr><tr>
-        <td>Hardness(硬度)</td>
-        <td>較低</td>
-        <td>較高</td>
-        </tr>
-        </tr><tr>
-        <td>Size dimensions（尺寸規格) </td>
-        <td>僅支持小規格物件，略粗糙</td>
-        <td>可支持大規格物件，精細</td>
-        </tr>
-        </table>
-        </div>
+        Based on a practical printing and operational comparison between the Phrozen Sonic Mini 8K and the Phrozen Sonic Mighty Revo 14K Stereolithography (SLA) 3D Printers, we have reached the following conclusions:
+
+        - #### Phrozen Sonic 系列 SLA 3D 打印機比較
+        | 機型 | Phrozen Sonic Mini 8K | Phrozen Sonic Mighty Revo 14K |
+        | :--- | :--- | :--- |
+        | Photo |<img src="./img/Stereolithography_3D_Printer.png" width="320" alt="Phrozen Sonic Mini 8K"> | <img src="./img/SonicMighty14KRevo_1400x1600_1.png" width="300" alt="Phrozen Sonic Mighty Revo 14K" >|
+        | **主要特性** | 去年使用的機型，在列印範圍與品質上有一定限制 。 | 本次競賽特別採用的大尺寸、高解析度機型 。 |
+        | **列印尺寸** | 標準列印尺寸，相對較小。 | **大尺寸** 列印範圍（10.1 吋）。 |
+        | **解析度** | 高解析度（8K）。 | **極高解析度（14K）** 。 |
+        | **列印品質** | 品質良好，但相對 **14K** 機型細節表現有限。 | 顯著**提升列印品質與精度**，適合對細節要求更高的組件 。 |
+        | **適用性** | 適合較小、細節要求一般的原型零件。 | 適合**大尺寸**、**高精度**、**複雜幾何結構**的自駕車零件 。 |
+
+        **選擇 Sonic Mighty Revo 14K 的主要原因**
+
+        我們在本次競賽中採用 **Phrozen Sonic Mighty Revo 14K** 的決策，主要是為了克服去年 **Sonic Mini 8K** 在列印上的兩大限制 ：
+        1.  **擴大列印範圍：** 應對自駕車底盤加長後，部分零件可能需要的較大尺寸 。
+        2.  **提升精度與品質：** 確保製造出的客製化組件（例如轉向結構零件）具備最高的**細節精度**和**結構穩定性**，以符合自駕車的嚴格結構要求 。
+
+       
+
+
+        - #### Comparison of Phrozen Sonic Series SLA 3D Printers
+        | Model | Phrozen Sonic Mini 8K | Phrozen Sonic Mighty Revo 14K |
+        | :--- | :--- | :--- |
+        | Photo |<img src="./img/Stereolithography_3D_Printer.png" width="320" alt="Phrozen Sonic Mini 8K"> | <img src="./img/SonicMighty14KRevo_1400x1600_1.png" width="300" alt="Phrozen Sonic Mighty Revo 14K" >|
+        | **Main Feature** | The model used last year, which had limitations in printing area and quality. | The large-format, high-resolution model specifically adopted for this competition. |
+        | **Print Size** | Standard print size, relatively smaller. | **Large-format** printing area (10.1 inches). |
+        | **Resolution** | High resolution (8K). | **Ultra-high resolution (14K)**. |
+        | **Print Quality** | Good quality, but limited detail performance compared to the **14K** model. | Significantly **improved printing quality and precision**, suitable for components requiring higher detail. |
+        | **Applicability** | Suitable for smaller prototype parts with moderate detail requirements. | Ideal for **large-sized**, **high-precision**, and **complex geometric structure** parts of the Self-Driving Car. |
+
+        **Primary Rationale for Choosing the Sonic Mighty Revo 14K**
+
+        Our decision to adopt the **Phrozen Sonic Mighty Revo 14K** for this competition was mainly to overcome two limitations encountered with the previous **Sonic Mini 8K** model:
+
+        1.  **Expanded Printing Area:** To accommodate the larger size required for some components after the Self-Driving Car chassis was extended.
+        2.  **Enhanced Precision and Quality:** To ensure that the manufactured custom components (e.g., steering mechanism parts) possess the highest **detail accuracy** and **structural stability**, thereby meeting the rigorous structural demands of the Self-Driving Car.
+
+
+
+        
+        
      - #### Description of the resin used in Stereolithography (SLA) 3D Printer-立體光固化（SLA）3D列印機所使用樹脂的描述
        立體光固化（SLA）3D列印機所使用的樹脂種類多樣，不同樹脂在性能上有明顯差異。常見的SLA樹脂類型包括：
 
@@ -203,9 +244,11 @@
        - 高強度樹脂：具有較高的抗拉強度和剛性，適合需要承受力量的零件。
        - 彈性樹脂：具備彈性和柔韌性，適用於需要一定變形能力的零件。
        - 高溫樹脂：耐熱性優異，適合需在高溫環境下運作的零件。
-       -  耐衝擊樹脂：具有良好的抗衝擊性和韌性，適用於容易碰撞的零件。
+       - 耐衝擊樹脂：具有良好的抗衝擊性和韌性，適用於容易碰撞的零件。
+
        - 每種樹脂在物理特性、表面品質、強度和耐久性方面各有優勢，樹脂的選擇需根據具體應用需求決定。
        - 在比賽過程中，車輛經常碰撞側牆和障礙物，導致如「方向軸支架」和「十字銷」等零件斷裂。因此，我們進行了耐衝擊樹脂和高強度樹脂的實驗測試。測試結果顯示，使用耐衝擊樹脂製作的零件過於柔軟，無法滿足需求。最終，我們選擇使用高強度樹脂製造這些零件，以提升其耐久性和強度。
+
       - #### 英文:
         - __Standard resin:__ Suitable for general use, offering good surface finish, but relatively lower strength and durability.
         - __High-strength resin:__ Provides higher tensile strength and rigidity, ideal for parts that need to withstand force.
@@ -215,14 +258,14 @@
 
           Each type of resin has different advantages in terms of physical properties, surface quality, strength, and durability, and the choice of resin depends on the specific application requirements.
 
-        During the competition, the vehicle often collided with side walls and obstacles, causing parts like the "Steering shaft holder" and "Cross pin" to break. As a result, we conducted experimental tests with impact-resistant resin and high-strength resin. The tests showed that parts made from impact-resistant resin were too soft to meet the requirements. In the end, we chose to use high-strength resin to manufacture these parts, improving their durability and strength.
+        During the competition, the vehicle often collided with side walls and obstacles, causing parts like the **"Steering shaft holder"** and **"Cross pin"** to break. As a result, we conducted experimental tests with **Impact-resistant resin** and **High-strength resin**. The tests showed that parts made from impact-resistant resin were too soft to meet the requirements. In the end, we chose to use **High-strength resin** to manufacture these parts, improving their durability and strength.
 
     <div align=center>
     <table>
     <tr>
     <th>High-strength resin(高強度樹脂)</th>
     <th>Impact-resistant resin(耐衝擊樹脂)</th>
-    <th>Printing completed(列印完成)</th>
+    <th>3D Fabrication Complete(3D列印完成)</th>
     </tr>
     <tr>
     <td align=center><img src="./img/High-strength_resin.png" width="150" ></td> 
@@ -282,8 +325,8 @@
       <div align=center>
         <table>
           <tr>
-            <th>鏡頭支架主體</th>
-            <th>鏡頭固定板</th>
+            <th>Lens Mount 鏡頭支架</th>
+            <th>Lens Module Fine-Tuning Mechanism 鏡頭模組微調機構</th>
           </tr>
           <tr>
             <td align=center width=500><img src="./Vehicle_Chassis_Sizse/img/Lens_holder_body_size.jpg" width=450 /></td>
