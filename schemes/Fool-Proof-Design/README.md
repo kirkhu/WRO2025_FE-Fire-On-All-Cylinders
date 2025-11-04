@@ -30,7 +30,7 @@
             <th>Actual Photo of the Circuit(Power supply)</th>
         </tr>
         <tr align=center>
-            <td><img src="./img/Pluggable Terminal Block.png" width=400 alt="Terminal block" /></td>
+            <td><img src="./img/Pluggable_Terminal_Block.png" width=400 alt="Terminal block" /></td>
             <td><img src="./img/Circuit 2.png" width=400 alt="Circuit" /></td>
         </tr>
     </table>
