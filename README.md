@@ -70,7 +70,7 @@
       - [May](other/work_diary/README.md#20250501--20250507)
       - [June](other/work_diary/README.md#20250604--20250608)
       - [July](other/work_diary/README.md#20250702--20250721)
-      - [August](other/work_diary/README.md#20250818--20250824)
+      - [August](other/work_diary/README.md#20250811--20250817)
       - [September](other/work_diary/README.md#20250901--20250906)
       - [October](other/work_diary/README.md#20251007--20251013)
 
