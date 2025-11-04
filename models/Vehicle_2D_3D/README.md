@@ -165,8 +165,6 @@
         
      
       - #### The usage and introduction of Stereolithography (SLA) 3D printers
-   
-
         - __The usage process of SLA 3D printers typically includes the following steps:__ 
           - __Design and Preparation:__ First, design the 3D model in CAD software and convert it into a printable STL file.
           - __Print Setup:__ Load the STL file into the slicing software of the SLA printer, and set printing parameters such as layer thickness and resin type.
