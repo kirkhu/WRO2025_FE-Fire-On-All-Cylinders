@@ -161,7 +161,7 @@
         </table>
         </div>
        
-        - In the Self-Driving Car competition, the geometric precision and structural detail of the parts are crucial. Your team's selection of an **SLA 3D Printer (e.g., Phrozen Sonic Mighty Revo 14K)** is due to its superior ability to produce high-precision, geometrically complex components, ensuring the custom-made parts meet the stringent structural demands of the vehicle, particularly for high-accuracy assemblies like the steering system.
+        In the Self-Driving Car competition, the geometric precision and structural detail of the parts are crucial. Your team's selection of an **SLA 3D Printer (e.g., Phrozen Sonic Mighty Revo 14K)** is due to its superior ability to produce high-precision, geometrically complex components, ensuring the custom-made parts meet the stringent structural demands of the vehicle, particularly for high-accuracy assemblies like the steering system.
         
      
       - #### The usage and introduction of Stereolithography (SLA) 3D printers
