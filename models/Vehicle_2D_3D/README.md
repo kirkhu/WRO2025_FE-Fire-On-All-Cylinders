@@ -173,7 +173,7 @@
         
           SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial desgn. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
        
-      - #### Description of the resin used in Stereolithography (SLA) 3D Printer
+       - #### Description of the resin used in Stereolithography (SLA) 3D Printer
         The types of resin used in Stereolithography (SLA) 3D printers vary, and different resins offer distinct performance comparisons. Common types of SLA resins include:
         - __Standard resin:__ Suitable for general use, offering good surface finish, but relatively lower strength and durability.
         - __High-strength resin:__ Provides higher tensile strength and rigidity, ideal for parts that need to withstand force.
