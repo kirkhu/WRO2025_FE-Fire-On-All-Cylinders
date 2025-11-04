@@ -173,15 +173,15 @@
         
           SLA 3D printers are widely used in industries such as manufacturing, healthcare, jewelry, and industrial desgn. Due to their high precision and fine surface treatment, they are particularly suitable for producing parts that require high quality and detailed features.
        
-       - #### Description of the resin used in Stereolithography (SLA) 3D Printer
-        The types of resin used in Stereolithography (SLA) 3D printers vary, and different resins offer distinct performance comparisons. Common types of SLA resins include:
-        - __Standard resin:__ Suitable for general use, offering good surface finish, but relatively lower strength and durability.
-        - __High-strength resin:__ Provides higher tensile strength and rigidity, ideal for parts that need to withstand force.
-        - __Flexible resin:__ Has elasticity and flexibility, suitable for parts that require some degree of deformation.
-        - __High-temperature resin:__ Excellent heat resistance, suitable for parts that need to operate at high temperatures.
-        - __Impact-resistant resin:__ Offers good impact resistance and toughness, ideal for parts that are prone to collisions.
+        - #### Description of the resin used in Stereolithography (SLA) 3D Printer
+          The types of resin used in Stereolithography (SLA) 3D printers vary, and different resins offer distinct performance comparisons. Common types of SLA resins include:
+          - __Standard resin:__ Suitable for general use, offering good surface finish, but relatively lower strength and durability.
+          - __High-strength resin:__ Provides higher tensile strength and rigidity, ideal for parts that need to withstand force.
+          - __Flexible resin:__ Has elasticity and flexibility, suitable for parts that require some degree of deformation.
+          - __High-temperature resin:__ Excellent heat resistance, suitable for parts that need to operate at high temperatures.
+          - __Impact-resistant resin:__ Offers good impact resistance and toughness, ideal for parts that are prone to collisions.
 
-        Each type of resin has different advantages in terms of physical properties, surface quality, strength, and durability, and the choice of resin depends on the specific application requirements.
+          Each type of resin has different advantages in terms of physical properties, surface quality, strength, and durability, and the choice of resin depends on the specific application requirements.
 
         During the competition, the vehicle often collided with side walls and obstacles, causing parts like the **"Steering shaft holder"** and **"Cross pin"** to break. As a result, we conducted experimental tests with **Impact-resistant resin** and **High-strength resin**. The tests showed that parts made from impact-resistant resin were too soft to meet the requirements. In the end, we chose to use **High-strength resin** to manufacture these parts, improving their durability and strength.
 
