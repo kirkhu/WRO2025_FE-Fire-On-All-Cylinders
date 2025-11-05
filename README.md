@@ -13,7 +13,7 @@
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
     * [1-1 Vehicle 2D/3D Models in CAD OK ](models/Vehicle_2D_3D/README.md)
-    * [1-2 Vehicle Chassis Design ](schemes/Vehicle_Chassis_Design/README.md)
+    * [1-2 Vehicle Chassis Design OK](schemes/Vehicle_Chassis_Design/README.md)
     * [1-3 Motor Selection OK ](schemes/Motor/README.md)
   #### 2. Power and Sense Management
     - __2-1 Vehicle Design__
