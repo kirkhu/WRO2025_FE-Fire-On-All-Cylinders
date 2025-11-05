@@ -106,10 +106,10 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
        <th colspan=4>Final Version(PCB)</th>
    </tr>
    <tr>
-      <td align=center width="25%"><img src="./img/Circuit_6_Top.png"  width="200"/></td>
-      <td align=center width="25%"><img src="./img/Circuit_6_Bottom.png" width="200"/></td>   
-      <td align=center width="25%"><img src="./img/Button_And_Led_Top.png"  width="200"/></td>
-      <td align=center width="25%"><img src="./img/Button_And_Led_Bottom.png" width="200"/></td>
+      <td align=center width="30%"><img src="./img/Circuit_6_Top.png"  width="200"/></td>
+      <td align=center width="30%"><img src="./img/Circuit_6_Bottom.png" width="200"/></td>   
+      <td align=center width="20%"><img src="./img/Button_And_Led_Top.png"  width="200"/></td>
+      <td align=center width="10%"><img src="./img/Button_And_Led_Bottom.png" /></td>
    </tr>
       </table>
 
