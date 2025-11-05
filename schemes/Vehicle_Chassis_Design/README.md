@@ -2,141 +2,254 @@
 
 ## <div align="center">Vehicle Chassis Design Process-車輛底盤設計過程</div> 
 
-- ### Vehicle Chassis Design-車輛底盤設計
-### 中文:
-  - 這輛自駕車的軟硬體設計靈感來自於我們學長姐隊伍「Shinan-Fire-On-All-Cylinders」去年所打造的車型，並借鑑了去年世界冠軍車型的優點。在此基礎上，我們將主控制器從「Raspberry Pi 4B」升級為「Nvidia Jetson Orin Nano」，提升性能並引入創新設計，使車輛更具競爭力。
-  - 本次比賽所使用的車輛底盤為自主設計與開發。
-  - 車輛底盤採用了Ackermann轉向幾何結構，並針對去年機構的缺點進行改良，使避障及迴轉動作更加順暢。
-  - 下表展示了車輛底盤的3D模型與實體成品。
-  ### 英文:
-  - The design inspiration for both the hardware and software of this self-driving car came from last year’s model created by our sister team (Shinan-Fire-On-All-Cylinders) and drew upon the strengths of the world championship-winning model from last year. Based on this, we made improvements by upgrading the main controller from the "Raspberry Pi 4B" to the "Nvidia Jetson Nano" to enhance performance and introduce innovative design elements, making the vehicle more competitive.
-  - The vehicle chassis used in this competition is self-designed and developed.
-  - We applied Ackermann steering geometry to the vehicle chassis and made improvements based on the shortcomings of last year’s mechanism, resulting in smoother obstacle avoidance and U-turns.
-  - The following table shows the 3D models and finished products of the vehicle chassis.
+__硬體設計理念與底盤架構優化__
+1.  **設計傳承與創新：** 本次 **自駕車**（Self-Driving-Cars）的軟硬體設計靈感延續了去年的機型，並**借鑑了去年世界冠軍車型**的優點。在此基礎上，我們將主控制器從 **Nvidia Jetson Nano 升級為 Nvidia Jetson Orin Nano**，此舉不僅顯著提升了整體運算性能，更為引入創新的軟體設計提供了堅實基礎，使車輛具備更強的競爭力。
+ 2.  **轉向幾何改良：** 底盤結構採用了工程上常見的 **Ackermann 轉向幾何**（Ackermann Steering Geometry）。更重要的是，我們針對**去年機構的缺點進行了改良**，使車輛在執行**避障**及**迴轉動作**時能夠更加平穩順暢。
+ 3.  **核心元件自主性：** 本次比賽所使用的**車輛底盤**為完全**自主設計與開發**。
 
+__Hardware Design Philosophy and Chassis Optimization__
+  1.  **Design Legacy and Innovation:** The software and hardware design of this **Self-Driving Car** continues the inspiration from last year's model while **drawing upon the strengths of last year's world champion vehicle design**. Building on this foundation, we upgraded the main controller from the **Nvidia Jetson Nano to the Nvidia Jetson Orin Nano**. This move not only significantly enhances the overall computational performance but also provides a robust basis for introducing innovative software designs, making the vehicle more competitive.
 
-    |3D Vehicle Chassis Design(3D 車輛底盤設計)| Vehicle Chassis Top View(車輛底盤俯視圖) | Vehicle Chassis Bottom View(車輛底盤底部視圖)|
-    |:----:|:----:|:----:|
-    |<img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/Driver top.png" width="400" alt="2024Vehicle_Chassis_Design_down">|<img src="./img/Driver down.png" width="400" alt="down_view">|
+  2.  **Steering Geometry Improvement:** The chassis structure utilizes the common engineering principle of **Ackermann Steering Geometry**. Crucially, we implemented **improvements based on the shortcomings of last year's mechanism**, ensuring the vehicle performs **obstacle avoidance** and **turning maneuvers** with greater stability and smoothness.
+  
+  3.  **Autonomy of Core Components:** The **vehicle chassis** used in this competition was **independently designed and developed** by our team.
+  
+- ### Vehicle Chassis Improvement Record-車輛底盤設計改進紀錄
 
-  ### 中文:  
-  - 我們可以根據車輛的具體需求自訂零件的尺寸與形狀，並利用立體光刻（SLA）3D列印機與雷射切割機，設計並製造車輛底盤的所有零件，齒輪、樂高62821齒輪差速器及輪胎除外。
-  - 為了降低軸承的旋轉摩擦，我們在車輛支架中整合了軸承，從而提升車輛的速度。
-  - 為了精準控制車輛的最佳轉彎半徑並靈活調整Ackermann比率，我們利用立體光刻（SLA）3D列印機及3D建模技術，依照具體需求設計了裝配Ackermann轉向幾何結構的車輛支架。
-### 英文:英文:
-  - We can customize the size and shape of parts according to the specific needs of the vehicle and use Stereolithography (SLA) 3D printers and laser cutters to design and manufacture all parts of the vehicle chassis, except for the gears, Lego 62821Gear Differential and tires.
-  - To reduce rotational friction of the shafts, we integrated bearings into the vehicle's support frame, thereby increasing the vehicle's speed.
-  - To precisely control the vehicle's optimal turning radius and flexibly adjust the Ackermann ratio, we used Stereolithography (SLA) 3D printers and 3D modeling technology to design the support frame for the Ackermann steering geometry on the vehicle chassis based on specific requirements.
-
-- #### Vehicle Chassis Improvement Record-車輛底盤改進紀錄
-  - 以下為去年模型（Shinan-Fire-On-All-Cylinders）與今年改良模型的比較，記錄於下表：
-
-  - The following is a comparison between last year’s model (Shinan-Fire-On-All-Cylinders) and this year’s improved model, recorded in the table below:
-
-  ### __全國賽比較國際賽機型__
-  <div align="center">
+  <div align=center>
   <table>
-  <th width="30%"><div align=center>2025全國賽機型</th>
-  <th width="30%"><div align=center>2025國際賽機型</th>
-  <th><div align=center>Explanation(說明)</th>
   <tr>
-  <td><div align=center><img src="./img/National_competition_machine.png" height=200></td>
-  <td><div align=center><img src="./img/International_competition_machine.png" height=230></td>
-  <td>基於全國賽我們發現機型存在一些問題：<br><br>
-   <ol>
-    <li>Jetson Nano的運算效率不足，導致有時會太晚看到障礙物。</li>
-    <li>自駕車轉彎時角度不夠，導致有些急轉彎無法轉過去。</li>
+  <th >2024 Season Competition Self-Driving Car Prototype-2024 年國際賽機型</th>
+  <th  colspan=2 >2025 WRO World Final Competition Prototype - 2025 最終國際賽機型</th>
+  </tr>
+  <tr align=center>
+  <td width="33%"><img src="./img/2024Vehicle_Chassis_Design_down.png"  alt="2024 Season Competition Self-Driving Car Prototype" /></td>
+  <td width="34%"><img src="./img/Driver_top.png"  alt="2025 WRO World Final Competition Prototype"  /></td>
+  <td width="33%"><img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description_2.png"  alt="2025 WRO World Final Competition Prototype" /></td>
+  </tr>
+  <tr>
+  <th colspan=2>Description 說明</th>
+  </tr>
+  <tr>
+  <td colspan="3">
 
-   <ol>
+#### **機型與功能的主要變更**
+
+從去年度版本到本年度國際賽版本，我們的機型設計進行了多項關鍵優化：
+
+* **機體尺寸優化：** 由於機型長度過長容易在**避障時移動場地方塊**，我們**縮短了機型整體長度**以提高避障穩定性。
+* **主控制器升級：** 在全國賽中，我們發現 **Jetson Nano 的運算效率**已不符合需求。因此，我們將主控制器更換為**運算效率更高的 Jetson Orin Nano**。
+* **轉向結構重設計（I）：** 去年度國際賽機型使用**鐵絲**來連動兩側轉向節，不僅**佔用面積較大**，且效率不佳。因此，我們**使用 3D 列印物件**重新設計了整個轉向結構。
+* **轉向結構重設計（II）：** 鑑於自駕車的**轉向角度不足**，導致無法通過某些**急轉彎**。我們**重新設計轉向結構**，使其具備**更大的轉向空間**，以提升靈活性。
+* **新增停車輔助感測器：** 在自駕車**前後方新增 TCRT5000 紅外感測器**，專用於**輔助停車程序**的精準運行。
+
+#### **底盤設計的四次改版歷程**
+
+我們的底盤設計總共經歷了四次迭代改版：
+
+1.  **第一次改版：** 在車頭加入**弧形導角（Chamfer）**，以避免前輪接觸邊牆時發生**卡住**的情況，優化撞牆後的脫困能力。
+2.  **第二次改版：** **加大轉向節放置孔**，並**改用軸承**來降低摩擦，使車輛轉彎過程更為**順暢**。
+3.  **第三次改版：** 縮小轉向結構與馬達支架間的**空隙**，同時**減短軸距**（Wheelbase）以**提升轉彎角度**（縮小轉彎半徑）。
+4.  **第四次改版：** 在車頭**延伸出小長方區塊**，目的是**保護紅外線感測器**，避免撞牆時遭受損壞。
+
+#### **Major Changes in Model and Functionality**
+
+From the previous year's version to this year's international competition version, our model design underwent several key optimizations:
+
+* **Model Size Optimization:** Since the vehicle model was too long, it frequently **moved the field pillars/blocks during obstacle avoidance**. We **shortened the overall length of the model** to enhance obstacle clearance stability.
+* **Main Controller Upgrade:** During the National Competition, we found that the **Jetson Nano's computing efficiency** was insufficient for our needs. Consequently, we replaced the main controller with the **higher-computing-efficiency Jetson Orin Nano**.
+* **Steering Structure Redesign (I):** Last year's international model used **metal wires** to link the two steering knuckles, which **occupied a large area** and was inefficient. We therefore **redesigned the entire steering structure using 3D printed components**.
+* **Steering Structure Redesign (II):** The autonomous vehicle's **steering angle was insufficient**, preventing it from navigating certain **sharp turns**. We **redesigned the steering structure** to allow for a **larger steering space**, enhancing its maneuverability.
+* **Addition of Parking Assistance Sensors:** We **added TCRT5000 infrared sensors to the front and rear** of the vehicle, specifically dedicated to **assisting the precision of the parking procedure**.
+
+#### **The Four Iterations of Chassis Design**
+
+Our chassis design underwent a total of four iterations:
+
+1.  **First Iteration:** **Arc-shaped chamfers** were added to the front of the car to prevent the front wheels from **getting stuck** when contacting the side walls, improving self-extrication capabilities after collision.
+2.  **Second Iteration:** We **enlarged the mounting holes for the steering knuckles** and **switched to using bearings** to reduce friction, making the steering process **smoother**.
+3.  **Third Iteration:** We **reduced the gap** between the steering structure and the motor brackets, and **shortened the wheelbase** to **increase the steering angle** (reducing the turning radius).
+4.  **Fourth Iteration:** A **small rectangular block was extended** from the front of the car, specifically to **protect the infrared sensors** from damage during wall collisions.
+
   </td>
   </tr>
   </table>
-  </div>
- 
-  ### __Final Build-最終組裝__
+  </div> 
 
+**Final Version Vehicle Chassis Design and Physical Product Correspondence-最終版車輛底盤設計與實體對應**
+- 下方表格展示了我們最終設計版本的車輛底盤（Vehicle Chassis）的3D 模型 與 最終製造的實體成品 之間的清晰對應關係。
+- The table below presents the clear correspondence between the 3D Model and the final manufactured physical product of our final design version of the Vehicle Chassis.
+
+  |3D Vehicle Chassis Design(3D 車輛底盤設計)| Vehicle Chassis Top View(車輛底盤俯視圖) | Vehicle Chassis Bottom View(車輛底盤底部視圖)|
+  |:----:|:----:|:----:|
+  |<img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png"  alt="vehicle_chassis_design_3D">|<img src="./img/Driver_top.png" width="400" alt="2024Vehicle_Chassis_Design_down">|<img src="./img/Driver_down.png" width="400" alt="down_view">|
+
+  - 我們根據自駕車的具體性能需求，客製化設計了零件的尺寸與形狀 。利用 立體光刻（SLA）3D 列印機 和 雷射切割機，我們自行設計並製造了車輛底盤的所有零件，齒輪、樂高 6573 齒輪差速器及輪胎則為例外 。
+
+  - 為大幅降低軸承的旋轉摩擦，我們將軸承精確地整合到車輛支架結構中 ，這一優化措施有效地提升了車輛的整體行駛速度。
+
+  - 為了精準控制車輛的最佳轉彎半徑，並靈活調整阿克曼（Ackermann）比率，我們利用 3D 建模技術和 立體光刻（SLA）3D 列印機，依照具體需求客製化設計了 阿克曼轉向幾何結構 的關鍵零件和車輛支架 。
+
+  - We customized the design of component dimensions and shapes based on the specific performance requirements of the autonomous vehicle. Utilizing a Stereolithography (SLA) 3D printer and a laser cutting machine, we self-designed and manufactured all parts of the vehicle chassis, excluding the gears, the LEGO 6573 differential gear, and the tires.
+
+  - To significantly reduce the rotational friction of the bearings, we - precisely integrated them into the vehicle's support structure (bracket), a mechanical optimization that effectively enhanced the vehicle's overall driving speed.
+
+  - In order to precisely control the vehicle's optimal turning radius and flexibly adjust the Ackermann ratio, we employed 3D modeling techniques and a Stereolithography (SLA) 3D printer to custom-design the critical components and vehicle brackets for the Ackermann steering geometry structure according to specific needs.
+
+#### Evolution of the Ackermann Steering Geometry Structure 阿克曼轉向幾何結構的優化歷程
   <div align=center>
   <table>
-  <tr align=center>
-  <th><div align=center>Photos of the final Build(最終組裝照片)</th>
-  <th><div align=center>3D modeling of the final Build(最終組裝的3D建模)</th>
-  <th><div align=center>Explanation(說明)</th>
-  </tr><tr>
-  <td width="30%"><img src="./img/Driver top.png" ></td>
-  <td width="30%"><img src="../../models/Vehicle_2D_3D/Vehicle_Chassis_CAD_File/img/Vehicle_chassis_description.png" ></td>
 
+  <tr>
+    <th colspan=2>First Generation Steering Structure (V1.0) - 第一代轉向結構 (V1.0)</th>
+  </tr>
+  <tr>
+  <td width=40%><img src="./img/steering_1.jpg" /></td>
+  <td width=60%>
+  此版轉向結構設計過於寬大，且轉向桿由鐵絲拉製而成，導致形狀不易固定，影響了精確性。
 
-  <td>
-    我們在底盤的設計上經歷了三次改版
-    <ol>
-      <li>第一次改版加入了弧形導角，避免自駕車前輪胎接觸邊牆導致卡住</li>
-      <li>第二次改版我們將放置轉降向節的孔洞擴大，改為放置軸承減小摩擦力，讓轉彎更加順滑</li>
-      <li>第三次改版我們將轉向結構與直流馬達支架之間的空閒區塊縮小，從而減短軸距讓轉彎角度更大</li>
-    </ol>
+  This version of the steering structure was designed to be overly wide, and the steering rod was made from drawn metal wire, which was difficult to fix into shape, impacting accuracy.
+
   </td>
+  </tr>
+  <tr>
+    <th colspan=2>Second Generation Steering Structure (V2.0) - 第二代轉向結構 (V2.0)</th>
+  </tr>
+  <tr>
+   <td><img src="./img/steering_2.png" /></td>
+  <td width=400>
+  為了解決 V1.0 結構寬大和精度不足的問題，我們在 V2.0 中：
+
+  - 縮小了整體版型。
+
+  - 將轉向桿改為3D 列印物件以替代鐵絲，顯著提高了轉向桿的準確性，並提升了自駕車的行進轉向靈活度。 儘管如此，此版本因使用螺絲與樂高零件連接，導致轉向角度仍受限制。因此，下一版 (V3.0) 將改用圓頭十字軸與圓頭舵盤來增加轉向範圍。
+
+To solve the V1.0 structure's bulkiness and accuracy issues, in V2.0 we:
+
+  - Reduced the overall template size.
+
+  - Replaced the metal wire steering rod with a 3D printed component, significantly improving the rod's accuracy and enhancing the self-driving car's steering agility. However, the use of screws to connect LEGO parts in this version still constrained the steering angle. Therefore, the next iteration (V3.0) will switch to rounded cross axles and rounded steering racks (or rudder plates) to increase the steering range.
+  </td>
+  </tr>
+  <tr>
+    <th colspan=2>Third Generation Steering Structure (V3.0) - 第三代轉向結構 (V3.0)</th>
+  </tr>
+  <tr>
+  <td><img src="./img/steering_3.jpg" /></td>
+  <td width=400>
+  此版在測試中出現轉向力矩（Torque）問題，促使我們重新檢視設計圖。下一版 (V4.0) 將進行以下修正：
+
+  - 將轉向拉桿與連桿的連接位置調整至與圓頭舵盤平行，以優化力學性能。
+
+  - 增加轉向極限擋塊，以避免轉向角度過大導致結構向內凹陷。
+
+
+  This version encountered steering torque issues during testing, leading us to re-examine the design blueprint. The next version (V4.0) will incorporate the following fixes:
+
+  - Adjust the connection point of the steering tie rod and linkage to be parallel with the rounded steering rack, optimizing mechanical performance.
+
+ - Add a steering limit block to prevent the structure from collapsing inwards due to excessive steering angles.
+    </td>
+  </tr>
+  <tr>
+    <th colspan=2>Fourth Generation Steering Structure (V4.0) - 第四代轉向結構 (V4.0)</th>
+  </tr>
+  <tr>
+    <td><img src="./img/steering_4.jpg" /></td>
+    <td width=400>
+  此版本中新增的轉向極限擋塊尺寸過大，反而限制了轉向角度，降低了行進轉向靈活度。因此，在下一版 (V5.0) 中，我們將縮短極限擋塊，以兼顧轉向幅度與結構保護。
+
+  The newly added steering limit block in this version was oversized, which inadvertently restricted the steering angle and reduced the steering agility. Therefore, in the subsequent version (V5.0), we will shorten the limit block to balance both the steering amplitude and structural protection.
+    </td>
+    </tr>
+  <tr>
+    <th colspan=2>最終版轉向結構 (V5.0)</th>
+  </tr>
+  <tr>
+    <td><img src="./img/steering_5.jpg" /></td>
+    <td width=400>
+  經過前幾代轉向結構的持續修正與優化，目前的轉向結構已能完全滿足我們機型的性能需求，達到了設計的穩定狀態。
+
+  Following continuous correction and optimization across the previous generations, the current steering structure fully meets the performance requirements of our vehicle model, achieving a stable design state.
+    </td>
   </tr>
   </table>
   </div>
 
-  <div align=center>
-    <table>
-      <tr>
-        <th colspan=2>轉向結構修改歷程</th>
-      </tr>
-      <tr>
-        <th colspan=2>第一代轉向結構</th>
-      </tr>
-      <tr>
-        <td><img src="./img/20250925_180051.jpg" width=500 /></td>
-        <td width=400>
-          描述：<br>&emsp;&emsp;這個版本的轉向結構過於寬大，因此我們在第二版轉向結構中將版型縮小，提升自駕車的靈活度。
-        </td>
-      </tr>
-      <tr>
-        <th colspan=2>第二代轉向結構</th>
-      </tr>
-      <tr>
-        <td><img src="./img/20250925_183354.png" width=500 /></td>
-        <td width=400>
-          描述：<br>&emsp;&emsp;這個版本因為使用樂高元件進行連接使轉向的角度被限制住，因此我們在第三版中修改不同元件間的連接方式。
-        </td>
-      </tr>
-      <tr>
-        <th colspan=2>第三代轉向結構</th>
-      </tr>
-      <tr>
-        <td><img src="./img/20250925_184415.jpg" width=500 /></td>
-        <td width=400>
-          描述：<br>&emsp;&emsp;這個版本的轉向結構中，力矩的設計有誤，因此我們修改了拉桿和連桿之間的位置，我們在連桿上新增了極限以防轉向結構轉過頭的問題。
-        </td>
-      </tr>
-      <tr>
-        <th colspan=2>第四代轉向結構</th>
-      </tr>
-      <tr>
-        <td><img src="./img/20250925_193727.jpg" width=500 /></td>
-        <td width=400>
-          描述：<br>&emsp;&emsp;這個版本的轉向極限設置太大，所以我們修改極限擋塊的大小以提升轉向的最大角度。
-        </td>
-      </tr>
-      <tr>
-        <th colspan=2>第五代轉向結構</th>
-      </tr>
-      <tr>
-        <td><img src="./img/20251025_140133.jpg" width=500 /></td>
-        <td width=400>
-          描述：<br>&emsp;&emsp;經過測試此版本已經符合我們自駕車的需求。
-        </td>
-      </tr>
-    </table>
-  </div>
 
 
-- ###  Gear Differential-齒輪差速器
-### 中文:
-  - 對於車輛的單一驅動系統來說，齒輪差速器是一個不可或缺的裝置，因為它能有效平衡動力並將動力分配到不同的車輪，使每個驅動車輪能以不同的速度旋轉，尤其是在轉彎時。這對提升車輛的靈活性和操控性能至關重要。
-  ### 英文:
-  - For a vehicle's single drive system, a gear differential is an indispensable device because it effectively balances power and distributes it to different wheels, allowing each driven wheel to rotate at different speeds, especially during turns. This is crucial for improving the vehicle's agility and handling performance.
+- ###  Selection and Modification of LEGO Differential Gears- 樂高齒輪差速器的選用與修改
+
+  齒輪差速器是車輛傳動系統中的關鍵核心部件 ，其主要功能在於平衡並精確分配驅動動力至各個車輪。
+
+  它允許驅動輪以不同的速度旋轉 ，這在車輛轉彎時尤為重要 。齒輪差速器透過一系列精密設計的齒輪機構 實現此功能，使兩個驅動輪能夠自適應地調整旋轉速度 ，這對於提高車輛的靈活性和操控性至關重要 。無論路況如何，差速器都能確保車輛的穩定性和平衡性 ，從而維持良好的行駛狀態。
+  
+  The gear differential is a critical core component of a vehicle's drivetrain , used to balance and precisely distribute power to the driving wheels.
+
+  It enables the driving wheels to rotate at different speeds , which is especially crucial during turns. The differential achieves this function through a series of precisely engineered gear mechanisms , allowing the two driving wheels to adaptively adjust their rotational speeds. This capability is vital for enhancing the vehicle's agility and handling. Regardless of road conditions, the differential ensures the vehicle's stability and balance, thereby maintaining excellent driving performance.
+
+
+   - #### Application and Comparison of LEGO Differential Gears 樂高積木齒輪差速器的應用與比較
+      在本次自駕車競賽中，我們利用樂高積木齒輪差速器來實現車輛行駛與轉彎的核心功能。這類差速器主要分為兩種型號：樂高 6573 差速器 和 樂高 62821 差速器。
+
+      __樂高 62821 差速器__
+        - 結構組成： 該差速器由一個 28 齒外齒輪 和四個樂高 12 齒錐齒輪 (零件號 4565452) 組成。
+
+        - 設計優勢： 其緊湊的封閉式外殼設計顯著提高了耐用性與扭矩傳遞效率。中心結構能夠將錐齒輪牢固地固定在位，確保動力平穩地分配到兩個輸出軸。
+
+        - 性能定位： 這使其比舊款樂高 6573 差速器更有效率且更可靠。
+
+      __樂高 6573 差速器__
+        - 結構組成： 該差速器整合了一個 16 齒齒輪 和一個 24 齒齒輪。兩個齒輪的中心都有一個直徑 5 毫米的孔，方便安裝十字軸。
+
+        - 結構特點： 差速器中心設有一個小支柱，旨在更好地固定直角錐齒輪，並可與三個樂高 12 齒錐齒輪 (零件號 4565452) 組合使用。
+
+      In this competition, we utilized LEGO differential gears to implement the core functions of vehicle driving and turning. These differential gears primarily come in two models: the LEGO 6573 Differential and the LEGO 62821 Differential.
+
+      __LEGO 62821 Differential__
+        - Composition: This differential consists of one 28-tooth outer gear and four LEGO 12-tooth bevel gears (part number 4565452).
+
+        - Design Advantages: Its compact, enclosed casing design enhances durability and torque transfer efficiency. The central structure securely holds the bevel gears in place, ensuring smooth power distribution to the two output shafts.
+
+        - Performance Positioning: This makes it more efficient and reliable than the older LEGO 6573 Differential.
+
+      __LEGO 6573 Differential__
+        - Composition: This differential integrates one 16-tooth gear and one 24-tooth gear. Both gears feature a 5 mm diameter hole at their center for easy cross axle installation.
+
+        - Structural Features: The center of the differential includes a small pillar designed to better secure the right-angle bevel gears, and it can be used in combination with three LEGO 12-tooth bevel gears (part number 4565452).
+
+          <div align=center>
+          <table>
+          <tr align=center>
+          <th>LEGO 62821 GearDifferential</th>
+          <th>LEGO 6573 Gear Differential</th>
+          </tr><tr align=center>
+          <td><img src="./img/lego62821.png" width=250></td>
+          <td><img src="./img/differential.png" width=250></td>
+          </tr>
+          </table>
+          </div>
+
+    - #### Reason for Selection 選擇理由
+      - 我們最初在轉向系統中採用了 樂高 62821 齒輪差速器作為核心組件。然而，在執行底盤尺寸縮小化的設計目標時，我們發現該差速器佔用空間過大，難以符合新的結構限制。
+
+      - 因此，儘管 樂高 62821 齒輪差速器 具有較好的轉向效果，我們決定捨棄它，改用體積更小的 樂高 6573 齒輪差速器。這項替換成功解決了底盤尺寸必須縮小的結構問題，使我們得以實現緊湊型的車輛設計。
+
+      - We initially incorporated the LEGO 62821 differential gear as a component in our steering system. However, during the process of meeting the design goal of reducing the chassis dimensions, we discovered that this differential occupied excessive space, making it incompatible with the new structural constraints.
+
+      - Consequently, despite the LEGO 62821 differential gear offering superior steering performance, we chose to abandon it in favor of the smaller LEGO 6573 differential gear. This substitution successfully resolved the structural issue related to the required chassis size reduction, allowing us to achieve a compact vehicle design.
+
+        <div align="center">
+        <table>
+        <tr>
+        <th>LEGO 62821 Gear Differential </th>
+        <th>LEGO 6573 Gear Differential </th>
+        </tr><tr align=center>
+        <td><img src="./img/LEGO_differential.png" width=250></td>
+        <td><img src="./img/differential-1.png" width=300></td>
+        </tr>
+        </table>
+        </div>
 
 ### 中文:
 - ### Supplementary information-補充資訊
