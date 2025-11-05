@@ -131,7 +131,7 @@ To solve the V1.0 structure's bulkiness and accuracy issues, in V2.0 we:
 
 
 
-- ###  Selection and Modification of LEGO Differential Gears
+- ####  Selection and Modification of LEGO Differential Gears
 
   The gear differential is a critical core component of a vehicle's drivetrain , used to balance and precisely distribute power to the driving wheels.
 
@@ -181,7 +181,6 @@ To solve the V1.0 structure's bulkiness and accuracy issues, in V2.0 we:
         </tr>
         </table>
         </div>
-
 
 - ### Supplementary information
    - #### What is an Ackermann Steering Geometry?
