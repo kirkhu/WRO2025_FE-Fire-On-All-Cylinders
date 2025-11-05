@@ -114,7 +114,7 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
       </table>
 
 
- - ### Circuit Schematic Drawing 電路原理圖
+ - ### Circuit Schematic Drawing
  <div align=center>
    <table>
       <tr>
@@ -126,9 +126,9 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
          <th>PBC layout drawing</th>
       </tr>
       <tr>
-         <td align=center ><img src="./img/New_3D_View.png" height=250 /></td>
-         <td align=center ><img src="./img/New_Schematic.png" height=250 /></td>
-         <td align=center ><img src="./img/New_PCB_Layouts.png" height=250 /></td>
+         <td align=center width="30%"><img src="./img/New_3D_View.png"  /></td>
+         <td align=center width="40%"><img src="./img/New_Schematic.png"  /></td>
+         <td align=center width="30%" ><img src="./img/New_PCB_Layouts.png" /></td>
       </tr>
       <tr>
       <th colspan=3>Secondary PCB(Switch Control Circuit Board )
