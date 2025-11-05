@@ -115,7 +115,7 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
 
 
  - ### Circuit Schematic Drawing
- <div align=center>
+
    <table>
       <tr>
       <th colspan=3>Main PCB</th>
@@ -144,6 +144,7 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
          <td align=center ><img src="./img/New_PCB_Layouts_Button_and_Led.png" height=250 /></td>
       </tr>
    </table>
+
    <table>
    <th align=center>	Overall circuit schematic  </th>
    <tr>
@@ -152,7 +153,7 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
    </tr>
    </table>
  
- </div>
+
 
  ***
  - ### Supplementary Information
