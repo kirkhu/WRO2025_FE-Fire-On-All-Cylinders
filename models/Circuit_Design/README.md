@@ -121,34 +121,34 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
       <th colspan=3>Main PCB</th>
       </tr>
       <tr>
-         <th>3D view</th>
-         <th>circuit schematic</th>
-         <th>PBC layout drawing</th>
+       <th>3D view</th>
+       <th>circuit schematic</th>
+       <th>PBC layout drawing</th>
       </tr>
       <tr>
-         <td align=center width="30%"><img src="./img/New_3D_View.png"  /></td>
-         <td align=center width="40%"><img src="./img/New_Schematic.png"  /></td>
-         <td align=center width="30%" ><img src="./img/New_PCB_Layouts.png" /></td>
+       <td align=center width="30%"><img src="./img/New_3D_View.png"  /></td>
+       <td align=center width="40%"><img src="./img/New_Schematic.png"  /></td>
+       <td align=center width="30%" ><img src="./img/New_PCB_Layouts.png" /></td>
       </tr>
       <tr>
       <th colspan=3>Secondary PCB(Switch Control Circuit Board )
       </tr>
       <tr>
-         <th>3D view</th>
-         <th>circuit schematic</th>
-         <th>PBC layout drawing</th>
+       <th>3D view</th>
+       <th>circuit schematic</th>
+       <th>PBC layout drawing</th>
       </tr>
       <tr>
-         <td align=center ><img src="./img/New_3D_View_Button_and_Led.png" height=250 /></td>
-         <td align=center ><img src="./img/New_Schematic_LED_and_button.png" height=250 /></td>
-         <td align=center ><img src="./img/New_PCB_Layouts_Button_and_Led.png" height=250 /></td>
+       <td align=center ><img src="./img/New_3D_View_Button_and_Led.png"  /></td>
+       <td align=center ><img src="./img/New_Schematic_LED_and_button.png"  /></td>
+       <td align=center ><img src="./img/New_PCB_Layouts_Button_and_Led.png"  /></td>
       </tr>
    </table>
 
    <table>
    <th align=center>	Overall circuit schematic  </th>
    <tr>
-   <td align=center ><img src="./img/Schematic&PCB/Schematic_Version_all.png" height=500  />
+   <td align=center width="100%"><img src="./img/Schematic&PCB/Schematic_Version_all.png"  />
    </td>
    </tr>
    </table>
