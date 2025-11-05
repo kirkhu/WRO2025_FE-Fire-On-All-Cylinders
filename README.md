@@ -35,7 +35,7 @@
 
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
-    - [3-1 Software Platform Construction 缺圖](src/System_Platform_Software/README.md)
+    - [3-1 Software Platform Construction OK](src/System_Platform_Software/README.md)
     - [3-2 OpenCV Introduction OK](src/OpenCV/README.md)
  
     - __3-4 Image Recognition Processing and Steering__
