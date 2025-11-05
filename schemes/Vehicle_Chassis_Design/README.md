@@ -183,6 +183,7 @@ To solve the V1.0 structure's bulkiness and accuracy issues, in V2.0 we:
         </div>
 
 - ### Supplementary information
+
    - #### What is an Ackermann Steering Geometry?
      __Ackermann Steering Geometry Introduction__
       - The Ackermann steering geometry, proposed by German automotive engineer Lankensperger in 1817, is a steering system design used in automobiles. It was developed to address the geometric discrepancy in the paths of the inner and outer turning wheels when a vehicle makes a turn.
