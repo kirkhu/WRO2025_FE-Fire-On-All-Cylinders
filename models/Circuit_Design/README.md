@@ -18,7 +18,7 @@
       <th colspan=3 >Initial Phase and Fundamental Design Flaws V1.0 (Pegboard)</th>
    </tr>
    <tr>
-      <td align=center  width="25%"><img src="../Circuit_Design/img/circuit_board_fount_1.png"  /></td>
+      <td align=center  width="25%"><img src="../Circuit_Design/img/circuit_board_Front_1.png"  /></td>
       <td align=center  width="25%"><img src="../Circuit_Design/img/circuit_board_back_1.png"/></td>
    <td>
 
@@ -32,7 +32,7 @@
       <th colspan=3>Adopting Professional Fabrication and Discovering Parameter Errors V2.0 (PCB)</th>
    </tr>
    <tr>
-      <td align=center width="25%" ><img src="../Circuit_Design/img/circuit_board_fount_2.png"  /></td>
+      <td align=center width="25%" ><img src="../Circuit_Design/img/circuit_board_Front_2.png"  /></td>
        <td align=center  width="25%"><img src="../Circuit_Design/img/circuit_board_back_2.png"  /></td>
       <td>
 
@@ -48,7 +48,7 @@
       <th colspan=3>Critical Polarity Error and Subsequent Rectification V3.0 (PCB)</th>
    </tr>
    <tr>
-      <td align=center width="25%"><img src="../Circuit_Design/img/circuit_board_fount_3.png" /></td>
+      <td align=center width="25%"><img src="../Circuit_Design/img/circuit_board_Front_3.png" /></td>
       <td align=center width="25%"><img src="../Circuit_Design/img/circuit_board_back_3.png"  /></td>
    <td>
 
@@ -65,7 +65,7 @@
        <th colspan=3>Critical Polarity Error and Subsequent Rectification V4.0 (PCB)</th>
    </tr>
     <tr>
-      <td align=center  width="25%"><img src="../Circuit_Design/img/circuit_board_fount_4.png" width=400 /></td>
+      <td align=center  width="25%"><img src="../Circuit_Design/img/circuit_board_Front_4.png" width=400 /></td>
       <td align=center width="25%"><img src="../Circuit_Design/img/circuit_board_back_4.png" width=400 /></td>
    <td>
 
@@ -81,7 +81,7 @@
       <th colspan=3>Functional Upgrades and Final Circuit Architecture V5.0 (PCB)</th>
    </tr>
    <tr>
-      <td align=center width="25%" ><img src="../Circuit_Design/img/circuit_board_fount_5.png" /></td>
+      <td align=center width="25%" ><img src="../Circuit_Design/img/circuit_board_Front_5.png" /></td>
       <td align=center width="25%"><img src="../Circuit_Design/img/circuit_board_back_5.png"  /></td>
    <td>
       
