@@ -8,7 +8,7 @@ To ensure smooth vehicle operation, choosing the right drive motors is essential
 
 Through careful selection of these two motors, we enhanced vehicle performance and addressed last year's challenges related to power transmission and steering control.
 
-### Front Steering Mechanism by Servo Motor
+### Drive Servo Motor for the Front-Wheel Steering Mechanism
 
 - The MG90S and SG90 are commonly available and easy-to-purchase servo motors in Taiwan. Their specifications, including weight, rotation angle, and torque, meet our requirements.
 - **Considering durability, we selected the __MG90S__ with metal gears as the steering control motor for the competition to ensure stability and reliability during high-intensity operation.**
