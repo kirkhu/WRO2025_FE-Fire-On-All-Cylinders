@@ -1,6 +1,17 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 # <div align="center">Work Diary-工作日記</div>
+以下是本次自動駕駛汽車模型設計與任務解決的開發記錄，涵蓋了機械設計與製造、電路設計與實現、電子裝置選型、程式設計與測試以及整體的解題過程。
+
+ ### 自動駕駛汽車設計：關鍵升級與迭代
+  這款自動駕駛汽車設計建立在從前輩團隊（Shinan-Fire-On-All-Cylinders ）繼承的豐富經驗之上，並融入了我去年參加世界大賽的實踐經驗。
+  我們不僅借鑒了上一年冠軍隊伍的成功要素，還實施了關鍵的技術迭代：
+  * **控制器升級：**主控制器已從標準的 Jetson Orin Nano 升級為性能更優越的 Nvidia Jetson Orin Nano。
+* **機械大修：**我們對車輛的機械部件進行了重組和優化，特別是轉向系統和底盤。
+* **視覺增強：**影像處理能力得到了顯著提升，效率和準確性更高。
+
+  所有這些升級和創新設計元素的整合，其目的就是要全面提升車輛的整體性能和競爭力。
+
 - The following is a development record of the self-driving car model design and task-solving, covering mechanical design and manufacturing, circuit design and implementation, electronic device selection, programming and testing, and the overall problem-solving process.
 
 - ### Autonomous Vehicle Design: Key Upgrades and Iterations
@@ -18,40 +29,103 @@
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**  
- - Our teammate, HU,SIAN-YI, has accumulated solid hands-on experience in mechanical design and programming optimization through years of participation in the "Future Engineering Competition."
-- Considering the annual changes in competition themes and rules—and drawing inspiration from the world champion team’s outstanding achievements in image recognition technology last year—our team conducted in-depth discussions and decided to implement a key lightweight design for this year’s competition model.
-- By streamlining the overall structure, we achieved multiple benefits: improved the vehicle’s smooth entry and exit from parking zones, significantly enhanced maneuverability on the field, and enabled more precise obstacle avoidance, thereby comprehensively reinforcing the vehicle’s operational performance.
+
+### **團隊經驗傳承與模型輕量化策略** 
+
+我們的隊友**胡賢邑**憑藉多年參與「未來工程競賽」（Future Engineers）的豐富經驗，在**機構設計**與**程式控制優化**領域累積了深厚的**實戰基礎**。
+
+考量到每年賽事主題與規則的變動，並**吸收了去年世界冠軍隊伍在影像辨識技術上的卓越成果**，我們團隊經深入研討後，決定針對今年的參賽模型實施**關鍵的輕量化設計**。
+
+透過整體結構的精簡化，我們達成了多重效益：
+* **優化了機器進出停車區的流暢性**；
+* **顯著提升了場地移動的靈活性**；
+* 使其能**更精準地規避障礙物**；
+* 從而**全面穩固了車輛的運行表現**。
+<div align="center">
+<table width="100%">
+<tr>
+<th>Team photo </th>
+<th>Funny photo </th>
+</tr>
+<tr>
+<td><img src="../../t-photos/img/team_photo.jpg"  width="300" alt="team_photo">
+</td>
+<td><img src="../../t-photos/img/funny_photo.jpg"  width="300" alt="team_photo">
+</td>
+</tr>
+</table>
+</div>
+
+
+### **Team Experience and Model Weight Reduction Strategy** 
+
+Our teammate, **Hu Xianyi**, has accumulated a profound **practical foundation** in the fields of **mechanical design** and **program control optimization**, drawing upon his years of experience participating in the "Future Engineers Competition".
+
+Considering the annual changes in competition themes and rules, and having **assimilated the excellent achievements of last year's world champion team in image recognition technology**, our team conducted in-depth discussions and decided to implement a **critical weight reduction design** for this year's competition model.
+
+By simplifying the overall structure, we achieved multiple benefits:
+* We **optimized the fluidity of the robot's entry and exit from the parking area**;
+* **Significantly enhanced its mobility and agility** on the field;
+* Enabled it to **more precisely avoid obstacles**;
+* Thereby **comprehensively stabilizing the vehicle's operational performance**.
 
 <div align="center">
 <table>
 <tr align="center">
-<th>Last year's competition vehicle model</th>
-<th>This year's competition vehicle model</th>
+<th>2024 World Championship Vehicle Model</th>
+<th>2025 National Competition Vehicle Model</th>
+<th>Team Research and Data Review Process Documentation - 團隊研究與資料查閱過程記錄</th>
 </tr>
 <tr align="center">
-<td><img src="../../models/Vehicle_2D_3D/img/right.png"  width="300" alt="Vehicle_cad"></td> 
-    <td><img src="../../v-photos/img/right.png" width="300" alt="vehicle Underfloor"></td> 
+<td><img src="./img/2/Last_year's.png"  width="300" alt="Vehicle_cad"></td> 
+    <td><img src="./img/2/This_year's.png" width="300" alt="vehicle Underfloor"></td> 
+    <td> <img src="./img/find_data.jpg" width = "300"  alt="data" align=center /></td>
 </tr>
 </table>
 </div>
-<div align="center">
-<table>
-<tr align="center">
-<th >For the design reference of this project, we consulted the engineering documents from our school's past teams and conducted a deep dive analysis of the technical files from last year's world champion team.)</th>
-</tr>
-<tr align="center">
-<td> <img src="./img/find_data.jpg" width = "500"  alt="data" align=center /></td>
-</tr>
-</table>
-</div>
+
+**設計參考、技術發現與修正方向**
+- 為了奠定本專案的設計基礎與優化方向，我們進行了以下參考與分析：
+設計參考來源： 我們查閱了學校歷屆團隊的工程文件，並對去年世界冠軍隊伍的技術文件進行了深入分析 。
+- 技術發現與修正方向：
+   - 影像辨識： 我們發現去年世界優勝隊伍在影像辨識技術上處理得極為正確且高效，這是一個值得我們深度學習的領域。因此，我們確立將此技術方向作為我們的主要修正與提升方向。
+   - 機型體積與避障： 此外，我們觀察到有部分隊伍的機型體積遠小於我們的機型。在避開障礙物的能力上，這些小型機型展現出更優越的性能。
+
+**Design Reference, Technical Findings, and Correction Strategy**
+- To establish the design foundation and optimization direction for this project, we conducted the following referencing and analysis:
+Design Reference Sources: We reviewed the engineering documentation from our school's past teams and conducted a deep analysis of the technical files from last year's world champion team.
+
+- Technical Findings and Correction Strategy:
+
+   - Image Recognition: We found that last year's world champion team executed image recognition technology in an extremely correct and highly efficient manner, marking this as an area worthy of deep study and emulation. Consequently, we established this technical direction as our primary strategy for correction and enhancement.
+
+    - Model Size and Obstacle Avoidance: Furthermore, we observed that some teams' vehicle models were significantly smaller than ours. These smaller models demonstrated superior performance in their ability to avoid obstacles.
+
 
 ## 2025/03/01 ~ 2025/03/07
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
 
- - This week's focus was on system installation and driver download. Considering the inconvenience and the risk of physical port damage associated with operating the Jetson Nano directly via a small monitor, we opted for a more efficient approach: deploying the NoMachine remote desktop software onto the Jetson Nano. This enables smooth coding and debugging of the autonomous driving programs going forward. 
- - Attached are supporting photos documenting the system installation, driver download, and remote desktop functionality testing.
+### **系統部署與遠端開發環境建置** 
+
+本週的工作重點在於**系統安裝**與**驅動程式下載**。
+
+考量到直接透過小型螢幕操作 **Jetson Nano** 存在**介面操作不便**以及**連接埠潛在損壞**的風險，我們決定採用更高效的開發模式：在 Jetson Nano 上部署了 **NoMachine 遠端桌面軟體**。此舉旨在為後續的**自動駕駛程式編寫**與**系統除錯**工作提供一個**高效且穩定**的遠端操作環境。
+
+**佐證資料：**
+
+下方附有系統安裝、驅動程式下載及遠端桌面功能測試的照片作為佐證。
+
+
+### **System Deployment and Remote Development Environment Setup** 
+
+This week's work focused on **system installation** and **driver downloads**.
+
+Considering the risks associated with directly operating the **Jetson Nano** via a small screen, specifically **inconvenient interface operation** and the potential for **damage to the connection ports**, we decided to adopt a more efficient development approach: we deployed **NoMachine remote desktop software** on the Jetson Nano. This action aims to provide an **efficient and stable** remote operational environment for the subsequent tasks of **autonomous driving program writing** and **system debugging**.
+
+**Supporting Documentation:**
+Photos of the system installation, driver downloads, and remote desktop functionality test are attached below as evidence.
 
 
 <div align="center">
@@ -71,23 +145,50 @@
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
-**Content:**  ( 補電路設計圖)
+**Content:** 
 
-- To prevent controller short-circuit damage that could result from soldering on perfboard (bakelite board), and to achieve a neater and more easily configurable circuit board layout, we opted to use EasyEDA for PCB layout, producing the first-generation board via chemical etching (PCB fabrication).
-- As this was the team's initial foray into PCB design, we initially overlooked the standard component placement examples built into the design software, relying instead on manually measuring the spacing between pin headers as our basis. However, due to inexperience, we discovered after the first board was fabricated that the spacing was set too narrowly, resulting in the inability to successfully insert the components.
-- This error provided invaluable practical experience, immediately driving us to initiate a design revision and optimization process, followed by sending the updated design for the fabrication of the second-generation board.
+
+### 第一代 PCB 設計的挑戰與學習** 
+
+* 為了**避免使用電木板焊接時可能導致的控制器短路損毀**，並追求**更整潔、更易於配置**的電路板佈局，我們決定採用 **EasyEDA 軟體繪製印刷電路板（PCB）**，並透過**化學蝕刻（洗印）**製程完成了**第一代電路板**的製作。
+
+
+* 由於這是團隊**首次**進行 PCB 設計，我們初期**忽略了設計軟體（EasyEDA）內建的標準元件排版範例**。我們轉而依賴**手動測量排針間距**作為設計依據。然而，由於**經驗尚淺**，在首代電路板製作完成後，我們才發現**間距設定過小**，最終導致電子元件**無法順利插裝**。
+* 儘管遭遇了這次失誤，它卻提供了**寶貴的實戰經驗**。這促使我們立即啟動**設計修正與優化流程**，並隨即將修正後的設計送廠製作了**第二代版本**。
+
+
+
+### **Challenges and Learning from the First Generation PCB Design** 
+
+* To **prevent potential short-circuit damage to the controllers caused by soldering on pegboards** and to achieve a **cleaner, more configurable** board layout, we decided to use **EasyEDA software to draw the Printed Circuit Board (PCB)**. We then produced the **first generation circuit board** using the **chemical etching process**.
+
+<div align="center">
+    <table>
+        <tr align=center>
+            <th width=50% style="text-align: center;">Jetson  Nano Software Environment Installation</th>
+            <th width=50% style="text-align: center;">Jetson  Nano Software Environment Testing</th>
+        </tr>
+        <tr>
+            <td><img src="../../models/Circuit_Design/img/circuit_board_Front_1.png"/></td>
+            <td><img src="../../models/Circuit_Design/img/circuit_board_back_1.png"/></td>
+        </tr>
+    </table>
+</div>
+
+* As this was the team's **first time** designing a PCB, we initially **overlooked the standard component layout templates built into the design software (EasyEDA)**. Instead, we relied on **manual measurement of the pin header pitch** as the design basis. However, due to our **limited experience**, we only discovered after the first-generation board was fabricated that the **pitch setting was too small**, ultimately preventing the electronic components from being properly inserted.
+* Despite this setback, this failure provided **invaluable hands-on experience**. It prompted us to immediately launch the **design correction and optimization process**, and the revised design was subsequently sent to the factory for the **second-generation version**.
+
 <div align="center" >
-<table >
-<tr align="center">
-<th>First-Generation PCB Front View</th>
-<th>First-Generation PCB Back View</th>
-<tr align="center">
-<td>
-<img src="./img/4/1.png" width = "300"  alt="First-Generation PCB Front View" align=center /></td>
-<td>
-<img src="./img/4/2.png" width = "300"  alt="First-Generation PCB Back View" align=center /></td>
-</tr>
-</table>
+    <table >
+        <tr align="center">
+            <th>First-Generation PCB Front View</th>
+            <th>First-Generation PCB Back View</th>
+        </tr>
+        <tr align="center">
+            <td><img src="./img/4/1.png" width = "300"  alt="First-Generation PCB Front View" align=center /></td>
+            <td><img src="./img/4/2.png" width = "300"  alt="First-Generation PCB Back View" align=center /></td>
+        </tr>
+    </table>
 </div>
 
 ## 2025/03/18 ~ 2025/03/24
@@ -95,13 +196,29 @@
 
 **Content:** 
 
- - This week, we officially commenced the development of the Self-Driving-Cars software. To ensure seamless coordination between the main control unit (Jetson Nano) and the auxiliary unit (Raspberry Pi Pico), we dedicated time to researching critical communication protocols. Our specific areas of investigation included: the communication mechanism between the Jetson Nano and the Raspberry Pi Pico, how to precisely control the DC motor encoder using the Raspberry Pi Pico, and the implementation strategy for reading ultrasonic sensor data.
+### 自駕車程式啟動與通訊協議研究** 
+
+本週，我們正式啟動了**自駕車核心程式的編寫工作**。為了確保**主控單元（Nvidia Jetson Nano）** 與 **輔助單元（Raspberry Pi Pico）** 之間能順利實現**高效的協同運作**，我們投入時間深入研究了關鍵的**通訊協議與技術環節**。
+
+具體研究方向包括：
+* **主輔單元通訊機制：** 探討 **Nvidia Jetson Nano 與 Raspberry Pi Pico 之間的穩定通訊機制**。
+* **編碼器精準控制：** 研究如何利用 **Raspberry Pi Pico 精準控制直流馬達的編碼器（Encoder）**，以實現精確的速度與位置控制。
+* **感測器數據獲取：** 實施**超音波感測器**的**數值讀取與數據處理**等技術環節。
+
+### **Autonomous Car Program Commencement and Communication Protocol Study**
+
+This week, we officially initiated the **coding of the autonomous car's core program**. To ensure the **Main Control Unit (Nvidia Jetson Nano)** and the **Auxiliary Unit (Raspberry Pi Pico)** can achieve **efficient coordinated operation**, we dedicated time to deeply research key **communication protocols and technical aspects**.
+
+The specific research areas included:
+* **Main-Auxiliary Unit Communication:** Investigating the **stable communication mechanism between the Nvidia Jetson Nano and the Raspberry Pi Pico**.
+* **Precise Encoder Control:** Studying how to utilize the **Raspberry Pi Pico to precisely control the DC motor's encoder**, enabling accurate speed and position management.
+* **Sensor Data Acquisition:** Implementing technical steps such as **value reading and data processing** for the **ultrasonic sensor**.
 
  <div align=center>
     <table>
         <tr>
-            <th align=center>Searched for relevant information online.</th>
-            <th align=center>Coding the self-driving-cars program.</th>
+            <th align=center>Search for relevant materials.查找相關資料</th>
+            <th align=center>Write a self-driving car program.撰寫自駕車程序</th>
         </tr>
         <tr>
             <td><img src="./img/3/4.jpg" alt="Searched for relevant information online." width=400 /></td>
@@ -114,11 +231,38 @@
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
+### **Jetson Nano 系統建置與 UART 通訊實作**
 
- - 本周我們撰寫出了基本的程序架構，並且成功使用**UART**的方式搭建了Raspberry Pi Pico和Jetson Nano之間的通訊，將Jetson Nano上的控制指令傳輸到Raspberry Pi Pico。
-    
-    **Jetson Nano端**
-    ```python
+本週，隊友 **HU,SIAN-YI** 已順利完成 **Nvidia Jetson Nano 的作業系統安裝**，並配置了所有必要的硬體驅動與軟體套件。
+
+#### **系統配置重點：**
+* **硬體驅動：** 成功安裝了 **TP-Link T3U Plus (AC1300)** 無線網卡、**IMX477 鏡頭模組**以及 **BNO055 陀螺儀感測器**的驅動程式。
+* **軟體環境：** 安裝了用於影像辨識的 **OPENCV** 套件、用於效能加速的 **Cython**，以及 **UART、I2C 等通訊工具套件軟體**。
+
+#### **程式開發與通訊實作：**
+* 在此基礎上，我們已**成功撰寫出自駕車的基礎程序架構**。
+* 更重要的是，我們**成功採用 UART（通用非同步收發傳輸器）協議**，搭建並驗證了 **Raspberry Pi Pico 與 Nvidia Jetson Nano 之間的穩定通訊機制**。
+* 這項關鍵成果使得我們能夠順利地將由 **Nvidia Jetson Nano（主控單元）** 所生成的**控制指令（如速度、轉向等）**，準確、可靠地傳輸到 **Raspberry Pi Pico（輔助控制單元）** 進行底層執行。
+
+---
+
+### **Jetson Nano System Setup and UART Communication Implementation**
+
+This week, team member **HU,SIAN-YI** successfully completed the **operating system installation for the Nvidia Jetson Nano**, configuring all necessary hardware drivers and software packages.
+
+#### **System Configuration Highlights:**
+* **Hardware Drivers:** Successfully installed drivers for the **TP-Link T3U Plus (AC1300)** wireless adapter, the **IMX477 camera module**, and the **BNO055 gyroscope sensor**.
+* **Software Environment:** Installed the **OPENCV** package for image recognition, **Cython** for performance acceleration, and software utility packages for **UART and I2C communication tools**.
+
+#### **Program Development and Communication Implementation:**
+* Building on this foundation, we have **successfully written the basic program architecture for the autonomous car**.
+* Crucially, we **successfully implemented the UART (Universal Asynchronous Receiver-Transmitter) protocol**, establishing and verifying a **stable communication mechanism between the Raspberry Pi Pico and the Nvidia Jetson Nano**.
+* This key achievement allows us to smoothly and reliably transmit **control commands (such as speed and steering)** generated by the **Nvidia Jetson Nano (Main Control Unit)** to the **Raspberry Pi Pico (Auxiliary Control Unit)** for low-level execution.
+
+#### The UART Program is Shown Below
+
+  **Nvidia Jetson Nano**
+   ```python
     import serial as AC
     import struct
     combined_control_signal = 30
@@ -134,10 +278,10 @@
     send_data_value = struct.pack('3i', *data_to_send)
     send_data_value = header + send_data_value
     ser.write(send_data_value)
-    ```
-
-    **Raspberry Pi Pico端**
-    ```python
+   ```
+   **Raspberry Pi Pico端**
+   
+   ```python
     from machine import UART, Pin
     import struct
     uart = UART(0, baudrate=115200, tx=Pin(16), rx=Pin(17))
@@ -161,20 +305,39 @@
             else:
                 print("Error: Incomplete data received.")
         return data_value[number]
-    ```
 
+   ```
 ## 2025/04/03 ~ 2025/04/14
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**  
- - 在第二代版本的開發過程中，我們根據第一代的回饋，利用設計軟體內建的範例圖重新校準了排針間距，成功改善了原始設計。然而，由於作業上的疏忽，我們在進行 PCB 佈局時誤將背面視圖當作正面設計，導致電路板輸出後發生極性顛倒的問題。所幸在組裝與測試階段便立即發現此錯誤，並在第三代版本中修正了佈局方向。同時，我們也全面複查了各層的對齊規範，以確保設計檔與實體成品能夠完全一致。
 
- - During the development of the second-generation version, we incorporated feedback from the first generation and recalibrated the pin header spacing using the built-in reference templates in the design software, successfully improving the original layout. However, due to an operational oversight, we mistakenly treated the back view as the front view during the PCB layout process, which resulted in polarity reversal after fabrication. Fortunately, this issue was identified immediately during the assembly and testing stage. In the third-generation version, we corrected the layout orientation and also conducted a thorough review of alignment rules across all layers to ensure full consistency between the design files and the physical product.
+---
+
+### **第二代 PCB 佈局失誤修正與 UART 傳輸優化** 
+
+#### **1. 第二代 PCB（V2.0）佈局失誤與修正**
+在 **第二代版本** 的開發過程中，我們根據**第一代的回饋**，利用設計軟體內建的**標準範例圖**重新校準了**排針間距**，成功改善了原始設計的錯誤。
+
+然而，由於**作業上的疏忽**，我們在進行 PCB 佈局時**誤將背面視圖當作正面設計**，導致電路板輸出後發生了**極性顛倒**的重大問題。所幸，此錯誤在**組裝與測試階段**便被立即發現。我們隨即在**第三代版本**中修正了佈局方向，並**全面複查了各層的對齊規範**，以確保設計檔案與最終的實體成品能夠**完全一致**。
+
+#### **2. UART 傳輸問題與持續優化**
+在測試 **UART 數據傳輸**時，我們發現**會有掉資料（Data Loss / Dropping）的情況**。為確保控制指令的傳輸可靠性，我們正在**持續撰寫程式碼，專注於修正這個錯誤問題**，以提升通訊的穩定度。
+
+### **Second Generation PCB Layout Error Correction and UART Transmission Optimization** 
+
+#### **1. Second Generation PCB (V2.0) Layout Error and Correction**
+During the development of the **Second Generation Version**, based on **feedback from the first generation**, we used the design software's built-in **standard example diagrams** to recalibrate the **pin header pitch**, successfully correcting the original design error.
+
+However, due to an **operational oversight**, when implementing the PCB layout, we **mistakenly treated the back view as the front design**, which resulted in a major issue of **reversed polarity** upon board fabrication. Fortunately, this error was discovered immediately during the **assembly and testing phase**. We promptly corrected the layout orientation in the **Third Generation Version** and **comprehensively reviewed the alignment specifications of all layers** to ensure the design file and the final physical product were **completely consistent**.
+
+#### **2. UART Transmission Issue and Ongoing Optimization**
+While testing **UART data transmission**, we discovered **instances of data loss (dropping data)**. To ensure the reliability of control command transmission, we are **continuously developing and debugging the code, focusing on correcting this error** to enhance communication stability.
 
 <div align="center" >
-    <table >
-        <tr align="center">
+    <table>
+        <tr>
             <th>Second-Generation Front View</th>
             <th>Second-Generation Back View</th>
         </tr>
@@ -189,29 +352,8 @@
     </table>
 </div>
 
+
 ## 2025/04/15 ~ 2025/04/21
-**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
-
-**Content:**
-
- - 本週我們完成了自駕車的停車程序設計。
-
- - 在本次實作中，我們採用 直角倒車入庫 的方式作為主要停車策略，使車輛能精準地進入指定停車區域。
-
- - 下圖為停車程序流程的示意圖。
-
- <div align=center>
-    <table>
-        <tr>
-            <th>停車流程示意圖</th>
-        </tr>
-        <tr>
-            <td><img src="./img/4/5.png" width=400 /></td>
-        </tr>
-    </table>
- </div>
-
-## 2025/04/22 ~ 2025/04/30
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -232,7 +374,8 @@
     </table>
  </div>
 
-## 2025/05/01 ~ 2025/05/07
+
+## 2025/04/22 ~ 2025/04/30
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -265,7 +408,8 @@ if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 
         combined_control_signal = 0
 ```
 
-## 2025/05/08 ~ 2025/05/14
+
+## 2025/05/01 ~ 2025/05/07
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -379,6 +523,29 @@ except KeyboardInterrupt:
     GPIO.cleanup()
  ```
 
+## 2025/05/08 ~ 2025/05/14
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:**
+
+ - 本週我們完成了自駕車的停車程序設計。
+
+ - 在本次實作中，我們採用 直角倒車入庫 的方式作為主要停車策略，使車輛能精準地進入指定停車區域。
+
+ - 下圖為停車程序流程的示意圖。
+
+ <div align=center>
+    <table>
+        <tr>
+            <th>停車流程示意圖</th>
+        </tr>
+        <tr>
+            <td><img src="./img/4/5.png" width=600 /></td>
+        </tr>
+    </table>
+ </div>
+
+
 ## 2025/05/15 ~ 2025/05/21
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -481,17 +648,16 @@ if combined_control_signal < -180:
 
 - 經修正前兩代的設計問題後，第四代版本已成功通過功能測試。實際運行測試顯示，排針接點與電路佈局無異常，系統可穩定運作。
 <div align="center" >
-<table >
-<tr align="center">
-<th>Third-Generation Front View</th>
-<th>Third-Generation Back View</th>
-<tr align="center">
-<td>
-<img src="./img/6/5.png" width = "300"  alt="data" align=center /></td>
-<td>
-<img src="./img/6/6.png" width = "300"  alt="data" align=center /></td>
-</tr>
-</table>
+    <table >
+        <tr align="center">
+            <th>Third-Generation Front View</th>
+            <th>Third-Generation Back View</th>
+        </tr>
+        <tr align="center">
+            <td><img src="./img/6/5.png" width = "300"  alt="data" align=center /></td>
+            <td><img src="./img/6/6.png" width = "300"  alt="data" align=center /></td>
+        </tr>
+    </table>
 </div>
 
 ## 2025/07/02 ~ 2025/07/21
@@ -514,6 +680,28 @@ if combined_control_signal < -180:
         </tr>
     </table>
  </div>
+
+## 2025/08/11 ~ 2025/08/17
+**Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+**Content:** 
+
+ - 以下是目前最新電路板的3D檢視圖、原理圖、PCB分布圖。
+
+  <div align=center>
+    <table>
+       <tr>
+          <th>3D view</th>
+          <th>circuit schematic</th>
+          <th>PBC layout drawing</th>
+       </tr>
+       <tr>
+          <td align=center ><img src="../../models/Circuit_Design/img/Old_3D_View.png" height=250 /></td>
+          <td align=center ><img src="../../models/Circuit_Design/img/Old_Schematic.png" height=250 /></td>
+          <td align=center ><img src="../../models/Circuit_Design/img/Old_PCB_Layouts.png" height=250 /></td>
+       </tr>
+    </table>
+  </div>
 
 ## 2025/08/18 ~ 2025/08/24
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
@@ -672,7 +860,7 @@ sudo apt-get -y install sdkmanager
  ```
 
   - ### 介面操作
-    <div align=center>
+ <div align=center>
     <table>
         <tr>
             <th>將Jetson Orin Nano連接上電腦</th>
@@ -751,7 +939,7 @@ sudo apt-get -y install sdkmanager
 
  - 本週我們決定將紅外線感測器安裝在自駕車的前後用於偵測邊牆及停車場方塊，於是我們設計了新的木板和紅外線L型支架用於安裝紅外線感測器。
 
- - 我們在本週測試第五代電路板時發現了一個會導致陀螺儀不被Jetson Orin Nano偵測到的問題，由於我們在主控制器從Jetson Nano改為Jetson Orin Nano時將排線的VCC、GND...等Pin腳取消只剩下陀螺儀的SDA和SCL腳位，結果因為GND沒有接地的關係導致連接時沒有產生迴路而沒有辦法被Jetson Orin Nano偵測到，因此我們改出了第五代電路板將排線的GND腳位重新接上以解決GND沒有接地的問題。
+ - 我們在本週測試第五代電路板時發現了一個會導致陀螺儀不被Jetson Orin Nano偵測到的問題，由於我們在主控制器從Jetson Nano改為Jetson Orin Nano時將排線的VCC、GND...等Pin腳取消只剩下陀螺儀的SDA和SCL腳位，結果因為GND沒有接地的關係導致連接時沒有產生迴路而沒有辦法被Jetson Orin Nano偵測到，因此我們改出了第六代電路板將排線的GND腳位重新接上以解決GND沒有接地的問題。
 
  <div align=center>
     <table>
@@ -788,8 +976,8 @@ sudo apt-get -y install sdkmanager
             <th>第六代電路板(PBC分布圖)</th>
         </tr>
         <tr>
-            <td align=center ><img src="./img/9/Circuit principle 6.png" width=400 /></td>
-            <td align=center ><img src="./img/9/Circuit PCB 6.png" width=400 /></td>
+            <td align=center ><img src="../../models/Circuit_Design/img/Schematic&PCB/Schematic_Version 6.png" height=300 /></td>
+            <td align=center ><img src="../../models/Circuit_Design/img/Schematic&PCB/PCB_Version 6.png" height=300 /></td>
         </tr>
     </table>
  </div>
@@ -914,10 +1102,31 @@ sudo apt-get -y install sdkmanager
 
  - 本周我們使用安裝在機器前後的紅外線感測器進行停車流程。下方為紅外線感測器的類比訊號讀取程序。
 
- ```python
+    ```python
+    class TCRT5000:
+        def __init__(self, adc_pin):
+            try:
+                self.adc = ADC(Pin(adc_pin))
+            except:
+                self.adc = None
 
+        def read_raw(self):
+            try:
+                return self.adc.read_u16()
+            except:
+                return -1
 
- ```
+        def read_percentage(self):
+            try:
+                raw = self.read_raw()
+                if raw == -1:
+                    return -1
+                percentage = (raw / 65535) * 100
+                return round(percentage, 1)
+            except:
+                return -1
+
+    ```
 
  ## 2025/10/21 ~ 2025/10/26
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
@@ -940,3 +1149,17 @@ sudo apt-get -y install sdkmanager
  </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
+
+ ## 2025/10/27 ~ 2025/11/01
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+ **Content:**
+ 整理資料，並上傳GIHUB
+
+ ## 2025/10/27 ~ 2025/11/01
+ **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
+
+ **Content:**
+ 經詢問世界賽裁判，上下位控制器不得使用穩定傳輸之無線傳輸websocket通訊協定，那只能改回原本使用的UART通訊協定的。
+
+
