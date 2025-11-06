@@ -296,8 +296,8 @@
         <table>
           <tr>
             <th>Motor Holder</th>
-            <th>Ultrasonic stent</th>
-            <th>Infrared bracket</th>
+            <th>Ultrasonic Sensor stent</th>
+            <th>Infrared  Sensor bracket</th>
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
