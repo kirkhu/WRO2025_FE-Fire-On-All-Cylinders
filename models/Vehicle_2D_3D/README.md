@@ -310,7 +310,7 @@
       <div align=center>
         <table>
           <tr>
-            <th>Lens Mount</th>
+            <th>Lens Mount with Integrated Light Shielding Functionality</th>
             <th>Lens Module Fine-Tuning Mechanism</th>
           </tr>
           <tr>
