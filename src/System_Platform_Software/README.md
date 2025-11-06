@@ -30,39 +30,39 @@
          <div align=center><img src="./img/20250930_212433.jpg" width="80%" /></div>
 
       <div align=center>
-         <table>
-         <tr>
-         <th>Connect the Nvidia Jetson Orin Nano to the host computer.</th>
-         <th>Verify whether the connection is successful.</th>
-         <th>Select the developer kit.</th>
-         </tr>
-         <tr>
-         <td><img src="./img/11.jpg" width=400 /></td>
-         <td><img src="./img/12.png" width=400 /></td>
-         <td><img src="./img/13.png" width=400 /></td>
-         </tr>
-         <tr>
-         <th>Select the desired JetPack version from the menu.</th>
-         <th>Check the option on the left side and click Next.</th>
-         <th>Enter the administrator password.</th>
-         </tr>
-         <tr>
-         <td><img src="./img/14.png" width=400 /></td>
-         <td><img src="./img/15.png" width=400 /></td>
-         <td><img src="./img/16.png" width=400></td>
-         </tr>
-         <tr>
-         <th>Enter the relevant information of the motherboard.</th>
-         <th>After the installation is complete, click "Finish" to exit.</th>
-         <th>Successful login screen of Jetson Orin Nano</th>
-         </tr>
-         <tr>
-         <td><img src="./img/17.png" width=400 /></td>
-         <td><img src="./img/18.png" width=450 /></td>
-         <td><img src="./img/19.png" width=500 /></td>
-         </tr>
-         </table>
-      </div>
+<table>
+<tr>
+<th>Connect Host - Connect the Jetson Orin Nano controller to the Ubuntu host machine via a USB cable..</th>
+<th>Confirm Connection - Verify that the Jetson Orin Nano is successfully connected and recognized by the SDK Manager.</th>
+<th>Select Dev Kit - Select the target Developer Kit in the interface.</th>
+</tr>
+<tr>
+<td><img src="./img/11.jpg" width=400 /></td>
+<td><img src="./img/12.png" width=400 /></td>
+<td><img src="./img/13.png" width=400 /></td>
+</tr>
+<tr>
+<th>Choose Version - Select the desired JetPack version from the menu for installation or downgrade.</th>
+<th>Check Options - Check the required software components on the left side (such as OS, SDKs), and click "Next".</th>
+<th>Enter Password - Enter the administrator password as prompted.</th>
+</tr>
+<tr>
+<td><img src="./img/14.png" width=400 /></td>
+<td><img src="./img/15.png" width=400 /></td>
+<td><img src="./img/16.png" width=400></td>
+</tr>
+<tr>
+<th>Fill Info - Fill in the relevant information for the target board.</th>
+<th>Finish Install - After installation is complete, click "Finish" to exit.</th>
+<th>System Interface - The Jetson Orin Nano system interface after installation is complete (Result presentation).</th>
+</tr>
+<tr>
+<td><img src="./img/17.png" width=400 /></td>
+<td><img src="./img/18.png" width=450 /></td>
+<td><img src="./img/19.png" width=500 /></td>
+</tr>
+</table>
+</div>
 
    - ### System environment initial setup Steps
       - Update the operating environment.
