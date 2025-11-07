@@ -58,7 +58,7 @@
   #### 5. Performance Videos - Challenge rounds
     - [5-1 Open Challenge rounds OK](video/Open_Challenge/video.md)
     - [5-2 Obstacle Challenge rounds OK](video/Obstacle_Challenge/video.md)
-    - [5-3 Self-Driving Car Design Process Video](video/Design_Process_Video/video.md)
+    - [5-3 Self-Driving Car Design Process Video OK](video/Design_Process_Video/video.md)
   #### 6. GitHub Utilization-GitHub
     - [6-1 GitHub Editing Tools Introduction (VScode Edit/GIT)OK](src/GitHub_Edit/README.md)
     - [6-2 GitHub Web Editor Supported Markup Languages OK](src/GitHub_Languages/README.md)  
