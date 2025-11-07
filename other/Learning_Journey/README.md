@@ -212,7 +212,7 @@ This week, team member **HU,SIAN-YI** successfully completed the **operating sys
     send_data_value = header + send_data_value
     ser.write(send_data_value)
    ```
-   **Raspberry Pi Pico端**
+   **Raspberry Pi Pico**
    
    ```python
     from machine import UART, Pin
