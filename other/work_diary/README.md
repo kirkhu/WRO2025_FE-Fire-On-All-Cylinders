@@ -1249,8 +1249,8 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
 
 * **Final Architecture and Flow:** This week, we have **completed the final program architecture**. Following previous hardware and logic modifications, our **parking procedure flow has also undergone slight adjustments and optimization**. The diagram below illustrates the **sequential flow of the final version of the parking procedure**.
 * **Video Production:** After finalizing the program architecture and procedures, we also **commenced the filming of the introduction video**.
-* **[5-1 Open Challenge rounds](video/Open_Challenge/video.md)**
-* **[5-2 Obstacle Challenge rounds](video/Obstacle_Challenge/video.md)**
+    * **[5-1 Open Challenge rounds](video/Open_Challenge/video.md)**
+    * **[5-2 Obstacle Challenge rounds](video/Obstacle_Challenge/video.md)**
 
 
  <div align=center>
