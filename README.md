@@ -72,7 +72,7 @@
       - [July](other/Learning_Journey/README.md#20250702--20250721)
       - [August](other/Learning_Journey/README.md#20250811--20250817)
       - [September](other/Learning_Journey/README.md#20250901--20250906)
-      - [October](other/Learning_Journey/README.md#20251007--20251013)
+      - [October](other/Learning_Journey/README.md#20250928--20251006)
       - [November](other/Learning_Journey/README.md#20251027--20251101)
 
 - ### Autonomous Vehicle Design: Key Upgrades and Iterations
