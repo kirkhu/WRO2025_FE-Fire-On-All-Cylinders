@@ -1196,8 +1196,8 @@ The purpose of this independent board is:
             <th>Lens Mount Physical Side View</th>
             <th>Lens Mount Physical Front View</th>
         </tr>        
-        <td align=center width=500><img src="./img/10/Lens holder body Onshape.png" width=450 /></td>
-        <td align=center width=500><img src="./img/10/Lens holder body imager.png" width=450 /></td>
+        <td align=center width=500><img src="./img/10/Visor_Side.jpg" width=450 /></td>
+        <td align=center width=500><img src="./img/10/Visor_Front.jpg" width=450 /></td>
         </tr>
     </table>
 </div>
