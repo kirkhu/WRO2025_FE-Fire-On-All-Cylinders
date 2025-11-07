@@ -73,7 +73,7 @@
       - [August](other/Learning_Journey/README.md#20250811--20250817)
       - [September](other/Learning_Journey/README.md#20250901--20250906)
       - [October](other/Learning_Journey/README.md#20251007--20251013)
-      - [November](other/Learning_Journey/README.md#20251027--20251101-1)
+      - [November](other/Learning_Journey/README.md#20251027--20251101)
 
 - ### Autonomous Vehicle Design: Key Upgrades and Iterations
   This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
