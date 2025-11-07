@@ -113,15 +113,31 @@ from functions_jetson import *
         ![flowchart_open](./img/open_challange_Pico.jpg)
         ![flowchart_open](./img/Chinese%20pico%20operation%20flowchart.jpg)
         
-          __set_servo_angle():__<br>
-          - 計算並轉換±180度的角度值到伺服馬達所需的PWM佔空比範圍（0到65535），並將其輸出到前輪伺服馬達。
+      - #### 1. `set_servo_angle()`：伺服馬達角度設定
+        * **功能：** 負責將人機可讀的**角度值（範圍通常為 $\pm 180$ 度）**，計算並**轉換**成伺服馬達所需的**PWM 佔空比範圍（0 到 65535）**。
+        * **輸出：** 將計算出的 PWM 訊號精確地輸出到**前輪伺服馬達**，以控制其轉向角度，實現精準轉向。
                     
-          __control_motor():__<br>
-          - 取-100到100範圍內一個數的絕對值，轉換為PWM佔空比。同時，根據該值的符號設定兩個引腳的高低狀態，以控制馬達的正反轉或停止。
+      - #### 2. `control_motor()`：直流馬達速度與方向控制
+        * **功能：** 接收一個介於 **-100 到 100 之間**的數值作為輸入，用於同時控制速度和方向。
+        * **PWM 轉換：** 取該數值的**絕對值**，將其轉換為**直流馬達的 PWM 佔空比**（代表轉速）。
+        * **方向控制：** 根據輸入數值的**正負符號**，設定 **L293D 驅動晶片上兩個控制引腳的高低電平狀態**，以實現馬達的**正轉、反轉或停止**。
 
-          __pump_uart():__<br>
-          - Jetson orin Nano 控制器透過 UART 協定將更新後的g數值傳送到佇列，確保流程持續運行，以保持資料即時更新。
+      - #### 3. `pump_uart()`：UART 資料傳輸管理 (Jetson 側)
+        * **功能：** 此函式運行於 **Jetson Orin Nano 控制器**上，其職責是透過 **UART 協定**，將最新的控制參數，包括**更新後的模式 (mode)**、**伺服馬達角度 (servo angle)** 和**直流馬達速度 (DC motor speed)** 數值，**傳送到輸出佇列**。
+        * **目的：** 確保控制流程持續運行，並維持資料在 Jetson 與 Pico W 之間的**即時更新**與同步。
 
+      - #### 1. `set_servo_angle()`: Servo Motor Angle Setting
+        * **Function:** Responsible for calculating and **converting** the human-readable **angle value (typically within the $\pm 180^\circ$ range)** into the required **PWM duty cycle range (0 to 65535)** for the servo motor.
+        * **Output:** Outputs the calculated PWM signal precisely to the **front servo motor** to control its steering angle for accurate turning.
+
+      - #### 2. `control_motor()`: DC Motor Speed and Direction Control
+        * **Function:** Accepts a numerical value ranging from **-100 to 100** as input to control both speed and direction simultaneously.
+        * **PWM Conversion:** Takes the **absolute value** of the input number and converts it into the **PWM duty cycle for the DC motor** (representing the rotational speed).
+        * **Direction Control:** Based on the **sign (positive/negative)** of the input value, it sets the **high/low state of the two control pins on the L293D driver chip** to achieve **forward rotation, reverse rotation, or motor stop**.
+
+      - #### 3. `pump_uart()`: UART Data Transmission Management (Jetson Side)
+        * **Function:** This function executes on the **Jetson Orin Nano controller**. Its responsibility is to transmit the latest control parameters, including the **updated mode**, **servo angle**, and **DC motor speed** values, to an **output queue** via the **UART protocol**.
+        * **Purpose:** Ensures the control process runs continuously, maintaining **real-time data updates** and synchronization between the Jetson and the Pico W.
  
 
 # <div align="center">![HOME](../../../other/img/home.png)[Return Home](../../../)</div>  
