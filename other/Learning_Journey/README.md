@@ -792,7 +792,7 @@ A comparison diagram of the two procedures is shown below.
             <th>2025 National Competition: Parallel Reverse Parking Procedure Diagram</th>
             <th>2025 WRO World Final: Diagram of the Parallel Reverse Parking Procedure</th>
         </tr>
-        <tr>
+        <tr align=center>
             <td><img src="./img/9/Parking_Process_1.png" width=400 /></td>
             <td><img src="./img/9/Parking_Process_2.png" width=400 /></td>
         </tr>
