@@ -1,151 +1,126 @@
 <div align=center> <img src="../../../other/img/logo.png" width = 300 alt=" logo"> </div>
 
 ## <div align="center">Open Challenge Code Overview</div> 
-  Based on the characteristics of each control board, we distributed the complex operations required for the race vehicle:
+  Based on the characteristics of each control board, we distributed the complex operations required for the race vehicle: - 考量到各控制板的運算特性與專長，我們對競賽車輛所需的複雜操作進行了專業的職責劃分：
+  ### 中文:
+   1. Jetson Orin Nano 核心處理影像辨識與行駛方向判斷，憑藉其強大的運算性能實現即時影像分析。
+   2. 樹莓派 Pico W 則同步負責馬達驅動及車輛轉向，利用其高效的 GPIO 控制功能達成精準的硬體管理。
+   3. 此種專業分工的架構能最大化各控制板的專長優勢，進而讓整個系統運行更為穩定且高效。
+   ### 英文:
    <ol>
    <li>
-    The Jetson Nano is responsible for image recognition and direction detection, leveraging its powerful computing 
-   capability to process real-time image analysis.    
+    The Jetson Orin Nano is primarily responsible for image recognition and driving direction determination, leveraging its powerful computational capabilities to perform real-time image analysis.     
    </li>
    <li>
-    Meanwhile , the Raspberry Pi Pico handles motor driving, and vehicle steering, utilizing its efficient GPIO control features for precise hardware management.
+    The Raspberry Pi Pico W handles the motor drive and vehicle steering, utilizing its efficient GPIO control functions to achieve precise hardware management.
    </li>
    <li>
-    This division of labor maximizes the advantages of each control board, making the overall system more stable and efficient.
+    This specialized division of labor architecture maximizes the unique strengths of each control board, resulting in a system that operates with enhanced stability and efficiency.
    </li>
    </ol>
 
- - ### Jetson Nano library
-    The functions for image recognition, front-wheel servo motor proportional steering control, and ground line color recognition have been integrated into the [function.py](../common/function.py) module and can be directly imported for use.
-    The functions of these modules are as follows:
-    - `process_roi()`: Processes image data to recognize objects or features within a scene.
+ - ### Jetson Orin nano library - Jetson Orin nano庫
+    The core functions for image recognition and ground line color recognition have been fully integrated into the [function.py](../common/function.py) module and can be directly imported and called for use. The specific functions of these modules are listed as follows:
+    - `find_contours()`: Process image data to identify objects or features of specific colors in the scene.(處理影像資料以識別場景中的特定顏色物體或特徵。)
       ```
-      def process_roi(undistorted_frame, x1, y1, x2, y2, threshold_value=90):
-          roi = undistorted_frame[y1:y2, x1:x2]
-          gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
-          _, binary = cv2.threshold(gray, threshold_value, 255, cv2.THRESH_BINARY_INV)
-          # Find all contours
-          contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)      
-          # If there are contours, find the largest contour by area
-          if contours:
-              largest_contour = max(contours, key=cv2.contourArea)
-              black_pixels = int(cv2.contourArea(largest_contour))  # Convert black pixels to integer
-          # Draw the largest contour
-          cv2.drawContours(binary, [largest_contour], -1, (255, 255, 255), -1)
-          else:
-              black_pixels = 0
-          return cv2.cvtColor(binary, cv2.COLOR_GRAY2BGR), black_pixels
+      def find_contours(img_lab, lab_range, ROI):
+        x1, y1, x2, y2 = ROI
+        seg = img_lab[y1:y2, x1:x2]
+        lo = np.array(lab_range[0]); hi = np.array(lab_range[1])
+        mask = cv2.inRange(seg, lo, hi)
+        k = np.ones((5,5), np.uint8)
+        mask = cv2.erode(mask, k, iterations=1)
+        mask = cv2.dilate(mask, k, iterations=1)
+        contours = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
+        return contours
+      ```
+    - `max_contour()`: This function filters the input list of contours by selecting those with an area greater than a specific threshold, then identifies the largest contour among them, calculates its centroid coordinates,and finally returns this largest contour's area, coordinates, and the contour itself.(從輸入的輪廓列表中，篩選出面積大於特定閾值的輪廓，並找出其中面積最大的輪廓，計算其中心點座標，最終回傳此最大輪廓的面積、座標與輪廓本身。)
+      ```
+      def max_contour(contours, ROI):
+          maxArea = 0; maxY = 0; maxX = 0; mCnt = 0
+          for cnt in contours:
+              area = cv2.contourArea(cnt)
+              if area > 150:
+                  approx = cv2.approxPolyDP(cnt, 0.01*cv2.arcLength(cnt, True), True)
+                  x,y,w,h = cv2.boundingRect(approx)
+                  x += ROI[0] + w//2
+                  y += ROI[1] + h
+                  if area > maxArea:
+                      maxArea = area; maxY = y; maxX = x; mCnt = cnt
+          return [maxArea, maxX, maxY, mCnt]
       ```             
 
-    - `pd_control()`: Controls the steering of the servo motor based on calculated ratios to ensure precise and stable steering.
-      ```
-      def pd_control(target, current, kp, kd):
-          global current_last  # Use a global variable
-          error = current - target
-          derivative = current - current_last
-          control_signal = -(kp * error + kd * derivative)
-          current_last = current  # Update current_last before returning
-          return control_signal
-      ```
-
-    - `detect_color()`: Detects the color of lines on the ground, used for applications such as path or lane tracking.
-      ```
-      def detect_color(undistorted_frame):
-          hsv_frame = cv2.cvtColor(undistorted_frame, cv2.COLOR_BGR2HSV)
-          color_y_positions = []
-          for color, (lower, upper, bgr) in color_ranges.items():
-              lower = np.array(lower, dtype=np.uint8)
-              upper = np.array(upper, dtype=np.uint8)
-              color_mask = cv2.inRange(hsv_frame, lower, upper)
-              contours, _ = cv2.findContours(color_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-              if contours:
-                largest_contour = max(contours, key=cv2.contourArea)
-                if cv2.contourArea(largest_contour) > 500:  # Filter out small noise areas
-                    x, y, w, h = cv2.boundingRect(largest_contour)
-                    center_y = y + h // 2
-                    cv2.rectangle(undistorted_frame, (x, y), (x + w, y + h), bgr, 2)
-                    cv2.circle(undistorted_frame, (x + w // 2, center_y), 5, bgr, -1)  # Mark center point
-                    color_y_positions.append(center_y)
-                else:
-                    color_y_positions.append(0)  # If no valid contour is found, return 0
-              else:
-                    color_y_positions.append(0)  # If no contours are found, return 0
-          return color_y_positions
-      ```
-
- - ### Open Challenge Code Overview of Jetson nano
-   - #### Open Challenge Code Program Jetson nano Libraries
+ - ### Jetson Orin Nano Open Challenge Code Overview - Jetson Orin nano 公開挑戰程式碼概述
+   - #### Jetson Orin Nano Core Library Open Challenge Code Plan - Jetson Orin nano 函式庫的開放挑戰程式碼計劃
     
-      ```
-      import cv2
-      import numpy as np
-      import serial as AC
-      import struct
-      import Adafruit_BNO055.BNO055 as BNO055 
-      # Program module for loading the BNO055 gyroscope orientation sensor
-      
-      import time
-      from function import process_roi, detect_color, pd_control
-      # Load custom program modules for image recognition, front-wheel servo
-        motor steering ratio control, and ground line color recognition.
+```
+import os, sys                                                                 
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))                      
+import cv2, time, math, sys, numpy as np                                         
+from masks import rMagenta, rRed, rGreen, rBlue, rOrange, rBlack                 
+from functions_jetson import * 
+```  
 
-      import Jetson.GPIO as GPIO 
-      # Enable GPIO pin control on the Jetson Nano.
-      ```  
+   - #### Introduction to running programs on the Jetson Orin nano controller: - Jetson Orin Nano 控制器上程式運行之簡介:
 
-   - #### Introduction to running programs on the Jetson nano controller:
+      - ##### [jetson_orin_nano_main.py](./jetson_orin_nano_main.py)
+      ### 中文:
+      - `jetson_nano_main.py` 主程式負責掌控整體任務流程，包含避牆導航、轉向控制及圈數計數等核心功能。
+      - 系統啟動流程： Jetson Orin Nano 啟動後，樹莓派 Pico W 會進入待命狀態。當使用者按下實體啟動開關後，Jetson Orin Nano 接收到啟動訊號，隨即發送高電平訊號來啟動 `jetson_nano_main.py` 主程式。主程式運行後，便透過 UART 介面持續將舵機（轉向）和直流馬達（驅動）的數據傳送給樹莓派 Pico W 執行。
+      - 直線行駛模式 (Wall Following): 程式啟動時，車輛預設進入直線行駛模式。在此模式下，系統會將計算出的邊牆範圍轉換為伺服馬達的精確轉向角度，並利用 PD 控制演算法確保車輛能穩定循跡，避免碰撞牆壁。
+      - 轉彎模式切換 (Curve Detection): 當車輛接近彎道時，系統會偵測賽道上的藍色或橘色線條，一旦偵測到這些線條，即自動切換至轉彎模式。
+      - 轉彎與模式返回： 在轉彎模式下，伺服馬達的角度保持固定不變，車輛仍利用視覺看牆的方式進行輔助判斷。當系統確認內牆面積（inner wall area）大於 4000 時，即認定轉彎完成，隨即返回直線行駛模式。
+      ### 英文:
+      - The `jetson_nano_main.py` primary program is responsible for controlling the overall mission flow, encompassing core functions such as wall avoidance navigation, steering control, and lap counting.
+      - System Startup Process: After the Jetson Orin Nano boots up, the Raspberry Pi Pico W enters a waiting state. Upon the user pressing the physical start switch, the Jetson Orin Nano receives the activation signal and immediately transmits a high-level signal to initiate the `jetson_nano_main.py` main program. Once running, the main program continuously sends servo motor (steering) and DC motor (drive) data to the Raspberry Pi Pico W via the UART interface for execution.
+      - Straight Driving Mode (Wall Following): When the program starts, the vehicle defaults to the straight driving mode. In this mode, the system converts the calculated side wall range into a precise steering angle for the servo motor, utilizing a PD control algorithm to ensure stable tracking and prevent collisions with the walls.
+      - Curve Mode Transition (Curve Detection): As the vehicle approaches a curve, the system detects the blue or orange lines on the track. Once these lines are detected, the system automatically switches to the turning mode.
+      - Turning and Mode Return: In the turning mode, the servo motor angle remains fixed, and the vehicle still uses visual wall perception for auxiliary judgment. The turning is deemed complete when the system confirms that the inner wall area is greater than 4000, upon which the vehicle immediately returns to the straight driving mode.
 
-      - ##### [jetson_nano_main.py](./jetson_nano_main.py)
-        - The  `jetson_nano_main.py` program is primarily responsible for controlling the overall task flow, including wall avoidance, steering control, and lap counting.
+      ### Jetson Orin Nano Program Execution Flow - Jetson Orin Nano程式運行流程
+      ### 中文:
+      - `jetson_nano_main.py` 程式啟動後，首先初始化所有系統變數。隨後，程式進入主循環 (Main Loop)，在循環中持續調用 `find_contours()`與 `max_contour()` 函式來獲取實時視覺數據。接著，系統會根據當前車輛狀態進入不同的條件分支，以執行相應的控制操作。在每個運行週期結束時，程式會將 Jetson Orin Nano 計算出的直流馬達驅動值、伺服馬達轉向角度以及當前運行狀態，打包成二進位數據格式，並透過 UART 介面發送給 Raspberry Pi Pico W，由其進行底層硬體控制。
+      ### 英文:
+       - Upon execution, the `jetson_nano_main.py` program first initializes all system variables. Subsequently, the program enters a Main Loop, where it continuously calls the `find_contours()` and `max_contour()` functions to acquire real-time visual data. The system then branches into different conditional blocks based on the current vehicle status to execute the corresponding control operations.At the conclusion of each cycle, the program packages the calculated DC motor values, servo motor angles, and the current operating status into a binary data format. This package is then transmitted via the UART interface to the Raspberry Pi Pico W for low-level hardware control.
 
-        - When the program starts, the vehicle defaults to a straight-line mode. In this mode, the boundary range calculated by `process_roi()` is converted into an angle for the servo motor, and PD steering control is executed via `pd_control()` to ensure the vehicle does not hit the sidewall. When the vehicle approaches a turn, `detect_color()` detects blue or orange lines to determine whether to enter turning mode.
-
-        - In turning mode, the servo motor angle remains fixed, and the vehicle uses the gyroscope angle and elapsed time to determine if it has reached the next turning point, thereby deciding when to return to straight-line mode to avoid repeated detections.
-
-      __Program operation flow__
-        - `jetson_nano_main.py` starts execution, initializes all variables, and enters a loop, continuously retrieving data from process_roi and detect_color, then entering different conditional branches based on the current state to perform the appropriate control actions. In each loop, `jetson_nano_main.py` packages the calculated DC motor value, servo motor angle, and current status into binary data and sends it to the Raspberry Pi Pico via UART. 
-
-   - ##### Program Operation flowchart of the Jetson Nano controller
+   - ##### Jetson Orin Nano Controller Main Program Flowchart - Jetson Orin Nano控制器主程式流程圖
      ![flowchart_open](./img/open_challange_Jetson_nano.jpg)
+     ![flowchart_open](./img/Chinese%20Qualifying%20Tournament%20Operation%20Flowchart.jpg)
 
- - ### Open Challenge Code Overview of Raspberry Pi Pico
-   - ####  Open Challenge Code Program Raspberry Pi Pico Libraries
+ - ### Raspberry Pi Pico W Open Challenge Code Overview - 樹莓派 Pico W 公開挑戰代碼概述
+   - #### Raspberry Pi Pico W Core Library / Module Program Plan for the Open Challenge - 樹莓派 Pico W 庫公開挑戰程式碼程序
     
       ```
-      from machine import Pin, PWM, I2C, UART  
-      # In MicroPython, you can import relevant modules to enable 
-        GPIO pin control, Pulse Width Modulation (PWM), I2C, and 
-        UART communication protocols on the Raspberry Pi Pico.
-
-      import struct
+      from machine import Pin, PWM, UART,I2C,time_pulse_us
       import time
+      import struct
       ```  
      
-   - #### Introduction to running programs on the Raspberry Pi Pico controller:
+   - #### Raspberry Pi Pico W Controller Program Operation Overview - 樹莓派 Pico W 控制器程式運作簡介:
 
       - ##### [pico_main.py](./pico_main.py)
-        - The `pico_main.py` program runs on the Raspberry Pi Pico controller as an intermediary control system for an autonomous vehicle, managing the operation of the DC motor and servo motor. This program receives computation results from the Jetson Nano controller via UART and controls the speed of the rear-wheel DC motor, the angle of the front-wheel servo motor, while also monitoring vehicle status parameters.
-        -  When the start switch is pressed, the Raspberry Pi Pico controller receives a start signal and sends a high-level signal to initiate the main program `jetson_nano_main.py` on the Jetson Nano.
-        - When controlling the rear-wheel DC motor, we adjust the voltage through the duty cycle of PWM, using the L293D driver chip to achieve speed control of the rear-wheel DC motor. Additionally, by setting the high and low levels of the two control pins (20,21) on the L293D, we can control the forward and reverse rotation of the rear-wheel DC motor.
-        - When controlling the front-wheel servo motor, we directly use the duty cycle of the PWM signal to adjust the output and control the steering angle of the servo motor, without the need for an L293D driver. Changes in the PWM signal’s duty cycle correspond to different angle settings for the servo motor, allowing for precise steering.
+      ### 中文:
+      - 此`pico_main.py`程式運行於樹莓派 Pico W控制器上，作為自動駕駛車輛的中間控制系統，負責管理直流馬達和伺服馬達的運作。該程式透過 UART 介面接收來自 Jetson Orin Nano 控制器的計算結果，並控制後輪直流馬達的轉速、前輪伺服馬達的角度，同時監控車輛狀態參數。    
+      - 在控制後輪直流馬達時，我們透過調節PWM的佔空比來控制電壓，並使用L293D驅動晶片來實現後輪直流馬達的速度控制。此外，透過設定L293D晶片上兩個控制引腳（20、21）的高低電平，我們可以控制後輪直流馬達的正反轉。
+      - 在控制前輪伺服馬達時，我們直接利用PWM訊號的佔空比來調整輸出，進而控制伺服馬達的轉向角度，PWM訊號佔空比的變化對應於伺服馬達的不同角度設置，從而實現精確轉向。
+      ### 英文:
+      - The pico_main.py program runs on the Raspberry Pi Pico W controller, functioning as the intermediate control system for the self-driving vehicle. It is primarily responsible for managing the operation of both the DC driving motor and the servo steering motor. The program receives calculation results from the Jetson Orin Nano controller via the UART interface, using this data to control the rotational speed of the rear DC motor and the angle of the front servo motor, while simultaneously monitoring vehicle status parameters.
+      - To control the rear DC motor, we regulate the voltage by adjusting the PWM duty cycle, utilizing the L293D driver chip to manage the motor's speed. Furthermore, setting the high/low logic levels on the two control pins (20, 21) of the L293D chip allows for precise control over the rear DC motor's forward and reverse rotation.
+      - For steering control with the front servo motor, we directly utilize the PWM signal's duty cycle to adjust the output, thereby commanding the servo motor's turning angle. The variation in the PWM duty cycle corresponds to different angle settings of the servo motor, which enables highly accurate steering.
       
-      __Program operation flow__
-        - `pico_main.py` starts running, it sends a high-frequency signal to the Jetson Nano to initiate the `jetson_nano_main.py` program. Then, `pico_main.py` enters a waiting state until a button is pressed. Once pressed, `pico_main.py` enters the main loop, beginning to receive data sent by the Jetson Nano via UART, and continues running until it receives a value with a status of 5.
 
-      - ##### Program Operation flowchart of the Raspberry Pi Pico controller
+      - ##### Program Operation flowchart of the Raspberry Pi Pico W controller - 樹莓派 Pico W 控制器程式運作流程圖
         ![flowchart_open](./img/open_challange_Pico.jpg)
+        ![flowchart_open](./img/Chinese%20pico%20operation%20flowchart.jpg)
         
           __set_servo_angle():__<br>
-           Calculate and convert the angle value from ±180 degrees to the PWM duty cycle range required by the servo motor (0 to 65535) and output it to the front-wheel servo motor.
-        
+          - 計算並轉換±180度的角度值到伺服馬達所需的PWM佔空比範圍（0到65535），並將其輸出到前輪伺服馬達。
+                    
           __control_motor():__<br>
-            Take the absolute value of a number in the range of -100 to 100 and convert it to the PWM duty cycle. Meanwhile, set the high and low states of two pins based on the sign of the value to control forward and reverse rotation or to stop.。
+          - 取-100到100範圍內一個數的絕對值，轉換為PWM佔空比。同時，根據該值的符號設定兩個引腳的高低狀態，以控制馬達的正反轉或停止。
 
-          __jetson_all():__<br>
-            The Jetson Nano controller sends updated values to the queue via the UART protocol, ensuring that this process runs continuously to keep the data updated in real-time. 
-
-          __run_encoder():__<br>
-            By reading the current value of the DC motor to calculate its rotation angle, conditions are set based on the calculation results to control the motor to move straight to the specified rotation angle. This design allows for precise motor adjustments, ensuring that the vehicle moves steadily during operation and accurately reaches the intended target angle.
+          __pump_uart():__<br>
+          - Jetson orin Nano 控制器透過 UART 協定將更新後的g數值傳送到佇列，確保流程持續運行，以保持資料即時更新。
 
  
 
