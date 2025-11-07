@@ -113,31 +113,28 @@
 <div align=center>
 <table>
 <tr>
-<th>Preparing to turn left</th>
-<th>Start_reversing</th>
+<th align=center width="50%">Preparing to turn left</th>
+<th align=center width="50%">Start_reversing</th>
 </tr><tr>
-<td align=center><img src="./img/Start_in_green_counterclockwise-1.png" width=400 /></td>
-<td align=center><img src="./img/Start_in_green_counterclockwise-2.png" width=400 /></td>
+<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-1.png"  /></td>
+<td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
 </tr>
 </table>
 </div>
 <div align=center>
 <table>
 <tr>
-<th>reparing to turn right</th>
-<th>Preparing to retreat</th>
+<th align=center width="50%">Reparing to turn right</th>
+<th align=center width="50%">Preparing to retreat</th>
 </tr><tr>
-<td align=center><img src="./img/Start_in_green_counterclockwise-3.png" width=400 /></td>
-<td align=center><img src="./img/Start_in_green_counterclockwise-4.png" width=400 /></td>
+<td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
+<td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
 </tr>
-</table>
-</div>
-<div align=center>
-<table>
+
 <tr>
-<th>Arrive at the designated location</th>
+<th align=center colspan=2>Arrive at the designated location</th>
 </tr><tr>
-<td align=center><img src="./img/Start_in_green_counterclockwise-5.png" width=400 /></td>
+<td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
 <tr>
 </table>
 </div>
