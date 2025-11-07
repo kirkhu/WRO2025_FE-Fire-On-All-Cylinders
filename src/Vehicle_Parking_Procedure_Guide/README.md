@@ -254,8 +254,7 @@
 ## <div align="center">Clockwise Vehicle Parking Procedure </div>
 <div align=center>
 
-
-
+<table>
 <tr>
 <th align="center"  width="50%"> The vehicle proceeds forward through the parking area.</th>
 <th align="center"  width="50%"> The vehicle turns to the left, with its front facing the outer wall at a 90-degree azimuth.</th>
