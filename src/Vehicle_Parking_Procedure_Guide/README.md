@@ -1,21 +1,9 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Vehicle Parking Procedure Guide - 車輛停車程序指南</div>
-  **Code Logic Description: Parking Task After Three Laps - 程式碼邏輯說明：三圈後停車任務。**
-- ### Parking program-停車計劃
-    ### 中文:
-    1.  **停車區識別與入庫準備 (Jetson Orin Nano)**
-      * 在車輛行駛過程中，**Jetson Orin Nano 系統**持續透過攝影機偵測**洋紅色方塊**以識別**停車場的精確位置**。
-      * 當車輛**完成第三圈**時，自駕車會執行**轉彎動作進入停車區**，並持續**向前行駛**，直到**紅外線感測器偵測到牆壁**。此時，車輛隨即執行**後退轉彎**，並開始調整車體朝向停車場的精確方向。
-    2.  **精準定位與入庫起始 (Jetson Orin Nano)**
-      * 車輛朝向停車場區域後，**Jetson Orin Nano** 透過攝影機**即時測量**車輛與**洋紅色停車位標記**之間的**橫向距離**，以確保維持適當的進場間距。
-      * 為確認車輛已抵達**精確的入庫起始位置**，程式持續監測攝影機所擷取的**洋紅色標誌面積**。
-      * 一旦**洋紅色區域的面積小於 100**，即確認完成定位。車輛隨即**沿牆邊線循跡 100 度**，隨後執行**轉入停車位的動作**。
-    3.  **平行倒車入庫與姿態控制 (Raspberry Pi Pico W)**
-      * 在確認目標停車方向後，系統將執行**模擬真實世界的平行停車**動作。
-      * 首先，**Jetson Orin Nano** 計算並設定轉向**伺服馬達的起始角度**及**直流驅動馬達的數值**。
-      * 在倒車入庫過程中，**主控單元 (Raspberry Pi Pico W)** 負責**讀取來自 Jetson Orin Nano 的陀螺儀角度數據**（或直接執行姿態控制），以**精確控制車輛的姿態與轉向角度**，並**同步調整伺服馬達**，從而**完成自動平行倒車入庫動作**。
-    ### 英文:
+## <div align="center">Vehicle Parking Procedure Guide</div>
+  **Code Logic Description: Parking Task After Three Laps**
+- ### Parking program
+    
     1.  **Parking Zone Identification and Entry Preparation (Jetson Orin Nano)**
       * While the vehicle is driving, the **Jetson Orin Nano system** continuously identifies the **precise location of the parking lot** by detecting the **magenta square** via the camera.
       * When the vehicle **completes the third lap**, the autonomous car executes a **turn to enter the parking zone** and continues to **drive forward** until the **infrared sensor detects a wall**. At this point, the vehicle immediately performs a **reverse turn** and adjusts its body orientation towards the parking lot's precise direction.
@@ -28,11 +16,10 @@
     3.  **Parallel Reverse Parking and Attitude Control (Raspberry Pi Pico W)**
       * After confirming the target parking direction, the system executes a maneuver that **simulates real-world parallel parking**.
       * First, the **Jetson Orin Nano** calculates and sets the **initial angle of the steering servo motor** and the **value for the DC drive motor**.
-      * During the reverse parking maneuver, the **main control unit (Raspberry Pi Pico W)** is responsible for **reading the gyroscope angle data** from the Jetson Orin Nano (or directly implementing attitude control), which allows for **precise control over the vehicle's posture and steering angle**. The Pico W simultaneously adjusts the servo motor, thereby **completing the automatic parallel reverse parking action**.
-    
+      * During the reverse parking maneuver, the **main control unit (Raspberry Pi Pico W)** is responsible for **reading the gyroscope angle data** from the Jetson Orin Nano (or directly implementing attitude control), which allows for **precise control over the vehicle's posture and steering angle**. The Pico W simultaneously adjusts the servo motor, thereby **completing the automatic parallel reverse parking action**.    
 
-- **Code Executed on the Raspberry Pi Pico W Controller- Raspberry Pi Pico W 控制器上執行的程式碼。**
-    ``` 
+- **Code Executed on the Raspberry Pi Pico W Controller- Raspberry Pi Pico W**
+    ``` python
     while mode == 3:
         json_obj, _, got_stop = pump_ws(s)
         extract_magenta_from_json(json_obj)
@@ -224,7 +211,7 @@
     while mode == 10:
         motor_brake() 
     ```
-## <div align="center">Counter-Clockwise Vehicle Parking Procedure - 逆時針方向車輛停車流程</div>
+## <div align="center">Counter-Clockwise Vehicle Parking Procedure </div>
 <div align=center>
 
   |The vehicle proceeds forward through the parking area.|The vehicle turns to the right, with its front facing the outer wall at a 90-degree azimuth.|
