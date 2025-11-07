@@ -289,8 +289,8 @@
 <th align="center"  width="50%">Vehicle Parking Finished </th>
 </tr>
 <tr>
-<td align="center"  width="50%"><img src="img/parking_2-7.png"  width="400"/> </td>
-<td align="center"  width="50%"><img src="img/parking_2-8.png" width="400"/> </td>
+<td align="center"  width="50%"><img src="img/parking_2-7.png" /> </td>
+<td align="center"  width="50%"><img src="img/parking_2-8.png" /> </td>
 </tr>
 </table>
 </div>
