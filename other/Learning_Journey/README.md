@@ -9,7 +9,7 @@
 
   We didn't just reference the successful elements of the previous year's winning teams; we implemented **key technological iterations**:
 
-  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Orin Nano to the **superior-performing Nvidia Jetson Orin Nano**.
+  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Nano to the **superior-performing Nvidia Jetson Orin Nano**.
   * **Mechanical Overhaul:** We have **restructured and optimized** the vehicle's mechanical components, specifically the steering and chassis.
   * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
 
