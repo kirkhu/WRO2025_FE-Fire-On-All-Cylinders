@@ -15,7 +15,7 @@
     - * **Upon detecting a Green Pillar:** The vehicle executes a **90-degree turn to the right** for a lane change, **driving forward to the outer side of the Green Pillar**. Subsequently, the vehicle **turns 90 degrees to the left** and **drives forward to a predetermined position** (completing the outer lane change).
     - * **Upon detecting a Red Pillar:** The vehicle executes a **90-degree turn to the right** for a lane change, **driving forward to the inner side of the Red Pillar**. Subsequently, the vehicle **turns 90 degrees to the left** and **drives forward to a predetermined position** (completing the inner lane change).
     - * **When no pillars are detected:** The system defaults the vehicle to **drive on the outer side of the lane**.
-- **Code running on the Raspberry Pi Pico W controller.-在 Raspberry Pi Pico W 控制器上執行的程式碼。**
+- **Code running on the Raspberry Pi Pico W controller.**
     ```python
     if turn in (1, 2):
         if turn == 1:
@@ -53,7 +53,7 @@
                     color = v
                     LAST_COLOR = color
                     print("[JSON] color =", color)
-                    break # 收到有效 color，跳出 while 迴圈
+                    break 
                 else:
                     if DEBUG: print("[IGNORE] JSON color out of range:", v)
             
