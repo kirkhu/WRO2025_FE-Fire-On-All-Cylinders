@@ -81,7 +81,7 @@
   * As the vehicle moves, the **camera** transmits the **video stream** to the main controller (**Jetson Orin Nano**).The controller then performs **image processing** to determine the **ideal X-coordinate position** of the **target pillar** within the image frame.This visual data (specifically the X-coordinate) assists the controller in **determining the object's spatial position and distance**, enabling **precise navigation and obstacle avoidance**.
   * On the captured image, the system uses the **`boundingRect()` function** to **draw a rectangle** around the target contour.This function returns the **X and Y coordinates of the rectangle's top-left corner**. When applied to the signal pillar's contour, these coordinates are then used to **determine its precise position** within the frame.
   
-- The vehicle completes the precise maneuver to avoid traffic signals (colored pillars) through the following three main steps:
+- **The vehicle completes the precise maneuver to avoid traffic signals (colored pillars) through the following three main steps:**
     
     1.  **Target Pillar Selection and Distance Calculation:**
         * If **two or more pillars** appear on the camera screen, the system calculates the distance from the **center point of the screen's bottom edge** to the **center point of the bottom of each pillar**.
