@@ -63,7 +63,7 @@
     - [6-1 GitHub Editing Tools Introduction (VScode Edit/GIT)OK](src/GitHub_Edit/README.md)
     - [6-2 GitHub Web Editor Supported Markup Languages OK](src/GitHub_Languages/README.md)  
   #### 7. Engineering Factor
-    - [7-1 Work Diary](other/work_diary/README.md)
+    - [7-1 Learning Journey](other/Learning_Journey/README.md)
       - [February](other/work_diary/README.md#20250228--20250330)
       - [March](other/work_diary/README.md#20250301--20250307)
       - [April](other/work_diary/README.md#20250403--20250414)
