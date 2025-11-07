@@ -1282,14 +1282,14 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
 ### **Communication Protocol Adjustment and Ongoing Engineering Document Updates**
 
 #### **1. Communication Protocol Adjustment Decision and New Challenge**
-Following confirmation with the **World Final judges** a few days ago, the communication between the main and auxiliary controllers (**Jetson Orin Nano** and **Raspberry Pi Pico W**) **is prohibited from using stable wireless communication protocols such as WebSocket**.
+   - Following confirmation with the **World Final judges** a few days ago, the communication between the main and auxiliary controllers (**Jetson Orin Nano** and **Raspberry Pi Pico W**) **is prohibited from using stable wireless communication protocols such as WebSocket**.
 
-Given this rule restriction, we decided to **abandon the previously investigated WebSocket solution** and **revert to the established UART (Universal Asynchronous Receiver-Transmitter) communication protocol** for data transmission.
+   - Given this rule restriction, we decided to **abandon the previously investigated WebSocket solution** and **revert to the established UART (Universal Asynchronous Receiver-Transmitter) communication protocol** for data transmission.
 
-However, since the main controller has been upgraded to the **Jetson Orin Nano**, and we **have not yet implemented UART communication on this specific controller**, this presents a **new technical challenge** for the team.
+   - However, since the main controller has been upgraded to the **Jetson Orin Nano**, and we **have not yet implemented UART communication on this specific controller**, this presents a **new technical challenge** for the team.
 
 #### **2. Engineering Document Progress**
-**Continuing to modify engineering documentation on the GitHub project repository**.
+   - **Continuing to modify engineering documentation on the GitHub project repository**.
 
 
  # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
