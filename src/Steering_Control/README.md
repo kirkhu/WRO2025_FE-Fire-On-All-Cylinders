@@ -88,6 +88,17 @@
     3.  **Safety Wall Avoidance Priority Mechanism:**
         * **Priority Check:** Simultaneously while detecting pillars, the system **continuously monitors the contour area of the left or right side walls**.
         * **Safety Override:** If the area of either side wall is **excessively large** (reaching a critical threshold), the system **cancels the current pillar selection** and **switches the control priority to wall avoidance**. The steering angle is then determined by the wall area deviation, causing the vehicle to **steer towards the center of the lane** to **prevent collision with the walls**, thereby ensuring safety.
+<div align=center>
+<table>
+<tr>
+<th  align=center width="50%">Recognize the color of traffic signal blocks.</th>
+<th  align=center width="50%">The color and X, target coordinates of traffic signal blocks.</th>
+</tr><tr>
+<td  align=center width="50%"><img src="./img/Detecting_nearby_obstacles.png"  alt="Detecting_nearby_obstacles"></td>
+<td align=center width="50%">><img src="./img/Obstacle_XY_coordinates.png"  alt="Obstacle_XY_coordinates"></td>
+</table>
+</div>
+
     
 <div align=center>
 
