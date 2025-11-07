@@ -780,8 +780,8 @@ A comparison diagram of the two procedures is shown below.
             <th>Photo of Teammate Coding the Forward Parking Program</th></th>
         </tr>
         <tr>
-            <td><img src="./img/9/steering structure 4.jpg" width=400/></td>
-            <td><img src="./img/9/Write a Code.jpg" width=400/></td>
+            <td><img src="./img/9/steering_structure_4.jpg" width=400/></td>
+            <td><img src="./img/9/Write_a_Code.jpg" width=400/></td>
         </tr>
     </table>
  </div>
@@ -806,16 +806,16 @@ A comparison diagram of the two procedures is shown below.
             <th>Assembly of the Steering Mechanism</th>
         </tr>
         <tr>
-            <td><img src="./img/9/Structure processing steps 1.jpg" width=400 /></td>
-            <td><img src="./img/9/Structure processing steps 2.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure_processing_steps_1.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure_processing_steps_2.jpg" width=400 /></td>
         </tr>
         <tr>
             <th>Ultraviolet (UV) Post-Curing of 3D Printed Parts</th>
             <th>Applying Silicone Oil to the Ball Joints</th>
         </tr>
         <tr>
-            <td><img src="./img/9/Structure processing steps 3.jpg" width=400 /></td>
-            <td><img src="./img/9/Structure processing steps 4.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure_processing_steps_3.jpg" width=400 /></td>
+            <td><img src="./img/9/Structure_processing_steps_4.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -914,8 +914,8 @@ This week, we discovered that the assembled **steering knuckles** exhibited a **
             <th colspan=2>Design Evolution of the Fifth GenerationPCB (V5.0)</th>
         </tr>
         <tr>
-            <td><img src="./img/9/Design Circuit.jpg" height=100% /></td>
-            <td><img src="./img/9/Circuit PCB.png" height=100% /></td>
+            <td><img src="./img/9/Design_Circuit.jpg" height=100% /></td>
+            <td><img src="./img/9/Circuit_PCB.png" height=100% /></td>
         </tr>
         <tr>
             <th>Circuit schematic</th>
@@ -940,14 +940,14 @@ This week, we discovered that the assembled **steering knuckles** exhibited a **
             <th> Stereolithography (SLA) 3D Printer 14K</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/steering knuckle 8K.png" width=100% /></td>
-            <td align=center><img src="./img/9/steering knuckle 14K.png" width=100% /></td>
+            <td align=center><img src="./img/9/steering_knuckle_8K.png" width=100% /></td>
+            <td align=center><img src="./img/9/steering_knuckle_14K.png" width=100% /></td>
         </tr>
         <tr>
             <th colspan=2>The Steering Structure Exhibits a Toe-in Phenomenon(This condition is visible as the two front wheels noticeably converge inwards)</th>
         </tr>
         <tr>
-            <td colspan=2 align=center><img src="./img/9/Inner Eight.png" width=100% /></td>
+            <td colspan=2 align=center><img src="./img/9/Inner_Eight.png" width=100% /></td>
         </tr>
     </table>
  </div>
@@ -976,9 +976,9 @@ Upon receiving the new PCB (V5.0), testing revealed an intermittent issue where 
             <th>Synchronizing and Optimizing the Top Wooden Layer Based on the Revised Specifications of the Central Plate.</th>
         </tr>
         <tr>
-            <td><img src="./img/9/Medium Board.jpg" width=300 /></td>
-            <td><img src="./img/9/New Medium Board.jpg" width=400 /></td>
-            <td><img src="./img/9/Upper Board.jpg" width=300 /></td>
+            <td><img src="./img/9/Medium_Board.jpg" width=300 /></td>
+            <td><img src="./img/9/New_Medium_Board.jpg" width=400 /></td>
+            <td><img src="./img/9/Upper_Board.jpg" width=300 /></td>
         </tr>
     </table>
  </div>
@@ -990,8 +990,8 @@ Upon receiving the new PCB (V5.0), testing revealed an intermittent issue where 
             <th>Infrared Sensor bracket</th>
         </tr>
         <tr>
-            <td><img src="./img/9/New Ultrasonic sensor Bracket.jpg" width=400 /></td>
-            <td><img src="./img/9/infrared sensor Bracket.jpg" width=400 /></td>
+            <td><img src="./img/9/New_Ultrasonic_sensor_Bracket.jpg" width=400 /></td>
+            <td><img src="./img/9/infrared_sensor_Bracket.jpg" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -1070,8 +1070,8 @@ The commands for manual setup and using the auto-script are provided below.
             <th>The Revised Vehicle Mid-Layer Wooden Plate.</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/Driver Board 3.jpg" width=500 /></td>
-            <td align=center><img src="./img/9/Medium Board 3.jpg" width=500 /></td>
+            <td align=center><img src="./img/9/Driver_Board_3.jpg" width=500 /></td>
+            <td align=center><img src="./img/9/Medium_Board_3.jpg" width=500 /></td>
         </tr>
     </table>
  </div>
@@ -1083,8 +1083,8 @@ The commands for manual setup and using the auto-script are provided below.
             <th>Lens Module Fine-Tuning Mechanism.</th>
         </tr>
         <tr>
-            <td align=center><img src="./img/9/Camera Bracket Main Body.png" width=500 /></td>
-            <td align=center><img src="./img/9/Camera Bracket Fixed Plate.png" width=500 /></td>
+            <td align=center><img src="./img/9/Camera_Bracket_Main_Body.png" width=500 /></td>
+            <td align=center><img src="./img/9/Camera_Bracket_Fixed_Plate.png" width=500 /></td>
         </tr>
     </table>
  </div>
