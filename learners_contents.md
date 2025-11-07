@@ -54,5 +54,5 @@
     - [August](./other/work_diary/README.md#20250818--20250824)
     - [September](./other/work_diary/README.md#20250901--20250906)
 
-    <div align="center"><img src="./other/img/Gantt-Chart_4.png" width="1300" alt="Gantt-Char"></div> 
+    <div align="center"><img src="./other/img/Gantt-Chart_5.png" width="1300" alt="Gantt-Char"></div> 
 
