@@ -248,7 +248,7 @@
 
   |The vehicle reverses towards the rear-left into the parking area until its heading angle reaches 177 degrees.|Vehicle Parking Finished|
   |:---:|:---:|
-  |<div align=center><img src="img/parking_2-7.png" /></div>|<div align=center><img src="img/parking_2-8.png" /></div>|
+  |<div align=center><img src="img/parking_2-7.png"  width="400"/></div>|<div align=center><img src="img/parking_2-8.png" width="400"/></div>|
   
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
