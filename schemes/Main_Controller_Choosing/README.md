@@ -1,15 +1,23 @@
 <div align=center><img src="../../other/img/logo.png" width=300></div>
 
 # <div align="center">Controller Selection-控制器選擇 </div> 
-Jetson Nano 和 Jetson Orin Nano 作為Nvidia研發的嵌入式邊緣AI產品，都擁有卓越的AI運算能力，因為同時擁有GPIO腳位，因此很適合拿來開發智慧家居、自駕車、DIY專案等...。
+- Jetson Nano 與 Jetson Orin Nano 皆為 NVIDIA 所研發的嵌入式邊緣 AI 運算產品 。兩者均具備卓越的 AI 運算能力，並內建 GPIO（通用輸入/輸出）腳位 ，使其成為開發智慧家居、自駕車  和 DIY 專案等應用的理想主控器。
+
+- 鑑於去年世界賽的經驗以及今年全國選拔賽的觀察，我們原先選用 Jetson Nano 作為自駕車的主控單元，負責影像辨識處理。然而，隨著比賽規則的修改和我們對功能需求的提升，Jetson Nano 的性能似乎已難以完全滿足。考量到性能更佳的 Jetson Orin Nano 現已降價，我們決定對這兩款主控器進行詳盡比較，以選出最能助益我們參與今年世界賽的高效能主控器。
+
+- Both the Jetson Nano and Jetson Orin Nano are embedded edge AI products developed by NVIDIA. They possess excellent AI computing capabilities and feature built-in GPIO (General-Purpose Input/Output) pins , making them highly suitable main controllers for developing applications such as smart homes, self-driving cars, and DIY projects.
+
+- Based on our experience in the World Championship last year and observations from the National Selection Trials this year, we initially used the Jetson Nano as the main controller for our self-driving car, primarily for image recognition processing. However, with the revision of the competition rules and our enhanced functional requirements, the Jetson Nano's performance appears insufficient to fully meet our needs. Considering that the superior performance Jetson Orin Nano has now decreased in price, we have decided to conduct a detailed comparison between these two main controllers. Our goal is to select the high-performance controller that will be most beneficial for our participation in this year's World Championship.
+
 
 ## Jetson Nano & Jetson Orin Nano Controller
-Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格：
+Jetson Nano 與 Jetson Orin Nano 主控制器比較，比較結果如以下表格：
+Comparison of the Jetson Nano and Jetson Orin Nano main controllers, the comparison results are shown in the table below:
 
 <div align=center>
 <table> 
 <tr> 
-<th rowspan="2" width=300>Photo(照片)</th> 
+<th rowspan="2" width=300>Photo</th> 
 <th><div align=center>Nvidia Jetson Nano</th> 
 <th><div align=center>Nvidia Jetson Orin Nano</th> 
 </tr>
@@ -53,12 +61,12 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 </tr>
 </table>
 </div>
-  根據去年世界賽和今年全國選拔賽的經驗以及世界冠軍得主的機型，並結合以下控制器優缺點比較。我們發現Jetson Orin Nano在影像處理方面明顯優於 Jetson Nano 及 Raspberry Pi4。因此我們決定在2025年WRO世界錦標賽中使用Jetson Orin Nano作為主要控制器。
+  綜合去年世界賽、今年全國選拔賽的實戰經驗，以及參考世界冠軍隊伍的車輛設計，並配合主控器優缺點的比較分析，我們明確地發現 Jetson Orin Nano 在影像處理效能方面，顯著優於原有的 Jetson Nano 及 Raspberry Pi 4。考量到 Jetson Orin Nano 和 Jetson Nano 在體積大小上相近，便於整合，我們最終決定在 2025 年 WRO 世界機器人奧林匹亞大賽「未來工程師——自駕車挑戰賽」 中，採用 Jetson Orin Nano 作為主要的車輛控制器。
 
-  Based on last year’s unsuccessful experience and the world championship-winning model, along with the comparison of advantages and disadvantages of the controllers below, we found that the Jetson Nano significantly outperforms the Raspberry Pi 4 in image recognition. Therefore, we decided to use the Jetson Nano as the main controller in the 2025 WRO World Championship.
+  Based on the practical experience gained from the World Championship last year and the National Selection Trials this year, alongside a review of the World Champion models and a comparative analysis of controller advantages and disadvantages, we clearly identified that the Jetson Orin Nano offers significantly superior image processing performance compared to both the existing Jetson Nano and the Raspberry Pi 4. Considering that the Jetson Orin Nano is similar in size to the Jetson Nano, making integration straightforward, we have ultimately decided to utilize the Jetson Orin Nano as the main vehicle controller for the 2025 WRO (World Robot Olympiad) Future Engineers - Self-Driving Cars Challenge.
 
  ***
-- ### Supplementary Information-補充資訊
+- ### Supplementary Information
 #### 這是我們對 Jetson Nano 和 Jetson Orin Nano 的比較。
 ### 中文:
   ##### 1. Hardware Architecture / 硬體架構
@@ -91,24 +99,31 @@ Jetson Nano 與 Jetson Orin Nano 控制器比較，比較結果如以下表格�
 
     Jetson Orin Nano 的開發生態系統全面升級，專為新一代 AI 與自主機器應用設計。NVIDIA 提供 JetPack SDK 5.1+，其中包含深度優化的 OpenCV 與 TensorRT 8.0，支援自動模型量化與硬體級加速，讓開發者能夠高效部署複雜的深度學習模型與多感測器融合應用。
 ### 英文:
-#### Here's our comparison of the jetson nano and the Raspberry Pi
-  #### 1. Hardware architecture
-   - Jetson Nano: Equipped with a quad-core ARM Cortex-A57 CPU and a 128-core NVIDIA Maxwell GPU, with 4GB LPDDR4 memory.
-   - Raspberry Pi 4: Equipped with a quad-core ARM Cortex-A72 CPU, with a maximum memory option of 8GB, but lacks a dedicated GPU.
-  #### 2. Deep learning acceleration
-   - Jetson Nano: Supports NVIDIA CUDA and cuDNN, which can accelerate deep learning workloads. For tasks like image classification and object detection, the GPU in Jetson Nano significantly enhances processing speed.
-   - Raspberry Pi 4: Lacks a dedicated GPU and deep learning acceleration capabilities; image recognition tasks rely entirely on CPU processing, which is far less efficient than the GPU acceleration of Jetson Nano.
-  #### 3. OpenCV performance
-   - Jetson Nano：Due to its CUDA support, it performs better when processing image recognition tasks based on deep learning. OpenCV can take advantage of NVIDIA GPUs to accelerate image processing operations.
-   - Raspberry Pi 4：Processing power relies on the CPU, so it is slower when faced with the same tasks. For simple image processing tasks, the Pi 4's CPU is also capable, but its efficiency will significantly lag behind when handling more complex neural network inference.
-  #### 4. Power consumption
-   - Jetson Nano：The power consumption is large, about 5W - 10W in typical usage scenarios, especially when using GPU for acceleration, the power consumption will be higher.
-   - Raspberry Pi 4：The power consumption is low, usually about 3.5W - 7W, which is suitable for application scenarios that are sensitive to power consumption requirements.
-  #### 5. Performance comparison in actual application scenarios
-   - Jetson Nano：When using OpenCV and DNN modules for real-time object detection, image classification and other tasks, the speed is significantly better than Raspberry Pi 4. With CUDA acceleration, Jetson Nano can process video streams faster and perform on-the-fly inference.
-   - Raspberry Pi 4：It is suitable for processing tasks that do not require high performance, such as simple image processing operations or non-real-time image recognition tasks.
-  #### 6. Development ecology
-   - Jetson Nano's development ecosystem is specially designed for AI and computer vision tasks. There is JetPack SDK provided by NVIDIA, which includes optimized OpenCV to facilitate developers to quickly deploy deep learning models.
-   - Although Raspberry Pi 4 also supports OpenCV, it lacks dedicated hardware acceleration and its support for complex deep learning tasks is not as good as Jetson Nano.
+#### Comparison of Performance Between Jetson Nano and Jetson Orin Nano
+
+##### 1. Hardware Architecture
+* **Jetson Nano**: Equipped with a quad-core ARM Cortex-A57 processor and a 128-core NVIDIA Maxwell GPU, featuring 4GB LPDDR4 memory.
+* **Jetson Orin Nano**: Equipped with a six-core Arm Cortex-A78AE CPU processor and a 1024-core NVIDIA Ampere GPU, featuring 8GB LPDDR5 memory.
+
+##### 2. Deep Learning Acceleration
+* **Jetson Nano**: Supports NVIDIA CUDA and cuDNN, which accelerate deep learning workloads. The Jetson Nano's GPU significantly boosts processing speed for tasks such as image classification and object detection.
+* **Jetson Orin Nano**: Supports the latest generation NVIDIA CUDA, cuDNN, and TensorRT, which efficiently accelerate deep learning inference and training workloads. For tasks like real-time image segmentation, multi-sensor fusion, and complex Transformer models, the Jetson Orin Nano's Ampere architecture GPU and dedicated Tensor Cores can provide up to **80 times the AI performance improvement** over the previous generation.
+
+##### 3. OpenCV Performance
+* **Jetson Nano**: Performs better in deep learning-based image recognition tasks due to CUDA support. OpenCV can utilize the NVIDIA GPU to accelerate image processing operations.
+* **Jetson Orin Nano**: Excels at processing complex deep learning models (such as Transformer and 3D vision tasks) leveraging the next-generation CUDA cores and dedicated Tensor Cores. OpenCV enables hardware acceleration via the NVIDIA GPU and supports the latest AI image processing algorithms.
+
+##### 4. Power Consumption
+* **Jetson Nano**: Has higher power consumption, typically ranging from **5W to 10W** under general usage; power consumption will be higher when using GPU acceleration.
+* **Jetson Orin Nano**: Features the new Ampere architecture, which significantly improves power efficiency. Power consumption is typically around **7W to 15W** under typical AI workloads, supporting dynamic power management to maintain excellent energy efficiency while delivering powerful computing capabilities.
+
+##### 5. Performance Comparison in Actual Application Scenarios 
+* **Jetson Nano**: When using OpenCV with the DNN module for tasks like real-time object detection and image classification, its speed is clearly superior to the Raspberry Pi 4. With CUDA acceleration, the Jetson Nano can process video streams and perform inference faster in real-time.
+* **Jetson Orin Nano**: Equipped with the next-generation GPU architecture and Tensor Cores, its performance significantly outperforms its predecessor when running the OpenCV DNN module for high-precision object detection, semantic segmentation, and other tasks. Utilizing CUDA and TensorRT acceleration, it can process **4K multi-stream video** in real-time and support more complex AI model inference.
+
+##### 6. Development Ecology
+* **Jetson Nano**: The development ecosystem is designed for AI and computer vision tasks. NVIDIA provides the JetPack SDK, which includes optimized OpenCV, facilitating the quick deployment of deep learning models for developers.
+* **Jetson Orin Nano**: The development ecosystem has been comprehensively upgraded, designed for next-generation AI and autonomous machine applications. NVIDIA provides **JetPack SDK 5.1+**, which includes deeply optimized OpenCV and **TensorRT 8.0**, supporting automatic model quantization and hardware-level acceleration, enabling developers to efficiently deploy complex deep learning models and multi-sensor fusion applications.
+
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div> 
