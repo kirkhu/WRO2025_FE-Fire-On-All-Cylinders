@@ -838,7 +838,7 @@ The procedure for using the SDK Manager to perform JetPack upgrades and downgrad
  <div align=center>
     <table>
         <tr>
-            <th colspan=2>Learning the Operational Procedures for JetPack Operating System Upgrades and Downgrades - 學習 JetPack 作業系統升級與降級的操作程序</th>
+            <th colspan=2>Learning the Operational Procedures for JetPack Operating System Upgrades and Downgrades </th>
         </tr>
         <tr>
             <td><img src="./img/9/Study.jpg" width=400 /></td>
