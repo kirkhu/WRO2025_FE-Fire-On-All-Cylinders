@@ -7,7 +7,7 @@
     - [Motor & Sensor Intermediate I/O Controller Comparison](./schemes/Motor_Sensor_Controller_Choosing/README.md)
     - [Motor Selection](./schemes/Motor/README.md)
     - [Ultrasonic rangefinder](./schemes/HC-SR04/README.md)
-    - [Infrared SensorK](./schemes/Infrared-Sensor/README.md)
+    - [Infrared Sensor](./schemes/Infrared-Sensor/README.md)
     - [Gyroscope orientation sensor](./schemes/BNO055/README.md)
     - [Camera Selection](./schemes/Camera/README.md)
     
