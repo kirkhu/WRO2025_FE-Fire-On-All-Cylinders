@@ -11,10 +11,10 @@
   - Please confirm that Git and VS Code software are installed on your computer. If they are not installed, please click the official website links below to download and install them.
   - Once Git is installed, it is advisable to set your username and email in the terminal or command prompt. This information will be associated with all your future commits.
 
-    ```
+  ```bash
       git config --global user.name "Your Name"
       git config --global user.email "your.email@example.com"
-    ```
+  ```
   <ul>
   <li><a href="https://git-scm.com/downloads" target="_blank">Git download page</a></li>
   <li><a href="https://code.visualstudio.com/Download" target="_blank">VS Code download page</a></li>
