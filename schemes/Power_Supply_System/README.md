@@ -5,7 +5,7 @@
   <div align="center"><img src="./img/Power_supply_system.png" ></div>
 
 - ###  Physical Connection Diagram of Power Supply System
-  <div align="center"><img src="./img/Power_supply_system of Summary diagram.png" ></div>
+  <div align="center"><img src="./img/Power_supply_system_of_Summary_diagram.png" ></div>
 
 - ### Power Supply System Operation Instructions
 
