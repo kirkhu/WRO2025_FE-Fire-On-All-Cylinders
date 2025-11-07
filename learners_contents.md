@@ -47,13 +47,16 @@
     - [GitHub Edit(VScode Edit/GIT)](./src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)
 - ### Learning Journey
-    - [February](./other/work_diary/README.md#20250228--20250330)
-    - [March](./other/work_diary/README.md#20250301--20250307)
-    - [April](./other/work_diary/README.md#20250403--20250414)
-    - [June](./other/work_diary/README.md#20250603--20250608)
-    - [July](./other/work_diary/README.md#20250702--20250721)
-    - [August](./other/work_diary/README.md#20250818--20250824)
-    - [September](./other/work_diary/README.md#20250901--20250906)
+    - [February](other/Learning_Journey/README.md#20250228--20250330)
+    - [March](other/Learning_Journey/README.md#20250301--20250307)
+    - [April](other/Learning_Journey/README.md#20250403--20250414)
+    - [May](other/Learning_Journey/README.md#20250501--20250507)
+    - [June](other/Learning_Journey/README.md#20250604--20250608)
+    - [July](other/Learning_Journey/README.md#20250702--20250721)
+    - [August](other/Learning_Journey/README.md#20250811--20250817)
+    - [September](other/Learning_Journey/README.md#20250901--20250906)
+    - [October](other/Learning_Journey/README.md#20251007--20251013)
+    - [November](other/Learning_Journey/README.md#20251027--20251101-1)
 
     <div align="center"><img src="./other/img/Gantt-Chart_5.png" width="1300" alt="Gantt-Char"></div> 
 
