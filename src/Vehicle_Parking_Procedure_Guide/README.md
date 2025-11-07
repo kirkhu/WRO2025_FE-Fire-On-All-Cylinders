@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 ## <div align="center">Vehicle Parking Procedure Guide</div>
-  **Code Logic Description: Parking Task After Three Laps**
+###  **Code Logic Description: Parking Task After Three Laps**
 - ### Parking program
     
     1.  **Parking Zone Identification and Entry Preparation (Jetson Orin Nano)**
