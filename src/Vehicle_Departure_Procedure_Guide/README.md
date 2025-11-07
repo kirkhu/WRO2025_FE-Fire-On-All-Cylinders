@@ -123,16 +123,18 @@
 <tr>
 <th align=center width="50%">Reparing to turn right</th>
 <th align=center width="50%">Preparing to retreat</th>
-</tr><tr>
+</tr>
+<tr>
 <td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
 <td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
 </tr>
 
 <tr>
 <th align=center colspan=2>Arrive at the designated location</th>
-</tr><tr>
-<td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" width="80%"/></td>
+</tr>
 <tr>
+<td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
+</tr>
 </table>
 </div>
 
