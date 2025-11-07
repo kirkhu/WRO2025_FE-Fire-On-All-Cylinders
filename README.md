@@ -64,15 +64,15 @@
     - [6-2 GitHub Web Editor Supported Markup Languages OK](src/GitHub_Languages/README.md)  
   #### 7. Engineering Factor
     - [7-1 Learning Journey](other/Learning_Journey/README.md)
-      - [February](other/work_diary/README.md#20250228--20250330)
-      - [March](other/work_diary/README.md#20250301--20250307)
-      - [April](other/work_diary/README.md#20250403--20250414)
-      - [May](other/work_diary/README.md#20250501--20250507)
-      - [June](other/work_diary/README.md#20250604--20250608)
-      - [July](other/work_diary/README.md#20250702--20250721)
-      - [August](other/work_diary/README.md#20250811--20250817)
-      - [September](other/work_diary/README.md#20250901--20250906)
-      - [October](other/work_diary/README.md#20251007--20251013)
+      - [February](other/Learning_Journey/README.md#20250228--20250330)
+      - [March](other/Learning_Journey/README.md#20250301--20250307)
+      - [April](other/Learning_Journey/README.md#20250403--20250414)
+      - [May](other/Learning_Journey/README.md#20250501--20250507)
+      - [June](other/Learning_Journey/README.md#20250604--20250608)
+      - [July](other/Learning_Journey/README.md#20250702--20250721)
+      - [August](other/Learning_Journey/README.md#20250811--20250817)
+      - [September](other/Learning_Journey/README.md#20250901--20250906)
+      - [October](other/Learning_Journey/README.md#20251007--20251013)
 
 - ### Autonomous Vehicle Design: Key Upgrades and Iterations
   This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.

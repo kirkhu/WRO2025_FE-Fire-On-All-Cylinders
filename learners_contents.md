@@ -45,7 +45,7 @@
 - ### GitHub Utilization
     - [GitHub Edit(VScode Edit/GIT)](./src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)
-- ### Work Dairy
+- ### Learning Journey
     - [February](./other/work_diary/README.md#20250228--20250330)
     - [March](./other/work_diary/README.md#20250301--20250307)
     - [April](./other/work_diary/README.md#20250403--20250414)
