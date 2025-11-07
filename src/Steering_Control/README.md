@@ -44,27 +44,27 @@
      <div align=center>
       <table>
       <tr>
-      <th  align=center width="50%">>Blue Line Detected in ROI4</th>
-      <th  align=center width="50%">>Orange Line Detected in ROI4</th>
+      <th  align=center width="50%">Blue Line Detected in ROI4</th>
+      <th  align=center width="50%">Orange Line Detected in ROI4</th>
       </tr><tr>
-      <td  align=center width="50%">><img src="./img/Blue_Line_Recognition.png" width=400 height="400"></td>
-      <td  align=center width="50%">><img src="./img/Orange_Line_Recognition.png" width="400" height="395" ></td>
+      <td  align=center width="50%"><img src="./img/Blue_Line_Recognition.png" width=400 height="400"></td>
+      <td  align=center width="50%"><img src="./img/Orange_Line_Recognition.png" width="400" height="400" ></td>
       </tr>
 
       <tr>
-      <th  align=center width="50%">>Performing Avoidance Maneuvers Upon Traffic Signal Detection</th>
-      <th  align=center width="50%">>Performing Turns Without Traffic Signal Detection</th>
+      <th  align=center width="50%">Performing Avoidance Maneuvers Upon Traffic Signal Detection</th>
+      <th  align=center width="50%">Performing Turns Without Traffic Signal Detection</th>
       </tr><tr>
-      <td  align=center width="50%">><img src="./img/Traffic_Signal_Evaluation_and_Steering_Control.png" width=400 height="400"></td>
-      <td  align=center width="50%">><img src="./img/Unsignalized_Intersection_Steering_Control.png" width="400" height="400"></td>
+      <td  align=center width="50%"><img src="./img/Traffic_Signal_Evaluation_and_Steering_Control.png" width=400 height="400"></td>
+      <td  align=center width="50%"><img src="./img/Unsignalized_Intersection_Steering_Control.png" width="400" height="400"></td>
       </tr>
 
       <tr>
-      <th  align=center width="50%">>Activation of Auxiliary ROI5 Triggered by Inner Wall Detection During Turning Mode</th>
-      <th  align=center width="50%">>Executing Evasion Maneuver Upon Outer Wall Detection by ROI5</th>
+      <th  align=center width="50%">Activation of Auxiliary ROI5 Triggered by Inner Wall Detection During Turning Mode</th>
+      <th  align=center width="50%">Executing Evasion Maneuver Upon Outer Wall Detection by ROI5</th>
       </tr><tr>
-      <td  align=center width="50%">><img src="./img/Inner_Side_Obstacle_Avoidance_and_Steering_Control.png" width="400" height="400"></td>
-      <td  align=center width="50%">><img src="./img/ROI_5_assisted_turning_detection.png" width=400 height="400"></td>
+      <td  align=center width="50%"><img src="./img/Inner_Side_Obstacle_Avoidance_and_Steering_Control.png" width="400" height="400"></td>
+      <td  align=center width="50%"><img src="./img/ROI_5_assisted_turning_detection.png" width=400 height="400"></td>
       </tr>
       </table>
      </div>   
