@@ -119,10 +119,7 @@
 <td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-1.png"  /></td>
 <td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
 </tr>
-</table>
-</div>
-<div align=center>
-<table>
+
 <tr>
 <th align=center width="50%">Reparing to turn right</th>
 <th align=center width="50%">Preparing to retreat</th>
