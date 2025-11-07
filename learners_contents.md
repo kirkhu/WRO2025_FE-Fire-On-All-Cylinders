@@ -34,7 +34,7 @@
       - [Open Challenge Code Overview](./src/Programming/Open_Challenge/README.md)
       - [Obstacle Challenge Code Overview](./src/Programming/Obstacle_Challenge/README.md)
       - [Vehicle Departure Procedure Guide](src/Vehicle_Departure_Procedure_Guide/README.md)
-      - [Vehicle Parking Procedure Guide](src/parking/README.md)
+      - [Vehicle Parking Procedure Guide](src/Vehicle_Parking_Procedure_Guide/README.md)
       - [NoMachine Introduction](./other/NoMachine/README.md)
 - ### Pictures – Team and vehicle
     - [Team Members Introduction](./t-photos/README.md) 

@@ -47,7 +47,7 @@
       - [3-5-1 Open Challenge Code Overview OK](src/Programming/Open_Challenge/README.md)
       - [3-5-2 Obstacle Challenge Code Overview OK](src/Programming/Obstacle_Challenge/README.md)
       - [3-5-3 Vehicle Departure Procedure Guide OK](src/Vehicle_Departure_Procedure_Guide/README.md)
-      - [3-5-4 Vehicle Parking Procedure Guide](src/parking/README.md)
+      - [3-5-4 Vehicle Parking Procedure Guide](src/Vehicle_Parking_Procedure_Guide/README.md)
     - __3-6 Remote Connection__
       - [3-6-1 NoMachine software Introduction OK ](other/NoMachine/README.md)
 
