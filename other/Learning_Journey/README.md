@@ -471,7 +471,7 @@ This week, our focus is dedicated to finalizing the **parking procedure programm
             <th>2025 National Competition: Parallel Reverse Parking Procedure Diagram </th>
         </tr>
         <tr>
-            <td><img src="./img/4/5.png" width=600 /></td>
+            <td><img src="./img/4/Parking_Process_1.png" width=600 /></td>
         </tr>
     </table>
  </div>
@@ -793,8 +793,8 @@ A comparison diagram of the two procedures is shown below.
             <th>2025 WRO World Final: Diagram of the Parallel Reverse Parking Procedure</th>
         </tr>
         <tr>
-            <td><img src="./img/9/Forward Parking process.png" width=400 /></td>
-            <td><img src="./img/9/New Parking process.png" width=400 /></td>
+            <td><img src="./img/9/Parking_Process_1.png" width=400 /></td>
+            <td><img src="./img/9/Parking_Process_2.png" width=400 /></td>
         </tr>
     </table>
  </div>
@@ -1259,7 +1259,7 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
             <th>Final Version Parking Procedure Flow Diagram.</th>
         </tr>
         <tr>
-            <td width=1000 align=center><img src="./img/10/Parking_process.png" width=700 /></td>
+            <td width=1000 align=center><img src="./img/10/Parking_Process_3.png" width=700 /></td>
         </tr>
     </table>
  </div>
