@@ -133,44 +133,6 @@ def _pwm_to_speed_percent(pwm: int) -> int:
     pct = int(round((pwm - 1500) / 180.0 * 100.0))
     return max(-100, min(100, pct))
 
-def _algo_to_pico_angle(raw_angle: int) -> int:
-
-    delta = raw_angle - straight_const
-    pico_deg = -delta                       
-    if pico_deg > 80: pico_deg = 80       
-    if pico_deg < -80: pico_deg = -80
-    return int(pico_deg)
-
-
-def _send_motion(angle_deg: int, speed_pct: int):
-
-    _ws.send_obj({"cmd": "steer", "angle": int(angle_deg)})
-    _ws.send_obj({"cmd": "motor", "speed": int(speed_pct)})
-
-def write(value):
-
-    global _last_speed_pct, _last_angle_deg
-
-
-    if isinstance(value, (int, float)) and value < 5:
-        time.sleep(float(value))
-        return
-
-    if value >= 1000:
-        _last_speed_pct = _pwm_to_speed_percent(int(value))
-    else:
-        _last_angle_deg = _algo_to_pico_angle(int(value))
-
-    _send_motion(_last_angle_deg, _last_speed_pct)
-
-def multi_write(sequence):
-
-    for action in sequence:
-        if isinstance(action, (int, float)) and action < 5:
-            time.sleep(float(action))
-        else:
-            write(action)
-
 def stop_car():
 
     _ws.send_obj({"cmd": "motor", "speed": 0})
