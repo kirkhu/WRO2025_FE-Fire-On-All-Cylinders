@@ -74,7 +74,7 @@
 
    - ##### Nvidia Jetson Orin Nano Controller Main Program Flowchart 
      ![flowchart_open](./img/open_challange_Jetson_nano.jpg)
-     ![flowchart_open](./img/Chinese_Qualifying_Tournament_Operation_Flowchart.jpg)
+
 
  - ### Raspberry Pi Pico W Open Challenge Code Overview 
    - #### Raspberry Pi Pico W Core Library / Module Program Plan for the Open Challenge 
@@ -96,7 +96,6 @@
 
       - ##### Program Operation flowchart of the Raspberry Pi Pico W controller
         ![flowchart_open](./img/open_challange_Pico.jpg)
-        ![flowchart_open](./img/Chinese_pico_operation_flowchart.jpg)
         
       - #### 1. `set_servo_angle()`: Servo Motor Angle Setting
         * **Function:** Responsible for calculating and **converting** the human-readable **angle value (typically within the $\pm 180^\circ$ range)** into the required **PWM duty cycle range (0 to 65535)** for the servo motor.
