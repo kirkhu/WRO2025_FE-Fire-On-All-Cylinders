@@ -55,7 +55,7 @@ By simplifying the overall structure, we achieved multiple benefits:
 <tr align="center">
 <th>2024 World Championship Vehicle Model</th>
 <th>2025 National Competition Vehicle Model</th>
-<th>Team Research and Data Review Process Documentation - 團隊研究與資料查閱過程記錄</th>
+<th>Team Research and Data Review Process Documentation</th>
 </tr>
 <tr align="center">
 <td><img src="./img/2/Last_year's.png"  width="300" alt="Vehicle_cad"></td> 
