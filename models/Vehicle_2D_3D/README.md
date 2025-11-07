@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">3D Vehicle Model Design -3D車輛模型設計</div>
+## <div align="center">3D Vehicle Model Design</div>
 - Our teammate, HU,SIAN-YI, possesses a solid foundation of practical experience in mechanical design and **Vehicle’s control program** optimization, leveraged from years of participation in the **WRO Future Engineers Category**.
 - Considering the annual changes to the competition themes and rules, particularly the addition this year of executing **parallel parking**  during **Obstacle Challenge rounds**  and starting from the **starting section (including the parking lot)**. We determined that reusing last year's vehicle design (9.8 cm wide, 18.5 cm long) would be disadvantageous for the parking maneuver, as the rules stipulate that the parking lot length is $1.5 \times$ the length of the robot. Consequently, we decided to modify and extend the length of our **Self-Driving Car**from the original 18.5 cm to 23.4 cm, and adopt an ellipsoidal body shape. This optimization not only significantly enhances parking flexibility but also allows the vehicle to navigate a **narrow corridor**  more smoothly.
 - Overall, to more effectively complete the current competition tasks, we conducted a comprehensive adjustment and optimization of the vehicle's design and mechanical structure, leading to a notable improvement in the vehicle's overall performance and operational stability.
