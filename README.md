@@ -45,7 +45,7 @@
       - [3-4-4 Automatically record the LAB values of the field OK](src/Automatically_record_LAB/README.md)
     - __3-5 Programming - Vehicle’s control program__
       - [3-5-1 Open Challenge Code Overview OK](src/Programming/Open_Challenge/README.md)
-      - [3-5-2 Obstacle Challenge Code Overview](src/Programming/Obstacle_Challenge/README.md)
+      - [3-5-2 Obstacle Challenge Code Overview OK](src/Programming/Obstacle_Challenge/README.md)
       - [3-5-3 Vehicle Departure Procedure Guide OK](src/Vehicle_Departure_Procedure_Guide/README.md)
       - [3-5-4 Vehicle Parking Procedure Guide](src/parking/README.md)
     - __3-6 Remote Connection__
