@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Image Recognition Processing-影像辨識處理</div> 
+## <div align="center">Image Recognition Processing</div> 
 
   - There are six colors on the competition field—red, green, blue, orange, magenta, and black—which must be located via image recognition so the Vehicle can smoothly avoid obstacles or complete the assigned tasks.
   - We will use the popular image recognition software OpenCV to recognize objects on the competition field.
