@@ -7,6 +7,7 @@
     - [Motor & Sensor Intermediate I/O Controller Comparison](./schemes/Motor_Sensor_Controller_Choosing/README.md)
     - [Motor Selection](./schemes/Motor/README.md)
     - [Ultrasonic rangefinder](./schemes/HC-SR04/README.md)
+    - [Infrared SensorK](./schemes/Infrared-Sensor/README.md)
     - [Gyroscope orientation sensor](./schemes/BNO055/README.md)
     - [Camera Selection](./schemes/Camera/README.md)
     
@@ -31,8 +32,8 @@
     - __Programming__
       - [Open Challenge Code Overview](./src/Programming/Open_Challenge/README.md)
       - [Obstacle Challenge Code Overview](./src/Programming/Obstacle_Challenge/README.md)
-      - [Distinctive Pseudo Code](./src/Distinctive_Pseudo_Code/README.md)
-      - [Parking Instruction](./src/parking/README.md)
+      - [Vehicle Departure Procedure Guide](src/Vehicle_Departure_Procedure_Guide/README.md)
+      - [Vehicle Parking Procedure Guide](src/parking/README.md)
       - [NoMachine Introduction](./other/NoMachine/README.md)
 - ### Pictures – Team and vehicle
     - [Team Members Introduction](./t-photos/README.md) 
@@ -40,6 +41,7 @@
 - ### Performance videos
     - [Open Challenge](./video/Open_Challenge/video.md)
     - [Obstacle Challenge](./video/Obstacle_Challenge/video.md)
+    - [Self-Driving Car Design Process Video](video/Design_Process_Video/video.md)
 - ### GitHub Utilization
     - [GitHub Edit(VScode Edit/GIT)](./src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)
