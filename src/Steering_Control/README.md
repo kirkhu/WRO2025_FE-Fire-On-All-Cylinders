@@ -45,8 +45,8 @@
         <th>Blue Line Recognition</th>
         <th>Orange Line Recognition</th>
         </tr><tr>
-        <td><img src="./img/Blue Line Recognition.png" width=400 height="400"></td>
-        <td><img src="./img/Orange Line Recognition.png" width="400" height="395" ></td>
+        <td><img src="./img/Blue_Line_Recognition.png" width=400 height="400"></td>
+        <td><img src="./img/Orange_Line_Recognition.png" width="400" height="395" ></td>
         </tr>
         </table>
         </div>
@@ -56,8 +56,8 @@
         <th>Turning with traffic signals</th>
         <th>Turning without traffic signals</th>
         </tr><tr>
-        <td><img src="./img/Traffic Signal Evaluation and Steering Control.png" width=400 height="400"></td>
-        <td><img src="./img/Unsignalized Intersection Steering Control.png" width="400" height="400"></td>
+        <td><img src="./img/Traffic_Signal_Evaluation_and_Steering_Control.png" width=400 height="400"></td>
+        <td><img src="./img/Unsignalized_Intersection_Steering_Control.png" width="400" height="400"></td>
         </tr>
         </table>
         </div>
@@ -68,8 +68,8 @@
         before turning</th>
         <th>ROI 5 assisted turning detection</th>
         </tr><tr>
-        <td><img src="./img/Inner Side Obstacle Avoidance and Steering Control.png" width="400" height="400"></td>
-        <td><img src="./img/ROI 5 assisted turning detection.png" width=400 height="400"></td>
+        <td><img src="./img/Inner_Side_Obstacle_Avoidance_and_Steering_Control.png" width="400" height="400"></td>
+        <td><img src="./img/ROI_5_assisted_turning_detection.png" width=400 height="400"></td>
         </tr>
         </table>
         </div>   
