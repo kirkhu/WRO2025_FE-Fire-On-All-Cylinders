@@ -117,7 +117,7 @@
 <th align=center width="50%">Start_reversing</th>
 </tr><tr>
 <td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-1.png"  /></td>
-<td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
+<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
 </tr>
 
 <tr>
@@ -125,8 +125,8 @@
 <th align=center width="50%">Preparing to retreat</th>
 </tr>
 <tr>
-<td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
-<td align=center align=center width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
+<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
+<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
 </tr>
 
 <tr>
