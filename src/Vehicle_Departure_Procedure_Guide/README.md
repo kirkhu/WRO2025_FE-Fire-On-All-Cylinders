@@ -245,8 +245,8 @@
 <th>Step-5: Arrive at the designated location</th>
 <th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
-<td><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
-<td><a href="https://youtu.be/_NSuhBujNAg"><img src="./img/05_Clockwise_Red_Departure_Process.jpg" /></a></td>
+<td width="50%"><img src="./img/Clockwise red Departure Process-5.png" /></td>
+<td width="50%"><a href="https://youtu.be/_NSuhBujNAg"><img src="./img/05_Clockwise_Red_Departure_Process.jpg" /></a></td>
 </tr>
 </table>
 </div>
@@ -259,7 +259,7 @@
 <th width="50%">Step-2: Preparing to turn left</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Clockwise green center departure process-1.png"  /></td>
-<td><img src="./img/Clockwise green center departure process-2.png"  /></td>
+<td width="50%><img src="./img/Clockwise green center departure process-2.png"  /></td>
 </tr>
 
 <tr>
