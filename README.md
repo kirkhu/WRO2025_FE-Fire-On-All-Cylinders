@@ -4,6 +4,17 @@
 - You can find hyperlinks to the technical report content and setup instructions here, provided for quick access by both learners and judges during study or evaluation.
 - This technical document will feature a detailed table of contents structured **according to the official scoring criteria**  (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
 
+- ### Autonomous Vehicle Design: Key Upgrades and Iterations
+  This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
+
+  We didn't just reference the successful elements of the previous year's winning teams; we implemented **key technological iterations**:
+
+  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Orin Nano to the **superior-performing Nvidia Jetson Orin Nano**.
+  * **Mechanical Overhaul:** We have **restructured and optimized** the vehicle's mechanical components, specifically the steering and chassis.
+  * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
+
+  The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
+
 **Special Note:**
 - Due to network speed fluctuations, some images may not display correctly. Should this occur, please try refreshing the page to resolve the issue.
 
@@ -75,16 +86,5 @@
       - [September](other/Learning_Journey/README.md#20250901--20250906)
       - [October](other/Learning_Journey/README.md#20250928--20251006)
       - [November](other/Learning_Journey/README.md#20251027--20251101)
-
-- ### Autonomous Vehicle Design: Key Upgrades and Iterations
-  This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
-
-  We didn't just reference the successful elements of the previous year's winning teams; we implemented **key technological iterations**:
-
-  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Orin Nano to the **superior-performing Nvidia Jetson Orin Nano**.
-  * **Mechanical Overhaul:** We have **restructured and optimized** the vehicle's mechanical components, specifically the steering and chassis.
-  * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
-
-  The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
 
   <div align="center"><img src="./other/img/Gantt-Chart_5.png" width="1300" alt="Gantt-Char" /></div> 
