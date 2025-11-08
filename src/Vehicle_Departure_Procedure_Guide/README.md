@@ -135,6 +135,13 @@
 <tr>
 <td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
 </tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
+</tr>
 </table>
 </div>
 
@@ -148,12 +155,20 @@
 <td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-1.png"  /></td>
 <td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-2.png" /></td>
 </tr>
+
 <tr>
 <th align=center width="50%">Prepare to back up and turn left</th>
 <th align=center width="50%">Arrive at the designated location</th>
 </tr><tr>
 <td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-3.png"  /></td>
-<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
+<td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-4.png"  /></td>
+</tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
 </tr>
 </table>
 </div>
@@ -176,6 +191,13 @@
 <td align=center width="50%"><img src="./img/Start_in_no_counterclockwise-3.png"  /></td>
 <td align=center width="50%"><img src="./img/Start_in_no_counterclockwise-4.png"  /></td>
 </tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
+</tr>
 </table>
 </div>
 
@@ -197,10 +219,18 @@
 <td align=center width="50%"><img src="./img/Clockwise Green Departure Process-3.png"  /></td>
 <td align=center width="50%"><img src="./img/Clockwise Green Departure Process-4.png"  /></td>
 </tr>
+
 <tr>
 <th align=center colspan=2>Arrive at the designated location</th>
 </tr><tr>
 <td align=center colspan=2><img src="./img/Clockwise Green Departure Process-5.png"  /></td>
+</tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
 </tr>
 </table>
 </div>
@@ -229,6 +259,13 @@
 </tr><tr>
 <td align=center colspan=2 ><img src="./img/Clockwise red Departure Process-5.png"  /></td>
 </tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
+</tr>
 </table>
 </div>
 
@@ -247,8 +284,15 @@
 <th align=center width="50%">Ready to move forward</th>
 <th align=center width="50%">Arrive at the designated location</th>
 </tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise green center departure process-3.png"  /></td>
-<td align=center width="50%"><img src="./img/Clockwise green center departure process-4.png"  /></td>
+<td align=center width="50%"><img src="./img/Clockwise green center departure process-3.png" /></td>
+<td align=center width="50%"><img src="./img/Clockwise green center departure process-4.png" /></td>
+</tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
 </tr>
 </table>
 </div>
@@ -276,6 +320,13 @@
 <th align=center colspan=2>Arrive at the designated location</th>
 </tr><tr>
 <td align=center colspan=2><img src="./img/Clockwise red center departure process-5.png"  /></td>
+</tr>
+
+<tr>
+<th colspan=2>Video</th>
+</tr>
+<tr align=center>
+<td colspan=2><a href="" ><img src="./img/" /></a></td>
 </tr>
 </table>
 </div>
