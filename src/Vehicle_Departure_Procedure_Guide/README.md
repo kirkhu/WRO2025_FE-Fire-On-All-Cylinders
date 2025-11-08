@@ -113,23 +113,23 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn left</th>
-<th width="50%">Start_reversing</th>
+<th width="50%">Step-1: Preparing to turn left</th>
+<th width="50%">Step-2: Start_reversing</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Start_in_green_counterclockwise-1.png"  /></td>
 <td width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
 </tr>
 
 <tr>
-<th width="50%">Reparing to turn right</th>
-<th width="50%">Preparing to retreat</th>
+<th width="50%">Step-3: Reparing to turn right</th>
+<th width="50%">Step-4: Preparing to retreat</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
 <td width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
 </tr>
 
 <tr>
-<th>Arrive at the designated location</th>
+<th>Step-5: Arrive at the designated location</th>
 <th>Video Recording of the Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
@@ -142,16 +142,16 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn left</th>
-<th width="50%">Start_reversing</th>
+<th width="50%">Step-1: Preparing to turn left</th>
+<th width="50%">Step-2: Start_reversing</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Start_in_red_counterclockwise-1.png"  /></td>
 <td width="50%"><img src="./img/Start_in_red_counterclockwise-2.png" /></td>
 </tr>
 
 <tr>
-<th width="50%">Prepare to back up and turn left</th>
-<th width="50%">Arrive at the designated location</th>
+<th width="50%">Step-3: Prepare to back up and turn left</th>
+<th width="50%">Step-4: Arrive at the designated location</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Start_in_red_counterclockwise-3.png"  /></td>
 <td width="50%"><img src="./img/Start_in_red_counterclockwise-4.png"  /></td>
@@ -170,16 +170,16 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn left</th>
-<th width="50%">Start_reversing</th>
+<th width="50%">Step-1: Preparing to turn left</th>
+<th width="50%">Step-2: Start_reversing</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Start_in_no_counterclockwise-1.png"  /></td>
 <td width="50%"><img src="./img/Start_in_no_counterclockwise-2.png"  /></td>
 </tr>
 
 <tr>
-<th width="50%">Prepare to back up and turn left</th>
-<th width="50%">Arrive at the designated location</th>
+<th width="50%">Step-3: Prepare to back up and turn left</th>
+<th width="50%">Step-4: Arrive at the designated location</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Start_in_no_counterclockwise-3.png"  /></td>
 <td width="50%"><img src="./img/Start_in_no_counterclockwise-4.png"  /></td>
@@ -197,23 +197,23 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn right</th>
-<th width="50%">Ready to move forward</th>
+<th width="50%">Step-1: Preparing to turn right</th>
+<th width="50%">Step-2: Ready to move forward</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Clockwise Green Departure Process-1.png"  /></td>
 <td width="50%"><img src="./img/Clockwise Green Departure Process-2.png"  /></td>
 </tr>
 
 <tr>
-<th width="50%" width="50%">Preparing to turn left</th>
-<th width="50%">Ready to move forward</th>
+<th width="50%">Step-3: Preparing to turn left</th>
+<th width="50%">Step-4: Ready to move forward</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Clockwise Green Departure Process-3.png"  /></td>
 <td width="50%"><img src="./img/Clockwise Green Departure Process-4.png"  /></td>
 </tr>
 
 <tr>
-<th width=50%>Arrive at the designated location</th>
+<th width=50%>Step-5: Arrive at the designated location</th>
 <th width=50%>Video Recording of the Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td width=50%><img src="./img/Clockwise Green Departure Process-5.png" /></td>
@@ -226,23 +226,23 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn right</th>
-<th width="50%">Ready to move forward</th>
+<th width="50%">Step-1: Preparing to turn right</th>
+<th width="50%">Step-2: Ready to move forward</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Clockwise red Departure Process-1.png"  /></td>
 <td width="50%"><img src="./img/Clockwise red Departure Process-2.png"  /></td>
 </tr>
 
 <tr>
-<th width="50%">Preparing to turn left</th>
-<th width="50%">Ready to move forward</th>
+<th width="50%">Step-3: Preparing to turn left</th>
+<th width="50%">Step-4: Ready to move forward</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Clockwise red Departure Process-3.png"  /></td>
 <td width="50%"><img src="./img/Clockwise red Departure Process-4.png"  /></td>
 </tr>
 
 <tr>
-<th>Arrive at the designated location</th>
+<th>Step-5: Arrive at the designated location</th>
 <th>Video Recording of the Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
@@ -255,16 +255,16 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn right</th>
-<th width="50%">Preparing to turn left</th>
+<th width="50%">Step-1: Preparing to turn right</th>
+<th width="50%">Step-2: Preparing to turn left</th>
 </tr><tr align=center>
 <td width="50%"><img src="./img/Clockwise green center departure process-1.png"  /></td>
 <td><img src="./img/Clockwise green center departure process-2.png"  /></td>
 </tr>
 
 <tr>
-<th width="50%">Ready to move forward</th>
-<th width="50%">Arrive at the designated location</th>
+<th width="50%">Step-3: Ready to move forward</th>
+<th width="50%">Step-4: Arrive at the designated location</th>
 </tr>
 <tr>
 <td width="50%"><img src="./img/Clockwise green center departure process-3.png" /></td>
@@ -284,23 +284,23 @@
 <div align=center>
 <table>
 <tr>
-<th width="50%">Preparing to turn right</th>
-<th width="50%">Ready to move forward</th>
+<th width="50%">Step-1: Preparing to turn right</th>
+<th width="50%">Step-2: Ready to move forward</th>
 </tr><tr>
 <td width="50%"><img src="./img/Clockwise red center departure process-1.png"  /></td>
 <td width="50%"><img src="./img/Clockwise red center departure process-2.png"  /></td>
 </tr
 
 <tr>
-<th width="50%">Preparing to turn left</th>
-<th width="50%">Ready to move forward</th>
+<th width="50%">Step-3: Preparing to turn left</th>
+<th width="50%">Step-4: Ready to move forward</th>
 </tr><tr>
 <td width="50%"><img src="./img/Clockwise red center departure process-3.png"  /></td>
 <td width="50%"><img src="./img/Clockwise red center departure process-4.png"  /></td>
 </tr>
 
 <tr>
-<th>Arrive at the designated location</th>
+<th>Step-5: Arrive at the designated location</th>
 <th>Video Recording of the Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
