@@ -130,7 +130,7 @@
 
 <tr>
 <th>Step-5: Arrive at the designated location</th>
-<th>Video Recording of the Vehicle's Actual Run</th>
+<th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
 <td><a href="https://youtu.be/dxmBH97Rha0" ><img src="./img/01_Counter_clockwise_green_departure_process.jpg" /></a></td>
@@ -158,7 +158,7 @@
 </tr>
 
 <tr>
-<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
+<th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
 <td colspan=2><a href="" ><img src="./img/" /></a></td>
@@ -186,7 +186,7 @@
 </tr>
 
 <tr>
-<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
+<th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td colspan=2><a href="" ><img src="./img/" /></a></td>
 </tr>
@@ -214,7 +214,7 @@
 
 <tr>
 <th width=50%>Step-5: Arrive at the designated location</th>
-<th width=50%>Video Recording of the Vehicle's Actual Run</th>
+<th width=50%>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td width=50%><img src="./img/Clockwise Green Departure Process-5.png" /></td>
 <td width=50%><a href=""><img src="" /></a></td>
@@ -243,7 +243,7 @@
 
 <tr>
 <th>Step-5: Arrive at the designated location</th>
-<th>Video Recording of the Vehicle's Actual Run</th>
+<th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
 <td><a href=""><img src="" /></a></td>
@@ -272,7 +272,7 @@
 </tr>
 
 <tr>
-<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
+<th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
 <td colspan=2><a href="" ><img src="./img/" /></a></td>
@@ -301,7 +301,7 @@
 
 <tr>
 <th>Step-5: Arrive at the designated location</th>
-<th>Video Recording of the Vehicle's Actual Run</th>
+<th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
 <td><img src="./img/Clockwise red center departure process-5.png" /></td>
