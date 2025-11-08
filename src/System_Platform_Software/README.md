@@ -19,7 +19,7 @@
 
          - Download [NVIDIA SDK Manager 2.3.0](https://developer.nvidia.com/sdk-manager)
 
-          <div align=center><img src="./img/NVIDIA SDK Manager Download Page.png" width="80%"></div>
+          <div align=center><img src="./img/NVIDIA_SDK_Manager_Download_Page.png" width="80%"></div>
 
          - Double-click the installation package to install, and upon completion and successful login, launching the application will display the following screen.
    
