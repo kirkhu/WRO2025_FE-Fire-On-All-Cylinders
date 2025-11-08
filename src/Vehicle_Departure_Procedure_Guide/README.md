@@ -161,7 +161,7 @@
 <th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<td colspan=2><a href="https://youtu.be/3sPefphX0xI" ><img src="./img/02_Counter_clockwise_red_departure_process.jpg" /></a></td>
 </tr>
 </table>
 </div>
@@ -188,7 +188,7 @@
 <tr>
 <th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<td colspan=2><a href="https://youtu.be/kS-VRQUwHtw" ><img src="./img/03_Counter_clockwis_ no_color_starting_process.jpg" /></a></td>
 </tr>
 </table>
 </div>
@@ -217,7 +217,7 @@
 <th width=50%>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td width=50%><img src="./img/Clockwise Green Departure Process-5.png" /></td>
-<td width=50%><a href=""><img src="" /></a></td>
+<td width=50%><a href="https://youtu.be/RobF20wQFs8"><img src="./img/04_Clockwise_Green_Departure_Process.jpg" /></a></td>
 </tr>
 </table>
 </div>
@@ -246,7 +246,7 @@
 <th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
-<td><a href=""><img src="" /></a></td>
+<td><a href="https://youtu.be/_NSuhBujNAg"><img src="./img/05_Clockwise_Red_Departure_Process.jpg" /></a></td>
 </tr>
 </table>
 </div>
@@ -275,7 +275,7 @@
 <th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<td colspan=2><a href="https://youtu.be/J43t55lzJF8" ><img src="./img/06_Clockwise_green_center_departure_process.jpg" /></a></td>
 </tr>
 </table>
 </div>
@@ -305,7 +305,7 @@
 </tr>
 <tr align=center>
 <td><img src="./img/Clockwise red center departure process-5.png" /></td>
-<td><a href="" ><img src="./img/" /></a></td>
+<td><a href="https://youtu.be/4ebtIaPdVeI" ><img src="./img/07_Clockwise_red_center_departure_process.jpg" /></a></td>
 </tr>
 
 </table>
