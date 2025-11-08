@@ -50,7 +50,7 @@
       </td>
       <td><img src="img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" >
       </td>
-      <td><img src="img/Driver Top.png" width="400" alt="Top View of Vehicle Chassis" >
+      <td><img src="img/Driver_Top.png" width="400" alt="Top View of Vehicle Chassis" >
       </td>
       <td><img src="img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
     </tr>
