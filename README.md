@@ -1,11 +1,12 @@
 <div align="center"><img src="./other/img/logo.png" width="300" alt=" logo"></div> 
 
-### 英文
-- This is the official GitHub repository of the WRO Taiwan team "__Fire On All Cylinders.__". All code, files and documents are here.
+- This is the official technical documentation for the WRO Taiwan National Team, **"Fire On All Cylinders."**
+- You can find hyperlinks to the technical report content and setup instructions here, provided for quick access by both learners and judges during study or evaluation.
+- This technical document will feature a detailed table of contents structured **according to the official scoring criteria**  (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
 
-- You can find links to the technical report content and setting instructions here, which are for learners and judges respectively, for your convenience during learning or evaluation.
-- This technical document will establish a table of contents according to the scoring criteria, and the table of contents titles will be displayed in the form of hyperlinks, so that judges or learners can easily navigate to the key content of the technical document for quick evaluation.
-- **Special reminder: **Due to the network speed, the image may not be displayed properly. If this happens, please try to refresh the webpage to solve the problem.
+**Special Note:**
+- Due to network speed fluctuations, some images may not display correctly. Should this occur, please try refreshing the page to resolve the issue.
+
     #### [For Learners](learners_contents.md)
 
 ## Rubric for Judging Engineering Documentation
