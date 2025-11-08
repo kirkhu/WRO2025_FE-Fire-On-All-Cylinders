@@ -7,7 +7,7 @@
 **Special Note:**
 - Due to network speed fluctuations, some images may not display correctly. Should this occur, please try refreshing the page to resolve the issue.
 
-    #### [For Learners](learners_contents.md)
+#### [For Learners](learners_contents.md)
 
 ## Rubric for Judging Engineering Documentation
 
