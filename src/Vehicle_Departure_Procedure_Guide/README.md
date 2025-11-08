@@ -188,7 +188,7 @@
 <tr>
 <th colspan=2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
-<td colspan=2><a href="https://youtu.be/kS-VRQUwHtw" ><img src="./img/03_Counter_clockwis_ no_color_starting_process.jpg" /></a></td>
+<td colspan=2><a href="https://youtu.be/kS-VRQUwHtw" ><img src="./img/03_Counter_clockwis_no_color_starting_process.jpg" /></a></td>
 </tr>
 </table>
 </div>
