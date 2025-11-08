@@ -61,7 +61,7 @@
     <th>Drive on Inner Walls</th>
     </tr><tr>
     <td align=center><img src="./img/Counterclockwise_green.png" width=400 /></td>
-    <td align=center><img src="./img/Counter-clockwise green route.png" width=400 /></td>
+    <td align=center><img src="./img/Counter-clockwise_green_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
@@ -73,7 +73,7 @@
     <th>Drive on Exterior Walls</th>
     </tr><tr>
     <td align=center><img src="./img/Counterclockwise_red.png" width=400 /></td>
-    <td align=center><img src="./img/Counter-clockwise red route.png" width=400 /></td>
+    <td align=center><img src="./img/Counter-clockwise_red_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
@@ -85,7 +85,7 @@
     <th>Drive on Exterior Walls</th>
     </tr><tr>
     <td align=center><img src="./img/Counterclockwise_NO.png" width=400 /></td>
-    <td align=center><img src="./img/Counter-clockwise uncolored route.png" width=400 /></td>
+    <td align=center><img src="./img/Counter-clockwise_uncolored_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
@@ -96,8 +96,8 @@
     <th>Clockwise Direction, Green Signal</th>
     <th>Drive on Exterior Walls</th>
     </tr><tr>
-    <td align=center><img src="./img/Green in clockwise direction.png" width=400 /></td>
-    <td align=center><img src="./img/Clockwise green route.png" width=400 /></td>
+    <td align=center><img src="./img/Green_in_clockwise_direction.png" width=400 /></td>
+    <td align=center><img src="./img/Clockwise_green_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
@@ -109,7 +109,7 @@
     <th>Drive on Inner Wall</th>
     </tr><tr>
     <td align=center><img src="./img/Clockwise_red.png " width=400 /></td>
-    <td align=center><img src="./img/Clockwise red route.png" width=400 /></td>
+    <td align=center><img src="./img/Clockwise_red_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
@@ -120,8 +120,8 @@
     <th>Clockwise Direction, Green Signal</th>
     <th>Drive on Exterior Walls</th>
     </tr><tr>
-    <td align=center><img src="./img/Clockwise the middle green.png " width=400 /></td>
-    <td align=center><img src="./img/Clockwise green middle route.png" width=400 /></td>
+    <td align=center><img src="./img/Clockwise_the_middle_green.png " width=400 /></td>
+    <td align=center><img src="./img/Clockwise_green_middle_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
@@ -132,8 +132,8 @@
     <th>Clockwise Direction, Red Signal</th>
     <th>Drive on Inner Wall</th>
     </tr><tr>
-    <td align=center><img src="./img/Clockwise the middle red.png " width=400 /></td>
-    <td align=center><img src="./img/Clockwise red middle route.png" width=400 /></td>
+    <td align=center><img src="./img/Clockwise_the_middle_red.png " width=400 /></td>
+    <td align=center><img src="./img/Clockwise_red_middle_route.png" width=400 /></td>
     </tr>
     </table>
     </div>
