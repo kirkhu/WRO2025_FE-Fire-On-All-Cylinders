@@ -215,82 +215,94 @@
 <div align=center>
 <table>
 <tr>
-<th align="center" width="50%">The vehicle proceeds forward through the parking area. </th>
-<th align="center"  width="50%"> The vehicle turns to the right, with its front facing the outer wall at a 90-degree azimuth.</th>
+<th width="50%">The vehicle proceeds forward through the parking area. </th>
+<th width="50%"> The vehicle turns to the right, with its front facing the outer wall at a 90-degree azimuth.</th>
 </tr>
-<tr>
-<td align="center"  width="50%"><img src="img/parking_1-1.png" /> </td>
-<td align="center"  width="50%"><img src="img/parking_1-2.png" /></td>
+<tr align=center>
+<td width="50%"><img src="img/parking_1-1.png" /> </td>
+<td width="50%"><img src="img/parking_1-2.png" /></td>
 
 </tr>
 <tr>
-<th align="center"  width="50%">The vehicle drives straight toward the 90-degree azimuth until the infrared sensor detects the outer wall, then brakes.</th>
-<th align="center"  width="50%">The vehicle reverses towards the left-rear until its yaw angle exceeds 177 degrees.</th>
+<th width="50%">The vehicle drives straight toward the 90-degree azimuth until the infrared sensor detects the outer wall, then brakes.</th>
+<th width="50%">The vehicle reverses towards the left-rear until its yaw angle exceeds 177 degrees.</th>
 </tr>
-<tr>
-<td align="center"  width="50%"><img src="img/parking_1-3.png" /></td>
-<td align="center"  width="50%"><img src="img/parking_1-4.png" /></td>
+<tr align=center>
+<td width="50%"><img src="img/parking_1-3.png" /></td>
+<td width="50%"><img src="img/parking_1-4.png" /></td>
 </tr>
 
 <tr>
-<th align="center"  width="50%"> The vehicle follows the outer wall until the area of the magenta wall contour is less than 100, then the vehicle moves forward another 100 degrees.</th>
-<th align="center"  width="50%">The vehicle reverses towards the rear-left into the parking area until its heading angle reaches 123 degrees.</th>
+<th width="50%"> The vehicle follows the outer wall until the area of the magenta wall contour is less than 100, then the vehicle moves forward another 100 degrees.</th>
+<th width="50%">The vehicle reverses towards the rear-left into the parking area until its heading angle reaches 123 degrees.</th>
 </tr>
-<tr>
-<td align="center"  width="50%"><img src="img/parking_1-5.png" /> </td>
-<td align="center"  width="50%"><img src="img/parking_1-6.png" /> </td>
+<tr align=center>
+<td width="50%"><img src="img/parking_1-5.png" /> </td>
+<td width="50%"><img src="img/parking_1-6.png" /> </td>
 </tr>
+
 <tr>
-<th align="center"  width="50%">The vehicle reverses towards the rear-right into the parking area until its heading angle reaches 177 degrees.</th>
-<th align="center"  width="50%">Vehicle Parking Finished </th>
+<th width="50%">The vehicle reverses towards the rear-right into the parking area until its heading angle reaches 177 degrees.</th>
+<th width="50%">Vehicle Parking Finished </th>
 </tr>
+<tr align=center>
+<td width="50%"><img src="img/parking_1-7.png" /> </td>
+<td width="50%"><img src="img/parking_1-8.png" /> </td>
+</tr>
+
 <tr>
-<td align="center"  width="50%"><img src="img/parking_1-7.png" /> </td>
-<td align="center"  width="50%"><img src="img/parking_1-8.png" /> </td>
+<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
+</tr>
+<tr align=center>
+<td><img src="" /></td>
 </tr>
 </table>
 </div>
 
 ## <div align="center">Clockwise Vehicle Parking Procedure </div>
 <div align=center>
-
 <table>
 <tr>
-<th align="center"  width="50%"> The vehicle proceeds forward through the parking area.</th>
-<th align="center"  width="50%"> The vehicle turns to the left, with its front facing the outer wall at a 90-degree azimuth.</th>
+<th width="50%"> The vehicle proceeds forward through the parking area.</th>
+<th width="50%"> The vehicle turns to the left, with its front facing the outer wall at a 90-degree azimuth.</th>
 </tr>
+<tr align=center>
+<td width="50%"> <img src="img/parking_2-1.png" /></td>
+<td width="50%"> <img src="img/parking_2-2.png" /></td>
+</tr>
+
 <tr>
-<td align="center"  width="50%"> <img src="img/parking_2-1.png" /></td>
-<td align="center"  width="50%"> <img src="img/parking_2-2.png" /></td>
+<th width="50%">The vehicle drives straight toward the 90-degree azimuth until the infrared sensor detects the outer wall, then brakes. </th>
+<th width="50%">The vehicle reverses towards the right-rear until its yaw angle exceeds 177 degrees. </th>
+</tr>
+<tr align=center>
+<td width="50%"><img src="img/parking_2-3.png" /> </td>
+<td width="50%"><img src="img/parking_2-4.png" /> </td>
 </tr>
 
 <tr>
-<th align="center"  width="50%">The vehicle drives straight toward the 90-degree azimuth until the infrared sensor detects the outer wall, then brakes. </th>
-<th align="center"  width="50%">The vehicle reverses towards the right-rear until its yaw angle exceeds 177 degrees. </th>
+<th width="50%"> The vehicle follows the outer wall until the area of the magenta wall contour is less than 100, then the vehicle moves forward another 100 degrees.</th>
+<th width="50%">The vehicle reverses towards the rear-right into the parking area until its heading angle reaches 123 degrees. </th>
 </tr>
-<tr>
-<td align="center"  width="50%"><img src="img/parking_2-3.png" /> </td>
-<td align="center"  width="50%"><img src="img/parking_2-4.png" /> </td>
-</tr>
-
-
-<tr>
-<th align="center"  width="50%"> The vehicle follows the outer wall until the area of the magenta wall contour is less than 100, then the vehicle moves forward another 100 degrees.</th>
-<th align="center"  width="50%">The vehicle reverses towards the rear-right into the parking area until its heading angle reaches 123 degrees. </th>
-</tr>
-<tr>
-<td align="center"  width="50%"><img src="img/parking_2-5.png" /></td>
-<td align="center"  width="50%"><img src="img/parking_2-6.png" /> </td>
+<tr align=center>
+<td width="50%"><img src="img/parking_2-5.png" /></td>
+<td width="50%"><img src="img/parking_2-6.png" /> </td>
 </tr>
 
+<tr>
+<th width="50%">The vehicle reverses towards the rear-left into the parking area until its heading angle reaches 177 degrees. </th>
+<th width="50%">Vehicle Parking Finished </th>
+</tr>
+<tr align=center>
+<td width="50%"><img src="img/parking_2-7.png" /> </td>
+<td width="50%"><img src="img/parking_2-8.png" /> </td>
+</tr>
 
 <tr>
-<th align="center"  width="50%">The vehicle reverses towards the rear-left into the parking area until its heading angle reaches 177 degrees. </th>
-<th align="center"  width="50%">Vehicle Parking Finished </th>
+<th>Video Recording of the Vehicle's Actual Run</th>
 </tr>
-<tr>
-<td align="center"  width="50%"><img src="img/parking_2-7.png" /> </td>
-<td align="center"  width="50%"><img src="img/parking_2-8.png" /> </td>
+<tr align=center>
+<td><img src="" /></td>
 </tr>
 </table>
 </div>
