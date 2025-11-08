@@ -7,7 +7,7 @@
   
 - This technical document will feature a detailed table of contents structured **according to the official scoring criteria** (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
 
----
+
 ### **Autonomous Car Design: Key Upgrades and Iterations** 
 
  - This autonomous vehicle design is built upon the wealth of experience inherited from our **predecessor team ("Shinan-Fire-On-All-Cylinders")** and integrates the practical experience gained from our participation in the **World Final last year**. Not only have we **drawn lessons from the successful elements of last year's champion team**, but we have also implemented critical technical iterations:
