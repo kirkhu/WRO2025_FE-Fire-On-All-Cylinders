@@ -3,9 +3,9 @@
 ### **Official Technical Document Introduction and Design Overview** 
 - This is the official technical documentation for the WRO Taiwan National Team, **"Fire On All Cylinders."**
   
-  - You can find hyperlinks to the technical report content and setup instructions here, provided for quick access by both learners and judges during study or evaluation.
+- You can find hyperlinks to the technical report content and setup instructions here, provided for quick access by both learners and judges during study or evaluation.
   
-  - This technical document will feature a detailed table of contents structured **according to the official scoring criteria** (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
+- This technical document will feature a detailed table of contents structured **according to the official scoring criteria** (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
 
 ---
 ### **Autonomous Car Design: Key Upgrades and Iterations** 
