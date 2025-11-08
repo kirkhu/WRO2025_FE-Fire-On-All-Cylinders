@@ -109,38 +109,31 @@
     set_servo_angle(0)
 
     ```
-## <div align="center">Counter-clockwise green departure process</div>
+## <div align=center>Counter-clockwise green departure process</div>
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn left</th>
-<th align=center width="50%">Start_reversing</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-1.png"  /></td>
-<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
+<th width="50%">Preparing to turn left</th>
+<th width="50%">Start_reversing</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Start_in_green_counterclockwise-1.png"  /></td>
+<td width="50%"><img src="./img/Start_in_green_counterclockwise-2.png" /></td>
 </tr>
 
 <tr>
-<th align=center width="50%">Reparing to turn right</th>
-<th align=center width="50%">Preparing to retreat</th>
-</tr>
-<tr>
-<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
-<td align=center width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
-</tr>
-
-<tr>
-<th align=center colspan=2>Arrive at the designated location</th>
-</tr>
-<tr>
-<td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" width=80%/></td>
+<th width="50%">Reparing to turn right</th>
+<th width="50%">Preparing to retreat</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Start_in_green_counterclockwise-3.png" /></td>
+<td width="50%"><img src="./img/Start_in_green_counterclockwise-4.png"  /></td>
 </tr>
 
 <tr>
-<th colspan=2>Video</th>
-</tr>
-<tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<th>Arrive at the designated location</th>
+<th>Video Recording of the Vehicle's Actual Run</th>
+</tr><tr align=center>
+<td><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
+<td><a href="" ><img src="./img/" /></a></td>
 </tr>
 </table>
 </div>
@@ -149,23 +142,23 @@
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn left</th>
-<th align=center width="50%">Start_reversing</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-1.png"  /></td>
-<td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-2.png" /></td>
+<th width="50%">Preparing to turn left</th>
+<th width="50%">Start_reversing</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Start_in_red_counterclockwise-1.png"  /></td>
+<td width="50%"><img src="./img/Start_in_red_counterclockwise-2.png" /></td>
 </tr>
 
 <tr>
-<th align=center width="50%">Prepare to back up and turn left</th>
-<th align=center width="50%">Arrive at the designated location</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-3.png"  /></td>
-<td align=center width="50%"><img src="./img/Start_in_red_counterclockwise-4.png"  /></td>
+<th width="50%">Prepare to back up and turn left</th>
+<th width="50%">Arrive at the designated location</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Start_in_red_counterclockwise-3.png"  /></td>
+<td width="50%"><img src="./img/Start_in_red_counterclockwise-4.png"  /></td>
 </tr>
 
 <tr>
-<th colspan=2>Video</th>
+<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
 <td colspan=2><a href="" ><img src="./img/" /></a></td>
@@ -177,25 +170,24 @@
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn left</th>
-<th align=center width="50%">Start_reversing</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Start_in_no_counterclockwise-1.png"  /></td>
-<td align=center width="50%"><img src="./img/Start_in_no_counterclockwise-2.png"  /></td>
+<th width="50%">Preparing to turn left</th>
+<th width="50%">Start_reversing</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Start_in_no_counterclockwise-1.png"  /></td>
+<td width="50%"><img src="./img/Start_in_no_counterclockwise-2.png"  /></td>
 </tr>
 
 <tr>
-<th align=center width="50%">Prepare to back up and turn left</th>
-<th align=center width="50%">Arrive at the designated location</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Start_in_no_counterclockwise-3.png"  /></td>
-<td align=center width="50%"><img src="./img/Start_in_no_counterclockwise-4.png"  /></td>
+<th width="50%">Prepare to back up and turn left</th>
+<th width="50%">Arrive at the designated location</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Start_in_no_counterclockwise-3.png"  /></td>
+<td width="50%"><img src="./img/Start_in_no_counterclockwise-4.png"  /></td>
 </tr>
 
 <tr>
-<th colspan=2>Video</th>
-</tr>
-<tr align=center>
+<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
+</tr><tr align=center>
 <td colspan=2><a href="" ><img src="./img/" /></a></td>
 </tr>
 </table>
@@ -205,32 +197,27 @@
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn right</th>
-<th align=center width="50%">Ready to move forward</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise Green Departure Process-1.png"  /></td>
-<td align=center width="50%"><img src="./img/Clockwise Green Departure Process-2.png"  /></td>
+<th width="50%">Preparing to turn right</th>
+<th width="50%">Ready to move forward</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Clockwise Green Departure Process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise Green Departure Process-2.png"  /></td>
 </tr>
 
 <tr>
-<th align=center width="50%" width="50%">Preparing to turn left</th>
-<th align=center width="50%">Ready to move forward</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise Green Departure Process-3.png"  /></td>
-<td align=center width="50%"><img src="./img/Clockwise Green Departure Process-4.png"  /></td>
+<th width="50%" width="50%">Preparing to turn left</th>
+<th width="50%">Ready to move forward</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Clockwise Green Departure Process-3.png"  /></td>
+<td width="50%"><img src="./img/Clockwise Green Departure Process-4.png"  /></td>
 </tr>
 
 <tr>
-<th align=center colspan=2>Arrive at the designated location</th>
-</tr><tr>
-<td align=center colspan=2><img src="./img/Clockwise Green Departure Process-5.png"  width=80% /></td>
-</tr>
-
-<tr>
-<th colspan=2>Video</th>
-</tr>
-<tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<th width=50%>Arrive at the designated location</th>
+<th width=50%>Video Recording of the Vehicle's Actual Run</th>
+</tr><tr align=center>
+<td width=50%><img src="./img/Clockwise Green Departure Process-5.png" /></td>
+<td width=50%><a href=""><img src="" /></a></td>
 </tr>
 </table>
 </div>
@@ -239,32 +226,27 @@
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn right</th>
-<th align=center width="50%">Ready to move forward</th>
-</tr><tr>
-<td align=center width="50%">><img src="./img/Clockwise red Departure Process-1.png"  /></td>
-<td align=center width="50%">><img src="./img/Clockwise red Departure Process-2.png"  /></td>
+<th width="50%">Preparing to turn right</th>
+<th width="50%">Ready to move forward</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Clockwise red Departure Process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise red Departure Process-2.png"  /></td>
 </tr>
 
 <tr>
-<th align=center width="50%">Preparing to turn left</th>
-<th align=center width="50%">Ready to move forward</th>
-</tr><tr>
-<td align=center width="50%">><img src="./img/Clockwise red Departure Process-3.png"  /></td>
-<td align=center width="50%">><img src="./img/Clockwise red Departure Process-4.png"  /></td>
+<th width="50%">Preparing to turn left</th>
+<th width="50%">Ready to move forward</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Clockwise red Departure Process-3.png"  /></td>
+<td width="50%"><img src="./img/Clockwise red Departure Process-4.png"  /></td>
 </tr>
 
 <tr>
-<th align=center colspan=2 >Arrive at the designated location</th>
-</tr><tr>
-<td align=center colspan=2 ><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
-</tr>
-
-<tr>
-<th colspan=2>Video</th>
-</tr>
-<tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<th>Arrive at the designated location</th>
+<th>Video Recording of the Vehicle's Actual Run</th>
+</tr><tr align=center>
+<td><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
+<td><a href=""><img src="" /></a></td>
 </tr>
 </table>
 </div>
@@ -273,23 +255,24 @@
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn right</th>
-<th align=center width="50%">Preparing to turn left</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise green center departure process-1.png"  /></td>
-<td align=center width="50%"><img src="./img/Clockwise green center departure process-2.png"  /></td>
+<th width="50%">Preparing to turn right</th>
+<th width="50%">Preparing to turn left</th>
+</tr><tr align=center>
+<td width="50%"><img src="./img/Clockwise green center departure process-1.png"  /></td>
+<td><img src="./img/Clockwise green center departure process-2.png"  /></td>
 </tr>
 
 <tr>
-<th align=center width="50%">Ready to move forward</th>
-<th align=center width="50%">Arrive at the designated location</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise green center departure process-3.png" /></td>
-<td align=center width="50%"><img src="./img/Clockwise green center departure process-4.png" /></td>
+<th width="50%">Ready to move forward</th>
+<th width="50%">Arrive at the designated location</th>
+</tr>
+<tr>
+<td width="50%"><img src="./img/Clockwise green center departure process-3.png" /></td>
+<td width="50%"><img src="./img/Clockwise green center departure process-4.png" /></td>
 </tr>
 
 <tr>
-<th colspan=2>Video</th>
+<th colspan=2>Video Recording of the Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
 <td colspan=2><a href="" ><img src="./img/" /></a></td>
@@ -301,33 +284,30 @@
 <div align=center>
 <table>
 <tr>
-<th align=center width="50%">Preparing to turn right</th>
-<th align=center width="50%">Ready to move forward</th>
+<th width="50%">Preparing to turn right</th>
+<th width="50%">Ready to move forward</th>
 </tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise red center departure process-1.png"  /></td>
-<td align=center width="50%"><img src="./img/Clockwise red center departure process-2.png"  /></td>
+<td width="50%"><img src="./img/Clockwise red center departure process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise red center departure process-2.png"  /></td>
+</tr
+
+<tr>
+<th width="50%">Preparing to turn left</th>
+<th width="50%">Ready to move forward</th>
+</tr><tr>
+<td width="50%"><img src="./img/Clockwise red center departure process-3.png"  /></td>
+<td width="50%"><img src="./img/Clockwise red center departure process-4.png"  /></td>
 </tr>
 
 <tr>
-<th lign=center width="50%">Preparing to turn left</th>
-<th lign=center width="50%">Ready to move forward</th>
-</tr><tr>
-<td align=center width="50%"><img src="./img/Clockwise red center departure process-3.png"  /></td>
-<td align=center width="50%"><img src="./img/Clockwise red center departure process-4.png"  /></td>
-</tr>
-
-<tr>
-<th align=center colspan=2>Arrive at the designated location</th>
-</tr><tr>
-<td align=center colspan=2><img src="./img/Clockwise red center departure process-5.png" width=80% /></td>
-</tr>
-
-<tr>
-<th colspan=2>Video</th>
+<th>Arrive at the designated location</th>
+<th>Video Recording of the Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
-<td colspan=2><a href="" ><img src="./img/" /></a></td>
+<td><img src="./img/Clockwise red center departure process-5.png" /></td>
+<td><a href="" ><img src="./img/" /></a></td>
 </tr>
+
 </table>
 </div>
 
