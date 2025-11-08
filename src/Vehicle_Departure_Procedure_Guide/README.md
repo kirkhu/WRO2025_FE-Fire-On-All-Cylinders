@@ -133,7 +133,7 @@
 <th align=center colspan=2>Arrive at the designated location</th>
 </tr>
 <tr>
-<td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
+<td align=center colspan=2><img src="./img/Start_in_green_counterclockwise-5.png" width=80%/></td>
 </tr>
 
 <tr>
@@ -223,7 +223,7 @@
 <tr>
 <th align=center colspan=2>Arrive at the designated location</th>
 </tr><tr>
-<td align=center colspan=2><img src="./img/Clockwise Green Departure Process-5.png"  /></td>
+<td align=center colspan=2><img src="./img/Clockwise Green Departure Process-5.png"  width=80% /></td>
 </tr>
 
 <tr>
@@ -257,7 +257,7 @@
 <tr>
 <th align=center colspan=2 >Arrive at the designated location</th>
 </tr><tr>
-<td align=center colspan=2 ><img src="./img/Clockwise red Departure Process-5.png"  /></td>
+<td align=center colspan=2 ><img src="./img/Clockwise red Departure Process-5.png"  width=80% /></td>
 </tr>
 
 <tr>
@@ -319,7 +319,7 @@
 <tr>
 <th align=center colspan=2>Arrive at the designated location</th>
 </tr><tr>
-<td align=center colspan=2><img src="./img/Clockwise red center departure process-5.png"  /></td>
+<td align=center colspan=2><img src="./img/Clockwise red center departure process-5.png" width=80% /></td>
 </tr>
 
 <tr>
