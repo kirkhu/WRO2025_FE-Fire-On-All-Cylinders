@@ -186,6 +186,4 @@
         time2 = time.time()
     ```
 
-# <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
-
-
+# <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>
