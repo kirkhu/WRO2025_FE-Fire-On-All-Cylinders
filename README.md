@@ -1,19 +1,22 @@
 <div align="center"><img src="./other/img/logo.png" width="300" alt=" logo"></div> 
 
+### **Official Technical Document Introduction and Design Overview** 
 - This is the official technical documentation for the WRO Taiwan National Team, **"Fire On All Cylinders."**
-- You can find hyperlinks to the technical report content and setup instructions here, provided for quick access by both learners and judges during study or evaluation.
-- This technical document will feature a detailed table of contents structured **according to the official scoring criteria**  (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
+  
+  - You can find hyperlinks to the technical report content and setup instructions here, provided for quick access by both learners and judges during study or evaluation.
+  
+  - This technical document will feature a detailed table of contents structured **according to the official scoring criteria** (such as the engineering journal evaluation rubrics), with all section titles displayed as **hyperlinks**. This allows judges or learners to easily navigate to the key content of the technical documentation for **rapid and efficient evaluation**.
 
-- ### Autonomous Vehicle Design: Key Upgrades and Iterations
-  This autonomous vehicle design **builds upon** the rich experience inherited from the senior team (**Shinan-Fire-On-All-Cylinders**) and integrates my practical insights from last year's World Competition.
+---
+### **Autonomous Car Design: Key Upgrades and Iterations** 
 
-  We didn't just reference the successful elements of the previous year's winning teams; we implemented **key technological iterations**:
-
-  * **Controller Upgrade:** The main controller has been upgraded from the standard Jetson Orin Nano to the **superior-performing Nvidia Jetson Orin Nano**.
-  * **Mechanical Overhaul:** We have **restructured and optimized** the vehicle's mechanical components, specifically the steering and chassis.
-  * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
-
-  The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
+ - This autonomous vehicle design is built upon the wealth of experience inherited from our **predecessor team ("Shinan-Fire-On-All-Cylinders")** and integrates the practical experience gained from our participation in the **World Final last year**. Not only have we **drawn lessons from the successful elements of last year's champion team**, but we have also implemented critical technical iterations:
+  
+  * **Controller Upgrade:** The main controller has been upgraded from the standard **Jetson Nano** to the superior performance of the **Nvidia Jetson Orin Nano**.
+  * **Mechanical Overhaul:** We have reorganized and optimized the vehicle's mechanical components, focusing specifically on the **steering system** and the **chassis**.
+  * **Visual Enhancement:** Image processing capabilities have been significantly improved, achieving higher **efficiency and accuracy**.
+  
+  The integration of all these upgrades and innovative design elements is aimed at **comprehensively enhancing the vehicle's overall performance and competitiveness**.
 
 **Special Note:**
 - Due to network speed fluctuations, some images may not display correctly. Should this occur, please try refreshing the page to resolve the issue.
