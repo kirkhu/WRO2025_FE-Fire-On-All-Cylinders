@@ -53,18 +53,18 @@
     - [3-1 Software Platform Construction](src/System_Platform_Software/README.md)
     - [3-2 OpenCV Introduction](src/OpenCV/README.md)
  
-    - __3-4 Image Recognition Processing and Steering__
-      - [3-4-1 Image Recognition Processing](src/Image_Recognition_Processing/README.md)
-      - [3-4-2 Parking Lot Departure Steering Control Overview](src/Overview_of_Parking_Lot_Departure_Steering_Control/README.md) 
-      - [3-4-3 Steering Control](src/Steering_Control/README.md) 
-      - [3-4-4 Automatically record the LAB values of the field](src/Automatically_record_LAB/README.md)
-    - __3-5 Programming - Vehicle’s control program__
-      - [3-5-1 Open Challenge Code Overview](src/Programming/Open_Challenge/README.md)
-      - [3-5-2 Obstacle Challenge Code Overview](src/Programming/Obstacle_Challenge/README.md)
-      - [3-5-3 Vehicle Departure Procedure Guide](src/Vehicle_Departure_Procedure_Guide/README.md)
-      - [3-5-4 Vehicle Parking Procedure Guide](src/Vehicle_Parking_Procedure_Guide/README.md)
-    - __3-6 Remote Connection__
-      - [3-6-1 NoMachine software Introduction](other/NoMachine/README.md)
+    - __3-3 Image Recognition Processing and Steering__
+      - [3-3-1 Image Recognition Processing](src/Image_Recognition_Processing/README.md)
+      - [3-3-2 Parking Lot Departure Steering Control Overview](src/Overview_of_Parking_Lot_Departure_Steering_Control/README.md) 
+      - [3-3-3 Steering Control](src/Steering_Control/README.md) 
+      - [3-3-4 Automatically record the LAB values of the field](src/Automatically_record_LAB/README.md)
+    - __3-4 Programming - Vehicle’s control program__
+      - [3-4-1 Open Challenge Code Overview](src/Programming/Open_Challenge/README.md)
+      - [3-4-2 Obstacle Challenge Code Overview](src/Programming/Obstacle_Challenge/README.md)
+      - [3-4-3 Vehicle Departure Procedure Guide](src/Vehicle_Departure_Procedure_Guide/README.md)
+      - [3-4-4 Vehicle Parking Procedure Guide](src/Vehicle_Parking_Procedure_Guide/README.md)
+    - __3-5 Remote Connection__
+      - [3-5-1 NoMachine software Introduction](other/NoMachine/README.md)
 
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and Vehicle
