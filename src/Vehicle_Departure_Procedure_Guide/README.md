@@ -133,7 +133,7 @@
 <th>Video Recording of the Vehicle's Actual Run</th>
 </tr><tr align=center>
 <td><img src="./img/Start_in_green_counterclockwise-5.png" /></td>
-<td><a href="" ><img src="./img/" /></a></td>
+<td><a href="https://youtu.be/dxmBH97Rha0" ><img src="./img/01_Counter_clockwise_green_departure_process.jpg" /></a></td>
 </tr>
 </table>
 </div>
