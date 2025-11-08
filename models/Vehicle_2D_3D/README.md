@@ -286,8 +286,8 @@
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder.png" width=300 /></td>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Motor steering rod.png" width=300 /></td>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering Linkage.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Motor_steering_rod.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Steering_Linkage.png" width=300 /></td>
           </tr>
         </table>
         </div>
@@ -301,8 +301,8 @@
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic stent.png" width=300 /></td>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Infrared bracket.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic_stent.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Infrared_bracket.png" width=300 /></td>
           </tr>
         </table>
       </div>
@@ -314,8 +314,8 @@
             <th>Lens Module Fine-Tuning Mechanism</th>
           </tr>
           <tr>
-            <td align=center width=500><img src="./Vehicle_Chassis_CAD_File/img/Lens support frame body.png" width=450 /></td>
-            <td align=center width=500><img src="./Vehicle_Chassis_CAD_File/img/Lens mounting plate.png" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_CAD_File/img/Lens_support_frame_body.png" width=450 /></td>
+            <td align=center width=500><img src="./Vehicle_Chassis_CAD_File/img/Lens_mounting_plate.png" width=450 /></td>
           </tr>
         </table>
       </div>
