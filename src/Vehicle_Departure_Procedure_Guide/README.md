@@ -200,23 +200,23 @@
 <th width="50%">Step-1: Preparing to turn right</th>
 <th width="50%">Step-2: Ready to move forward</th>
 </tr><tr align=center>
-<td width="50%"><img src="./img/Clockwise Green Departure Process-1.png"  /></td>
-<td width="50%"><img src="./img/Clockwise Green Departure Process-2.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_Green_Departure_Process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_Green_Departure_Process-2.png"  /></td>
 </tr>
 
 <tr>
 <th width="50%">Step-3: Preparing to turn left</th>
 <th width="50%">Step-4: Ready to move forward</th>
 </tr><tr align=center>
-<td width="50%"><img src="./img/Clockwise Green Departure Process-3.png"  /></td>
-<td width="50%"><img src="./img/Clockwise Green Departure Process-4.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_Green_Departure_Process-3.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_Green_Departure_Process-4.png"  /></td>
 </tr>
 
 <tr>
 <th width=50%>Step-5: Arrive at the designated location</th>
 <th width=50%>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
-<td width=50%><img src="./img/Clockwise Green Departure Process-5.png" /></td>
+<td width=50%><img src="./img/Clockwise_Green_Departure_Process-5.png" /></td>
 <td width=50%><a href="https://youtu.be/RobF20wQFs8"><img src="./img/04_Clockwise_Green_Departure_Process.jpg" /></a></td>
 </tr>
 </table>
@@ -229,23 +229,23 @@
 <th width="50%">Step-1: Preparing to turn right</th>
 <th width="50%">Step-2: Ready to move forward</th>
 </tr><tr align=center>
-<td width="50%"><img src="./img/Clockwise red Departure Process-1.png"  /></td>
-<td width="50%"><img src="./img/Clockwise red Departure Process-2.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_Departure_Process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_Departure_Process-2.png"  /></td>
 </tr>
 
 <tr>
 <th width="50%">Step-3: Preparing to turn left</th>
 <th width="50%">Step-4: Ready to move forward</th>
 </tr><tr align=center>
-<td width="50%"><img src="./img/Clockwise red Departure Process-3.png"  /></td>
-<td width="50%"><img src="./img/Clockwise red Departure Process-4.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_Departure_Process-3.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_Departure_Process-4.png"  /></td>
 </tr>
 
 <tr>
 <th>Step-5: Arrive at the designated location</th>
 <th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr><tr align=center>
-<td width="50%"><img src="./img/Clockwise red Departure Process-5.png" /></td>
+<td width="50%"><img src="./img/Clockwise_red_Departure_Process-5.png" /></td>
 <td width="50%"><a href="https://youtu.be/_NSuhBujNAg"><img src="./img/05_Clockwise_Red_Departure_Process.jpg" /></a></td>
 </tr>
 </table>
@@ -258,8 +258,8 @@
 <th width="50%">Step-1: Preparing to turn right</th>
 <th width="50%">Step-2: Preparing to turn left</th>
 </tr><tr align=center>
-<td width="50%"><img src="./img/Clockwise green center departure process-1.png"  /></td>
-<td width="50%><img src="./img/Clockwise green center departure process-2.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_green_center_departure_process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_green_center_departure_process-2.png"  /></td>
 </tr>
 
 <tr>
@@ -267,8 +267,8 @@
 <th width="50%">Step-4: Arrive at the designated location</th>
 </tr>
 <tr>
-<td width="50%"><img src="./img/Clockwise green center departure process-3.png" /></td>
-<td width="50%"><img src="./img/Clockwise green center departure process-4.png" /></td>
+<td width="50%"><img src="./img/Clockwise_green_center_departure_process-3.png" /></td>
+<td width="50%"><img src="./img/Clockwise_green_center_departure_process-4.png" /></td>
 </tr>
 
 <tr>
@@ -287,16 +287,16 @@
 <th width="50%">Step-1: Preparing to turn right</th>
 <th width="50%">Step-2: Ready to move forward</th>
 </tr><tr>
-<td width="50%"><img src="./img/Clockwise red center departure process-1.png"  /></td>
-<td width="50%"><img src="./img/Clockwise red center departure process-2.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_center_departure_process-1.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_center_departure_process-2.png"  /></td>
 </tr
 
 <tr>
 <th width="50%">Step-3: Preparing to turn left</th>
 <th width="50%">Step-4: Ready to move forward</th>
 </tr><tr>
-<td width="50%"><img src="./img/Clockwise red center departure process-3.png"  /></td>
-<td width="50%"><img src="./img/Clockwise red center departure process-4.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_center_departure_process-3.png"  /></td>
+<td width="50%"><img src="./img/Clockwise_red_center_departure_process-4.png"  /></td>
 </tr>
 
 <tr>
@@ -304,7 +304,7 @@
 <th>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
-<td><img src="./img/Clockwise red center departure process-5.png" /></td>
+<td><img src="./img/Clockwise_red_center_departure_process-5.png" /></td>
 <td><a href="https://youtu.be/4ebtIaPdVeI" ><img src="./img/07_Clockwise_red_center_departure_process.jpg" /></a></td>
 </tr>
 
