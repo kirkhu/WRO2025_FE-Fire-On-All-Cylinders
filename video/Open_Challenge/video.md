@@ -12,8 +12,8 @@
         <th>Counterclockwise</th>    
       </tr>
       <tr >
-        <td width="40%"><a href="https://youtu.be/C6ylflxoQq0"><img src="./img/01_Full_Narrow_clockwise@Open Challange.jpg" alt="Full_Narrow_clockwise@Open Challange" ></a> </td>
-        <td width="40%"><a href="https://youtu.be/30k0c0JbF3A"><img src="./img/02_Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" alt="Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" ></a></td>
+        <td width="40%"><a href="https://youtu.be/C6ylflxoQq0"><img src="./img/01_Full_Narrow_clockwise@Open_Challange.jpg" alt="Full_Narrow_clockwise@Open Challange" ></a> </td>
+        <td width="40%"><a href="https://youtu.be/30k0c0JbF3A"><img src="./img/02_Full_Narrow_counterclockwise@OpenChallange_Fire_On_All_Cylinders.jpg" alt="Full_Narrow_counterclockwise@OpenChallange Fire_On_All_Cylinders.jpg" ></a></td>
       </tr>
     </table>
   </div>
@@ -91,7 +91,7 @@
         <th>Counterclockwise</th>
       </tr>
       <tr>
-        <td width="40%"><a href="https://youtu.be/ywlkTwc3BKk"><img src="./img/05_Narrow_Narrow_Wide_Wide_clockwise@Open_Challange_Fire _On_All_Cylinders.jpg" alt="Narrow_Narrow_Wide_Wide_clockwise@Open_Challange_Fire _On_All_Cylinders" ></a> </td>
+        <td width="40%"><a href="https://youtu.be/ywlkTwc3BKk"><img src="./img/05_Narrow_Narrow_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Narrow_Wide_Wide_clockwise@Open_Challange_Fire _On_All_Cylinders" ></a> </td>
         <td width="40%"><a href="https://youtu.be/J0V3LCfGXgI"><img src="./img/06_Narrow_Narrow_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Narrow_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" ></a></td>
       </tr>
     </table>
