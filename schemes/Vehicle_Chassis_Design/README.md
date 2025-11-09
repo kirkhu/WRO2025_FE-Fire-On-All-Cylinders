@@ -91,7 +91,7 @@ To solve the V1.0 structure's bulkiness and accuracy issues, in V2.0 we:
 
   - Reduced the overall template size.
 
-  - Replaced the metal wire steering rod with a 3D printed component, significantly improving the rod's accuracy and enhancing the self-driving car's steering agility. However, the use of screws to connect LEGO parts in this version still constrained the steering angle. Therefore, the next iteration (V3.0) will switch to rounded cross axles and rounded steering racks (or rudder plates) to increase the steering range.
+  - Replaced the metal wire steering rod with a 3D printed component, significantly improving the rod's accuracy and enhancing the self-driving car's steering agility. However, the use of screws to connect LEGO parts in this version still constrained the steering angle. Therefore, the next iteration (V3.0) will switch to rounded cross axles and Steering shaft holder to increase the steering range.
   </td>
   </tr>
   <tr>
