@@ -220,7 +220,7 @@
       <div align=center>
         <table>
           <tr>
-            <th>Steering shaft holder</th>
+            <th>Ball Joint Steering Shaft Holder</th>
             <th>Motor steering rod</th>
             <th>Steering rod</th>
           </tr>
