@@ -1273,6 +1273,13 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
  
 **All team members, working diligently overnight in accordance with their previously allocated responsibilities, are urgently continuing to upload the modified engineering documentation to the GitHub project repository**.
 
+<div align=center>
+    <table>
+        <tr align=center>
+            <td><img src="./img/11/all_ware.jpg" /></td>
+        </tr>
+    </table>
+</div>
 
  ## 2025/11/02 ~ 2025/11/08
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
