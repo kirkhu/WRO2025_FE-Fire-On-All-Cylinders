@@ -26,8 +26,8 @@
 
 - ### Onshape 3D Model Structure Sketch -Onshape
   - #### 3D Modeling Software Onshape Introduction
-    * We chose **Onshape** [cite: 981, 982] to design the **3D model structure**  of our **Self-Driving Car**[cite: 1]. It is a free and user-friendly web-based CAD software.
-    * After completing the model creation in **Onshape**, we can output the necessary **2D dimension drawings**. These files can then be sent directly to a **Laser Cutting Machine** [cite: 593] for cutting, or converted and sent to a **3D Printer** for part fabrication.
+    * We chose **Onshape** to design the **3D model structure**  of our **Self-Driving Car**. It is a free and user-friendly web-based CAD software.
+    * After completing the model creation in **Onshape**, we can output the necessary **2D dimension drawings**. These files can then be sent directly to a **Laser Cutting Machine** for cutting, or converted and sent to a **3D Printer** for part fabrication.
     * All **3D/2D vehicle models**  required for this competition were designed entirely using the **Onshape** platform.
 
     - Software Website：[Onshape](https://www.onshape.com/en/) 
@@ -220,7 +220,7 @@
       <div align=center>
         <table>
           <tr>
-            <th>Steering shaft holder</th>
+            <th>Ball Joint Steering Shaft Holder</th>
             <th>Motor steering rod</th>
             <th>Steering rod</th>
           </tr>
