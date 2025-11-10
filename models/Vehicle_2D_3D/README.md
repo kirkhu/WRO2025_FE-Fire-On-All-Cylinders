@@ -236,12 +236,12 @@
         <table>
           <tr>
             <th>Motor Holder</th>
-            <th>Ultrasonic Stent</th>
-            <th>Infrared Bracket</th>
+            <th>Ultrasonic Sensor Bracket</th>
+            <th>Infrared Sensor Bracket</th>
           </tr>
           <tr>
             <td><img src="./Vehicle_Chassis_Sizse/img/Motor_Holder_Size.png" width=400 /></td>
-            <td><img src="./Vehicle_Chassis_Sizse/img/Ultrasonic_Stent_Size.jpg" width=400 /></td>
+            <td><img src="./Vehicle_Chassis_Sizse/img/Ultrasonic_Bracket_Size.jpg" width=400 /></td>
             <td><img src="./Vehicle_Chassis_Sizse/img/Infrared_Bracket_Size.jpg" width=400 /></td>
           </tr>
         </table>
@@ -296,12 +296,12 @@
         <table>
           <tr>
             <th>Motor Holder</th>
-            <th>Ultrasonic Sensor Stent</th>
+            <th>Ultrasonic Sensor Bracket</th>
             <th>Infrared  Sensor Bracket</th>
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
-            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic_stent.png" width=300 /></td>
+            <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Ultrasonic_Bracket.png" width=300 /></td>
             <td align=center><img src="./Vehicle_Chassis_CAD_File/img/Infrared_bracket.png" width=300 /></td>
           </tr>
         </table>
