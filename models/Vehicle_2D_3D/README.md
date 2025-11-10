@@ -221,7 +221,7 @@
         <table>
           <tr>
             <th>Ball Joint Steering Shaft Holder</th>
-            <th>Motor steering Rod</th>
+            <th>Motor Steering Rod</th>
             <th>Steering Rod</th>
           </tr>
           <tr>
