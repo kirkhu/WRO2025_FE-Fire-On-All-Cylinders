@@ -1024,8 +1024,8 @@ Upon receiving the new PCB (V5.0), testing revealed an intermittent issue where 
             <th>PBC Layout Drawing</th>
         </tr>
         <tr>
-            <td align=center ><img src="../../models/Circuit_Design/img/Schematic&PCB/Schematic_Version 6.png" height=300 /></td>
-            <td align=center ><img src="../../models/Circuit_Design/img/Schematic&PCB/PCB_Version 6.png" height=300 /></td>
+            <td align=center ><img src="../../models/Circuit_Design/img/Schematic&PCB/Schematic_Version_6.png" height=300 /></td>
+            <td align=center ><img src="../../models/Circuit_Design/img/Schematic&PCB/PCB_Version_6.png" height=300 /></td>
         </tr>
         <tr>
             <th>Overhead view of the main circuit board</th>
