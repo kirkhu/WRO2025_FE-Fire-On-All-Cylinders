@@ -221,8 +221,8 @@
         <table>
           <tr>
             <th>Ball Joint Steering Shaft Holder</th>
-            <th>Motor steering rod</th>
-            <th>Steering rod</th>
+            <th>Motor steering Rod</th>
+            <th>Steering Rod</th>
           </tr>
           <tr>
             <td align=center><img src="./Vehicle_Chassis_Sizse/img/Steering-shaft-holder_size1.png" width=400 /></td>
@@ -236,8 +236,8 @@
         <table>
           <tr>
             <th>Motor Holder</th>
-            <th>Ultrasonic stent</th>
-            <th>Infrared bracket</th>
+            <th>Ultrasonic Stent</th>
+            <th>Infrared Bracket</th>
           </tr>
           <tr>
             <td><img src="./Vehicle_Chassis_Sizse/img/Motor_Holder_Size.png" width=400 /></td>
@@ -280,9 +280,9 @@
       <div align=center>
         <table>
           <tr>
-            <th>Steering shaft holder</th>
-            <th>Motor steering rod</th>
-            <th>Steering rod</th>
+            <th>Steering Shaft Holder</th>
+            <th>Motor Steering Rod</th>
+            <th>Steering Rod</th>
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Steering-shaft-holder.png" width=300 /></td>
@@ -296,8 +296,8 @@
         <table>
           <tr>
             <th>Motor Holder</th>
-            <th>Ultrasonic Sensor stent</th>
-            <th>Infrared  Sensor bracket</th>
+            <th>Ultrasonic Sensor Stent</th>
+            <th>Infrared  Sensor Bracket</th>
           </tr>
           <tr>
             <td align=center height=200><img src="./Vehicle_Chassis_CAD_File/img/Motor-Holder1.png" width=300 /></td>
