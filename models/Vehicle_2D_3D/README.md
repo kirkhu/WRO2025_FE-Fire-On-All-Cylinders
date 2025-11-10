@@ -15,7 +15,7 @@
     <tr>
     <th width=30%><div align=center>2024 Season Competition Self-Driving Car Prototype </th>
     <th width=30%><div align=center>2025 WRO Taiwan Final Self-Driving Car Prototype</th>
-    <th width=30%><div align=center>2025 WRO World Final Competition Prototype 2025</th>
+    <th width=30%><div align=center>2025 WRO World Final Competition Prototype</th>
     </tr><tr>
     <td><img src="./img/2024_Before_Shortening.png"  width="500" alt="Vehicle_cad"></td> 
     <td><img src="./img/2025_After_Shortening.png" width="500" alt="vehicle Underfloor"></td> 
