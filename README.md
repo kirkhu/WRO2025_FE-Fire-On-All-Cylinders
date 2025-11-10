@@ -12,11 +12,11 @@
 
  - This autonomous vehicle design is built upon the wealth of experience inherited from our **predecessor team ("Shinan-Fire-On-All-Cylinders")** and integrates the practical experience gained from our participation in the **World Final last year**. Not only have we **drawn lessons from the successful elements of last year's champion team**, but we have also implemented critical technical iterations:
   
-  * **Controller Upgrade:** The main controller has been upgraded from the standard **Jetson Nano** to the superior performance of the **Nvidia Jetson Orin Nano**.
-  * **Mechanical Overhaul:** We have reorganized and optimized the vehicle's mechanical components, focusing specifically on the **steering system** and the **chassis**.
-  * **Visual Enhancement:** Image processing capabilities have been significantly improved, achieving higher **efficiency and accuracy**.
-  
-  The integration of all these upgrades and innovative design elements is aimed at **comprehensively enhancing the vehicle's overall performance and competitiveness**.
+    * **Controller Upgrade:** The main controller has been upgraded from the standard **Jetson Nano** to the superior performance of the **Nvidia Jetson Orin Nano**.
+    * **Mechanical Overhaul:** We have reorganized and optimized the vehicle's mechanical components, focusing specifically on the **steering system** and the **chassis**.
+    * **Visual Enhancement:** Image processing capabilities have been significantly improved, achieving higher **efficiency and accuracy**.
+    
+    The integration of all these upgrades and innovative design elements is aimed at **comprehensively enhancing the vehicle's overall performance and competitiveness**.
 
 **Special Note:**
 - Due to network speed fluctuations, some images may not display correctly. Should this occur, please try refreshing the page to resolve the issue.
