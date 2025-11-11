@@ -179,16 +179,15 @@ Furthermore, to comply with the competition rule requiring the Jetson Orin Nano 
 
    __EasyEDA__ is a free online Electronic Design Automation (EDA) software used for designing, simulating electronic circuits, and creating printed circuit boards (PCBs). It offers a simple and user-friendly graphical interface, with a variety of features that make it ideal for both hobbyists and professional engineers.
    - EasyEDA can be used directly in a web browser without the need for software installation, making it cross-platform accessible. It supports circuit design, simulation, PCB creation, and also allows teams to collaborate on electronic projects.
-
    - ### The main features of EasyEDA include:
-    - Schematic Design: Design circuit diagrams using its extensive component library, which includes resistors, capacitors, transistors, integrated circuits (ICs), and more.Schematic
-    - Design: Design circuit diagrams using its extensive component library, which includes resistors, capacitors, transistors, integrated circuits (ICs), and more.
-    - PCB Design: Supports multi-layer PCB design and provides an auto-routing feature to help users efficiently layout their boards.
-    - Simulation: Built-in SPICE simulation allows users to virtually test circuits before manufacturing.
-    - Component Library: Offers a vast component library and supports importing parts from other CAD tools or creating custom components.
-    - Collaboration Tools: Allows users to share designs with teammates for collaborative work.
-    - Cloud Storage: Design files can be saved in the cloud, making it easy to modify and access from anywhere, as well as facilitating collaboration with team members.
-    - Manufacturing Integration: EasyEDA is seamlessly integrated with JLCPCB, allowing users to directly submit designs for production and easily order custom PCBs.
+     - Schematic Design: Design circuit diagrams using its extensive component library, which includes resistors, capacitors, transistors, integrated circuits (ICs), and more.Schematic
+     - Design: Design circuit diagrams using its extensive component library, which includes resistors, capacitors, transistors, integrated circuits (ICs), and more.
+     - PCB Design: Supports multi-layer PCB design and provides an auto-routing feature to help users efficiently layout their boards.
+     - Simulation: Built-in SPICE simulation allows users to virtually test circuits before manufacturing.
+     - Component Library: Offers a vast component library and supports importing parts from other CAD tools or creating custom components.
+     - Collaboration Tools: Allows users to share designs with teammates for collaborative work.
+     - Cloud Storage: Design files can be saved in the cloud, making it easy to modify and access from anywhere, as well as facilitating collaboration with team members.
+     - Manufacturing Integration: EasyEDA is seamlessly integrated with JLCPCB, allowing users to directly submit designs for production and easily order custom PCBs.
 
    ### Summarize
 
