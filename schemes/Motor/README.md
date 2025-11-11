@@ -151,13 +151,13 @@ Reference Link：
   - __Features__: It has built-in diodes, providing overcurrent and reverse voltage protection, making it suitable for small robot projects.
   - __Advantages__: High cost-performance ratio and widely applicable, suitable for driving smaller motors.
 
-    #### 2.L298N Driver Module
+  #### 2.L298N Driver Module
   - __Function__: The L298N is a driver that can simultaneously control two DC motors or one stepper motor. The module usually comes with a heat sink to assist with cooling.
   - __Voltage Range__: The maximum input voltage can reach 46V, and the peak current can reach 2A per channel.
   - __Features__: It includes built-in reverse voltage protection diodes and supports PWM speed control, making it suitable for medium-sized robot and motor projects.
   - __Advantages__: Provides high output current and a wider operating voltage range, suitable for motors requiring higher power.
 
-    #### 3.TB6612FNG Driver Module
+  #### 3.TB6612FNG Driver Module
   - __Function__: The TB6612FNG is a driver that supports two DC motors. This module is more efficient, smaller in size, and can provide higher output current.
   - __Voltage Range__: It supports input voltages from 2.5V to 13.5V, with a maximum continuous current of 1.2A per channel and a peak current of 3.2A.
   - __Features__: It has lower power consumption and higher output efficiency, and supports built-in PWM control functions.
