@@ -36,7 +36,9 @@
             # Move ROI3 (pillars) up.
             ROI3[1] = 110
         # If a pillar is visible during the turn:
-      if cPillar.area != 0 and turnDir == "left" or cPillar.area != 0 and turnDir == "right":#cPillar.area != 0 and ((leftArea > 1000 and turnDir == "left") or (rightArea > 1000 and turnDir == "right"))
+      if cPillar.area != 0 and turnDir == "left" or cPillar.area != 0 and turnDir == "right":
+      #cPillar.area != 0 and ((leftArea > 1000 and turnDir == "left")
+       or (rightArea > 1000 and turnDir == "right"))
             # Activate ROI5 (turn helper).
             ROI5 = [270, 110, 370, 150]
         # If it's a right turn:
@@ -50,7 +52,9 @@
         # At t=0, check if there was a pillar at the start line.
         if t == 0 and pillarAtStart == -1:
             # Set the pillarAtStart flag.
-            pillarAtStart = True if ((startArea > 2000 and startTarget == greenTarget) or (startArea > 1500 and startTarget == redTarget)) else False
+            pillarAtStart = True
+            if ((startArea > 2000 and startTarget == greenTarget) or
+               (startArea > 1500 and startTarget == redTarget)) else False
         # Set the signal flag.
         tSignal = True
     # Check for "wrong" line detection (e.g., blue during a right turn).
