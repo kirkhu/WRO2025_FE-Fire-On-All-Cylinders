@@ -21,27 +21,53 @@
 - ### program code: ###
 
 ```python
-        a = 0
-        start_turn = 0
-        while a == 0:
-            rightArea = leftArea = areaFront = tArea = 0
-            ok, img = cap.read()
-            if not ok:
-                continue
-            img_lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
-            img_lab = cv2.GaussianBlur(img_lab, (3,3), 0)
+a = 0
+# Variable to store start turn direction (1=right, 2=left).start_turn = 0
+# Loop until direction is determined.
+while a == 0:
+    # Reset area variables.
+    rightArea = leftArea = areaFront = tArea = 0
+    # Read a frame.
+    ok, img = cap.read()
+    # Skip if frame failed.
+    if not ok:
+        # Retry loop.
+        continue
+    # Convert to LAB color space.
+    img_lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
+    # Apply blur.
+    img_lab = cv2.GaussianBlur(img_lab, (3,3), 0)
 
-            contours_left  = pOverlap(img_lab, ROI1)
-            contours_right = pOverlap(img_lab, ROI2)
-            leftArea  = max_contour(contours_left,  ROI1)[0]
-            rightArea = max_contour(contours_right, ROI2)[0]
+    # Find left wall contours (using pOverlap).
+    contours_left   = pOverlap(img_lab, ROI1)
+    # Find right wall contours.
+    contours_right = pOverlap(img_lab, ROI2)
+    # Get max area for left wall.
+    leftArea    = max_contour(contours_left,  ROI1)[0]
+    # Get max area for right wall.
+    rightArea = max_contour(contours_right, ROI2)[0]
 
-            if leftArea - rightArea > 0:
-                print("Turn Right"); start_turn = 1; a = 1
-            else:
-                print("Turn Left"); start_turn = 2; a = 1
+    # Compare areas to decide start direction.
+    if leftArea - rightArea > 0:
+        # Print and set direction to right.
+        print("Turning Right"); start_turn = 1; a = 1
+    # Otherwise, turn left.
+    else:
+        # Print and set direction to left.
+        print("Turning Left"); start_turn = 2; a = 1
+            
+    # Ensure the frame is shown even while waiting. (Comment translated)
+    # Ensure image is visible during waiting phase
+    if debug:
+        # Show the debug image.
+        cv2.imshow("jetson_debug", img)
+        # Check for 'q' to quit.
+        if cv2.waitKey(1) == ord('q'):
+            # Halt execution.
+            raise HaltRun
 
-        write(start_turn)     
+# Send the start turn signal ('1' or '2') to Pico W.
+write(str(start_turn))  
 ```
 
 - ### Driving Route Decision Based on Color Recognition 
@@ -141,49 +167,99 @@
 - ### program code: ###
     ```python
         color = 0
+        # Record the start time for this detection phase.
         detect_start = time.time()
+        # Set a timeout for color detection.
         TIMEOUT = 2.0
+        # Loop while 'a' is 1 (detection phase).
         while a == 1:
+            # Read a frame.
             ok, img = cap.read()
+            # Skip if frame failed.
             if not ok:
+                # Retry loop.
                 continue
+            # Convert to LAB and blur.
             img_lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
+            # Apply blur.
             img_lab = cv2.GaussianBlur(img_lab, (3,3), 0)
 
-            contours_left  = pOverlap(img_lab, ROI1, True)
+            # Find wall contours (using 'add=True' for pOverlap).
+            contours_left   = pOverlap(img_lab, ROI1, True)
+            # Find right wall contours.
             contours_right = pOverlap(img_lab, ROI2, True)
-            leftArea  = max_contour(contours_left,  ROI1)[0]
+            # Get max area for left wall.
+            leftArea    = max_contour(contours_left,  ROI1)[0]
+            # Get max area for right wall.
             rightArea = max_contour(contours_right, ROI2)[0]
 
+            # Find red pillar contours in ROI3.
             contours_red   = find_contours(img_lab, rRed,   ROI3)
+            # Find green pillar contours in ROI3.
             contours_green = find_contours(img_lab, rGreen, ROI3)
+            # Find the best (closest) red pillar.
             best_red,   _ = find_best_pillar(contours_red,   redTarget,   "red",   img_lab)
+            # Find the best (closest) green pillar.
             best_green, _ = find_best_pillar(contours_green, greenTarget, "green", img_lab)
+            # Create a list of valid (non-None) candidates.
             candidates = [p for p in (best_red, best_green) if p is not None]
+            # Select the closest pillar from the candidates, or create a dummy far-away pillar.
             cPillar = min(candidates, key=lambda P: P.dist) if candidates else Pillar(0, 1000000, 0, 0, 0)
-            seen_green_wait = (cPillar.target == greenTarget and cPillar.area > 0)
-            seen_red_wait   = (cPillar.target == redTarget   and cPillar.area > 0)
+            # Check if the closest pillar is green.
+            seen_green_wait = (cPillar.target == greenTarget )
+            # Check if the closest pillar is red.
+            seen_red_wait   = (cPillar.target == redTarget)
 
-            # === RGB：看到綠亮綠；看到紅亮紅；其他關燈（等待階段）===
+            # === RGB: Green if green seen; Red if red seen; Off otherwise ===
+            # If green is seen:
             if seen_green_wait:
+                # Show green on RGB LED.
                 rgb.show("green")
+            # If red is seen:
             elif seen_red_wait:
+                # Show red on RGB LED.
                 rgb.show("red")
+            # Otherwise:
             else:
+                # Turn RGB LED off.
                 rgb.off()
 
-            if start_turn == 2:
+            # Determine the color signal code based on start_turn and detected color.
+            if start_turn == 2: # Left start
+                # If green seen:
                 if seen_green_wait: color = 1; print("green"); a = 2
+                # If red seen:
                 elif seen_red_wait: color = 2; print("red"); a = 2
+                # If timeout:
                 elif time.time() - detect_start > TIMEOUT: color = 3; a = 2
+            # If start_turn == 1 (Right start)
             else:
+                # If green seen:
                 if seen_green_wait: color = 4; print("green"); a = 2
+                # If red seen:
                 elif seen_red_wait: color = 5; print("red"); a = 2
+                # If timeout:
                 elif time.time() - detect_start > TIMEOUT: color = 6; a = 2
 
-        print(color)
-        write(color)
+            # If in debug mode:
+            if debug:
+                # Draw the ROI boxes.
+                draw_roi_boxes(img, [ROI1, ROI2, ROI3], color=(255, 204, 0), thickness=2)
+                # Show the debug image.
+                cv2.imshow("jetson_debug", img)
+                # Check for 'q' to quit.
+                if cv2.waitKey(1) == ord('q'):
+                    # Halt execution.
+                    raise HaltRun
+
+        # Print the color signal code to be sent.
+        print(f"Sending color signal: {color}")
+        # Send the color signal ('1' - '6') to Pico W.
+        write(str(color)) 
+
+        # Record a timestamp for the final wait.
         time2 = time.time()
+        # Loop while 'a' is 2 (final wait phase).
     ```
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>

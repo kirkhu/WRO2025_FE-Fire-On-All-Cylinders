@@ -20,42 +20,50 @@
 
       ```python
       def find_contours(img_lab, lab_range, ROI):
-        x1, y1, x2, y2 = ROI
-        seg = img_lab[y1:y2, x1:x2]
-        lo = np.array(lab_range[0]); hi = np.array(lab_range[1])
-        mask = cv2.inRange(seg, lo, hi)
-        k = np.ones((5,5), np.uint8)
-        mask = cv2.erode(mask, k, iterations=1)
-        mask = cv2.dilate(mask, k, iterations=1)
-        contours = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
-        return contours
+          # Find contours in ROI using LAB color range
+          x1, y1, x2, y2 = ROI # Unpack ROI coordinates
+          seg = img_lab[y1:y2, x1:x2] # Crop the image to the ROI area
+          lo = np.array(lab_range[0]); hi = np.array(lab_range[1]) # Get color low and high thresholds
+          mask = cv2.inRange(seg, lo, hi) # Create color mask
+          k = np.ones((5,5), np.uint8) # 5x5 rectangular kernel
+          mask = cv2.erode(mask, k, iterations=1) # Erode operation
+          mask = cv2.dilate(mask, k, iterations=1) # Dilate operation
+          contours = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2] # Find external contours
+          return contours # Return found contours
       ```
     - `max_contour()`: This function filters the input list of contours by selecting those with an area greater than a specific threshold, then identifies the largest contour among them, calculates its centroid coordinates,and finally returns this largest contour's area, coordinates, and the contour itself.
     
       ```python
       def max_contour(contours, ROI):
-          maxArea = 0; maxY = 0; maxX = 0; mCnt = 0
+          # Find the largest contour by area and its center point
+          maxArea = 0; maxY = 0; maxX = 0; mCnt = 0 # Initialize max area, center coordinates, and max contour
           for cnt in contours:
-              area = cv2.contourArea(cnt)
-              if area > 150:
-                  approx = cv2.approxPolyDP(cnt, 0.01*cv2.arcLength(cnt, True), True)
-                  x,y,w,h = cv2.boundingRect(approx)
-                  x += ROI[0] + w//2
-                  y += ROI[1] + h
+              area = cv2.contourArea(cnt) # Calculate contour area
+              if area > 100: # Only consider contours with area greater than 100
+                  approx = cv2.approxPolyDP(cnt, 0.01*cv2.arcLength(cnt, True), True) # Polygon approximation
+                  x,y,w,h = cv2.boundingRect(approx) # Get bounding box
+                  x += ROI[0] + w//2 # Calculate center point X (relative to original image)
+                  y += ROI[1] + h # Calculate bottom center point Y (relative to original image)
                   if area > maxArea:
-                      maxArea = area; maxY = y; maxX = x; mCnt = cnt
-          return [maxArea, maxX, maxY, mCnt]
+                      # If current contour area is larger
+                      maxArea = area; maxY = y; maxX = x; mCnt = cnt # Update maximum values
+          return [maxArea, maxX, maxY, mCnt] # Return max area, center X, center Y, and max contour
       ```             
 
  - ### Nvidia Jetson Orin Nano Open Challenge Code Overview 
    - #### Nvidia Jetson Orin Nano Core Library Open Challenge Code Plan 
     
     ```python
-    import os, sys                                                                 
-    sys.path.append(os.path.abspath(os.path.dirname(__file__)))                      
-    import cv2, time, math, sys, numpy as np                                         
-    from masks import rMagenta, rRed, rGreen, rBlue, rOrange, rBlack                 
-    from functions_jetson import * 
+    # Import necessary standard libraries.
+    import sys, cv2, time, json, queue, threading, asyncio, numpy as np
+    # Import the Jetson.GPIO library for hardware pin control.
+    import Jetson.GPIO as GPIO
+    # Import custom computer vision functions from 'function.py'.
+    from function import find_contours, max_contour, pOverlap 
+    # Import color range constants (masks) for CV.
+    from masks import rOrange, rBlack, rBlue, rMagenta 
+    # Import the serial library for UART communication.
+    import serial 
     ```  
 
    - #### Introduction to running programs on the Nvidia Jetson Orin nano controller: 
@@ -80,9 +88,11 @@
    - #### Raspberry Pi Pico W Core Library / Module Program Plan for the Open Challenge 
     
       ```python
-      from machine import Pin, PWM, UART,I2C,time_pulse_us
-      import time
-      import struct
+      from machine import Pin, PWM # Import Pin and PWM classes from machine module
+      import time # Import time module
+      import uos # Import uos module
+      import ujson as json # Import ujson module as json
+      from machine import UART # Import UART class from machine module
       ```  
      
    - #### Raspberry Pi Pico W Controller Program Operation Overview

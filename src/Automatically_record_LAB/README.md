@@ -11,6 +11,7 @@ To accurately record the LAB values for the traffic sign blocks (red and green),
     4. Main Program Call: In the main Vehicle's control program10, we call the `LAB` values for each object from the masks.py file using the code snippet below, and input them to the corresponding function for `LAB` visual recognition.
         ```python
         from masks import rMagenta, rRed, rGreen, rBlue, rOrange, rBlack
+        # Import all functions from 'function.py' (e.g., find_contours, max_contour).
         ```
 
 <div align="center">

@@ -19,27 +19,48 @@
    - ### **program code:**
     ```python
     if turnDir == "none":
-      if maxO > 110:
-        turnDir = "right"
-      elif maxB > 110:
-        turnDir = "left"
+        # If orange line is seen, start a right turn.
+        if maxO > 100:
+            # Set turn direction.
+            turnDir = "right"
+        # If blue line is seen, start a left turn.
+        elif maxB > 100:
+            # Set turn direction.
+            turnDir = "left"
+    # If a turn is active and the correct line is still visible:
     if (turnDir == "right" and maxO > 100) or (turnDir == "left" and maxB > 100):
-      t2 = t
-      if t2 == 7 and not pillarAtStart:
-        ROI3[1] = 110
-      if cPillar.area != 0 and ((leftArea > 1000 and turnDir == "left") or (rightArea > 1000 and turnDir == "right")):
-        ROI5 = [270, 110, 370, 150]
-      if turnDir == "right":
-        rTurn = True
-    else:
-      lTurn = True
-      if t == 0 and pillarAtStart == -1:
-        pillarAtStart = True if ((startArea > 2000 and startTarget == greenTarget) or (startArea > 1500 and startTarget == redTarget)) else False
+        # Record the lap count when the turn started.
+        t2 = t
+        # Special case for lap 7 (adjust ROI3).
+        if t2 == 7 and not pillarAtStart:
+            # Move ROI3 (pillars) up.
+            ROI3[1] = 110
+        # If a pillar is visible during the turn:
+      if cPillar.area != 0 and turnDir == "left" or cPillar.area != 0 and turnDir == "right":#cPillar.area != 0 and ((leftArea > 1000 and turnDir == "left") or (rightArea > 1000 and turnDir == "right"))
+            # Activate ROI5 (turn helper).
+            ROI5 = [270, 110, 370, 150]
+        # If it's a right turn:
+        if turnDir == "right":
+            # Set the right turn flag.
+            rTurn = True
+        # If it's a left turn:
+        else:
+            # Set the left turn flag.
+            lTurn = True
+        # At t=0, check if there was a pillar at the start line.
+        if t == 0 and pillarAtStart == -1:
+            # Set the pillarAtStart flag.
+            pillarAtStart = True if ((startArea > 2000 and startTarget == greenTarget) or (startArea > 1500 and startTarget == redTarget)) else False
+        # Set the signal flag.
         tSignal = True
-      elif (turnDir == "left" and maxO > 100) or (turnDir == "right" and maxB > 100):
+    # Check for "wrong" line detection (e.g., blue during a right turn).
+    elif (turnDir == "left" and maxO > 100) or (turnDir == "right" and maxB > 100):
+        # Special case for lap 11 (related to 's' state).
         if t2 == 11:
-          s = 2
-          sTime = time.time()
+            # Set 's' state.
+            s = 2
+            # Record timestamp for 's' state.
+            sTime = time.time()
     ```
      <div align=center>
       <table>

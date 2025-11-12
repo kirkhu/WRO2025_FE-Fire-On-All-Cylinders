@@ -21,195 +21,207 @@
 - **Code Executed on the Raspberry Pi Pico W Controller- Raspberry Pi Pico W**
     ``` python
     while mode == 3:
-        json_obj, _, got_stop = pump_ws(s)
-        extract_magenta_from_json(json_obj)
-        while abs(yaw) < 73:
-            json_obj, _, got_stop = pump_ws(s)
+        json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+        extract_magenta_from_json(json_obj) # Update magenta data
+        while abs(yaw) < 85: # Loop while yaw is less than 85 degrees
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
                 if "yaw" in json_obj:
                     try:
-                        yaw = float(json_obj["yaw"])
+                        yaw = float(json_obj["yaw"]) # Update yaw
                     except:
                         pass
-                    extract_magenta_from_json(json_obj)
-                if turn == 2:    
-                    set_servo_angle(50)
-                    control_motor(35)
-                else:
-                    set_servo_angle(-50)
-                    control_motor(35)
-        
-        motor_brake()
-        set_servo_angle(0)
-        mode = 4
-
+                extract_magenta_from_json(json_obj) # Update magenta data
+            if turn == 2: # Turn 2 (e.g., Left start)
+                set_servo_angle(45) # Set servo angle
+                control_motor(35) # Set motor speed
+            else: # Turn 1 (e.g., Right start)
+                set_servo_angle(-40) # Set servo angle
+                control_motor(35) # Set motor speed                 
+        motor_brake() # Stop motor
+        set_servo_angle(0) # Center servo
+        mode = 4 # Change mode
+                
+            
     while mode == 4:
-        a0_value = A0.read_u16()
-        time_a0=time.time()
-        set_servo_angle(0)
-        while a0_value > 64500 and time.time()- time_a0 < 6:
-            a0_value = A0.read_u16()
-            extract_magenta_from_json(json_obj) 
-            json_obj, _, got_stop = pump_ws(s)
+        a0_value = A0.read_u16() # Read ADC A0 value
+        time_a0=time.time() # Record start time
+        while a0_value > 64800 and time.time()- time_a0 < 5: # Loop while A0 value is high and time limit not reached
+            a0_value = A0.read_u16() # Read ADC A0 value
+            extract_magenta_from_json(json_obj) # Update magenta data 
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
                 if "yaw" in json_obj:
                     try:
-                        yaw = float(json_obj["yaw"])
+                        yaw = float(json_obj["yaw"]) # Update yaw
                     except:
                         pass
-                    extract_magenta_from_json(json_obj) 
-            set_servo_angle(0)
-            control_motor(30)
-        
-        control_motor(-40)
-        time.sleep(0.15)
-        control_motor(0)
-        run_encoder_Auto(100, -35, 0) 
-        mode = 5
+                extract_magenta_from_json(json_obj) # Update magenta data  
+            set_servo_angle(0) # Center servo
+            control_motor(30) # Drive motor forward
+        control_motor(-40) # Drive motor backward
+        time.sleep(0.1) # Wait for a short time
+        control_motor(0) # Stop motor
+        mode = 5 # Change mode
 
     while mode == 5:
-        json_obj, _, got_stop = pump_ws(s)
-        while abs(yaw) < 177:
-            extract_magenta_from_json(json_obj)
-            json_obj, _, got_stop = pump_ws(s)
+        json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+        while abs(yaw) < 177: # Loop while yaw is less than 177 degrees
+            extract_magenta_from_json(json_obj) # Update magenta data
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
                 if "yaw" in json_obj:
                     try:
-                        yaw = float(json_obj["yaw"])
+                        yaw = float(json_obj["yaw"]) # Update yaw
                     except:
                         pass
-                if turn == 2:
-                    set_servo_angle(-180)
-                    control_motor(-35)
-                else:
-                    set_servo_angle(180)
-                    control_motor(-35) 
-                    
-        motor_brake()
-        set_servo_angle(0)
-        mode = 6
-
+            if turn == 2: # Turn 2
+                set_servo_angle(-180) # Set servo angle
+                control_motor(-40) # Drive motor backward
+            else: # Turn 1
+                set_servo_angle(180) # Set servo angle
+                control_motor(-40) # Drive motor backward                  
+        motor_brake() # Stop motor
+        set_servo_angle(0) # Center servo
+        mode = 6 # Change mode
+                
     while mode == 6:
-        control_motor(38)
-        json_obj, m_tuple, got_stop = pump_ws(s)
-        extract_magenta_from_json(json_obj)
-        while magArea > 100:
-            extract_magenta_from_json(json_obj)
-            json_obj, m_tuple, got_stop = pump_ws(s)
+        json_obj, m_tuple, got_stop = pump_uart(s) # Pump UART for data
+        extract_magenta_from_json(json_obj) # Update magenta data
+        while magArea > 70: # Loop while magenta area is greater than 70
+            extract_magenta_from_json(json_obj) # Update magenta data
+            json_obj, m_tuple, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
                 try:
                     if "leftArea" in json_obj:
-                        leftArea = int(json_obj.get("leftArea", leftArea))
+                        leftArea = int(json_obj.get("leftArea", leftArea)) # Update left area
                     if "rightArea" in json_obj:
-                        rightArea = int(json_obj.get("rightArea", rightArea))
-                except:
-                    pass
-            
-            if turn == 2:
+                        rightArea = int(json_obj.get("rightArea", rightArea)) # Update right area
+                        except:
+                            pass
+            if turn ==2: # Turn 2
                 if magArea > 3000:
-                    error = magCX - 150 
-                    Servo_angle = int(error*0.15 + (error - error1)*0.2)
-                    error1 = error
-                    set_servo_angle(Servo_angle)
+                    error = magCX - 202 # Calculate error based on CX
+                    Servo_angle = int(error*0.15 + (error - error1)*0.2) # PD control
+                    error1 = error # Update previous error
+                    set_servo_angle(Servo_angle) # Set servo angle
+                    control_motor(40) # Drive motor forward
                 else:
-                    error = leftArea - 6500
-                    Servo_angle = int(error*0.003 + (error - error1)*0.008)
-                    error1 = error
-                    set_servo_angle(Servo_angle)
-            else:
+                    error = leftArea - 6500 # Calculate error based on left area
+                    Servo_angle = int(error*0.005 + (error - error1)*0.01) # PD control
+                    error1 = error # Update previous error
+                    set_servo_angle(Servo_angle) # Set servo angle
+                    control_motor(40) # Drive motor forward
+            else: # Turn 1
                 if magArea > 3000:
-                    error = magCX - 470
-                    Servo_angle = int(error*0.13 + (error - error1)*0.2)
-                    error1 = error
-                    set_servo_angle(Servo_angle)
+                    error = magCX - 490 # Calculate error based on CX
+                    Servo_angle = int(error*0.13 + (error - error1)*0.2) # PD control
+                    error1 = error # Update previous error
+                    set_servo_angle(Servo_angle) # Set servo angle
+                    control_motor(40) # Drive motor forward
                 else:
-                    error = 8000 - rightArea 
-                    Servo_angle = int(error*0.003 + (error - error1)*0.008)
-                    error1 = error
-                    set_servo_angle(Servo_angle)
-                    
-        control_motor(-30)
-        time.sleep(0.1)
-        control_motor(0)
-        mode = 7
+                    error = 7000 - rightArea # Calculate error based on right area
+                    Servo_angle = int(error*0.005 + (error - error1)*0.008) # PD control
+                    error1 = error # Update previous error
+                    set_servo_angle(Servo_angle) # Set servo angle
+                    control_motor(40) # Drive motor forward
+        control_motor(-50) # Drive motor backward
+        time.sleep(0.1) # Wait for a short time
+        control_motor(0) # Stop motor
+        time.sleep(0.5) # Wait for a short time
+        mode = 7 # Change mode
 
     while mode == 7:
-        encoder_count = 0
-        control_motor(38)
-        json_obj, m_tuple, got_stop = pump_ws(s)
-        extract_magenta_from_json(json_obj)
-        while abs(encoder_count) < 100:
-            extract_magenta_from_json(json_obj)
-            json_obj, m_tuple, got_stop = pump_ws(s)
+        json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+        while abs(yaw) > 110: # Loop while yaw is greater than 110 degrees
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
-                try:
-                    if "leftArea" in json_obj:
-                        leftArea = int(json_obj.get("leftArea", leftArea))
-                    if "rightArea" in json_obj:
-                        rightArea = int(json_obj.get("rightArea", rightArea))
-                except:
-                    pass
-            
-            if turn == 2:
-                error = leftArea - 6500
-                Servo_angle = int(error*0.005 + (error - error1)*0.008)
-                error1 = error
-                set_servo_angle(Servo_angle)
-            else:
-                error = 3500 - rightArea
-                Servo_angle = int(error*0.005 + (error - error1)*0.01)
-                error1 = error
-                set_servo_angle(Servo_angle)
-        mode = 8
-
+                if "yaw" in json_obj:
+                    try:
+                        yaw = float(json_obj["yaw"]) # Update yaw
+                    except:
+                        pass
+            if turn == 2: # Turn 2  
+                set_servo_angle(-180) # Set servo angle
+                control_motor(-38) # Drive motor backward
+            else: # Turn 1
+                set_servo_angle(180) # Set servo angle
+                control_motor(-38) # Drive motor backward
+        control_motor(50) # Drive motor backward
+        time.sleep(0.1) # Wait for a short time
+        control_motor(0) # Stop motor
+        mode =8 # Change mode 
     while mode == 8:
-        json_obj, _, got_stop = pump_ws(s)
-        while abs(yaw) > 123:
-            json_obj, _, got_stop = pump_ws(s)
+        json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+        a1_value = A1.read_u16() # Read ADC A1 value
+        while abs(yaw) < 140 and a1_value > 64800: # Loop while yaw < 140 and A1 is high
+            a1_value = A1.read_u16() # Read ADC A1 value
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
                 if "yaw" in json_obj:
                     try:
-                        yaw = float(json_obj["yaw"])
+                        yaw = float(json_obj["yaw"]) # Update yaw
                     except:
                         pass
-                if turn == 2:    
-                    set_servo_angle(-180)
-                    control_motor(-37)
-                else:
-                    set_servo_angle(180)
-                    control_motor(-37)
-        
-        motor_brake()
-        set_servo_angle(0)
-        mode =9 
-
+            if turn == 2: # Turn 2  
+                set_servo_angle(180) # Set servo angle
+                control_motor(-35) # Drive motor backward
+            else: # Turn 1
+                set_servo_angle(-180) # Set servo angle
+                control_motor(-35) # Drive motor backward  
+        control_motor(40) # Drive motor forward
+        time.sleep(0.1) # Wait for a short time
+        control_motor(0) # Stop motor
+        set_servo_angle(0) # Center servo
+        mode =9 # Change mode
     while mode == 9:
-        json_obj, _, got_stop = pump_ws(s)
-        a1_value = A1.read_u16()
-        while abs(yaw) < 177 and a1_value > 64000:
-            a0_value = A0.read_u16()
-            json_obj, _, got_stop = pump_ws(s)
+        json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+        a0_value = A0.read_u16() # Read ADC A0 value
+        while abs(yaw) < 160 : # Loop while yaw is less than 160 degrees
+            a0_value = A0.read_u16() # Read ADC A0 value
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
             if json_obj:
                 if "yaw" in json_obj:
                     try:
-                        yaw = float(json_obj["yaw"])
+                        yaw = float(json_obj["yaw"]) # Update yaw
                     except:
                         pass
-                if turn == 2:    
-                    set_servo_angle(180)
-                    control_motor(-35)
-                else:
-                    set_servo_angle(-180)
-                    control_motor(-35)
-        
-        control_motor(40)
-        time.sleep(0.15)
-        control_motor(0)
-        set_servo_angle(0)
-        mode =10 
-
+            if turn == 2: # Turn 2  
+                set_servo_angle(-180) # Set servo angle
+                control_motor(35) # Drive motor forward
+            else: # Turn 1
+                set_servo_angle(180) # Set servo angle
+                control_motor(35) # Drive motor forward  
+        control_motor(-40) # Drive motor backward
+        time.sleep(0.1) # Wait for a short time
+        control_motor(0) # Stop motor
+        set_servo_angle(0) # Center servo
+        mode =10 # Change mode 
     while mode == 10:
-        motor_brake() 
+        json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+        a0_value = A0.read_u16() # Read ADC A0 value
+        while abs(yaw) < 177 : # Loop while yaw is less than 177 degrees
+            a0_value = A0.read_u16() # Read ADC A0 value
+            json_obj, _, got_stop = pump_uart(s) # Pump UART for data
+            if json_obj:
+                if "yaw" in json_obj:
+                    try:
+                        yaw = float(json_obj["yaw"]) # Update yaw
+                    except:
+                        pass
+            if turn == 2: # Turn 2  
+                set_servo_angle(180) # Set servo angle
+                control_motor(-35) # Drive motor backward
+            else: # Turn 1
+                set_servo_angle(-180) # Set servo angle
+                control_motor(-35) # Drive motor backward  
+        control_motor(40) # Drive motor backward
+        time.sleep(0.1) # Wait for a short time
+        control_motor(0) # Stop motor
+        set_servo_angle(0) # Center servo
+        mode =11 # Change mode
+    while mode == 11:
+        motor_brake() # Apply motor brake
     ```
 ## <div align="center">Counter-Clockwise Vehicle Parking Procedure </div>
 <div align=center>
