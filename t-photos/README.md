@@ -2,9 +2,7 @@
 
 ## <div align="center"> Team Members Introduction</div>
 - ### Team Photo 
- 
-  - To commemorate the team's inaugural day, we captured this significant photo outside the third-floor classroom, symbolizing the start of our collective journey into competitions.
-  - Capturing the journey toward the international competition, we held our second team photoshoot inside the club classroom, serving as a fresh commemorative milestone.
+
 <div align="center">
 
 <table>
@@ -22,7 +20,7 @@
 
 - ### Funny Photo
 
-  - Since we couldn't come up with any better ideas, the three of us simply stood in a line shoulder to shoulder for a commemorative photo.
+  - We took this photo during our team shoot, and it captured the exact moment a teammate **'accidentally' fell off the stage**. It was a total accident, but we found the shot hilarious and decided to include it as our **funny moment** in the project journal!
 
 <div align="center"><img src="./img/funny_photo.jpg" width = "50%"  alt="Funny Photo" /> </div>  
 
