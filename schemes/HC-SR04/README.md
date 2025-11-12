@@ -71,7 +71,7 @@
 
     - Below is the code written in MicroPython, implemented as a class to read the detection distance from the HC-SR04 ultrasonic sensor using the Raspberry Pi Pico W.
 
-- #### MicroPython code-MicroPython
+- #### MicroPython code
    ```python
             from machine import Pin, time_pulse_us
             import time
