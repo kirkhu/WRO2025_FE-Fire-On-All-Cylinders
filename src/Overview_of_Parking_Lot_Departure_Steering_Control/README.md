@@ -132,7 +132,7 @@ write(str(start_turn))
     <table>
     <tr>
     <th>Clockwise Direction, Red Signal</th>
-    <th>Drive on Inner Wall</th>
+    <th>Drive on Inner Walls</th>
     </tr><tr>
     <td align=center><img src="./img/Clockwise_red.png " width=400 /></td>
     <td align=center><img src="./img/Clockwise_red_route.png" width=400 /></td>
@@ -156,7 +156,7 @@ write(str(start_turn))
     <table>
     <tr>
     <th>Clockwise Direction, Red Signal</th>
-    <th>Drive on Inner Wall</th>
+    <th>Drive on Inner Walls</th>
     </tr><tr>
     <td align=center><img src="./img/Clockwise_the_middle_red.png " width=400 /></td>
     <td align=center><img src="./img/Clockwise_red_middle_route.png" width=400 /></td>
