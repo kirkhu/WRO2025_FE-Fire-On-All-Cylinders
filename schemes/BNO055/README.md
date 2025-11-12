@@ -97,6 +97,6 @@ Here is the **Python code**, implemented using an **Object-Oriented Programming 
     * **get_orientation method:** Retrieves orientation data from the sensor (Heading, Roll, and Pitch) and returns them in a dictionary.
     * **get_calibration_status method:** Returns the calibration status for the system, gyroscope, accelerometer, and magnetometer, which is useful for ensuring accurate measurements.
 
-__This code reads and prints the BNO055 Gyroscope orientation sensor's orientation data and calibration status every second.__
+    __This code reads and prints the BNO055 Gyroscope orientation sensor's orientation data and calibration status every second.__
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
