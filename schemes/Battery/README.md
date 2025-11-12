@@ -86,7 +86,7 @@
   
    - According to the data in the table above, the **3S Lithium Polymer (LiPo) battery** is the ideal choice for meeting high instantaneous current demands, especially for high-performance racing vehicles, due to its **high C-rate discharge capability, high energy density, and extremely low weight**. Therefore, we have ultimately decided to adopt the 3S LiPo battery as the power source for this autonomous vehicle competition. The primary objective is to **minimize the vehicle's mass while ensuring sufficient power delivery, thereby maintaining optimal dynamic performance and response speed**.
 
- **3S Li-Po Battery Usage and Safety** 
+   **3S Li-Po Battery Usage and Safety** 
  
    - Our experience with **3S Lithium Polymer (Li-Po) batteries** has demonstrated that **operational safety** is an issue that must be addressed seriously. **Improper charging methods** can lead to battery **ignition or fire**, while **inappropriate storage** can cause **permanent battery damage**. These incidents critically underscore the importance of **strictly adhering to battery handling protocols** to ensure both project safety and equipment longevity.
 
