@@ -74,10 +74,10 @@ write(str(start_turn))
     - Counterclockwise direction : If the Driving direction is Counterclockwise direction , the Vehicle will drive on the inner wall of the lane when a green pillar is detected; it will drive on the exterior walls of the lane when a red pillar  is detected. If no pillar is detected, the default is to drive on the exterior walls  of the lane.
     - Clockwise direction : If the Driving direction is clockwise direction , the Vehicle will drive on the exterior walls of the lane when a green pillar is detected; it will drive on the inner wall of the lane when a red pillar  is detected. If no pillar is detected, the default is to drive on the exterior walls  of the lane.
 
-  1. **Color Contour Detection**:
-    We use the two lines of code: `find\_contours(img_{lab}, r_{Red}, ROI_3)` and `find\_contours(img_{lab}, r_{Green}, ROI_3)`. Through the `find\_contours()` function, the system can detect all contours of the red region (`r_{Red}`) and the green region (`r_{Green}`) from the `LAB` color space image `img_{lab}` within the specified Region of Interest `ROI_3`. The result of each detection is a list of contours containing multiple closed areas.
-  2. **Detecting the Nearest Traffic Sign**:
-    Subsequently, we call the functions `find\_best\_pillar(contours_{red}, redTarget, "red", img_{lab})` and `find\_best\_pillar(contours_{green}, greenTarget, "green", img_{lab})`. The `find\_best\_pillar()` function comprehensively evaluates each contour based on criteria such as size, position, and proximity to the target point (`redTarget` / `greenTarget`). The returned `best_{red}` and `best_{green}` are the pillars of their respective colors with the highest score and are closest to the passable route. If no suitable pillar is found, the function may return `None`.
+        1. **Color Contour Detection**:
+        We use the two lines of code: `find_contours(img_{lab}, r_{Red}, ROI_3)` and `find_contours(img_{lab}, r_{Green}, ROI_3)`. Through the `find_contours()` function, the system can detect all contours of the red region (`r_{Red}`) and the green region (`r_{Green}`) from the `LAB` color space image `img_{lab}` within the specified Region of Interest `ROI_3`. The result of each detection is a list of contours containing multiple closed areas.
+        2. **Detecting the Nearest Traffic Sign**:
+        Subsequently, we call the functions `find_best_pillar(contours_{red}, redTarget, "red", img_{lab})` and `find_best_pillar(contours_{green}, greenTarget, "green", img_{lab})`. The `find_best_pillar()` function comprehensively evaluates each contour based on criteria such as size, position, and proximity to the target point (`redTarget` / `greenTarget`). The returned `best_{red}` and `best_{green}` are the pillars of their respective colors with the highest score and are closest to the passable route. If no suitable pillar is found, the function may return `None`.
     
   
     <div align=center>
