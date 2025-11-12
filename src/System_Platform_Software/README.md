@@ -32,9 +32,9 @@
       <div align=center>
 <table>
 <tr>
-<th>Connect Host - Connect the Jetson Orin Nano controller to the Ubuntu host machine via a USB cable..</th>
-<th>Confirm Connection - Verify that the Jetson Orin Nano is successfully connected and recognized by the SDK Manager.</th>
-<th>Select Dev Kit - Select the target Developer Kit in the interface.</th>
+<th>1.Connect Host - Connect the Jetson Orin Nano controller to the Ubuntu host machine via a USB cable..</th>
+<th>2.Confirm Connection - Verify that the Jetson Orin Nano is successfully connected and recognized by the SDK Manager.</th>
+<th>3.Select Dev Kit - Select the target Developer Kit in the interface.</th>
 </tr>
 <tr>
 <td><img src="./img/11.jpg" width=400 /></td>
@@ -42,9 +42,9 @@
 <td><img src="./img/13.png" width=400 /></td>
 </tr>
 <tr>
-<th>Choose Version - Select the desired JetPack version from the menu for installation or downgrade.</th>
-<th>Check Options - Check the required software components on the left side (such as OS, SDKs), and click "Next".</th>
-<th>Enter Password - Enter the administrator password as prompted.</th>
+<th>4.Choose Version - Select the desired JetPack version from the menu for installation or downgrade.</th>
+<th>5.Check Options - Check the required software components on the left side (such as OS, SDKs), and click "Next".</th>
+<th>6.Enter Password - Enter the administrator password as prompted.</th>
 </tr>
 <tr>
 <td><img src="./img/14.png" width=400 /></td>
@@ -52,9 +52,9 @@
 <td><img src="./img/16.png" width=400></td>
 </tr>
 <tr>
-<th>Fill Info - Fill in the relevant information for the target board.</th>
-<th>Finish Install - After installation is complete, click "Finish" to exit.</th>
-<th>System Interface - The Jetson Orin Nano system interface after installation is complete (Result presentation).</th>
+<th>7.Fill Info - Fill in the relevant information for the target board.</th>
+<th>8.Finish Install - After installation is complete, click "Finish" to exit.</th>
+<th>9.System Interface - The Jetson Orin Nano system interface after installation is complete (Result presentation).</th>
 </tr>
 <tr>
 <td><img src="./img/17.png" width=400 /></td>
