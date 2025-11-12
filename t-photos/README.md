@@ -2,9 +2,7 @@
 
 ## <div align="center"> Team Members Introduction</div>
 - ### Team Photo 
- 
-  - To commemorate the team's inaugural day, we captured this significant photo outside the third-floor classroom, symbolizing the start of our collective journey into competitions.
-  - Capturing the journey toward the international competition, we held our second team photoshoot inside the club classroom, serving as a fresh commemorative milestone.
+
 <div align="center">
 
 <table>
