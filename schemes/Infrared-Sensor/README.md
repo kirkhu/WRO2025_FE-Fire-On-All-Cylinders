@@ -56,13 +56,11 @@ The TCRT5000 is a prevalent Infrared Reflective Sensor that integrates an Infrar
                 self.adc = ADC(Pin(adc_pin))
             except:
                 self.adc = None
-
         def read_raw(self):
             try:
                 return self.adc.read_u16()
             except:
                 return -1
-
         def read_percentage(self):
             try:
                 raw = self.read_raw()
