@@ -47,11 +47,11 @@ Comparison of the Jetson Nano and Jetson Orin Nano main controllers, the compari
 </tr>
 <tr>
 <th>Gflops</th>
-<td>472</td> <td>40,000 (FP16)</td>
+<td >472</td> <td>40,000 (FP16)</td>
 </tr>
 <tr>
 <th>Price</th>
-<td colspan = 2 >Similarly priced</td>
+<td colspan = 2 align=center >Similarly priced</td>
 
 </tr>
 </table>
