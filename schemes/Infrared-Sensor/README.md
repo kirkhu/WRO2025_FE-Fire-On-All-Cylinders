@@ -45,7 +45,7 @@ The TCRT5000 is a prevalent Infrared Reflective Sensor that integrates an Infrar
     * The **A0** (Analog Output) pin of the TCRT5000 is connected to the following **GPIO pins** on the Raspberry Pi Pico W:
         * **GPIO 26 (Front)**
         * **GPIO 27 (Rear)**
-        * *(Note: The A0 pin provides the voltage signal representing the amount of infrared reflection.)*
+
     * The following code is written in **MicroPython** and presented in a **class structure** to allow the Raspberry Pi Pico W to read the **infrared reflection voltage signal** from the TCRT5000 line-following sensor.
 
 - ### MicroPython Code
