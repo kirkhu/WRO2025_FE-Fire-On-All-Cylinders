@@ -75,7 +75,7 @@
 
    __A simple code example is as follows:__
     - ### python Code-Python
-```python
+    ```python
           import cv2
           import numpy as np
           # Load calibration images
@@ -106,7 +106,7 @@
           cv2.imshow('Undistorted Image', dst)
           cv2.waitKey(0)
           cv2.destroyAllWindows()
-```
+   ```
       Experimental results indicate that setting the resolution to __640x480__ optimizes system performance. This configuration effectively reduces the computational load on the Jetson Nano while significantly enhancing the efficiency of image capture and recognition.  
      - ### Comparison image of before and after correction
     
