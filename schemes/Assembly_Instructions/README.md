@@ -77,7 +77,7 @@
     - Responsible for receiving image data from the camera module, performing image recognition via OpenCV, and sending the recognition results to the Raspberry Pi Pico W for further processing.
 
     <br></br>
-    __Purchase URL:<a href="https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nano/docs/Jetson-Orin-Nano-DevKit-Carrier-Board-Specification_SP-11324-001_v1.3.pdf?__token__=exp=1762055025~hmac=44deefcad3991bd2cb50e865d48d7e757ec2b7de324168816ccc7a624fe85ce0&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9](https://www.nvidia.com/zh-tw/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)" target="_blank">NVIDIA® Jetson Orin Nano</a>__
+    __Purchase URL:<a href="https://www.nvidia.com/zh-tw/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/" target="_blank">NVIDIA® Jetson Orin Nano</a>__
     </td>
     <td>
     <img src="./img/jetson_orin_nano.png" width = "600"  alt="Jjetson_orin_nano" align=center />   
