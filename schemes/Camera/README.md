@@ -94,7 +94,8 @@
                   img_points.append(corners)
                   obj_points.append(objp)
           # Calibrate camera parameters
-          ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(obj_points, img_points, gray.shape[::-1], None, None)
+          ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(obj_points, img_points,
+          gray.shape[::-1], None, None)
           # Read the image to be undistorted
           img = cv2.imread('test_image.jpg')
           h, w = img.shape[:2]
