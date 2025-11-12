@@ -78,48 +78,31 @@
 ```python
           import cv2
           import numpy as np
-
           # Load calibration images
-
           images = ["image1.jpg", "image2.jpg", ...]  # Replace with your image paths
           chessboard_size = (9, 6)  # Chessboard dimensions
           obj_points = []  # Real world coordinates points
           img_points = []  # Image coordinates points
-
           # Define corner points for the chessboard
-
           objp = np.zeros((chessboard_size[0] * chessboard_size[1], 3), np.float32)
           objp[:, :2] = np.mgrid[0:chessboard_size[0], 0:chessboard_size[1]].T.reshape(-1, 2)
-
           for image in images:
               img = cv2.imread(image)
               gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-              ret, corners = cv2.findChessboardCorners(gray, chessboard_size, None)
-              
+              ret, corners = cv2.findChessboardCorners(gray, chessboard_size, None)              
               if ret:
                   img_points.append(corners)
                   obj_points.append(objp)
-
           # Calibrate camera parameters
-
           ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(obj_points, img_points, gray.shape[::-1], None, None)
-
           # Read the image to be undistorted
-
-
           img = cv2.imread('test_image.jpg')
           h, w = img.shape[:2]
           newcameramtx, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (w,h), 1, (w,h))
-
-          # Apply distortion correction
-
-          dst = cv2.undistort(img, mtx, dist, None, newcameramtx)
-
+          dst = cv2.undistort(img, mtx, dist, None, newcameramtx) # Apply distortion correction
           # Crop the image
-
           x, y, w, h = roi
           dst = dst[y:y+h, x:x+w]
-
           cv2.imshow('Undistorted Image', dst)
           cv2.waitKey(0)
           cv2.destroyAllWindows()
