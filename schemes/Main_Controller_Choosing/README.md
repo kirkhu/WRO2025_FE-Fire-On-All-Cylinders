@@ -51,8 +51,8 @@ Comparison of the Jetson Nano and Jetson Orin Nano main controllers, the compari
 </tr>
 <tr>
 <th>Price</th>
-<td>Expensive</td>
-<td>Very Expensive</td>
+<td colspan = 2 >Similarly priced</td>
+
 </tr>
 </table>
 </div>
