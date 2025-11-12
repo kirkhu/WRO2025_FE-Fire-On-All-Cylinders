@@ -22,7 +22,7 @@
           <div align=center><img src="./img/NVIDIA_SDK_Manager_Download_Page.png" width="80%"></div>
 
          - Double-click the installation package to install, and upon completion and successful login, launching the application will display the following screen.
-           <div align=center><img src="./img/Start SDK Manager Page.png" width="80%"></div>
+           <div align=center><img src="./img/Start_SDK_Manager_Page.png" width="80%"></div>
    
       - #### JetPack Software Version Installation, Upgrade, and Downgrade Guide
 
