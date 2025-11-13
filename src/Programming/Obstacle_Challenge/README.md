@@ -13,7 +13,7 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
    * **Quickly identify and avoid obstacles on the path**, thereby enhancing the **stability and safety** of autonomous driving.
  
 - #### Responsibilities of the Raspberry Pi Pico W (Auxiliary Unit)**
- Furthermore, this time the **Raspberry Pi Pico W** is not only tasked with controlling the **DC motor speed** and **vehicle steering** but also requires the use of **infrared sensors to detect the distance between the vehicle and the walls**. Leveraging its **efficient GPIO control capability**, the Raspberry Pi Pico W can:
+   Furthermore, this time the **Raspberry Pi Pico W** is not only tasked with controlling the **DC motor speed** and **vehicle steering** but also requires the use of **infrared sensors to detect the distance between the vehicle and the walls**. Leveraging its **efficient GPIO control capability**, the Raspberry Pi Pico W can:
    * Perform **precise distance measurement** and **hardware management**.
    * **Ensure the vehicle is safely parked within the parking lot** and **maintains an appropriate safe distance**.
 
