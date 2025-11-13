@@ -19,9 +19,9 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
 
 - ### Jetson Orin Nano library
   **All functions related to image recognition, image processing, and key visual identification** have been **highly integrated** into the **[function.py](../common/function.py) module** and can be directly **imported and called** by the higher-level program. The **specific functionalities** of these modules are outlined as follows:
-     - The **`display_roi()` function** is designed to **visualize** multiple **Regions of Interest (ROIs)** on an image. It accepts the **source image (`img`)**, a **list containing the coordinates of multiple ROIs (`ROIs`)**, and the **drawing color (`color`)** for the boundary boxes as input parameters.Its mechanism involves **drawing four line segments** to form the **rectangular boundary** for each ROI. Upon completion, the function **returns** the processed image marked with the boundary boxes.
-
-   ```python
+    - The **`display_roi()` function** is designed to **visualize** multiple **Regions of Interest (ROIs)** on an image. It accepts the **source image (`img`)**, a **list containing the coordinates of multiple ROIs (`ROIs`)**, and the **drawing color (`color`)** for the boundary boxes as input parameters.Its mechanism involves **drawing four line segments** to form the **rectangular boundary** for each ROI. Upon completion, the function **returns** the processed image marked with the boundary boxes.
+  
+     ```python
       def display_roi(img, ROIs, color):
           # Draw Region of Interest (ROI) bounding boxes on the image
           for ROI in ROIs:
@@ -32,10 +32,10 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
               img = cv2.line(img, (ROI[2], ROI[3]), (ROI[2], ROI[1]), color, 4) # Right line
               img = cv2.line(img, (ROI[2], ROI[3]), (ROI[0], ROI[3]), color, 4) # Bottom line
           return img # Return the image with drawings
-   ```
-     - The **`find_contours()` function** is used to **detect object contours** within a specific color range in an image.It first **extracts** the **Region of Interest (ROI)** portion of the image. It then performs **color thresholding** using the **LAB color space** and the predefined **`lab_range` parameters** to convert this area into a **binary mask**. To **enhance contour accuracy**, the function performs **morphological operations**—specifically **erosion** and **dilation**—on the mask. Finally, the function **extracts the external contours** from the processed mask and **returns** them.
+     ```
+    - The **`find_contours()` function** is used to **detect object contours** within a specific color range in an image.It first **extracts** the **Region of Interest (ROI)** portion of the image. It then performs **color thresholding** using the **LAB color space** and the predefined **`lab_range` parameters** to convert this area into a **binary mask**. To **enhance contour accuracy**, the function performs **morphological operations**—specifically **erosion** and **dilation**—on the mask. Finally, the function **extracts the external contours** from the processed mask and **returns** them.
 
-      ```python
+     ```python
       def find_contours(img_lab, lab_range, ROI):
           # Find contours in ROI using LAB color range
           x1, y1, x2, y2 = ROI # Unpack ROI coordinates
@@ -47,8 +47,8 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
           mask = cv2.dilate(mask, k, iterations=1) # Dilate operation
           contours = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2] # Find external contours
           return contours # Return found contours
-      ```
-      - The **`max_contour()` function** is used to **identify and select the largest valid target contour** from an input **list of contours (`contours`)**.The function first **filters out** all **noise contours** with an **area less than 150**. For the qualified contours, it calculates their **area** and the **center-bottom coordinates (`maxX`, `maxY`)** relative to the original image. Finally, the function **returns** the value of the largest area, its corresponding corrected coordinates, and the **contour object itself**, serving as the key basis for the vehicle's **line following or target recognition**.
+     ```
+    - The **`max_contour()` function** is used to **identify and select the largest valid target contour** from an input **list of contours (`contours`)**.The function first **filters out** all **noise contours** with an **area less than 150**. For the qualified contours, it calculates their **area** and the **center-bottom coordinates (`maxX`, `maxY`)** relative to the original image. Finally, the function **returns** the value of the largest area, its corresponding corrected coordinates, and the **contour object itself**, serving as the key basis for the vehicle's **line following or target recognition**.
 
      ```python
       def max_contour(contours, ROI):
@@ -65,9 +65,8 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
                       # If current contour area is larger
                       maxArea = area; maxY = y; maxX = x; mCnt = cnt # Update maximum values
           return [maxArea, maxX, maxY, mCnt] # Return max area, center X, center Y, and max contour
-      ```
-
-    - The **`pOverlap()` function** is used to **detect composite contours** that involve a combination of black and magenta within a **specific Region of Interest (ROI)** in an image, primarily intended for the detection of walls or special markers.The function determines how to combine these two color regions based on the boolean parameter `add`:
+      ```    
+      - The **`pOverlap()` function** is used to **detect composite contours** that involve a combination of black and magenta within a **specific Region of Interest (ROI)** in an image, primarily intended for the detection of walls or special markers.The function determines how to combine these two color regions based on the boolean parameter `add`:
       1.  **If `add=True`:** The function **logically combines (Union)** the black and magenta areas to find the resulting composite contours.
       2.  **If `add=False`:** The function searches for the **pure black area**, which means **subtracting the portion covered by magenta from the black area**.
     - In either scenario, the function performs **morphological operations (implied erosion and dilation)** on the resulting mask to **optimize the contour shape**. Finally, it **extracts and returns the external contours**.
