@@ -49,7 +49,8 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
           return contours # Return found contours
       ```
       - The **`max_contour()` function** is used to **identify and select the largest valid target contour** from an input **list of contours (`contours`)**.The function first **filters out** all **noise contours** with an **area less than 150**. For the qualified contours, it calculates their **area** and the **center-bottom coordinates (`maxX`, `maxY`)** relative to the original image. Finally, the function **returns** the value of the largest area, its corresponding corrected coordinates, and the **contour object itself**, serving as the key basis for the vehicle's **line following or target recognition**.
-      ```python
+
+     ```python
       def max_contour(contours, ROI):
           # Find the largest contour by area and its center point
           maxArea = 0; maxY = 0; maxX = 0; mCnt = 0 # Initialize max area, center coordinates, and max contour
