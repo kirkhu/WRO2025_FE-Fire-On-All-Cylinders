@@ -6,22 +6,22 @@
 
 Based on the technical characteristics of controllers like the **Jetson Orin Nano** and the **Raspberry Pi Pico W**, we decomposed the problems faced in the Obstacle Challenge rounds and **allocated functional responsibilities**.
 
- #### **1. Responsibilities of the Jetson Orin Nano (Main Control Unit)**
+- #### Responsibilities of the Jetson Orin Nano (Main Control Unit)
  This time, the **Jetson Orin Nano** not only includes **image recognition** and **direction detection** capabilities but has also **added obstacle recognition functionality**. Leveraging its powerful computing capability, the Jetson Orin Nano can:
- * Perform **real-time image analysis and processing**.
- * **Precisely detect the vehicle's direction of travel**.
- * **Quickly identify and avoid obstacles on the path**, thereby enhancing the **stability and safety** of autonomous driving.
+  * Perform **real-time image analysis and processing**.
+  * **Precisely detect the vehicle's direction of travel**.
+  * **Quickly identify and avoid obstacles on the path**, thereby enhancing the **stability and safety** of autonomous driving.
  
- #### **2. Responsibilities of the Raspberry Pi Pico W (Auxiliary Unit)**
- Furthermore, this time the **Raspberry Pi Pico W** is not only tasked with controlling the **DC motor speed** and **vehicle steering** but also requires the use of **infrared sensors to detect the distance between the vehicle and the walls**. Leveraging its **efficient GPIO control capability**, the Raspberry Pi Pico W can:
- * Perform **precise distance measurement** and **hardware management**.
- * **Ensure the vehicle is safely parked within the parking lot** and **maintains an appropriate safe distance**.
+- #### Responsibilities of the Raspberry Pi Pico W (Auxiliary Unit)**
+Furthermore, this time the **Raspberry Pi Pico W** is not only tasked with controlling the **DC motor speed** and **vehicle steering** but also requires the use of **infrared sensors to detect the distance between the vehicle and the walls**. Leveraging its **efficient GPIO control capability**, the Raspberry Pi Pico W can:
+  * Perform **precise distance measurement** and **hardware management**.
+  * **Ensure the vehicle is safely parked within the parking lot** and **maintains an appropriate safe distance**.
 
 - ### Jetson Orin Nano library
   **All functions related to image recognition, image processing, and key visual identification** have been **highly integrated** into the **[function.py](../common/function.py) module** and can be directly **imported and called** by the higher-level program. The **specific functionalities** of these modules are outlined as follows:
+ - The **`display_roi()` function** is designed to **visualize** multiple **Regions of Interest (ROIs)** on an image. It accepts the **source image (`img`)**, a **list containing the coordinates of multiple ROIs (`ROIs`)**, and the **drawing color (`color`)** for the boundary boxes as input parameters.Its mechanism involves **drawing four line segments** to form the **rectangular boundary** for each ROI. Upon completion, the function **returns** the processed image marked with the boundary boxes.
 
-      - The **`display_roi()` function** is designed to **visualize** multiple **Regions of Interest (ROIs)** on an image. It accepts the **source image (`img`)**, a **list containing the coordinates of multiple ROIs (`ROIs`)**, and the **drawing color (`color`)** for the boundary boxes as input parameters.Its mechanism involves **drawing four line segments** to form the **rectangular boundary** for each ROI. Upon completion, the function **returns** the processed image marked with the boundary boxes.
-      ```python
+   ```python
       def display_roi(img, ROIs, color):
           # Draw Region of Interest (ROI) bounding boxes on the image
           for ROI in ROIs:
