@@ -73,6 +73,7 @@
   #### 5. Performance Videos - Challenge rounds
     - [5-1 Open Challenge rounds](video/Open_Challenge/video.md)
     - [5-2 Obstacle Challenge rounds](video/Obstacle_Challenge/video.md)
+    - [5-3 Self-Driving Car Design Process Video ](video/Design_Process_Video/video.md)
 
   #### 6. GitHub Utilization-GitHub
     - [6-1 GitHub Editing Tools Introduction (VScode Edit/GIT)](src/GitHub_Edit/README.md)

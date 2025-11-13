@@ -7,7 +7,7 @@ The following video showcases the vehicle design and mission testing process.
 
    |Self-Driving Car Design Process Video|
    |:----:|
-   |[![Self-Driving Car Design Process Video](./img/Self-Driving-Car-Design-Process-Video.png)](https://youtu.be/5BeNLBiUbT4 "Self-Driving Car Design Process Video")|
+   |[![Self-Driving Car Design Process Video](./img/all.png)](https://youtu.be/XQx5XE52tmo "Self-Driving Car Design Process Video")|
 </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
