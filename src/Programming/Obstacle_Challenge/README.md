@@ -32,9 +32,8 @@ Based on the technical characteristics of controllers like the **Jetson Orin Nan
               img = cv2.line(img, (ROI[2], ROI[3]), (ROI[2], ROI[1]), color, 4) # Right line
               img = cv2.line(img, (ROI[2], ROI[3]), (ROI[0], ROI[3]), color, 4) # Bottom line
           return img # Return the image with drawings
-      ```
-
-      - The **`find_contours()` function** is used to **detect object contours** within a specific color range in an image.It first **extracts** the **Region of Interest (ROI)** portion of the image. It then performs **color thresholding** using the **LAB color space** and the predefined **`lab_range` parameters** to convert this area into a **binary mask**. To **enhance contour accuracy**, the function performs **morphological operations**—specifically **erosion** and **dilation**—on the mask. Finally, the function **extracts the external contours** from the processed mask and **returns** them.
+   ```
+     - The **`find_contours()` function** is used to **detect object contours** within a specific color range in an image.It first **extracts** the **Region of Interest (ROI)** portion of the image. It then performs **color thresholding** using the **LAB color space** and the predefined **`lab_range` parameters** to convert this area into a **binary mask**. To **enhance contour accuracy**, the function performs **morphological operations**—specifically **erosion** and **dilation**—on the mask. Finally, the function **extracts the external contours** from the processed mask and **returns** them.
 
       ```python
       def find_contours(img_lab, lab_range, ROI):
