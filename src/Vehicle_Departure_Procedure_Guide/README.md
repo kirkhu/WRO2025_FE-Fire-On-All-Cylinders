@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 ## <div align="center">Operational Procedure Guide for Vehicle Departure from the Parking Zone</div>
-###Parking Lot Exit Overview###
+### Parking Lot Exit Overview
 - #### Parking Lot Exit program
     1.  **System Startup and Direction Determination (Jetson Orin Nano Responsibility)**
          * When the vehicle starts, the **main control system (Jetson Orin Nano)** performs image recognition via the camera to first **determine the vehicle's default driving direction** (Counter-Clockwise or Clockwise). Subsequently, it identifies and locks onto the **color of the target track line**, which serves as the basis for the entire mission.
