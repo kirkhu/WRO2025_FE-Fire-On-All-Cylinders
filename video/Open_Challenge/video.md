@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Testing Video of Self-Driving Car inOpen Challenge rounds</div> 
+## <div align="center">Testing Video of Self-Driving Car in Open Challenge rounds</div> 
 
 ### Here is the test video of the competition track width variations.
 - ### Full narrow
