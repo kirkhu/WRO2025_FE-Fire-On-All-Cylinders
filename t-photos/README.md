@@ -50,8 +50,8 @@
      <th>Work photo</th>    
   </tr>
   <tr align="center">
-     <td>LIN,JHAN-RONG</td>
-     <td align="center">Work Assignments<br>
+     <td align="center">LIN,JHAN-RONG</td>
+     <td align="left" >Work Assignments<br>
          <ol><li>Primary responsibility for vehicle hardware integration.</li>
              <li>Assistance with report documentation and program debugging.</li>
          </ol>
