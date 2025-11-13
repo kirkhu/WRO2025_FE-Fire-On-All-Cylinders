@@ -18,7 +18,7 @@
       * First, the **Jetson Orin Nano** calculates and sets the **initial angle of the steering servo motor** and the **value for the DC drive motor**.
       * During the reverse parking maneuver, the **main control unit (Raspberry Pi Pico W)** is responsible for **reading the gyroscope angle data** from the Jetson Orin Nano (or directly implementing attitude control), which allows for **precise control over the vehicle's posture and steering angle**. The Pico W simultaneously adjusts the servo motor, thereby **completing the automatic parallel reverse parking action**.    
 
-- **Code Executed on the Raspberry Pi Pico W Controller- Raspberry Pi Pico W**
+- **Code Executed on the Raspberry Pi Pico W Controller**
     ``` python
     while mode == 3:
         json_obj, _, got_stop = pump_uart(s) # Pump UART for data
