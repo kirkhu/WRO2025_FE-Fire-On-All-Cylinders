@@ -30,17 +30,21 @@
   <div align="center">
   <table >
     <tr >
-       <th align="center">The parking lot is located below.</th>
-       <th align="center">The parking lot is on the left side.</th>
-       <th align="center">The parking lot is located above.</th>
-       <th align="center">The parking lot is on the right side.</th>
-
+    <th lign="center" width="50%">The parking lot is located below.</th>
+    <th lign="center" width="50%">The parking lot is on the left side.</th>
     </tr>
     <tr >
-       <td  width="500" ><a href="https://youtu.be/o1Zwdhd-V9o"><img src="./img/02Below_counterclockwise@Obstacle_Challenge.jpg" alt="02Below_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/6Rew_saSqYM"><img src="./img/04Left_counterclockwise@Obstacle_Challenge.jpg" alt="04Left_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/mTPq-y7aNzw"><img src="./img/06Above_counterclockwise@Obstacle_Challange.jpg" alt="06Above_counterclockwise@Obstacle_Challange_Fire On All Cylinders"  ></a> </td>
-       <td  width="500" ><a href="https://youtu.be/lZ-AYxOD-XM"><img src="./img/08Right_counterclockwise@Obstacle_Challenge.jpg" alt="08Right_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+    <td lign="center" width="50%" ><a href="https://youtu.be/o1Zwdhd-V9o"><img src="./img/02Below_counterclockwise@Obstacle_Challenge.jpg" alt="02Below_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+       <td  lign="center" width="50%" ><a href="https://youtu.be/6Rew_saSqYM"><img src="./img/04Left_counterclockwise@Obstacle_Challenge.jpg" alt="04Left_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+    <tr>
+    <th lign="center" width="50%">The parking lot is located above.</th>
+    <th lign="center" width="50%">The parking lot is on the right side.</th>
+    </tr>
+    <tr>
+    <td  lign="center" width="50%" ><a href="https://youtu.be/mTPq-y7aNzw"><img src="./img/06Above_counterclockwise@Obstacle_Challange.jpg" alt="06Above_counterclockwise@Obstacle_Challange_Fire On All Cylinders"  ></a> </td>
+    <td  lign="center" width="50%" ><a href="https://youtu.be/lZ-AYxOD-XM"><img src="./img/08Right_counterclockwise@Obstacle_Challenge.jpg" alt="08Right_counterclockwise@Obstacle_Challenge_Fire-On-All-Cylinders"  ></a> </td>
+    </tr>
+
     </tr>
     </table>  
     </div>
