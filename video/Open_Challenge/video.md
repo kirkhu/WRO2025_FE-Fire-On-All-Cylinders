@@ -27,8 +27,8 @@
         <th>Counterclockwise</th>
       </tr>
       <tr>
-        <td align=center width="50%"><a href="https://youtu.be/rn5UsgO7_QA"><img src="./img/03_Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
-        <td align=center width="50%"><a href="https://youtu.be/zKaRvkeFm-4"><img src="./img/04_Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders"width=400 /></a></td>
+        <td align=center width="40%"><a href="https://youtu.be/rn5UsgO7_QA"><img src="./img/03_Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_clockwise@Open_Challange_Fire_On_All_Cylinders" /></a></td>
+        <td align=center width="40%"><a href="https://youtu.be/zKaRvkeFm-4"><img src="./img/04_Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders.jpg" alt="Narrow_Wide_Wide_Wide_counterclockwise@Open_Challange_Fire_On_All_Cylinders" /></a></td>
       </tr>
     </table>
   </div>
