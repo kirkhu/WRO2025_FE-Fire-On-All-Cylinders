@@ -46,7 +46,8 @@
     while mode == 4:
         a0_value = A0.read_u16() # Read ADC A0 value
         time_a0=time.time() # Record start time
-        while a0_value > 64800 and time.time()- time_a0 < 5: # Loop while A0 value is high and time limit not reached
+        # Loop while A0 value is high and time limit not reached
+        while a0_value > 64800 and time.time()- time_a0 < 5: 
             a0_value = A0.read_u16() # Read ADC A0 value
             extract_magenta_from_json(json_obj) # Update magenta data 
             json_obj, _, got_stop = pump_uart(s) # Pump UART for data
@@ -94,9 +95,11 @@
             if json_obj:
                 try:
                     if "leftArea" in json_obj:
-                        leftArea = int(json_obj.get("leftArea", leftArea)) # Update left area
+                        # Update left area
+                        leftArea = int(json_obj.get("leftArea", leftArea)) 
                     if "rightArea" in json_obj:
-                        rightArea = int(json_obj.get("rightArea", rightArea)) # Update right area
+                        # Update right area
+                        rightArea = int(json_obj.get("rightArea", rightArea))
                         except:
                             pass
             if turn ==2: # Turn 2
