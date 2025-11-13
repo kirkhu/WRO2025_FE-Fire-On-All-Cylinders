@@ -65,10 +65,8 @@
             else:
                 # Debug print: ignore M packet
                 if DEBUG: print("[IGNORE] M packet in mode1 (not color):", m_tuple) 
-
         if json_obj is None and m_tuple is None:
-                    time.sleep(0.002) # Short sleep if no new data
-            
+                    time.sleep(0.002) # Short sleep if no new data            
     # --- Color-based actions (Skipped for brevity, same as original) ---
     if color == 1:
         print("Color=1") # Status message
@@ -101,7 +99,6 @@
         run_encoder_Auto(400, 50, 0) # Encoder move
         run_encoder_Auto(1400, 40, -180) # Encoder move
         run_encoder_Auto(800, 50, 0) # Encoder move
-
     control_motor(0) # Stop motor
     set_servo_angle(0) # Center servo
 
