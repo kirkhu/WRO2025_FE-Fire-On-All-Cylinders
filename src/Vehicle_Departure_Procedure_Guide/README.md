@@ -51,7 +51,8 @@
                     print("[JSON] color =", color) # Confirmation message
                     break # Break the loop
                 else:
-                    if DEBUG: print("[IGNORE] JSON color out of range:", v) # Debug print: ignore out of range
+                    # Debug print: ignore out of range
+                    if DEBUG: print("[IGNORE] JSON color out of range:", v) 
                     extract_magenta_from_json(json_obj) # Update magenta data
 
         if m_tuple:
@@ -62,7 +63,8 @@
                 print("[M] color =", color, "raw:", m_tuple) # Confirmation message
                 break # Break the loop
             else:
-                if DEBUG: print("[IGNORE] M packet in mode1 (not color):", m_tuple) # Debug print: ignore M packet
+                # Debug print: ignore M packet
+                if DEBUG: print("[IGNORE] M packet in mode1 (not color):", m_tuple) 
 
         if json_obj is None and m_tuple is None:
                     time.sleep(0.002) # Short sleep if no new data
