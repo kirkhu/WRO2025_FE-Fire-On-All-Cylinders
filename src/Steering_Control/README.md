@@ -120,7 +120,7 @@
 <th  align=center width="50%">The color and X, target coordinates of traffic signal blocks.</th>
 </tr><tr>
 <td  align=center width="50%"><img src="./img/Detecting_nearby_obstacles.png"  alt="Detecting_nearby_obstacles"></td>
-<td align=center width="50%">><img src="./img/Obstacle_XY_coordinates.png"  alt="Obstacle_XY_coordinates"></td>
+<td align=center width="50%"><img src="./img/Obstacle_XY_coordinates.png"  alt="Obstacle_XY_coordinates"></td>
 </table>
 </div>
 
