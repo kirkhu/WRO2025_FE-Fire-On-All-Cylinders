@@ -3,7 +3,7 @@
 ## <div align="center">Challenge rounds-testing Video of Self-Driving Car in Obstacle Challenge</div>
 
 - ### Test videos of the Self-Driving Car parking in the four zones of the game field.
-  #### Clockwise
+  - ### Clockwise
   <div align="center">
   <table >
     <tr >
@@ -22,7 +22,7 @@
     </table>  
     </div>
 
-  #### Counterclockwise
+  - ### Counterclockwise
   <div align="center">
   <table >
     <tr >
