@@ -107,16 +107,16 @@
       - ##### Program Operation flowchart of the Raspberry Pi Pico W controller
         ![flowchart_open](./img/open_challange_Pico.jpg)
         
-      - #### 1. `set_servo_angle()`: Servo Motor Angle Setting
+      - #### `set_servo_angle()`: Servo Motor Angle Setting
         * **Function:** Responsible for calculating and **converting** the human-readable **angle value (typically within the $\pm 180^\circ$ range)** into the required **PWM duty cycle range (0 to 65535)** for the servo motor.
         * **Output:** Outputs the calculated PWM signal precisely to the **front servo motor** to control its steering angle for accurate turning.
 
-      - #### 2. `control_motor()`: DC Motor Speed and Direction Control
+      - #### `control_motor()`: DC Motor Speed and Direction Control
         * **Function:** Accepts a numerical value ranging from **-100 to 100** as input to control both speed and direction simultaneously.
         * **PWM Conversion:** Takes the **absolute value** of the input number and converts it into the **PWM duty cycle for the DC motor** (representing the rotational speed).
         * **Direction Control:** Based on the **sign (positive/negative)** of the input value, it sets the **high/low state of the two control pins on the L293D driver chip** to achieve **forward rotation, reverse rotation, or motor stop**.
 
-      - #### 3. `pump_uart()`: UART Data Transmission Management (Jetson Side)
+      - #### `pump_uart()`: UART Data Transmission Management (Jetson Side)
         * **Function:** This function executes on the **Nvidia Jetson Orin Nano controller**. Its responsibility is to transmit the latest control parameters, including the **updated mode**, **servo angle**, and **DC motor speed** values, to an **output queue** via the **UART protocol**.
         * **Purpose:** Ensures the control process runs continuously, maintaining **real-time data updates** and synchronization between the Jetson and the Pico W.
  
