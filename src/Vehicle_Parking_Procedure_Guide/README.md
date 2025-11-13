@@ -269,7 +269,8 @@
 <th colspan = 2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
-<td colspan = 2><a href="https://youtu.be/ZJdazgHVCGY" ><img src="./img/Clockwise_Vehicle_Parking_Procedure.jpg" ALT="Clockwise_Vehicle_Parking_Procedure"/></a></td>
+<td colspan = 2><a href="https://youtu.be/eZsEFtIm0SM" ><img src="./img/Counter_Clockwise_Vehicle_Parking_Procedure.jpg" ALT="Counter_Clockwise_Vehicle_Parking_Procedure"/></a></td>
+
 </tr>
 </table>
 </div>
@@ -317,7 +318,7 @@
 <th colspan = 2>Video Documentation of the Autonomous Vehicle's Actual Run</th>
 </tr>
 <tr align=center>
-<td colspan = 2><a href="https://youtu.be/eZsEFtIm0SM" ><img src="./img/Counter_Clockwise_Vehicle_Parking_Procedure.jpg" ALT="Counter_Clockwise_Vehicle_Parking_Procedure"/></a></td>
+<td colspan = 2><a href="https://youtu.be/ZJdazgHVCGY" ><img src="./img/Clockwise_Vehicle_Parking_Procedure.jpg" ALT="Clockwise_Vehicle_Parking_Procedure"/></a></td>
 </tr>
 </table>
 </div>
