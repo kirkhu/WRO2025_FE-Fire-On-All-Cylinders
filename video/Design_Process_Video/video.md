@@ -4,10 +4,14 @@
 <div align="center">
 The following video showcases the vehicle design and mission testing process.
 
-
-   |Self-Driving Car Design Process Video|
-   |:----:|
-   |[![Self-Driving Car Design Process Video](./img/all.png)](https://youtu.be/XQx5XE52tmo "Self-Driving Car Design Process Video")|
+ <table >
+    <tr >
+    <th align="center" >Self-Driving Car Design Process Video</th>
+    </tr>
+    <tr >
+    <td  align="center" ><a href="https://youtu.be/lLyGpN4Y7G8"><img src="./img/all.png" alt="Self-Driving Car Design Process Video"  ></a> </td>
+    </tr>
+    </table>  
 </div>
 
 # <div align="center">![HOME](../../other/img/home.png)[Return Home](../../)</div>  
