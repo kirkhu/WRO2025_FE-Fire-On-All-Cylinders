@@ -55,7 +55,7 @@
     <th align="center" >ALL Fire On All Cylinders​</th>
     </tr>
     <tr >
-    <td  align="center" ><a href="https://youtu.be/wG71WTAKZT0" target="_blank"><img src="./img/Explanation_to_Obstacle_Challenge" alt="ALL Fire On All Cylinders​"  ></a> </td>
+    <td  align="center" ><a href="https://youtu.be/wG71WTAKZT0" target="_blank"><img src="./img/Explanation_to_Obstacle_Challenge.jpg" alt="ALL Fire On All Cylinders​"  ></a> </td>
     </tr>
     </table>  
     </div>
