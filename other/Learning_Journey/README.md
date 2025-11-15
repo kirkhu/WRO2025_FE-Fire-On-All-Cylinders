@@ -44,12 +44,13 @@ Our teammate, **HU,SIAN-YI**, has accumulated a profound **practical foundation*
 
 Considering the annual changes in competition themes and rules, and having **assimilated the excellent achievements of last year's world champion team in image recognition technology**, our team conducted in-depth discussions and decided to implement a **critical weight reduction design** for this year's competition model.
 
-By simplifying the overall structure, we achieved multiple benefits:
-* We **optimized the fluidity of the robot's entry and exit from the parking area**;
-* **Significantly enhanced its mobility and agility** on the field;
-* Enabled it to **more precisely avoid obstacles**;
-* Thereby **comprehensively stabilizing the vehicle's operational performance**.
+By **simplifying the overall vehicle structure**, we **aim to achieve** the following key advantages and performance conditions:
+* We **expect** to optimize the robot's **smoothness when entering and exiting the parking area**.
+* **Significantly enhance** its **maneuverability and agility** on the field.
+* **Enable** it to **avoid obstacles more precisely**.
+* Thereby **comprehensively stabilize the vehicle's operational performance**.
 
+* 
 <div align="center">
 <table>
 <tr align="center">
