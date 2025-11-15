@@ -333,7 +333,8 @@ This week, we continued optimizing the Obstacle Challenge program by adding a **
 **The logic code for determining the exit from the turning zone is shown below.**
 
 ```python
-if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 0 and heading < target_heading[count+1] + 35 and heading > target_heading[count+1] - 35:
+if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 0 and
+    heading < target_heading[count+1] + 35 and heading > target_heading[count+1] - 35:
     turn_side = 2
     if count >= 3:
         count = 0
