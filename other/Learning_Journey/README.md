@@ -25,7 +25,7 @@
 
 ### **Team Experience and Model Weight Reduction Strategy** 
 
-Our teammate, **Hu Xianyi**, has accumulated a profound **practical foundation** in the fields of **mechanical design** and **program control optimization**, drawing upon his years of experience participating in the "Future Engineers Competition".
+Our teammate, **HU,SIAN-YI**, has accumulated a profound **practical foundation** in the fields of **mechanical design** and **program control optimization**, drawing upon his years of experience participating in the "Future Engineers Competition".
 
 <div align="center">
 <table width="100%">
