@@ -57,9 +57,9 @@ By **simplifying the overall vehicle structure**, we **aim to achieve** the foll
 <th>Team Research and Data Review Process Documentation</th>
 </tr>
 <tr align="center">
-<td><img src="./img/2/Last_year's.png"  width="300" alt="Vehicle_cad"></td> 
-    <td><img src="./img/2/This_year's.png" width="300" alt="vehicle Underfloor"></td> 
-    <td> <img src="./img/find_data.jpg" width = "300"  alt="data" align=center /></td>
+<td width="33%"><img src="./img/2/Last_year's.png"  width="300" alt="Vehicle_cad"></td> 
+<td width="33%"><img src="./img/2/This_year's.png" width="300" alt="vehicle Underfloor"></td> 
+<td width="33%"> <img src="./img/find_data.jpg" width = "300"  alt="data" align=center /></td>
 </tr>
 </table>
 </div>
