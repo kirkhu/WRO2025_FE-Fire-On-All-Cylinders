@@ -689,6 +689,18 @@ Our National Competition took place on **August 23rd**. Despite a challenging pr
 #### **Final Achievement and Outlook**
 Despite a **difficult and challenging competition process**, we successfully secured the **first-place ranking**, earning the qualification to **represent Taiwan in the WRO Future Engineers World Final**. We plan to **fully absorb the practical experience and lessons learned from this National Competition** and aim to participate in the World Final **in better condition**, striving to achieve **outstanding results and bring honor back home**.
 
+### **Engineering Documentation Internationalization and Continuous Update Strategy**
+
+-  Documentation Internationalization and Continuous GitHub Updates
+
+    To **comply with the regulations** for **advancing to the international competition**, we must **strictly adhere** to the documentation requirements stipulated by the competition rules, which mandates that all technical documentation be provided **in English**.
+
+    Therefore, we will implement the following actions:
+
+    1.  **Documentation Translation:** The **existing** Chinese engineering documentation on the GitHub repository will be **fully translated** into an **English** version.
+    2.  **Continuous Update and Synchronization:** Going forward, **all new and revised** engineering documentation will be **recorded directly in English** and **continuously synchronized and updated** to the **GitHub repository** to ensure the **timeliness** and **consistency** of the information.
+
+
  <div align=center>
     <table>
         <tr>
