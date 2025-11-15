@@ -278,19 +278,24 @@ While testing **UART data transmission**, we discovered **instances of data loss
 
 **Content:**
 
-### **Open Challenge Program Application and Obstacle Challenge Strategy Optimization** 
 
-#### **1. Open Challenge Program Application**
-Since the competition rules for the **Open Challenge rounds** remain consistent with previous years, we decided to **utilize last year's established program for initial performance testing**.
+### **Open Challenge Strategy and Optimization of Obstacle Challenge Strategy**
 
-#### **2. Obstacle Challenge Rounds Program Modification and Optimization**
-Given that this year's competition rules **added the task of starting from the parking lot** and **parallel parking into the parking zone** within the **Obstacle Challenge rounds**, we were required to **modify and deeply optimize** last year's autonomous car **obstacle avoidance program**.
+### 1. Open Challenge Strategy
 
-#### **3. Obstacle Avoidance Strategy and Logic**
+Given that the rules for the **Open Challenge rounds** remain **consistent** with previous years, we have decided to implement the solution developed last year and use it for preliminary vehicle performance testing.
+
+### 2. Program Modification and Optimization for the Obstacle Challenge
+
+Considering that this year's rules for the **Obstacle Challenge rounds** include the new task of starting from the **parking lot** and executing **parallel parking** into the designated area, we were required to modify and **thoroughly optimize** our previous year's **Self-Driving Car** obstacle avoidance program.
+
+### 3. Implemented Obstacle Avoidance Strategy and Logic
+
 Our implemented obstacle avoidance strategy and logic are as follows:
-* **Path Reference:** **Two path lines with specific slopes are drawn** on the image screen, serving as the vehicle's **reference direction** for travel.
-* **Target Center Calculation:** Through the `detect_color_final` subroutine located in the `function.py` file, the system **calculates the center coordinates of the target object** on the screen.
-* **Turning Angle Calculation:** The autonomous car subsequently **calculates the required turning angle based on the coordinate difference between the object's center coordinates and the path lines**, thereby executing **precise obstacle avoidance maneuvers**.
+
+* **Establishment of Path Reference:** We draw **two path lines** with a specific slope on the video screen to serve as the reference direction for the vehicle's travel.
+* **Calculation of Target Center Coordinates:** The system utilizes a subroutine within the file `detect_color_final.py` to calculate the **center coordinates** of the **target object** on the screen.
+* **Calculation and Execution of Steering Angle:** The **Vehicle** subsequently calculates the necessary **turning angle** based on the coordinate difference between the **object center coordinates** and the **path lines**, thus executing **precise** obstacle avoidance maneuvers
 
 - The image below displays the autonomous car's actual operational screen during mission execution.
  <div align=center>
