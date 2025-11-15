@@ -127,8 +127,8 @@ Despite this setback, this failure provided **invaluable hands-on experience**. 
             <th width=50% style="text-align: center;">Initial Design V1.0 (Pegboard) - Back View</th>
         </tr>
         <tr>
-            <td><img src="../../models/Circuit_Design/img/circuit_board_Front_1.png"/></td>
-            <td><img src="../../models/Circuit_Design/img/circuit_board_back_1.png"/></td>
+            <td width=50%><img src="../../models/Circuit_Design/img/circuit_board_Front_1.png"/></td>
+            <td width=50%><img src="../../models/Circuit_Design/img/circuit_board_back_1.png"/></td>
         </tr>
     </table>
 </div>
@@ -140,8 +140,8 @@ Despite this setback, this failure provided **invaluable hands-on experience**. 
             <th>Second-Generation Design V2.0 (PCB) - Back View</th>
         </tr>
         <tr align="center">
-            <td><img src="./img/4/1.png" width = "300"  alt="First-Generation PCB Front View" align=center /></td>
-            <td><img src="./img/4/2.png" width = "300"  alt="First-Generation PCB Back View" align=center /></td>
+            <td width=50%><img src="./img/4/1.png"  alt="First-Generation PCB Front View" align=center /></td>
+            <td width=50%><img src="./img/4/2.png"  alt="First-Generation PCB Back View" align=center /></td>
         </tr>
     </table>
 </div>
