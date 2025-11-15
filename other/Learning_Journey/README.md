@@ -75,7 +75,7 @@ Design Reference Sources: We reviewed the engineering documentation from our sch
     - Model Size and Obstacle Avoidance: Furthermore, we observed that some teams' vehicle models were significantly smaller than ours. These smaller models demonstrated superior performance in their ability to avoid obstacles.
 
 
-## 2025/03/08 ~ 2025/03/14
+## 2025/03/08 ~ 2025/03/21
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -103,7 +103,7 @@ Photos of the system installation, driver downloads, and remote desktop function
     </table>
 </div>
 
-## 2025/03/15 ~ 2025/03/21
+## 2025/03/22 ~ 2025/04/04
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -146,7 +146,7 @@ Despite this setback, this failure provided **invaluable hands-on experience**. 
     </table>
 </div>
 
-## 2025/03/22 ~ 2025/03/28
+## 2025/04/05 ~ 2025/04/11
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -173,7 +173,7 @@ The specific research areas included:
     </table>
  </div>
 
-## 2025/03/29 ~ 2025/04/04
+## 2025/04/12 ~ 2025/04/25
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -239,7 +239,7 @@ This week, team member **HU,SIAN-YI** successfully completed the **operating sys
         return data_value[number]
 
    ```
-## 2025/04/05 ~ 2025/04/11
+## 2025/04/26 ~ 2025/05/02
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -273,7 +273,7 @@ While testing **UART data transmission**, we discovered **instances of data loss
 </div>
 
 
-## 2025/04/12 ~ 2025/04/18
+## 2025/05/03 ~ 2025/05/09
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -312,7 +312,7 @@ Our implemented obstacle avoidance strategy and logic are as follows:
  </div>
 
 
-## 2025/04/19 ~ 2025/04/25
+## 2025/05/10 ~ 2025/05/16
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -354,7 +354,7 @@ if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 
 ```
 
 
-## 2025/04/26 ~ 2025/05/02
+## 2025/05/17 ~ 2025/05/23
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -457,7 +457,7 @@ except KeyboardInterrupt:
     GPIO.cleanup()
  ```
 
-## 2025/05/03 ~ 2025/05/09
+## 2025/05/24 ~ 2025/05/30
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -482,7 +482,7 @@ This week, our focus is dedicated to finalizing the **parking procedure programm
  </div>
 
 
-## 2025/05/10 ~ 2025/05/16
+## 2025/05/31 ~ 2025/06/06
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -513,7 +513,7 @@ def measure_distance(trig, echo):
     return distance
  ```
 
-## 2025/05/17 ~ 2025/05/23
+## 2025/06/07 ~ 2025/06/20
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -567,7 +567,7 @@ if turn_side == 8:
         turn_side = 0
  ```
 
-## 2025/05/24 ~ 2025/05/30
+## 2025/06/21 ~ 2025/06/27
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -587,7 +587,7 @@ if combined_control_signal < -180:
     combined_control_signal=-160
  ```
 
-## 2025/05/31 ~ 2025/06/06  
+## 2025/06/28 ~ 2025/07/04 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -612,7 +612,7 @@ Notably, due to its stable performance, the V4.0 version **became the primary ci
     </table>
 </div>
 
-## 2025/06/28 ~ 2025/07/11
+## 2025/07/05 ~ 2025/07/11
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -639,7 +639,7 @@ Following testing, the **new chassis structure incorporating bearings effectivel
     </table>
  </div>
 
-## 2025/07/12 ~ 2025/08/15
+## 2025/07/12 ~ 2025/08/22
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
