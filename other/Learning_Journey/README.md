@@ -48,9 +48,7 @@ By **simplifying the overall vehicle structure**, we **aim to achieve** the foll
 * We **expect** to optimize the robot's **smoothness when entering and exiting the parking area**.
 * **Significantly enhance** its **maneuverability and agility** on the field.
 * **Enable** it to **avoid obstacles more precisely**.
-* Thereby **comprehensively stabilize the vehicle's operational performance**.
-
-* 
+* Thereby **comprehensively stabilize the vehicle's operational performance**. 
 <div align="center">
 <table>
 <tr align="center">
