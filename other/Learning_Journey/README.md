@@ -14,7 +14,7 @@
   * **Vision Enhancement:** Image processing has been **significantly enhanced** for greater efficiency and accuracy.
 
   The integration of all these upgrades and innovative design elements is squarely aimed at **comprehensively strengthening** the vehicle's overall performance and competitiveness.
-## 2025/02/28 ~ 2025/03/30  
+## 2025/02/28 ~ 2025/03/07  
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -75,7 +75,7 @@ Design Reference Sources: We reviewed the engineering documentation from our sch
     - Model Size and Obstacle Avoidance: Furthermore, we observed that some teams' vehicle models were significantly smaller than ours. These smaller models demonstrated superior performance in their ability to avoid obstacles.
 
 
-## 2025/03/01 ~ 2025/03/07
+## 2025/03/08 ~ 2025/03/14
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -103,7 +103,7 @@ Photos of the system installation, driver downloads, and remote desktop function
     </table>
 </div>
 
-## 2025/03/11 ~ 2025/03/17
+## 2025/03/15 ~ 2025/03/21
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -146,7 +146,7 @@ Despite this setback, this failure provided **invaluable hands-on experience**. 
     </table>
 </div>
 
-## 2025/03/18 ~ 2025/03/24
+## 2025/03/22 ~ 2025/03/28
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -173,7 +173,7 @@ The specific research areas included:
     </table>
  </div>
 
-## 2025/03/25 ~ 2025/03/31
+## 2025/03/29 ~ 2025/04/04
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -239,7 +239,7 @@ This week, team member **HU,SIAN-YI** successfully completed the **operating sys
         return data_value[number]
 
    ```
-## 2025/04/03 ~ 2025/04/14
+## 2025/04/05 ~ 2025/04/11
 
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
@@ -273,7 +273,7 @@ While testing **UART data transmission**, we discovered **instances of data loss
 </div>
 
 
-## 2025/04/15 ~ 2025/04/21
+## 2025/04/12 ~ 2025/04/18
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -307,7 +307,7 @@ Our implemented obstacle avoidance strategy and logic are as follows:
  </div>
 
 
-## 2025/04/22 ~ 2025/04/30
+## 2025/04/19 ~ 2025/04/25
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -349,7 +349,7 @@ if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 
 ```
 
 
-## 2025/05/01 ~ 2025/05/07
+## 2025/04/26 ~ 2025/05/02
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -452,7 +452,7 @@ except KeyboardInterrupt:
     GPIO.cleanup()
  ```
 
-## 2025/05/08 ~ 2025/05/14
+## 2025/05/03 ~ 2025/05/09
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -477,7 +477,7 @@ This week, our focus is dedicated to finalizing the **parking procedure programm
  </div>
 
 
-## 2025/05/15 ~ 2025/05/21
+## 2025/05/10 ~ 2025/05/16
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -508,7 +508,7 @@ def measure_distance(trig, echo):
     return distance
  ```
 
-## 2025/05/22 ~ 2025/05/28
+## 2025/05/17 ~ 2025/05/23
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
