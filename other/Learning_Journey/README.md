@@ -562,7 +562,7 @@ if turn_side == 8:
         turn_side = 0
  ```
 
-## 2025/05/29 ~ 2025/06/03
+## 2025/05/24 ~ 2025/05/30
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -582,7 +582,7 @@ if combined_control_signal < -180:
     combined_control_signal=-160
  ```
 
-## 2025/06/04 ~ 2025/06/08  
+## 2025/05/31 ~ 2025/06/06  
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -607,7 +607,7 @@ Notably, due to its stable performance, the V4.0 version **became the primary ci
     </table>
 </div>
 
-## 2025/07/02 ~ 2025/07/21
+## 2025/06/28 ~ 2025/07/04
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
