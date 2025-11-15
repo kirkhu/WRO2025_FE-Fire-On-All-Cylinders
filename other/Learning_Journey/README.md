@@ -25,7 +25,7 @@
 
 ### **Team Experience and Model Weight Reduction Strategy** 
 
-Our teammate, **Hu Xianyi**, has accumulated a profound **practical foundation** in the fields of **mechanical design** and **program control optimization**, drawing upon his years of experience participating in the "Future Engineers Competition".
+Our teammate, **HU,SIAN-YI**, has accumulated a profound **practical foundation** in the fields of **mechanical design** and **program control optimization**, drawing upon his years of experience participating in the "Future Engineers Competition".
 
 <div align="center">
 <table width="100%">
@@ -34,9 +34,9 @@ Our teammate, **Hu Xianyi**, has accumulated a profound **practical foundation**
 <th>Funny photo </th>
 </tr>
 <tr>
-<td><img src="../../t-photos/img/team_photo.jpg"  width="300" alt="team_photo">
+<td width="50%"><img src="../../t-photos/img/team_photo.jpg"   alt="team_photo">
 </td>
-<td><img src="../../t-photos/img/funny_photo.jpg"  width="300" alt="team_photo">
+<td width="50%"><img src="../../t-photos/img/funny_photo.jpg"  alt="team_photo">
 </td>
 </tr>
 </table>
@@ -44,23 +44,22 @@ Our teammate, **Hu Xianyi**, has accumulated a profound **practical foundation**
 
 Considering the annual changes in competition themes and rules, and having **assimilated the excellent achievements of last year's world champion team in image recognition technology**, our team conducted in-depth discussions and decided to implement a **critical weight reduction design** for this year's competition model.
 
-By simplifying the overall structure, we achieved multiple benefits:
-* We **optimized the fluidity of the robot's entry and exit from the parking area**;
-* **Significantly enhanced its mobility and agility** on the field;
-* Enabled it to **more precisely avoid obstacles**;
-* Thereby **comprehensively stabilizing the vehicle's operational performance**.
-
+By **simplifying the overall vehicle structure**, we **aim to achieve** the following key advantages and performance conditions:
+* We **expect** to optimize the robot's **smoothness when entering and exiting the parking area**.
+* **Significantly enhance** its **maneuverability and agility** on the field.
+* **Enable** it to **avoid obstacles more precisely**.
+* Thereby **comprehensively stabilize the vehicle's operational performance**. 
 <div align="center">
 <table>
 <tr align="center">
 <th>2024 World Championship Vehicle Model</th>
-<th>2025 National Competition Vehicle Model</th>
+<th>Tentative Vehicle Model for the 2025 National Competition</th>
 <th>Team Research and Data Review Process Documentation</th>
 </tr>
 <tr align="center">
-<td><img src="./img/2/Last_year's.png"  width="300" alt="Vehicle_cad"></td> 
-    <td><img src="./img/2/This_year's.png" width="300" alt="vehicle Underfloor"></td> 
-    <td> <img src="./img/find_data.jpg" width = "300"  alt="data" align=center /></td>
+<td width="33%"><img src="./img/2/Last_year's.png"  width="300" alt="Vehicle_cad"></td> 
+<td width="33%"><img src="./img/2/This_year's.png" width="300" alt="vehicle Underfloor"></td> 
+<td width="33%"> <img src="./img/find_data.jpg" width = "300"  alt="data" align=center /></td>
 </tr>
 </table>
 </div>
@@ -128,8 +127,8 @@ Despite this setback, this failure provided **invaluable hands-on experience**. 
             <th width=50% style="text-align: center;">Initial Design V1.0 (Pegboard) - Back View</th>
         </tr>
         <tr>
-            <td><img src="../../models/Circuit_Design/img/circuit_board_Front_1.png"/></td>
-            <td><img src="../../models/Circuit_Design/img/circuit_board_back_1.png"/></td>
+            <td width=50%><img src="../../models/Circuit_Design/img/circuit_board_Front_1.png"/></td>
+            <td width=50%><img src="../../models/Circuit_Design/img/circuit_board_back_1.png"/></td>
         </tr>
     </table>
 </div>
@@ -141,8 +140,8 @@ Despite this setback, this failure provided **invaluable hands-on experience**. 
             <th>Second-Generation Design V2.0 (PCB) - Back View</th>
         </tr>
         <tr align="center">
-            <td><img src="./img/4/1.png" width = "300"  alt="First-Generation PCB Front View" align=center /></td>
-            <td><img src="./img/4/2.png" width = "300"  alt="First-Generation PCB Back View" align=center /></td>
+            <td width=50%><img src="./img/4/1.png"  alt="First-Generation PCB Front View" align=center /></td>
+            <td width=50%><img src="./img/4/2.png"  alt="First-Generation PCB Back View" align=center /></td>
         </tr>
     </table>
 </div>
