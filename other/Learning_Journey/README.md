@@ -359,7 +359,7 @@ if elapsed_time >= 0.7 and color_y_positions[0] ==0 and color_y_positions[1] == 
 
 **Content:** 
 
-### **Program Auto-Startup Mechanism and Pico Signal Detection**
+### **Program Auto-Startup Mechanism and Raspberry Pi Pico Signal Detection**
 
 #### **Need and Implementation of Auto-Startup Mechanism**
 To address the efficiency issue of manually starting the main program before every operation, we designed and implemented an **automated startup mechanism** on the **Jetson Nano**.
