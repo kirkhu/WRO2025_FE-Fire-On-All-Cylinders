@@ -646,6 +646,10 @@ Following testing, the **new chassis structure incorporating bearings effectivel
 
 * Below are the **3D View**, **Schematic Diagram**, and **PCB Layout** of the **currently corrected and finalized circuit board**.
 * We are **continuing to conduct program and functional testing for the Obstacle Challenge rounds** this week.
+* Below are the **3D View**, **Schematic Diagram**, and **PCB Layout** of the **currently corrected and finalized circuit board**.
+* We are **continuing to conduct program and functional testing for the Obstacle Challenge rounds** this week.
+* **Continuous Documentation and Organization of Engineering Files on GitHub Repository**
+    As part of the engineering design and development process, teams must **continuously** document and upload information such as engineering progress, final vehicle design, and final vehicle source code to a **GitHub public repository**.
 
   <div align=center>
     <table>
