@@ -607,7 +607,7 @@ Notably, due to its stable performance, the V4.0 version **became the primary ci
     </table>
 </div>
 
-## 2025/06/28 ~ 2025/07/04
+## 2025/06/28 ~ 2025/07/11
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -634,7 +634,7 @@ Following testing, the **new chassis structure incorporating bearings effectivel
     </table>
  </div>
 
-## 2025/08/11 ~ 2025/08/17
+## 2025/08/16 ~ 2025/08/22
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -658,7 +658,7 @@ Following testing, the **new chassis structure incorporating bearings effectivel
   </div>
  
 
-## 2025/08/18 ~ 2025/08/24
+## 2025/08/23 ~ 2025/08/29
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
@@ -696,7 +696,7 @@ Despite a **difficult and challenging competition process**, we successfully sec
  </div>
 
 
-## 2025/08/25 ~ 2025/08/31
+## 2025/08/30 ~ 2025/09/05
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -746,7 +746,7 @@ Following the main controller upgrade, we began investigating the use of the **W
     </table>
 </div>
 
-## 2025/09/01 ~ 2025/09/06
+## 2025/09/06 ~ 2025/09/12
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
