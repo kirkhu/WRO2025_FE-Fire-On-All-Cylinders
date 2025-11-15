@@ -34,9 +34,9 @@ Our teammate, **HU,SIAN-YI**, has accumulated a profound **practical foundation*
 <th>Funny photo </th>
 </tr>
 <tr>
-<td><img src="../../t-photos/img/team_photo.jpg"  width="300" alt="team_photo">
+<td width="50%"><img src="../../t-photos/img/team_photo.jpg"   alt="team_photo">
 </td>
-<td><img src="../../t-photos/img/funny_photo.jpg"  width="300" alt="team_photo">
+<td width="50%"><img src="../../t-photos/img/funny_photo.jpg"  alt="team_photo">
 </td>
 </tr>
 </table>
@@ -53,7 +53,7 @@ By **simplifying the overall vehicle structure**, we **aim to achieve** the foll
 <table>
 <tr align="center">
 <th>2024 World Championship Vehicle Model</th>
-<th>2025 National Competition Vehicle Model</th>
+<th>Tentative Vehicle Model for the 2025 National Competition</th>
 <th>Team Research and Data Review Process Documentation</th>
 </tr>
 <tr align="center">
