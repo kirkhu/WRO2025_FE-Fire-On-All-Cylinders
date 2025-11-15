@@ -245,7 +245,7 @@ This week, team member **HU,SIAN-YI** successfully completed the **operating sys
 
 **Content:**  
 
-### ** PCB Layout Error Correction and UART Transmission Optimization** 
+### PCB Layout Error Correction and UART Transmission Optimization
 
 #### **1. PCB Layout Error and Version Correction (V3.0/V4.0)**
 * **Pitch Correction:** During the development of the **Second Generation Version**, based on feedback from the prior generation, we used the design software's built-in **standard example diagrams** to recalibrate the pin header pitch, successfully correcting the original design error.
