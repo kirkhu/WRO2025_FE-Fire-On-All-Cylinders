@@ -634,7 +634,7 @@ Following testing, the **new chassis structure incorporating bearings effectivel
     </table>
  </div>
 
-## 2025/08/16 ~ 2025/08/22
+## 2025/07/12 ~ 2025/08/15
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:** 
