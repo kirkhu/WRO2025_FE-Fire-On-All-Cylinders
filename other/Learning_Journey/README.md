@@ -1307,7 +1307,7 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
     </table>
 </div>
 
- ## 2025/11/02 ~ 2025/11/08
+ ## 2025/11/08 ~ 2025/11/14
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
