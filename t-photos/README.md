@@ -77,7 +77,7 @@
   </tr>
 
   <tr align="center">
-      <td width=50%><img src="./img/wi.jpg" alt="wi" width="100%"> </td>
+      <td width=50%><img src="./img/wi.jpg" alt="wi" width="80%"> </td>
       <td><img src="./img/wi.work.jpg" alt="Fu WORK" width="100%"></td>
   </tr>
 </table>
