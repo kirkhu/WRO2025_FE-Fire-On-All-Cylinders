@@ -59,8 +59,8 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/lin.jpg" alt="lin" width="80%"> </td>
-      <td width=30%><img src="./img/lin_work.jpg" alt="lin WORK" width="100%"></td>
+      <td width=50%><img src="./img/lin.jpg" alt="lin" width="80%"> </td>
+      <td><img src="./img/lin_work.jpg" alt="lin WORK" width="100%"></td>
   </tr>
     <tr align="center">
      <th>Personal photo</th>
@@ -77,8 +77,8 @@
   </tr>
 
   <tr align="center">
-      <td><img src="./img/wi.jpg" alt="wi" width="100%"> </td>
-      <td width=30%><img src="./img/wi.work.jpg" alt="Fu WORK" width="100%"></td>
+      <td width=50%><img src="./img/wi.jpg" alt="wi" width="100%"> </td>
+      <td><img src="./img/wi.work.jpg" alt="Fu WORK" width="100%"></td>
   </tr>
 </table>
 
