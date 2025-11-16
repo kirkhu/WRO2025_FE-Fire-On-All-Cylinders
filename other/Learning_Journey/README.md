@@ -1245,13 +1245,11 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
                 self.adc = ADC(Pin(adc_pin))
             except:
                 self.adc = None
-
         def read_raw(self):
             try:
                 return self.adc.read_u16()
             except:
                 return -1
-
         def read_percentage(self):
             try:
                 raw = self.read_raw()
@@ -1261,7 +1259,6 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
                 return round(percentage, 1)
             except:
                 return -1
-
   ```
 
  ## 2025/10/25 ~ 2025/10/31
