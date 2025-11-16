@@ -862,8 +862,8 @@ The procedure for using the SDK Manager to perform JetPack upgrades and downgrad
             <th colspan=2>Learning the Operational Procedures for JetPack Operating System Upgrades and Downgrades </th>
         </tr>
         <tr>
-            <td><img src="./img/9/Study.jpg" width=400 /></td>
-            <td><img src="./img/9/Study2.jpg" width=400 /></td>
+            <td width = "50%><img src="./img/9/Study.jpg" /></td>
+            <td width = "50%><img src="./img/9/Study2.jpg" /></td>
         </tr>
     </table>
  </div>
@@ -871,7 +871,8 @@ The procedure for using the SDK Manager to perform JetPack upgrades and downgrad
 - ### Installation Commands 
 
  ```bash
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+wget https://developer.download.nvidia.com/compute/cuda
+/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 sudo apt-get -y install sdkmanager
