@@ -74,7 +74,7 @@ Our chassis design underwent a total of four iterations:
     <th colspan=2>First Generation Steering Structure (V1.0)</th>
   </tr>
   <tr>
-  <td width=40%><img src="./img/steering_1.jpg" /></td>
+  <td width=40%><img src="./img/steering_1.png" /></td>
   <td width=60%>
 
   This version of the steering structure was designed to be overly wide, and the steering rod was made from drawn metal wire, which was difficult to fix into shape, impacting accuracy.
