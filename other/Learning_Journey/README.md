@@ -862,8 +862,8 @@ The procedure for using the SDK Manager to perform JetPack upgrades and downgrad
             <th colspan=2>Learning the Operational Procedures for JetPack Operating System Upgrades and Downgrades </th>
         </tr>
         <tr>
-            <td width = "50%><img src="./img/9/Study.jpg" /></td>
-            <td width = "50%><img src="./img/9/Study2.jpg" /></td>
+            <td width = "50%"><img src="./img/9/Study.jpg" /></td>
+            <td width = "50%"><img src="./img/9/Study2.jpg" /></td>
         </tr>
     </table>
  </div>
