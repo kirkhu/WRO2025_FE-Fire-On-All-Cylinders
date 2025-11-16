@@ -1238,7 +1238,7 @@ This week, we implemented the **parking procedure using the infrared sensors ins
 
 The **analog signal reading procedure for the infrared sensors** is shown below.
 
-    ```python
+ ```python
     class TCRT5000:
         def __init__(self, adc_pin):
             try:
@@ -1262,7 +1262,7 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
             except:
                 return -1
 
-    ```
+  ```
 
  ## 2025/10/25 ~ 2025/10/31
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
