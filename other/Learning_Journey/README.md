@@ -841,7 +841,7 @@ A comparison diagram of the two procedures is shown below.
     </table>
  </div>
 
-## 2025/09/07 ~ 2025/09/13
+## 2025/09/13 ~ 2025/09/19
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -862,8 +862,8 @@ The procedure for using the SDK Manager to perform JetPack upgrades and downgrad
             <th colspan=2>Learning the Operational Procedures for JetPack Operating System Upgrades and Downgrades </th>
         </tr>
         <tr>
-            <td><img src="./img/9/Study.jpg" width=400 /></td>
-            <td><img src="./img/9/Study2.jpg" width=400 /></td>
+            <td width = "50%"><img src="./img/9/Study.jpg" /></td>
+            <td width = "50%"><img src="./img/9/Study2.jpg" /></td>
         </tr>
     </table>
  </div>
@@ -871,7 +871,8 @@ The procedure for using the SDK Manager to perform JetPack upgrades and downgrad
 - ### Installation Commands 
 
  ```bash
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+wget https://developer.download.nvidia.com/compute/cuda
+/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 sudo apt-get -y install sdkmanager
@@ -913,7 +914,7 @@ sudo apt-get -y install sdkmanager
 </table>
 </div>
 
-## 2025/09/14 ~ 2025/09/20
+## 2025/09/20 ~ 2025/09/26
 **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
 **Content:**
@@ -973,7 +974,7 @@ This week, we discovered that the assembled **steering knuckles** exhibited a **
     </table>
  </div>
 
- ## 2025/09/21 ~ 2025/09/27
+ ## 2025/09/27 ~ 2025/10/03
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -1059,7 +1060,7 @@ Upon receiving the new PCB (V5.0), testing revealed an intermittent issue where 
     </table>
  </div>
 
- ## 2025/09/28 ~ 2025/10/06
+ ## 2025/10/04 ~ 2025/10/10
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -1126,7 +1127,8 @@ The commands for manual setup and using the auto-script are provided below.
  - #### Setting Up Access Point (AP) Mode: Manual Command Operation.
 
     ```bash
-    sudo nmcli dev wifi hotspot ifname wlan0 ssid "snjh_jetson" password "1234567890" 
+    sudo nmcli dev wifi hotspot ifname wlan0
+     ssid "snjh_jetson" password "1234567890" 
 
     sudo nmcli connection modify Hotspot connection.autoconnect yes
     sudo systemctl enable NetworkManager.service
@@ -1140,7 +1142,7 @@ The commands for manual setup and using the auto-script are provided below.
     sudo bash ./Set_AP.sh 
     ```
 
- ## 2025/10/07 ~ 2025/10/13
+ ## 2025/10/11 ~ 2025/10/17
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -1224,7 +1226,7 @@ The purpose of this independent board is:
 </div>
 
 
- ## 2025/10/14 ~ 2025/10/20
+ ## 2025/10/18 ~ 2025/10/24
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -1236,20 +1238,18 @@ This week, we implemented the **parking procedure using the infrared sensors ins
 
 The **analog signal reading procedure for the infrared sensors** is shown below.
 
-    ```python
+ ```python
     class TCRT5000:
         def __init__(self, adc_pin):
             try:
                 self.adc = ADC(Pin(adc_pin))
             except:
                 self.adc = None
-
         def read_raw(self):
             try:
                 return self.adc.read_u16()
             except:
                 return -1
-
         def read_percentage(self):
             try:
                 raw = self.read_raw()
@@ -1259,10 +1259,9 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
                 return round(percentage, 1)
             except:
                 return -1
+  ```
 
-    ```
-
- ## 2025/10/21 ~ 2025/10/26
+ ## 2025/10/25 ~ 2025/10/31
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -1287,7 +1286,7 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
 
 
 
- ## 2025/10/27 ~ 2025/11/01
+ ## 2025/11/01 ~ 2025/11/07
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
@@ -1307,7 +1306,7 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
     </table>
 </div>
 
- ## 2025/11/02 ~ 2025/11/08
+ ## 2025/11/08 ~ 2025/11/14
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
 
  **Content:**
