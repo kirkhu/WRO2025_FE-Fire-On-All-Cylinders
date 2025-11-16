@@ -1127,7 +1127,8 @@ The commands for manual setup and using the auto-script are provided below.
  - #### Setting Up Access Point (AP) Mode: Manual Command Operation.
 
     ```bash
-    sudo nmcli dev wifi hotspot ifname wlan0 ssid "snjh_jetson" password "1234567890" 
+    sudo nmcli dev wifi hotspot ifname wlan0
+     ssid "snjh_jetson" password "1234567890" 
 
     sudo nmcli connection modify Hotspot connection.autoconnect yes
     sudo systemctl enable NetworkManager.service
@@ -1237,20 +1238,18 @@ This week, we implemented the **parking procedure using the infrared sensors ins
 
 The **analog signal reading procedure for the infrared sensors** is shown below.
 
-    ```python
+ ```python
     class TCRT5000:
         def __init__(self, adc_pin):
             try:
                 self.adc = ADC(Pin(adc_pin))
             except:
                 self.adc = None
-
         def read_raw(self):
             try:
                 return self.adc.read_u16()
             except:
                 return -1
-
         def read_percentage(self):
             try:
                 raw = self.read_raw()
@@ -1260,8 +1259,7 @@ The **analog signal reading procedure for the infrared sensors** is shown below.
                 return round(percentage, 1)
             except:
                 return -1
-
-    ```
+  ```
 
  ## 2025/10/25 ~ 2025/10/31
  **Member:** HU,SIAN-YI, LIN ZHAN-RONG, ZHANG YI-WEI
