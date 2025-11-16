@@ -1127,7 +1127,8 @@ The commands for manual setup and using the auto-script are provided below.
  - #### Setting Up Access Point (AP) Mode: Manual Command Operation.
 
     ```bash
-    sudo nmcli dev wifi hotspot ifname wlan0 ssid "snjh_jetson" password "1234567890" 
+    sudo nmcli dev wifi hotspot ifname wlan0
+     ssid "snjh_jetson" password "1234567890" 
 
     sudo nmcli connection modify Hotspot connection.autoconnect yes
     sudo systemctl enable NetworkManager.service
